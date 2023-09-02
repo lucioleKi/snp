@@ -1,0 +1,16 @@
+{
+  "elements": [
+    {
+      "id": "maincharacter",
+      "label": "Main Character",
+      "description": "|Main character desc|",
+      "isAspect": true
+    },
+    {
+      "id": "temperament",
+      "label": "Temperament",
+      "description": "|Temperament desc|",
+      "isAspect": true
+    }
+  ]
+}

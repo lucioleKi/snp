@@ -1,0 +1,52 @@
+{
+  "elements": [
+    {
+      "id": "minstrel",
+      "label": "The Minstrel",
+      "description": "|A young minstrel who likes singing and cats.|",
+      "aspects": {
+        "secondarycharacter": 1
+      }
+    },
+    {
+      "id": "formercook",
+      "label": "The Former Cook",
+      "description": "|The tavern's former cook. They have put down stews and pots for another cause.|",
+      "aspects": {
+        "secondarycharacter": 1
+      }
+    },
+    {
+      "id": "soldier",
+      "label": "The Soldier",
+      "description": "|A trained soldier who specializes in lance and halberd.|",
+      "aspects": {
+        "secondarycharacter": 1
+      }
+    },
+    {
+      "id": "lord",
+      "label": "The Neighboring Lord",
+      "description": "|A neighboring lord that visits the local monastry.|",
+      "aspects": {
+        "secondarycharacter": 1
+      }
+    },
+    {
+      "id": "vicar",
+      "label": "The Vicar",
+      "description": "|A vicar who is not so popolar in the parish.|",
+      "aspects": {
+        "secondarycharacter": 1
+      }
+    },
+    {
+      "id": "monk",
+      "label": "The Monk",
+      "description": "|An observant and quiet monk.|",
+      "aspects": {
+        "secondarycharacter": 1
+      }
+    }
+  ]
+}

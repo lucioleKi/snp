@@ -1,0 +1,52 @@
+{
+  "elements": [
+    {
+      "id": "bishop",
+      "label": "The Bishop",
+      "description": "|A bishop with chest wound|",
+      "aspects": {
+        "maincharacter": 1
+      }
+    },
+    {
+      "id": "knight",
+      "label": "The Knight",
+      "description": "|A knight without land and wealth|",
+      "aspects": {
+        "maincharacter": 1
+      }
+    },
+    {
+      "id": "scribe",
+      "label": "The Scribe",
+      "description": "|A scribe that does not believe in God|",
+      "aspects": {
+        "maincharacter": 1
+      }
+    },
+    {
+      "id": "taverner",
+      "label": "The Taverner",
+      "description": "|A taverner that owns the tavern by the harbor|",
+      "aspects": {
+        "maincharacter": 1
+      }
+    },
+    {
+      "id": "doctor",
+      "label": "The Doctor",
+      "description": "|A doctor trained in monastry, then university|",
+      "aspects": {
+        "maincharacter": 1
+      }
+    },
+    {
+      "id": "prior",
+      "label": "The Prior",
+      "description": "|A prior unfamiliar to this land, yet familiar with God's words|",
+      "aspects": {
+        "maincharacter": 1
+      }
+    }
+  ]
+}

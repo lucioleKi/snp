@@ -1,0 +1,36 @@
+{
+  "elements": [
+    {
+      "id": "sanguine",
+      "label": "Sanguine",
+      "description": "|Sanguine desc|",
+      "aspects": {
+        "temperament": 1
+      }
+    },
+    {
+      "id": "choleric",
+      "label": "Choleric",
+      "description": "|Choleric desc|",
+      "aspects": {
+        "temperament": 1
+      }
+    },
+    {
+      "id": "melancholic",
+      "label": "Melancholic",
+      "description": "|Melancholic desc|",
+      "aspects": {
+        "temperament": 1
+      }
+    },
+    {
+      "id": "phlegmatic",
+      "label": "Phlegmatic",
+      "description": "|Phlegmatic desc|",
+      "aspects": {
+        "temperament": 1
+      }
+    }
+  ]
+}

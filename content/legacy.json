@@ -1,0 +1,20 @@
+{
+  "legacies": [
+    {
+      "id": "snp.legacy",
+      "image": "snp.legacy",
+      "label": "The Sacred & The Profane",
+      "description": "|Legacy Description|",
+      "startdescription": "|Start Description|",
+      "startingVerbId": "wait",
+      "availableWithoutEndingMatch": true,
+      "newstart": true,
+      "effects": {
+        "knight": 1,
+        "sanguine": 1,
+        "choleric": 1
+      },
+      
+    }
+  ]
+}

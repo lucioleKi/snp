@@ -1,0 +1,30 @@
+{
+  "verbs": [
+    {
+      "id": "wait",
+      "label": "Wait",
+      "description": "|Wait description|",
+      "slot": {
+        "id": "knight",
+        "label": "Character",
+        "description": "|Waiting needs at least one person|",
+        "required": {
+          "knight": 1
+        }
+      }
+    },
+    {
+      "id": "explorefort",
+      "label": "Explore Fort",
+      "description": "|Explore Fort description|",
+      "slot": {
+        "id": "knight",
+        "label": "Character",
+        "description": "|Exploring the Fort needs at least one person|",
+        "required": {
+          "knight": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "recipes": [
+    {
+      "id": "snp.waitingforcharacter",
+      "actionid": "wait",
+      "requirements": {
+        "knight": 1
+      },
+      "craftable": true,
+      "label": "|Knight Waiting for someone|",
+      "startdescription": "|Knight Waiting starting desc|",
+      "description": "|Knight Waiting ending desc|",
+      "warmup": 10,
+      "maxexecutions": 1,
+      "inductions": [
+        {
+          "id": "snp.addexplore"
+        }
+      ]
+    },
+    {
+      "id": "snp.addexplore",
+      "actionid": "explorefort",
+      "label": "Explore the fort",
+      "startdescription": "|Knight and their former-soldier friend explore the fort|",
+      "description": "|Ending desc for fort exploration|",
+      "deckeffects": {
+        "fortexploredeck": 1
+      },
+      "warmup": 10
+    }
+  ]
+}
