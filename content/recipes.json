@@ -1,29 +1,96 @@
 {
   "recipes": [
     {
-      "id": "snp.waitingforcharacter",
+      "id": "recipe.waitingforcharacter",
       "actionid": "wait",
-      "requirements": {
-        "knight": 1
-      },
+      "requirements": { "knight": 1 },
       "craftable": true,
       "label": "|Knight Waiting for someone|",
       "startdescription": "|Knight Waiting starting desc|",
       "description": "|Knight Waiting ending desc|",
+      "effects": {
+        "soldier": 1
+      },
       "warmup": 10,
       "maxexecutions": 1,
       "inductions": [
         {
-          "id": "snp.addexplore"
+          "id": "emptyrecipe.traveltofort"
         }
       ]
     },
     {
-      "id": "snp.addexplore",
+      "id": "emptyrecipe.traveltofort",
+      "actionid": "traveltofort",
+      "label": "|Convo before travelling to fort|",
+      "startdescription": "|Convo before travelling to fort starting desc|",
+      "description": "|Convo before travelling to fort ending desc|"
+    },
+    {
+      "id": "recipe.traveltofort",
+      "actionid": "traveltofort",
+      "label": "Travel to fort",
+      "craftable": true,
+      "startdescription": "|Knight and their former-soldier friend travel to the fort. (Note: One-time only)|",
+      "description": "|Ending desc for fort travel|",
+      "warmup": 10,
+      "maxexecutions": 1,
+      "deleteverb": {
+        "wait": 1
+      },
+      "inductions": [
+        {
+          "id": "emptyrecipe.fort.mainhall"
+        },
+        {
+          "id": "emptyrecipe.fort.diningroom"
+        },
+        {
+          "id": "emptyrecipe.fort.tower"
+        },
+        {
+          "id": "emptyrecipe.fort.trainingyard"
+        }
+      ]
+    },
+    {
+      "id": "emptyrecipe.fort.mainhall",
+      "actionid": "explorefort.mainhall",
+      "label": "|First Encounter of Fort Main Hall|",
+      "startdescription": "|Start Desc: First Encounter of Fort Main Hall|",
+      "description": "|End Desc: First Encounter of Fort Main Hall|"
+    },
+    {
+      "id": "emptyrecipe.fort.diningroom",
+      "actionid": "explorefort.diningroom",
+      "label": "|First Encounter of Fort Dining Room|",
+      "startdescription": "|Start Desc: First Encounter of Fort Dining Room|",
+      "description": "|End Desc: First Encounter of Fort Dining Room|"
+    },
+    {
+      "id": "emptyrecipe.fort.tower",
+      "actionid": "explorefort.tower",
+      "label": "|First Encounter of Fort Tower|",
+      "startdescription": "|Start Desc: First Encounter of Fort Tower|",
+      "description": "|End Desc: First Encounter of Fort Tower|"
+    },
+    {
+      "id": "emptyrecipe.fort.trainingyard",
+      "actionid": "explorefort.trainingyard",
+      "label": "|First Encounter of Fort Training Yard|",
+      "startdescription": "|Start Desc: First Encounter of Fort Training Yard|",
+      "description": "|End Desc: First Encounter of Fort Training Yard|"
+    },
+    {
+      "id": "recipe.explorefort",
       "actionid": "explorefort",
       "label": "Explore the fort",
       "startdescription": "|Knight and their former-soldier friend explore the fort|",
       "description": "|Ending desc for fort exploration|",
+      "requirements": {
+        "knight": 1,
+        "soldier": 1
+      },
       "deckeffects": {
         "fortexploredeck": 1
       },

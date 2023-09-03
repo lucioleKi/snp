@@ -5,7 +5,7 @@
       "label": "Wait",
       "description": "|Wait description|",
       "slot": {
-        "id": "knight",
+        "id": "waitslot",
         "label": "Character",
         "description": "|Waiting needs at least one person|",
         "required": {
@@ -14,16 +14,56 @@
       }
     },
     {
-      "id": "explorefort",
-      "label": "Explore Fort",
-      "description": "|Explore Fort description|",
+      "id": "traveltofort",
+      "label": "Travel",
+      "description": "|Travel description|",
       "slot": {
-        "id": "knight",
+        "id": "traveltofortslot",
         "label": "Character",
-        "description": "|Exploring the Fort needs at least one person|",
+        "description": "|Knight needs to travel with soldier|",
         "required": {
           "knight": 1
         }
+      }
+    },
+    {
+      "id": "explorefort.mainhall",
+      "label": "Fort: Main Hall",
+      "description": "|Fort Main Hall description|",
+      "slot": {
+        "id": "explorefortslot.mainhall",
+        "label": "Character",
+        "description": "|Exploring the Fort Main Hall needs at least one person|"
+      }
+    },
+    {
+      "id": "explorefort.diningroom",
+      "label": "Fort: Dining Room",
+      "description": "|Fort Dining Room description|",
+      "slot": {
+        "id": "explorefortslot.diningroom",
+        "label": "Character",
+        "description": "|Exploring the Fort Dining Room needs at least one person|"
+      }
+    },
+    {
+      "id": "explorefort.tower",
+      "label": "Fort: Tower",
+      "description": "|Fort Tower description|",
+      "slot": {
+        "id": "explorefortslot.tower",
+        "label": "Character",
+        "description": "|Exploring the Fort Tower needs at least one person|"
+      }
+    },
+    {
+      "id": "explorefort.trainingyard",
+      "label": "Fort: Training Yard",
+      "description": "|Fort Training Yard description|",
+      "slot": {
+        "id": "explorefortslot.trainingyard",
+        "label": "Character",
+        "description": "|Exploring the Fort Training Yard needs at least one person|"
       }
     }
   ]

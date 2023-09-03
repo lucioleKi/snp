@@ -7,6 +7,12 @@
       "isAspect": true
     },
     {
+      "id": "secondarycharacter",
+      "label": "Secondary Character",
+      "description": "|Secondary character desc|",
+      "isAspect": true
+    },
+    {
       "id": "temperament",
       "label": "Temperament",
       "description": "|Temperament desc|",

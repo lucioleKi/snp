@@ -14,7 +14,16 @@
       "description": "|A knight without land and wealth|",
       "aspects": {
         "maincharacter": 1
-      }
+      },
+      "slots": [
+        {
+          "id": "slot.main.companion",
+          "label": "Companion",
+          "actionid": "traveltofort",
+          "required": { "soldier": 1 },
+          "description": "|The knight needs to invite soldier to come along|"
+        }
+      ]
     },
     {
       "id": "scribe",
