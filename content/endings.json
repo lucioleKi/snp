@@ -4,7 +4,7 @@
       "id": "maincharacterdeath",
       "image": "badending",
       "label": "Game Over",
-      "description": "One of more main character(s) perished. ",
+      "description": "One or more main character(s) perished.",
       "flavour": "Melancholy",
       "anim": "DramaticLightCool"
     }

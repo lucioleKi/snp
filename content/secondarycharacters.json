@@ -19,7 +19,7 @@
     {
       "id": "soldier",
       "label": "The Soldier",
-      "description": "|A trained soldier who specializes in lance and halberd.|",
+      "description": "The soldier was a cook in the tavern. Until they took off the apron, and decided to follow the knight, just like old times.",
       "aspects": {
         "secondarycharacter": 1
       }

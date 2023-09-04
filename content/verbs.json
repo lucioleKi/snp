@@ -7,7 +7,7 @@
       "slot": {
         "id": "waitslot",
         "label": "Character",
-        "description": "|Waiting needs at least one person|",
+        "description": "Technically, one can say a book is waiting for the right person. But more often, it's the person that does the waiting.",
         "required": {
           "knight": 1
         }

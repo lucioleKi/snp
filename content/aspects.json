@@ -3,19 +3,19 @@
     {
       "id": "maincharacter",
       "label": "Main Character",
-      "description": "|Main character desc|",
+      "description": "Main characters drive the key storylines. The game will end if any of them dies.",
       "isAspect": true
     },
     {
       "id": "secondarycharacter",
       "label": "Secondary Character",
-      "description": "|Secondary character desc|",
+      "description": "Secondary characters affect storylines in various ways. Their fates are not tied to endings.",
       "isAspect": true
     },
     {
       "id": "temperament",
       "label": "Temperament",
-      "description": "|Temperament desc|",
+      "description": "Galen suggests that temperaments are determined by an excess or lack of 4 body fluids.",
       "isAspect": true
     }
   ]

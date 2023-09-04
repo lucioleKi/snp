@@ -5,9 +5,9 @@
       "actionid": "wait",
       "requirements": { "knight": 1 },
       "craftable": true,
-      "label": "|Knight Waiting for someone|",
-      "startdescription": "|Knight Waiting starting desc|",
-      "description": "|Knight Waiting ending desc|",
+      "label": "Wait",
+      "startdescription": "Sun dips below the horizon. Golden hue spreads across the tranquil sea. A breeze carries the scent of mead and baked bread, meeting the restless waves lapping against the dock.\nAt the end of the dock, the knight sits in contemplation.",
+      "description": "The door of the tavern opens. Someone walks out, holding onto an apron and a knapsack. As they see the knight, their stern expression melts into an uncertain smile.",
       "effects": {
         "soldier": 1
       },
@@ -22,17 +22,17 @@
     {
       "id": "emptyrecipe.traveltofort",
       "actionid": "traveltofort",
-      "label": "|Convo before travelling to fort|",
-      "startdescription": "|Convo before travelling to fort starting desc|",
-      "description": "|Convo before travelling to fort ending desc|"
+      "label": "Conversation",
+      "startdescription": "",
+      "description": "The knight frowns: <i>\"You brought everything with you? No more consideration needed?\"</i>\nThe soldier simply replies: <i>\"I'd follow you anywhere, as long as you'll have me.\"</i>"
     },
     {
       "id": "recipe.traveltofort",
       "actionid": "traveltofort",
-      "label": "Travel to fort",
+      "label": "Travel to Fort",
       "craftable": true,
-      "startdescription": "|Knight and their former-soldier friend travel to the fort. (Note: One-time only)|",
-      "description": "|Ending desc for fort travel|",
+      "startdescription": "<i>\"We should catch up more later. I haven't even told you about the archbishop.\"</i>\nAs the knight shows them to the extra horse, the soldier smiles to him: <i>\"You'll have plenty of time. Let's go now.\"</i>",
+      "description": "They rode through the town and the forest. The fort sits atop a hillock, with a drawbridge already down. The soldier's mouth hangs slightly open as they enter the fort.",
       "warmup": 10,
       "maxexecutions": 1,
       "deleteverb": {
@@ -56,30 +56,30 @@
     {
       "id": "emptyrecipe.fort.mainhall",
       "actionid": "explorefort.mainhall",
-      "label": "|First Encounter of Fort Main Hall|",
-      "startdescription": "|Start Desc: First Encounter of Fort Main Hall|",
-      "description": "|End Desc: First Encounter of Fort Main Hall|"
+      "label": "Location Discoverd: Main Hall",
+      "startdescription": "",
+      "description": "The main hall is elaborated decorated with tapestries. The knight explains: <i>\"Before the baron left, they renovated the whole fort.\"</i>"
     },
     {
       "id": "emptyrecipe.fort.diningroom",
       "actionid": "explorefort.diningroom",
-      "label": "|First Encounter of Fort Dining Room|",
-      "startdescription": "|Start Desc: First Encounter of Fort Dining Room|",
-      "description": "|End Desc: First Encounter of Fort Dining Room|"
+      "label": "Location Discoverd: Dining Room",
+      "startdescription": "",
+      "description": "The knight lead them to the table: <i>\"Have some bread and cheese if you're hungry. They might not be as tasty as the ones you bake. I hope you don't mind.\"</i>"
     },
     {
       "id": "emptyrecipe.fort.tower",
       "actionid": "explorefort.tower",
-      "label": "|First Encounter of Fort Tower|",
-      "startdescription": "|Start Desc: First Encounter of Fort Tower|",
-      "description": "|End Desc: First Encounter of Fort Tower|"
+      "label": "Location Discoverd: Tower",
+      "startdescription": "",
+      "description": "After showing the soldier their new bedroom, the knight stops before the stairs leading to the tower. <i>\"I want to change to a more comfortable tunic. And then, we should go up the tower together.\"</i>"
     },
     {
       "id": "emptyrecipe.fort.trainingyard",
       "actionid": "explorefort.trainingyard",
-      "label": "|First Encounter of Fort Training Yard|",
-      "startdescription": "|Start Desc: First Encounter of Fort Training Yard|",
-      "description": "|End Desc: First Encounter of Fort Training Yard|"
+      "label": "Location Discoverd: Training Yard",
+      "startdescription": "",
+      "description": "The knight kindly reminds the soldier that training is not for today. Tomorrow, they may spar as much as they want."
     },
     {
       "id": "recipe.explorefort",

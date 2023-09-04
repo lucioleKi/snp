@@ -3,7 +3,7 @@
     {
       "id": "bishop",
       "label": "The Bishop",
-      "description": "|A bishop with chest wound|",
+      "description": "The bishop looks peaceful and quiet. They have a chest wound, and a brooch.",
       "aspects": {
         "maincharacter": 1
       }
@@ -11,7 +11,7 @@
     {
       "id": "knight",
       "label": "The Knight",
-      "description": "|A knight without land and wealth|",
+      "description": "The knight is currently without land and wealth. Their eyes tell a thousand stories.",
       "aspects": {
         "maincharacter": 1
       },
@@ -21,14 +21,14 @@
           "label": "Companion",
           "actionid": "traveltofort",
           "required": { "soldier": 1 },
-          "description": "|The knight needs to invite soldier to come along|"
+          "description": "The knight should invite the soldier to come along."
         }
       ]
     },
     {
       "id": "scribe",
       "label": "The Scribe",
-      "description": "|A scribe that does not believe in God|",
+      "description": "The scribe is familiar with Latin, the absurdity of indulgence, and which frying fish is the most delicious.",
       "aspects": {
         "maincharacter": 1
       }
@@ -36,7 +36,7 @@
     {
       "id": "taverner",
       "label": "The Taverner",
-      "description": "|A taverner that owns the tavern by the harbor|",
+      "description": "The taverner owns the tavern by the harbor, a cat named Nora, and a secret frying-fish recipe.",
       "aspects": {
         "maincharacter": 1
       }
@@ -44,7 +44,7 @@
     {
       "id": "doctor",
       "label": "The Doctor",
-      "description": "|A doctor trained in monastry, then university|",
+      "description": "The doctor used to study in the local monastic school. They finished university recently and came back.",
       "aspects": {
         "maincharacter": 1
       }
@@ -52,7 +52,7 @@
     {
       "id": "prior",
       "label": "The Prior",
-      "description": "|A prior unfamiliar to this land, yet familiar with God's words|",
+      "description": "The prior comes from a wealthy family in a foreign land. They are charismatic and diligent.",
       "aspects": {
         "maincharacter": 1
       }
