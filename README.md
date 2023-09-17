@@ -11,3 +11,7 @@ A narrative-driven game featuring 6 main characters and 22 other characters. It 
 9/4/2023 
 
 Tested and destubbed everything up until arriving at the fort. Added gitignore and readme.
+
+9/17/2023
+
+Coded until the intro of two new characters in chapter 2. Need destub and mutation for chapter 1.

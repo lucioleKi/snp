@@ -1,36 +1,122 @@
 {
   "elements": [
     {
-      "id": "sanguine",
-      "label": "Sanguine",
-      "description": "|Sanguine desc|",
+      "id": "knight.sanguine",
+      "label": "Sanguine (Knight)",
+      "description": "The knight is talkative and compassionate. They strive to provide encouraging words, maybe even warm hugs.",
       "aspects": {
         "temperament": 1
-      }
-    },
+      },
+      "decayTo": "knight.sanguine.exhausted",
+      "xtriggers": { "exhausted": "knight.sanguine.exhausted" }
+      },
+      {
+        "id": "knight.sanguine.exhausted",
+        "label": "Exhausted Sanguine (Knight)",
+        "description": "The knight is talkative and compassionate. They strive to provide encouraging words, maybe even warm hugs.",
+        "aspects": {
+          "temperament": 1,
+          "tired": 1
+        }
+      },
     {
-      "id": "choleric",
-      "label": "Choleric",
-      "description": "|Choleric desc|",
+      "id": "knight.choleric",
+      "label": "Choleric (Knight)",
+      "description": "The knight is intense and energetic. They are prone to mood swings.",
       "aspects": {
         "temperament": 1
-      }
+      },
+      "decayTo": "knight.choleric.exhausted",
+      "xtriggers": { "exhausted": "knight.choleric.exhausted" }
     },
-    {
-      "id": "melancholic",
-      "label": "Melancholic",
-      "description": "|Melancholic desc|",
-      "aspects": {
-        "temperament": 1
+      {
+        "id": "knight.choleric.exhausted",
+        "label": "Exhausted Choleric (Knight)",
+        "description": "The knight is intense and energetic. They are prone to mood swings.",
+        "aspects": {
+          "temperament": 1,
+          "tired": 1
+        }
+      },
+      {
+        "id": "bishop.phlegmatic",
+        "label": "Phlegmatic (Bishop)",
+        "description": "|Phlegmatic desc|",
+        "aspects": {
+          "temperament": 1
+        }
+      },
+      {
+        "id": "bishop.choleric",
+        "label": "Choleric (Bishop)",
+        "description": "|Choleric desc|",
+        "aspects": {
+          "temperament": 1
+        }
+      },
+      {
+        "id": "scribe.sanguine",
+        "label": "Sanguine (Scribe)",
+        "description": "|Sanguine desc|",
+        "aspects": {
+          "temperament": 1
+        }
+      },
+      {
+        "id": "scribe.phlegmatic",
+        "label": "Phlegmatic (Scribe)",
+        "description": "|Phlegmatic desc|",
+        "aspects": {
+          "temperament": 1
+        }
+      },
+      {
+        "id": "taverner.sanguine",
+        "label": "Sanguine (Taverner)",
+        "description": "|Sanguine desc|",
+        "aspects": {
+          "temperament": 1
+        }
+      },
+      {
+        "id": "taverner.melancholic",
+        "label": "Melancholic (Taverner)",
+        "description": "|Melancholic desc|",
+        "aspects": {
+          "temperament": 1
+        }
+      },
+      {
+        "id": "doctor.melancholic",
+        "label": "Melancholic",
+        "description": "|Melancholic desc|",
+        "aspects": {
+          "temperament": 1
+        }
+      },
+      {
+        "id": "doctor.phlegmatic",
+        "label": "Phlegmatic",
+        "description": "|Phlegmatic desc|",
+        "aspects": {
+          "temperament": 1
+        }
+      },
+      {
+        "id": "prior.choleric",
+        "label": "Choleric (Bishop)",
+        "description": "|Choleric desc|",
+        "aspects": {
+          "temperament": 1
+        }
+      },
+      {
+        "id": "prior.melancholic",
+        "label": "Melancholic",
+        "description": "|Melancholic desc|",
+        "aspects": {
+          "temperament": 1
+        }
       }
-    },
-    {
-      "id": "phlegmatic",
-      "label": "Phlegmatic",
-      "description": "|Phlegmatic desc|",
-      "aspects": {
-        "temperament": 1
-      }
-    }
   ]
 }

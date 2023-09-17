@@ -22,7 +22,16 @@
       "description": "The soldier was a cook in the tavern. Until they took off the apron, and decided to follow the knight, just like old times.",
       "aspects": {
         "secondarycharacter": 1
-      }
+      },
+      "slots": [
+        {
+          "id": "slot.companion.main",
+          "label": "Companion",
+          "actionid": "explorefort.tower",
+          "required": { "knight": 1 },
+          "description": "The soldier should invite the knight to come along."
+        }
+      ]
     },
     {
       "id": "lord",

@@ -4,16 +4,17 @@
       "id": "snp.legacy",
       "image": "snp.legacy",
       "label": "The Sacred & The Profane",
-      "description": "Play as 6 main characters and 22 other characters in this narrative-driven game. Watch everything unfold in a medieval town: Piety, betrayal, ambition, love (of all kinds), and above all, freedom.",
+      "description": "Play as 6 main characters and 22 other characters in this narrative-driven game. Watch everything unfold in a medieval town: Piety, betrayal, ambition, love, and above all, freedom.",
       "startdescription": "Good luck. Have fun.",
       "startingVerbId": "wait",
       "availableWithoutEndingMatch": true,
       "newstart": true,
       "effects": {
         "knight": 1,
-        "sanguine": 1,
-        "choleric": 1
-      },
+        "knight.sanguine": 1,
+        "knight.choleric": 1,
+        "chapter1": 1
+      }
       
     }
   ]

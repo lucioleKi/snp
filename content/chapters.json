@@ -1,0 +1,23 @@
+{
+  "elements": [
+    {
+      "id": "chapter1",
+      "label": "Chapter 1",
+      "description": "A reunion, a journey to the fort, and a drunken knight",
+      "aspects": {
+        "chapter": 1
+      },
+      "decayTo": "chapter2"
+
+    },
+    {
+      "id": "chapter2",
+      "label": "Chapter 2",
+      "description": "A tavern, a ship, and a serious conversation",
+      "aspects": {
+        "chapter": 1
+      }
+      
+    }
+  ]
+}

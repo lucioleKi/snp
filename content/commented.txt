@@ -1,0 +1,56 @@
+recipes.json
+{
+  "id": "recipe.fort.mainhall.ch1a",
+  "actionid": "explorefort.mainhall",
+  "label": "Main Hall: Sanguine",
+  "craftable": true,
+  "startdescription": "",
+  "description": "|recipe.fort.mainhall.ch1a desc|",
+  "warmup": 10,
+  "purge": {
+    "knight.sanguine": 1
+  },
+  "requirements": { "knight.sanguine": 1 }
+},
+{
+  "id": "recipe.fort.mainhall.ch1b",
+  "actionid": "explorefort.mainhall",
+  "label": "Main Hall: Choleric",
+  "craftable": true,
+  "startdescription": "",
+  "description": "|recipe.fort.mainhall.ch1b desc|",
+  "warmup": 10,
+  "purge": {
+    "knight.choleric": 1
+  },
+  "requirements": { "knight.choleric": 1 }
+},
+{
+  "id": "recipe.explorefort",
+  "actionid": "explorefort",
+  "label": "Explore the fort",
+  "startdescription": "|Knight and their former-soldier friend explore the fort|",
+  "description": "|Ending desc for fort exploration|",
+  "requirements": {
+    "knight": 1,
+    "soldier": 1
+  },
+  "deckeffects": {
+    "fortexploredeck": 1
+  },
+  "warmup": 10
+}
+
+{
+  "id": "recipe.fort.mainhall.drunk",
+  "actionid": "explorefort.mainhall",
+  "label": "Main Hall: A Drunken Knight",
+  "craftable": true,
+  "startdescription": "|Main Hall: A Drunken Knight start desc|",
+  "description": "|Main Hall: A Drunken Knight desc|",
+  "warmup": 10,
+  "purge": {
+    "chapter1": 1
+  },
+  "requirements": { "chapter1": 1 }
+}

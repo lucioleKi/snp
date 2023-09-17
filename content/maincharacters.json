@@ -5,7 +5,9 @@
       "label": "The Bishop",
       "description": "The bishop looks peaceful and quiet. They have a chest wound, and a brooch.",
       "aspects": {
-        "maincharacter": 1
+        "maincharacter": 1,
+        "skill.hunter": 3,
+        "skill.scholar": 3
       }
     },
     {
@@ -13,7 +15,9 @@
       "label": "The Knight",
       "description": "The knight is currently without land and wealth. Their eyes tell a thousand stories.",
       "aspects": {
-        "maincharacter": 1
+        "maincharacter": 1,
+        "skill.archer": 3,
+        "skill.lancer": 3
       },
       "slots": [
         {
@@ -22,6 +26,37 @@
           "actionid": "traveltofort",
           "required": { "soldier": 1 },
           "description": "The knight should invite the soldier to come along."
+        },
+        {
+          "id": "slot.main.companion",
+          "label": "Companion",
+          "actionid": "explorefort.tower",
+          "required": { "soldier": 1 },
+          "description": "The knight should invite the soldier to come along."
+        },
+        {
+          "id": "slot.main.story.mainhall.ch1",
+          "label": "Story Event",
+          "actionid": "explorefort.mainhall",
+          "required": { "ch1.drunk": 1 },
+          "description": "|Story event slot desc|",
+          "consumes": true
+        },
+        {
+          "id": "slot.main.temperament.dining.ch1",
+          "label": "Temperament",
+          "actionid": "explorefort.diningroom",
+          "required": { "temperament": 1 },
+          "forbidden": { "tired": 1 },
+          "description": "|Temperament slot desc|"
+        },
+        {
+          "id": "slot.main.temperament.training.ch1",
+          "label": "Temperament",
+          "actionid": "explorefort.trainingyard",
+          "required": { "temperament": 1 },
+          "forbidden": { "tired": 1 },
+          "description": "|Temperament slot desc|"
         }
       ]
     },
@@ -30,7 +65,9 @@
       "label": "The Scribe",
       "description": "The scribe is familiar with Latin, the absurdity of indulgence, and which frying fish is the most delicious.",
       "aspects": {
-        "maincharacter": 1
+        "maincharacter": 1,
+        "skill.observer": 3,
+        "skill.mathematician": 3
       }
     },
     {
@@ -38,7 +75,9 @@
       "label": "The Taverner",
       "description": "The taverner owns the tavern by the harbor, a cat named Nora, and a secret frying-fish recipe.",
       "aspects": {
-        "maincharacter": 1
+        "maincharacter": 1,
+        "skill.fishmonger": 3,
+        "skill.lancer": 3
       }
     },
     {
@@ -46,7 +85,9 @@
       "label": "The Doctor",
       "description": "The doctor used to study in the local monastic school. They finished university recently and came back.",
       "aspects": {
-        "maincharacter": 1
+        "maincharacter": 1,
+        "skill.alchemist": 3,
+        "skill.herbalist": 3
       }
     },
     {
@@ -54,7 +95,9 @@
       "label": "The Prior",
       "description": "The prior comes from a wealthy family in a foreign land. They are charismatic and diligent.",
       "aspects": {
-        "maincharacter": 1
+        "maincharacter": 1,
+        "skill.orator": 3,
+        "skill.theologian": 3
       }
     }
   ]

@@ -11,7 +11,7 @@
       "effects": {
         "soldier": 1
       },
-      "warmup": 10,
+      "warmup": 1,
       "maxexecutions": 1,
       "inductions": [
         {
@@ -33,7 +33,7 @@
       "craftable": true,
       "startdescription": "<i>\"We should catch up more later. I haven't even told you about the archbishop.\"</i>\nAs the knight shows them to the extra horse, the soldier smiles to him: <i>\"You'll have plenty of time. Let's go now.\"</i>",
       "description": "They rode through the town and the forest. The fort sits atop a hillock, with a drawbridge already down. The soldier's mouth hangs slightly open as they enter the fort.",
-      "warmup": 10,
+      "warmup": 1,
       "maxexecutions": 1,
       "deleteverb": {
         "wait": 1
@@ -65,14 +65,14 @@
       "actionid": "explorefort.diningroom",
       "label": "Location Discoverd: Dining Room",
       "startdescription": "",
-      "description": "The knight lead them to the table: <i>\"Have some bread and cheese if you're hungry. They might not be as tasty as the ones you bake. I hope you don't mind.\"</i>"
+      "description": "The knight lead them to the table: <i>\"Have some bread and wine if you're hungry. They might not be as tasty as the ones you bake. I hope you don't mind.\"</i>"
     },
     {
       "id": "emptyrecipe.fort.tower",
       "actionid": "explorefort.tower",
       "label": "Location Discoverd: Tower",
       "startdescription": "",
-      "description": "After showing the soldier their new bedroom, the knight stops before the stairs leading to the tower. <i>\"I want to change to a more comfortable tunic. And then, we should go up the tower together.\"</i>"
+      "description": "After showing the soldier their new bedroom, the knight stops before the stairs leading to the tower. <i>\"Get some wine for me, would you? Then we'll go up the tower together.\"</i>"
     },
     {
       "id": "emptyrecipe.fort.trainingyard",
@@ -82,19 +82,118 @@
       "description": "The knight kindly reminds the soldier that training is not for today. Tomorrow, they may spar as much as they want."
     },
     {
-      "id": "recipe.explorefort",
-      "actionid": "explorefort",
-      "label": "Explore the fort",
-      "startdescription": "|Knight and their former-soldier friend explore the fort|",
-      "description": "|Ending desc for fort exploration|",
-      "requirements": {
-        "knight": 1,
-        "soldier": 1
+      "id": "recipe.fort.towerconvo",
+      "actionid": "explorefort.tower",
+      "label": "Enjoy View from Top of the Tower",
+      "craftable": true,
+      "startdescription": "|Convo from tower top start desc|",
+      "description": "|Convo from tower top end desc|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "deleteverb": {
+        "traveltofort": 1
       },
-      "deckeffects": {
-        "fortexploredeck": 1
+      "effects": {
+        "ch1.drunk": 1
+      }
+    },
+    {
+      "id": "recipe.fort.diningroom.ch1a",
+      "actionid": "explorefort.diningroom",
+      "label": "Dining Room: Sanguine",
+      "craftable": true,
+      "startdescription": "|recipe.fort.diningrooml.ch1a start desc|",
+      "description": "|recipe.fort.diningrooml.ch1a desc|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
       },
-      "warmup": 10
+      "requirements": { "knight.sanguine": 1 }
+    },
+    {
+      "id": "recipe.fort.diningroom.ch1b",
+      "actionid": "explorefort.diningroom",
+      "label": "Dining Room: Choleric",
+      "craftable": true,
+      "startdescription": "|recipe.fort.diningroom.ch1b start desc|",
+      "description": "|recipe.fort.diningroom.ch1b desc|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "knight.choleric": 1 }
+    },
+    {
+      "id": "recipe.fort.training.ch1a",
+      "actionid": "explorefort.trainingyard",
+      "label": "Training Yard: Archer",
+      "craftable": true,
+      "startdescription": "|recipe.fort.training.ch1a start desc|",
+      "description": "|recipe.fort.training.ch1a desc|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "knight.sanguine": 1 }
+    },
+    {
+      "id": "recipe.fort.training.ch1b",
+      "actionid": "explorefort.trainingyard",
+      "label": "Training Yard: Lancer",
+      "craftable": true,
+      "startdescription": "|recipe.fort.training.ch1b start desc|",
+      "description": "|recipe.fort.training.ch1b desc|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+
+      "requirements": { "knight.choleric": 1 }
+    },
+    {
+      "id": "recipe.fort.mainhall.drunk",
+      "actionid": "explorefort.mainhall",
+      "label": "Main Hall: A Drunken Knight",
+      "craftable": true,
+      "startdescription": "|Main Hall: A Drunken Knight start desc|",
+      "description": "|Main Hall: A Drunken Knight desc|",
+      "warmup": 1,
+      "purge": {
+        "chapter1": 1
+      },
+      "requirements": { "ch1.drunk": 1 },
+      "inductions": [
+        {
+          "id": "emptyrecipe.tavern.keeperseat"
+        },
+        {
+          "id": "emptyrecipe.tavern.bedroom"
+        }
+      ]
+    },
+    {
+      "id": "emptyrecipe.tavern.keeperseat",
+      "actionid": "tavern.public.keeperseat",
+      "label": "Location Unlocked. Tavern - Keeper's Seat",
+      "startdescription": "",
+      "description": "The taverner sits in the keeper's seat. They serve bread, stew, and wine to the guests, and keep a barely illegible ledger.",
+      "effects": {
+        "taverner": 1,
+        "taverner.sanguine": 1,
+        "taverner.melancholic": 1
+      }
+    },
+    {
+      "id": "emptyrecipe.tavern.bedroom",
+      "actionid": "tavern.private.bedroom",
+      "label": "Location Unlocked. Tavern - Owners' Room",
+      "startdescription": "",
+      "description": "The scribe sits in front of the desk, reading a letter. The letter is from the baron, who agreed to rent out their fort to the knight.",
+      "effects": {
+        "scribe": 1,
+        "scribe.sanguine": 1,
+        "scribe.phlegmatic": 1
+      }
     }
   ]
 }

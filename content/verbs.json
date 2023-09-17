@@ -3,7 +3,7 @@
     {
       "id": "wait",
       "label": "Wait",
-      "description": "|Wait description|",
+      "description": "If you are willing to spare the time...",
       "slot": {
         "id": "waitslot",
         "label": "Character",
@@ -33,7 +33,11 @@
       "slot": {
         "id": "explorefortslot.mainhall",
         "label": "Character",
-        "description": "|Exploring the Fort Main Hall needs at least one person|"
+        "description": "|Exploring the Fort Main Hall needs at least one person|",
+        "required": {
+          "maincharacter": 1
+
+        }
       }
     },
     {
@@ -43,7 +47,11 @@
       "slot": {
         "id": "explorefortslot.diningroom",
         "label": "Character",
-        "description": "|Exploring the Fort Dining Room needs at least one person|"
+        "description": "|Exploring the Fort Dining Room needs at least one person|",
+        "required": {
+          "maincharacter": 1
+
+        }
       }
     },
     {
@@ -53,7 +61,10 @@
       "slot": {
         "id": "explorefortslot.tower",
         "label": "Character",
-        "description": "|Exploring the Fort Tower needs at least one person|"
+        "description": "|Exploring the Fort Tower needs at least one person|",
+        "required": {
+          "maincharacter": 1
+        }
       }
     },
     {
@@ -63,7 +74,39 @@
       "slot": {
         "id": "explorefortslot.trainingyard",
         "label": "Character",
-        "description": "|Exploring the Fort Training Yard needs at least one person|"
+        "description": "|Exploring the Fort Training Yard needs at least one person|",
+        "required": {
+          "maincharacter": 1
+        }
+      }
+    },
+    {
+      "id": "tavern.public.keeperseat",
+      "label": "Tavern: Keeper's Seat",
+      "description": "The seat belongs to the tavern's current keeper. It might be the scribe, or even the minstrel, if the taverner is too drunk.",
+      "slot": {
+        "id": "tavernslot.keeper",
+        "label": "Character",
+        "description": "Keeping the tavern in order needs at least one person.",
+        "required": {
+          "scribe": 1,
+          "taverner": 1,
+          "minstrel": 1
+        }
+      }
+    },
+    {
+      "id": "tavern.private.bedroom",
+      "label": "Tavern: Owners' Room",
+      "description": "The private room is where the taverner and the scribe reside. It has a bed, a desk, a roof that was recently repaired, and a vault containing all their money.",
+      "slot": {
+        "id": "tavernslot.bedroom",
+        "label": "Character",
+        "description": "Keeping the tavern in order needs at least one person.",
+        "required": {
+          "scribe": 1,
+          "taverner": 1
+        }
       }
     }
   ]

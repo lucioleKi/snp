@@ -1,0 +1,13 @@
+{
+  "elements": [
+    {
+      "id": "ch1.drunk",
+      "label": "Event: Fort Main Hall",
+      "description": "|Event: Fort Main Hall desc|",
+      "aspects": {
+        "storyevent": 1
+      }
+
+    }
+  ]
+}

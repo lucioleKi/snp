@@ -17,6 +17,96 @@
       "label": "Temperament",
       "description": "Galen suggests that temperaments are determined by an excess or lack of 4 body fluids.",
       "isAspect": true
+    },
+    {
+      "id": "chapter",
+      "label": "Chapter",
+      "description": "Indicate the current chapter.",
+      "isAspect": true
+    },
+    {
+      "id": "tired",
+      "label": "Exhausted",
+      "description": "Exhausted temperament recharges when a new chapter starts.",
+      "isAspect": true
+    },
+    {
+      "id": "storyevent",
+      "label": "Story Event: Required",
+      "description": "This event has to happen somewhere, either with the right or the wrong people, before the story can progress.",
+      "isAspect": true
+    },
+    {
+      "id": "skill.hunter",
+      "label": "Skill: Hunter",
+      "description": "|Skill: Hunter desc|",
+      "isAspect": true
+    },
+    {
+      "id": "skill.scholar",
+      "label": "Skill: Scholar",
+      "description": "|Skill: Scholar desc|",
+      "isAspect": true
+    },
+    {
+      "id": "skill.archer",
+      "label": "Skill: Archer",
+      "description": "|Skill: Archer desc|",
+      "isAspect": true
+    },
+    {
+      "id": "skill.lancer",
+      "label": "Skill: Lancer",
+      "description": "|Skill: Lancer desc|",
+      "isAspect": true
+    },
+    {
+      "id": "skill.observer",
+      "label": "Skill: Observer",
+      "description": "|Skill: Observer desc|",
+      "isAspect": true
+    },
+    {
+      "id": "skill.mathematician",
+      "label": "Skill: Mathematician",
+      "description": "|Skill: Mathematician desc|",
+      "isAspect": true
+    },
+    {
+      "id": "skill.fishmonger",
+      "label": "Skill: Fish-monger",
+      "description": "|Skill: Fish-monger desc|",
+      "isAspect": true
+    },
+    {
+      "id": "skill.brewer",
+      "label": "Skill: Brewer",
+      "description": "|Skill: Brewer desc|",
+      "isAspect": true
+    },
+    {
+      "id": "skill.alchemist",
+      "label": "Skill: Alchemist",
+      "description": "|Skill: Alchemist desc|",
+      "isAspect": true
+    },
+    {
+      "id": "skill.herbalist",
+      "label": "Skill: Herbalist",
+      "description": "|Skill: Herbalist desc|",
+      "isAspect": true
+    },
+    {
+      "id": "skill.orator",
+      "label": "Skill: Orator",
+      "description": "|Skill: Orator desc|",
+      "isAspect": true
+    },
+    {
+      "id": "skill.theologian",
+      "label": "Skill: Theologian",
+      "description": "|Skill: Theologian desc|",
+      "isAspect": true
     }
   ]
 }
