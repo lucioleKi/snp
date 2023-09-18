@@ -33,7 +33,7 @@
       "slot": {
         "id": "explorefortslot.mainhall",
         "label": "Character",
-        "description": "|Exploring the Fort Main Hall needs at least one person|",
+        "description": "Exploring the Fort Main Hall requires at least one main character.",
         "required": {
           "maincharacter": 1
 
@@ -47,7 +47,7 @@
       "slot": {
         "id": "explorefortslot.diningroom",
         "label": "Character",
-        "description": "|Exploring the Fort Dining Room needs at least one person|",
+        "description": "Exploring the Fort Dining Room requires at least one main character.",
         "required": {
           "maincharacter": 1
 
@@ -61,7 +61,7 @@
       "slot": {
         "id": "explorefortslot.tower",
         "label": "Character",
-        "description": "|Exploring the Fort Tower needs at least one person|",
+        "description": "Exploring the Fort Tower requires at least one main character.",
         "required": {
           "maincharacter": 1
         }
@@ -74,7 +74,7 @@
       "slot": {
         "id": "explorefortslot.trainingyard",
         "label": "Character",
-        "description": "|Exploring the Fort Training Yard needs at least one person|",
+        "description": "Exploring the Fort Training Yard requires at least one main character.",
         "required": {
           "maincharacter": 1
         }
@@ -87,7 +87,7 @@
       "slot": {
         "id": "tavernslot.keeper",
         "label": "Character",
-        "description": "Keeping the tavern in order needs at least one person.",
+        "description": "Keeping the tavern in order requires at least one person.",
         "required": {
           "scribe": 1,
           "taverner": 1,

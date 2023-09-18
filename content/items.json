@@ -1,0 +1,13 @@
+{
+  "elements": [
+    {
+      "id": "pouch.tavern",
+      "label": "Pouch: Taverner and Scribe's",
+      "description": "|Pouch desc|",
+      "aspects": {
+        "florin": 10
+      }
+
+    }
+  ]
+}

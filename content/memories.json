@@ -1,0 +1,22 @@
+{
+  "elements": [
+    {
+      "id": "memory.ch1.dining1a",
+      "label": "Memory: Feast after victory",
+      "description": "They enjoyed grilled lamb and mulled wine. The soldier receives the most toasts. Their cheeks getting redder each time.",
+      "aspects": {
+        "mainmemory": 1
+      }
+
+    },
+    {
+      "id": "memory.ch1.dining1b",
+      "label": "Memory: Feast with friends",
+      "description": "They enjoyed mushroom pasties and fried fish. Afterwards, most of them stayed to play cards. The grey-eyed scribe won the most.",
+      "aspects": {
+        "mainmemory": 1
+      }
+
+    }
+  ]
+}

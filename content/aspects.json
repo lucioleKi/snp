@@ -51,37 +51,37 @@
     {
       "id": "skill.archer",
       "label": "Skill: Archer",
-      "description": "|Skill: Archer desc|",
+      "description": "The character is specialized in using bows and crossbows.",
       "isAspect": true
     },
     {
       "id": "skill.lancer",
       "label": "Skill: Lancer",
-      "description": "|Skill: Lancer desc|",
+      "description": "The character is specialized in using lances.",
       "isAspect": true
     },
     {
       "id": "skill.observer",
       "label": "Skill: Observer",
-      "description": "|Skill: Observer desc|",
+      "description": "The character is observant in their daily life. They notice details that may be overlooked by others.",
       "isAspect": true
     },
     {
       "id": "skill.mathematician",
       "label": "Skill: Mathematician",
-      "description": "|Skill: Mathematician desc|",
+      "description": "The character has studied algebra, geometry, in addition to the basic arithmatics.",
       "isAspect": true
     },
     {
       "id": "skill.fishmonger",
       "label": "Skill: Fish-monger",
-      "description": "|Skill: Fish-monger desc|",
+      "description": "The character is specialized in catching fish by using nets, a harpoon, or a fishing rod.",
       "isAspect": true
     },
     {
       "id": "skill.brewer",
       "label": "Skill: Brewer",
-      "description": "|Skill: Brewer desc|",
+      "description": "The character is specialized in making beer and wine, sometimes also vinegar.",
       "isAspect": true
     },
     {
@@ -106,6 +106,18 @@
       "id": "skill.theologian",
       "label": "Skill: Theologian",
       "description": "|Skill: Theologian desc|",
+      "isAspect": true
+    },
+    {
+      "id": "mainmemory",
+      "label": "Memory",
+      "description": "This is a main character's memory. It might be important, who knows.",
+      "isAspect": true
+    },
+    {
+      "id": "florin",
+      "label": "Florin",
+      "description": "|Florin desc|",
       "isAspect": true
     }
   ]

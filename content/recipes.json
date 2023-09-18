@@ -102,21 +102,24 @@
       "actionid": "explorefort.diningroom",
       "label": "Dining Room: Sanguine",
       "craftable": true,
-      "startdescription": "|recipe.fort.diningrooml.ch1a start desc|",
-      "description": "|recipe.fort.diningrooml.ch1a desc|",
+      "startdescription": "After supper, the knight ponders alone. They remember a feast after victory.",
+      "description": "The memory leaves a bitter taste. Only the soldier follows him now, after all.",
       "warmup": 1,
       "aspects": {
         "exhausted": 1
       },
-      "requirements": { "knight.sanguine": 1 }
+      "requirements": { "knight.sanguine": 1 },
+      "effects": {
+        "ch1.drunk": 1
+      }
     },
     {
       "id": "recipe.fort.diningroom.ch1b",
       "actionid": "explorefort.diningroom",
       "label": "Dining Room: Choleric",
       "craftable": true,
-      "startdescription": "|recipe.fort.diningroom.ch1b start desc|",
-      "description": "|recipe.fort.diningroom.ch1b desc|",
+      "startdescription": "After supper, the knight ponders alone. They remember a feast with friends.",
+      "description": "The memory leaves a sour taste. The knight is no longer friends with one of them, after all.",
       "warmup": 1,
       "aspects": {
         "exhausted": 1
@@ -134,6 +137,14 @@
       "aspects": {
         "exhausted": 1
       },
+      "mutations": [
+        {
+          "filter": "knight",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.archer"
+        }
+      ],
       "requirements": { "knight.sanguine": 1 }
     },
     {
@@ -147,7 +158,14 @@
       "aspects": {
         "exhausted": 1
       },
-
+      "mutations": [
+        {
+          "filter": "knight",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.lancer"
+        }
+      ],
       "requirements": { "knight.choleric": 1 }
     },
     {
@@ -194,6 +212,26 @@
         "scribe.sanguine": 1,
         "scribe.phlegmatic": 1
       }
+    },
+    {
+      "id": "recipe.tavern.bedroom.letter1a",
+      "actionid": "tavern.private.bedroom",
+      "label": "Writing: Letter to the Baron",
+      "startdescription": "|recipe.tavern.bedroom.letter1a starting desc. No temperament cost|",
+      "description": "|recipe.tavern.bedroom.letter1a desc|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": { "scribe.sanguine": 1 }
+    },
+    {
+      "id": "recipe.tavern.bedroom.letter1b",
+      "actionid": "tavern.private.bedroom",
+      "label": "Writing: Letter to the Baron",
+      "startdescription": "|recipe.tavern.bedroom.letter1b starting desc. No temperament cost|",
+      "description": "|recipe.tavern.bedroom.letter1b desc|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": { "scribe.phlegmatic": 1 }
     }
   ]
 }
