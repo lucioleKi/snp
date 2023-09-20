@@ -68,7 +68,17 @@
         "maincharacter": 1,
         "skill.observer": 3,
         "skill.mathematician": 3
-      }
+      },
+      "slots": [
+        {
+          "id": "slot.main.letter1",
+          "label": "Coin",
+          "actionid": "tavern.private.bedroom",
+          "required": { "scribe.sestertius": 1 },
+          "description": "The scribe needs their coin when writing a personal letter to the baron. Why?",
+          "greedy": true
+        }
+      ]
     },
     {
       "id": "taverner",

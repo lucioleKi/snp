@@ -210,28 +210,21 @@
       "effects": {
         "scribe": 1,
         "scribe.sanguine": 1,
-        "scribe.phlegmatic": 1
+        "scribe.phlegmatic": 1,
+        "scribe.sestertius": 1
       }
     },
     {
-      "id": "recipe.tavern.bedroom.letter1a",
+      "id": "recipe.tavern.bedroom.letter1",
       "actionid": "tavern.private.bedroom",
       "label": "Writing: Letter to the Baron",
-      "startdescription": "|recipe.tavern.bedroom.letter1a starting desc. No temperament cost|",
-      "description": "|recipe.tavern.bedroom.letter1a desc|",
+      "craftable": true,
+      "startdescription": "|recipe.tavern.bedroom.letter1 starting desc.|",
+      "description": "|recipe.tavern.bedroom.letter1 desc|",
       "warmup": 1,
       "maxexecutions": 1,
-      "requirements": { "scribe.sanguine": 1 }
-    },
-    {
-      "id": "recipe.tavern.bedroom.letter1b",
-      "actionid": "tavern.private.bedroom",
-      "label": "Writing: Letter to the Baron",
-      "startdescription": "|recipe.tavern.bedroom.letter1b starting desc. No temperament cost|",
-      "description": "|recipe.tavern.bedroom.letter1b desc|",
-      "warmup": 1,
-      "maxexecutions": 1,
-      "requirements": { "scribe.phlegmatic": 1 }
+      "requirements": { "scribe.sestertius": 1 }
     }
+    
   ]
 }

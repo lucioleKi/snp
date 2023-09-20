@@ -115,9 +115,21 @@
       "isAspect": true
     },
     {
-      "id": "florin",
-      "label": "Florin",
-      "description": "|Florin desc|",
+      "id": "denier",
+      "label": "Denier",
+      "description": "|Denier desc|",
+      "isAspect": true
+    },
+    {
+      "id": "plant",
+      "label": "Plant",
+      "description": "|Plant desc|",
+      "isAspect": true
+    },
+    {
+      "id": "poison",
+      "label": "Poison",
+      "description": "|Poison desc|",
       "isAspect": true
     }
   ]
