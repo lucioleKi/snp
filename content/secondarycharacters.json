@@ -42,9 +42,9 @@
       }
     },
     {
-      "id": "vicar",
-      "label": "The Vicar",
-      "description": "|A vicar who is not so popolar in the parish.|",
+      "id": "prior",
+      "label": "The Prior",
+      "description": "|A prior who is not so popolar in the parish.|",
       "aspects": {
         "secondarycharacter": 1
       }
@@ -53,6 +53,22 @@
       "id": "monk",
       "label": "The Monk",
       "description": "|An observant and quiet monk.|",
+      "aspects": {
+        "secondarycharacter": 1
+      }
+    },
+    {
+      "id": "lawyer",
+      "label": "The Lawyer",
+      "description": "|A calm and patient lawyer.|",
+      "aspects": {
+        "secondarycharacter": 1
+      }
+    },
+    {
+      "id": "chevalier",
+      "label": "The Chevalier",
+      "description": "|A brave and charismatic chevalier.|",
       "aspects": {
         "secondarycharacter": 1
       }

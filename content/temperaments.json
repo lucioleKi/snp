@@ -5,118 +5,265 @@
       "label": "Sanguine (Knight)",
       "description": "The knight is talkative and compassionate. They strive to provide encouraging words, maybe even warm hugs.",
       "aspects": {
-        "temperament": 1
+        "temperament": 1,
+        "knights": 1
       },
       "decayTo": "knight.sanguine.exhausted",
       "xtriggers": { "exhausted": "knight.sanguine.exhausted" }
+    },
+    {
+      "id": "knight.sanguine.exhausted",
+      "label": "Exhausted Sanguine (Knight)",
+      "description": "The knight is talkative and compassionate. They strive to provide encouraging words, maybe even warm hugs.",
+      "aspects": {
+        "temperament": 1,
+        "tired": 1
       },
-      {
-        "id": "knight.sanguine.exhausted",
-        "label": "Exhausted Sanguine (Knight)",
-        "description": "The knight is talkative and compassionate. They strive to provide encouraging words, maybe even warm hugs.",
-        "aspects": {
-          "temperament": 1,
-          "tired": 1
-        }
-      },
+      "decayTo": "knight.sanguine",
+      "xtriggers": { "recharge": "knight.sanguine" }
+    },
     {
       "id": "knight.choleric",
       "label": "Choleric (Knight)",
       "description": "The knight is intense and energetic. They are prone to mood swings.",
       "aspects": {
-        "temperament": 1
+        "temperament": 1,
+        "knights": 1
       },
       "decayTo": "knight.choleric.exhausted",
       "xtriggers": { "exhausted": "knight.choleric.exhausted" }
     },
-      {
-        "id": "knight.choleric.exhausted",
-        "label": "Exhausted Choleric (Knight)",
-        "description": "The knight is intense and energetic. They are prone to mood swings.",
-        "aspects": {
-          "temperament": 1,
-          "tired": 1
-        }
+    {
+      "id": "knight.choleric.exhausted",
+      "label": "Exhausted Choleric (Knight)",
+      "description": "The knight is intense and energetic. They are prone to mood swings.",
+      "aspects": {
+        "temperament": 1,
+        "tired": 1
       },
-      {
-        "id": "bishop.phlegmatic",
-        "label": "Phlegmatic (Bishop)",
-        "description": "|Phlegmatic desc|",
-        "aspects": {
-          "temperament": 1
-        }
+      "decayTo": "knight.choleric",
+      "xtriggers": { "recharge": "knight.choleric" }
+    },
+    {
+      "id": "bishop.phlegmatic",
+      "label": "Phlegmatic (Bishop)",
+      "description": "|Phlegmatic desc|",
+      "aspects": {
+        "temperament": 1,
+        "bishops": 1
       },
-      {
-        "id": "bishop.choleric",
-        "label": "Choleric (Bishop)",
-        "description": "|Choleric desc|",
-        "aspects": {
-          "temperament": 1
-        }
+      "decayTo": "bishop.phlegmatic.exhausted",
+      "xtriggers": { "exhausted": "bishop.phlegmatic.exhausted" }
+    },
+    {
+      "id": "bishop.phlegmatic.exhausted",
+      "label": "Exhausted Phlegmatic (Bishop)",
+      "description": "|Phlegmatic desc|",
+      "aspects": {
+        "temperament": 1,
+        "tired": 1
       },
-      {
-        "id": "scribe.sanguine",
-        "label": "Sanguine (Scribe)",
-        "description": "|Sanguine desc|",
-        "aspects": {
-          "temperament": 1
-        }
+      "decayTo": "bishop.phlegmatic",
+      "xtriggers": { "recharge": "bishop.phlegmatic" }
+    },
+    {
+      "id": "bishop.choleric",
+      "label": "Choleric (Bishop)",
+      "description": "|Choleric desc|",
+      "aspects": {
+        "temperament": 1,
+        "bishops": 1
       },
-      {
-        "id": "scribe.phlegmatic",
-        "label": "Phlegmatic (Scribe)",
-        "description": "|Phlegmatic desc|",
-        "aspects": {
-          "temperament": 1
-        }
+      "decayTo": "bishop.choleric.exhausted",
+      "xtriggers": { "exhausted": "bishop.choleric.exhausted" }
+    },
+    {
+      "id": "bishop.choleric.exhausted",
+      "label": "Exhausted Choleric (Bishop)",
+      "description": "|Choleric desc|",
+      "aspects": {
+        "temperament": 1,
+        "tired": 1
       },
-      {
-        "id": "taverner.sanguine",
-        "label": "Sanguine (Taverner)",
-        "description": "|Sanguine desc|",
-        "aspects": {
-          "temperament": 1
-        }
+      "decayTo": "bishop.choleric",
+      "xtriggers": { "recharge": "bishop.choleric" }
+    },
+    {
+      "id": "scribe.sanguine",
+      "label": "Sanguine (Scribe)",
+      "description": "|Sanguine desc|",
+      "aspects": {
+        "temperament": 1,
+        "scribes": 1
       },
-      {
-        "id": "taverner.melancholic",
-        "label": "Melancholic (Taverner)",
-        "description": "|Melancholic desc|",
-        "aspects": {
-          "temperament": 1
-        }
+      "decayTo": "scribe.sanguine.exhausted",
+      "xtriggers": { "exhausted": "scribe.sanguine.exhausted" }
+    },
+    {
+      "id": "scribe.sanguine.exhausted",
+      "label": "Exhausted Sanguine (Scribe)",
+      "description": "|Sanguine desc|",
+      "aspects": {
+        "temperament": 1,
+        "tired": 1
       },
-      {
-        "id": "doctor.melancholic",
-        "label": "Melancholic",
-        "description": "|Melancholic desc|",
-        "aspects": {
-          "temperament": 1
-        }
+      "decayTo": "scribe.sanguine",
+      "xtriggers": { "recharge": "scribe.sanguine" }
+    },
+    {
+      "id": "scribe.phlegmatic",
+      "label": "Phlegmatic (Scribe)",
+      "description": "|Phlegmatic desc|",
+      "aspects": {
+        "temperament": 1,
+        "scribes": 1
       },
-      {
-        "id": "doctor.phlegmatic",
-        "label": "Phlegmatic",
-        "description": "|Phlegmatic desc|",
-        "aspects": {
-          "temperament": 1
-        }
+      "decayTo": "scribe.phlegmatic.exhausted",
+      "xtriggers": { "exhausted": "scribe.phlegmatic.exhausted" }
+    },
+    {
+      "id": "scribe.phlegmatic.exhausted",
+      "label": "Exhausted Phlegmatic (Scribe)",
+      "description": "|Phlegmatic desc|",
+      "aspects": {
+        "temperament": 1,
+        "tired": 1
       },
-      {
-        "id": "prior.choleric",
-        "label": "Choleric (Bishop)",
-        "description": "|Choleric desc|",
-        "aspects": {
-          "temperament": 1
-        }
+      "decayTo": "scribe.phlegmatic",
+      "xtriggers": { "recharge": "scribe.phlegmatic" }
+    },
+    {
+      "id": "taverner.sanguine",
+      "label": "Sanguine (Taverner)",
+      "description": "|Sanguine desc|",
+      "aspects": {
+        "temperament": 1,
+        "taverners": 1
       },
-      {
-        "id": "prior.melancholic",
-        "label": "Melancholic",
-        "description": "|Melancholic desc|",
-        "aspects": {
-          "temperament": 1
-        }
-      }
+      "decayTo": "taverner.sanguine.exhausted",
+      "xtriggers": { "exhausted": "taverner.sanguine.exhausted" }
+    },
+    {
+      "id": "taverner.sanguine.exhausted",
+      "label": "Exhausted Sanguine (Taverner)",
+      "description": "|Sanguine desc|",
+      "aspects": {
+        "temperament": 1,
+        "tired": 1
+      },
+      "decayTo": "taverner.sanguine",
+      "xtriggers": { "recharge": "taverner.sanguine" }
+    },
+    {
+      "id": "taverner.melancholic",
+      "label": "Melancholic (Taverner)",
+      "description": "|Melancholic desc|",
+      "aspects": {
+        "temperament": 1,
+        "taverners": 1
+      },
+      "decayTo": "taverner.melancholic.exhausted",
+      "xtriggers": { "exhausted": "taverner.melancholic.exhausted" }
+    },
+    {
+      "id": "taverner.melancholic.exhausted",
+      "label": "Exhausted Melancholic (Taverner)",
+      "description": "|Melancholic desc|",
+      "aspects": {
+        "temperament": 1,
+        "tired": 1
+      },
+      "decayTo": "taverner.melancholic",
+      "xtriggers": { "recharge": "taverner.melancholic" }
+    },
+    {
+      "id": "doctor.melancholic",
+      "label": "Melancholic (Doctor)",
+      "description": "|Melancholic desc|",
+      "aspects": {
+        "temperament": 1,
+        "doctors": 1
+      },
+      "decayTo": "doctor.melancholic.exhausted",
+      "xtriggers": { "exhausted": "doctor.melancholic.exhausted" }
+    },
+    {
+      "id": "doctor.melancholic.exhausted",
+      "label": "Exhausted Melancholic (Doctor)",
+      "description": "|Melancholic desc|",
+      "aspects": {
+        "temperament": 1,
+        "tired": 1
+      },
+      "decayTo": "doctor.melancholic",
+      "xtriggers": { "recharge": "doctor.melancholic" }
+    },
+    {
+      "id": "doctor.phlegmatic",
+      "label": "Phlegmatic (Doctor)",
+      "description": "|Phlegmatic desc|",
+      "aspects": {
+        "temperament": 1,
+        "doctors": 1
+      },
+      "decayTo": "doctor.phlegmatic.exhausted",
+      "xtriggers": { "exhausted": "doctor.phlegmatic.exhausted" }
+    },
+    {
+      "id": "doctor.phlegmatic.exhausted",
+      "label": "Exhausted Phlegmatic (Doctor)",
+      "description": "|Phlegmatic desc|",
+      "aspects": {
+        "temperament": 1,
+        "tired": 1
+      },
+      "decayTo": "doctor.phlegmatic",
+      "xtriggers": { "recharge": "doctor.phlegmatic" }
+    },
+    {
+      "id": "vicar.choleric",
+      "label": "Choleric (Vicar)",
+      "description": "|Choleric desc|",
+      "aspects": {
+        "temperament": 1,
+        "vicars": 1
+      },
+      "decayTo": "vicar.choleric.exhausted",
+      "xtriggers": { "exhausted": "vicar.choleric.exhausted" }
+    },
+    {
+      "id": "vicar.choleric.exhausted",
+      "label": "Exhausted Choleric (Vicar)",
+      "description": "|Choleric desc|",
+      "aspects": {
+        "temperament": 1,
+        "tired": 1
+      },
+      "decayTo": "vicar.choleric",
+      "xtriggers": { "recharge": "vicar.choleric" }
+    },
+    {
+      "id": "vicar.melancholic",
+      "label": "Melancholic (Vicar)",
+      "description": "|Melancholic desc|",
+      "aspects": {
+        "temperament": 1,
+        "vicars": 1
+      },
+      "decayTo": "vicar.melancholic.exhausted",
+      "xtriggers": { "exhausted": "vicar.melancholic.exhausted" }
+    },
+    {
+      "id": "vicar.melancholic.exhausted",
+      "label": "Exhausted Melancholic (Vicar)",
+      "description": "|Melancholic desc|",
+      "aspects": {
+        "temperament": 1,
+        "tired": 1
+      },
+      "decayTo": "vicar.melancholic",
+      "xtriggers": { "recharge": "vicar.melancholic" }
+    }
+    
   ]
 }

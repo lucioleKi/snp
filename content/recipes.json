@@ -2,7 +2,7 @@
   "recipes": [
     {
       "id": "recipe.waitingforcharacter",
-      "actionid": "wait",
+      "actionid": "pier",
       "requirements": { "knight": 1 },
       "craftable": true,
       "label": "Wait",
@@ -35,9 +35,6 @@
       "description": "They rode through the town and the forest. The fort sits atop a hillock, with a drawbridge already down. The soldier's mouth hangs slightly open as they enter the fort.",
       "warmup": 1,
       "maxexecutions": 1,
-      "deleteverb": {
-        "wait": 1
-      },
       "inductions": [
         {
           "id": "emptyrecipe.fort.mainhall"
@@ -86,8 +83,8 @@
       "actionid": "explorefort.tower",
       "label": "Enjoy View from Top of the Tower",
       "craftable": true,
-      "startdescription": "|Convo from tower top start desc|",
-      "description": "|Convo from tower top end desc|",
+      "startdescription": "Their gaze falls on the forest, and then on the distant town's silhouette. The soldier suddenly asks: \"Did you live in the castle alone in the last month?\" The knight bottoms up their wine: \"If I didn’t see you at the port, I think I’d given up.\"",
+      "description": "The soldier murmurs: \"No, you could’ve...\" \"Could’ve what? I have no gold, no land of my own. How do I summon anyone with nothing?\" The soldier falls silent for a while, and then they says: \"You always have me.\"",
       "warmup": 1,
       "maxexecutions": 1,
       "deleteverb": {
@@ -108,10 +105,7 @@
       "aspects": {
         "exhausted": 1
       },
-      "requirements": { "knight.sanguine": 1 },
-      "effects": {
-        "ch1.drunk": 1
-      }
+      "requirements": { "knight.sanguine": 1 }
     },
     {
       "id": "recipe.fort.diningroom.ch1b",
@@ -131,7 +125,7 @@
       "actionid": "explorefort.trainingyard",
       "label": "Training Yard: Archer",
       "craftable": true,
-      "startdescription": "|recipe.fort.training.ch1a start desc|",
+      "startdescription": "The weapon rack holds a variation of bows and arrows. Maybe this is a day for training aim and accuracy.",
       "description": "|recipe.fort.training.ch1a desc|",
       "warmup": 1,
       "aspects": {
@@ -152,7 +146,7 @@
       "actionid": "explorefort.trainingyard",
       "label": "Training Yard: Lancer",
       "craftable": true,
-      "startdescription": "|recipe.fort.training.ch1b start desc|",
+      "startdescription": "The weapon rack holds a lance, a javlin, and a pike. Maybe this is a day for training strength and equestrian skills.",
       "description": "|recipe.fort.training.ch1b desc|",
       "warmup": 1,
       "aspects": {
@@ -177,7 +171,10 @@
       "description": "|Main Hall: A Drunken Knight desc|",
       "warmup": 1,
       "purge": {
-        "chapter1": 1
+        "chapter1": 1,
+        "knight.sanguine.exhausted": 1,
+        "knight.choleric.exhausted": 1,
+        "ch1.drunk": 1
       },
       "requirements": { "ch1.drunk": 1 },
       "inductions": [
@@ -185,7 +182,7 @@
           "id": "emptyrecipe.tavern.keeperseat"
         },
         {
-          "id": "emptyrecipe.tavern.bedroom"
+          "id": "emptyrecipe.tavern.desk"
         }
       ]
     },
@@ -198,13 +195,14 @@
       "effects": {
         "taverner": 1,
         "taverner.sanguine": 1,
-        "taverner.melancholic": 1
+        "taverner.melancholic": 1,
+        "pouch.tavern": 1
       }
     },
     {
-      "id": "emptyrecipe.tavern.bedroom",
-      "actionid": "tavern.private.bedroom",
-      "label": "Location Unlocked. Tavern - Owners' Room",
+      "id": "emptyrecipe.tavern.desk",
+      "actionid": "tavern.private.desk",
+      "label": "Location Unlocked. Tavern: Owners' Room - Desk",
       "startdescription": "",
       "description": "The scribe sits in front of the desk, reading a letter. The letter is from the baron, who agreed to rent out their fort to the knight.",
       "effects": {
@@ -216,15 +214,167 @@
     },
     {
       "id": "recipe.tavern.bedroom.letter1",
-      "actionid": "tavern.private.bedroom",
+      "actionid": "tavern.private.desk",
       "label": "Writing: Letter to the Baron",
       "craftable": true,
       "startdescription": "|recipe.tavern.bedroom.letter1 starting desc.|",
       "description": "|recipe.tavern.bedroom.letter1 desc|",
       "warmup": 1,
       "maxexecutions": 1,
-      "requirements": { "scribe.sestertius": 1 }
+      "requirements": { "scribe.sestertius": 1 },
+      "inductions": [
+        {
+          "id": "emptyrecipe.market.buy"
+        }
+
+      ],
+      "effects": {
+        "shoppinglist.tavern.ch2": 1
+      }
+    },
+    {
+      "id": "recipe.tavern.keeperseat.taverner1a.first",
+      "actionid": "tavern.public.keeperseat",
+      "label": "Be the Tavern Keeper for Today",
+      "craftable": true,
+      "startdescription": "|recipe.tavern.keeperseat.taverner1a start desc|",
+      "description": "|recipe.tavern.keeperseat.taverner1a desc|",
+      "maxexecutions": 1,
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "taverner.sanguine": 1 },
+      "tablereqs": { "lawyer": -1 },
+      "effects": {
+        "lawyer": 1
+      }
+    },
+    {
+      "id": "recipe.tavern.keeperseat.taverner1b.first",
+      "actionid": "tavern.public.keeperseat",
+      "label": "Be the Tavern Keeper for Today",
+      "craftable": true,
+      "startdescription": "|recipe.tavern.keeperseat.taverner1b start desc|",
+      "description": "|recipe.tavern.keeperseat.taverner1b desc|",
+      "maxexecutions": 1,
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "taverner.melancholic": 1 },
+      "tablereqs": { "lawyer": -1 },
+      "effects": {
+        "lawyer": 1
+      }
+    },
+    {
+      "id": "recipe.tavern.keeperseat.taverner1a",
+      "actionid": "tavern.public.keeperseat",
+      "label": "Be the Tavern Keeper for Today",
+      "craftable": true,
+      "startdescription": "|recipe.tavern.keeperseat.taverner1a start desc|",
+      "description": "|recipe.tavern.keeperseat.taverner1a desc|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "taverner.sanguine": 1 }
+    },
+    {
+      "id": "recipe.tavern.keeperseat.taverner1b",
+      "actionid": "tavern.public.keeperseat",
+      "label": "Be the Tavern Keeper for Today",
+      "craftable": true,
+      "startdescription": "|recipe.tavern.keeperseat.taverner1b start desc|",
+      "description": "|recipe.tavern.keeperseat.taverner1b desc|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "taverner.melancholic": 1 }
+
+    },
+    {
+      "id": "recipe.tavern.keeperseat.scribe1a",
+      "actionid": "tavern.public.keeperseat",
+      "label": "Be the Tavern Keeper for Today",
+      "craftable": true,
+      "startdescription": "|recipe.tavern.keeperseat.scribe1a start desc|",
+      "description": "|recipe.tavern.keeperseat.scribe1a desc|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "scribe.sanguine": 1 }
+
+    },
+    {
+      "id": "recipe.tavern.keeperseat.scribe1b",
+      "actionid": "tavern.public.keeperseat",
+      "label": "Be the Tavern Keeper for Today",
+      "craftable": true,
+      "startdescription": "|recipe.tavern.keeperseat.scribe1b start desc|",
+      "description": "|recipe.tavern.keeperseat.scribe1b desc|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "scribe.phlegmatic": 1 }
+
+    },
+    {
+      "id": "emptyrecipe.market.buy",
+      "actionid": "market.buy",
+      "label": "Location Unlocked: Market",
+      "startdescription": "",
+      "description": "|Market buy emptyrecipe desc|"
+
+    },
+    {
+      "id": "recipe.market.buy.ch2",
+      "actionid": "market.buy",
+      "label": "Market: Browsing and Shopping",
+      "craftable": true,
+      "startdescription": "",
+      "description": "|Market buy desc|",
+      "warmup": 1,
+      "purge": {
+        "shoppinglist.tavern.ch2": 1
+      },
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "temperament": 1 },
+      "tablereqs": {
+        "chapter2": 1,
+        "shoppinglist.tavern.ch2": 1
+      },
+      "xpans": {
+        "givegold": -4
+      },
+      "effects": {
+        "ch2.boat": 1
+      }
+    },
+    {
+      "id": "recipe.pier.boat.ch2",
+      "actionid": "pier",
+      "label": "A conversation at sea",
+      "verbicon": "icon.pier.boat.ch2",
+      "craftable": true,
+      "startdescription": "|recipe.pier.boat.ch2 start desc|",
+      "description": "|recipe.pier.boat.ch2 desc|",
+      "maxexecutions": 1,
+      "warmup": 1,
+      "purge": {
+        "chapter2": 1
+      },
+      "aspects": {
+        "recharge": 1
+      },
+      "requirements": { "ch2.boat": 1 }
+      
     }
-    
   ]
 }

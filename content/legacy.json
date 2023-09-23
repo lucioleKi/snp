@@ -6,7 +6,7 @@
       "label": "The Sacred & The Profane",
       "description": "Play as 6 main characters and 22 other characters in this narrative-driven game. Watch everything unfold in a medieval town: Piety, betrayal, ambition, love, and above all, freedom.",
       "startdescription": "Good luck. Have fun.",
-      "startingVerbId": "wait",
+      "startingVerbId": "pier",
       "availableWithoutEndingMatch": true,
       "newstart": true,
       "effects": {

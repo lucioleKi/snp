@@ -32,7 +32,7 @@
     },
     {
       "id": "storyevent",
-      "label": "Story Event: Required",
+      "label": "Required Event",
       "description": "This event has to happen somewhere, either with the right or the wrong people, before the story can progress.",
       "isAspect": true
     },
@@ -130,6 +130,42 @@
       "id": "poison",
       "label": "Poison",
       "description": "|Poison desc|",
+      "isAspect": true
+    },
+    {
+      "id": "bishops",
+      "label": "Belongs to Bishop",
+      "description": "This belongs to the Bishop, whatever it means.",
+      "isAspect": true
+    },
+    {
+      "id": "knights",
+      "label": "Belongs to Knight",
+      "description": "This belongs to the Knight, whatever it means.",
+      "isAspect": true
+    },
+    {
+      "id": "scribes",
+      "label": "Belongs to Scribe",
+      "description": "This belongs to the Scribe, whatever it means.",
+      "isAspect": true
+    },
+    {
+      "id": "taverners",
+      "label": "Belongs to Taverner",
+      "description": "This belongs to the Taverner, whatever it means.",
+      "isAspect": true
+    },
+    {
+      "id": "doctors",
+      "label": "Belongs to Doctor",
+      "description": "This belongs to the Doctor, whatever it means.",
+      "isAspect": true
+    },
+    {
+      "id": "vicar",
+      "label": "Belongs to Vicar",
+      "description": "This belongs to the Vicar, whatever it means.",
       "isAspect": true
     }
   ]

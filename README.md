@@ -15,3 +15,7 @@ Tested and destubbed everything up until arriving at the fort. Added gitignore a
 9/17/2023
 
 Coded until the intro of two new characters in chapter 2. Need destub and mutation for chapter 1.
+
+9/23/2023
+
+Coded until the end of chapter 2. Added icon for most. Need destub for main story.

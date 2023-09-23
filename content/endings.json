@@ -7,6 +7,14 @@
       "description": "One or more main character(s) perished.",
       "flavour": "Melancholy",
       "anim": "DramaticLightCool"
+    },
+    {
+      "id": "golddeficit",
+      "image": "badending",
+      "label": "Game Over",
+      "description": "Money deficit.",
+      "flavour": "Melancholy",
+      "anim": "DramaticLightCool"
     }
   ]
 }

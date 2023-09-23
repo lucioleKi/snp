@@ -1,0 +1,121 @@
+{
+    "elements": [
+        {
+            "id": "penny",
+            "label": "Penny",
+            "desc": "The smallest denomination coin, except for the smaller ones.",
+            "aspects": {"pence":1},
+            "xtriggers": {"payment":"receipt"},
+            "sort":"_l"
+
+        },
+        {
+            "id": "twopence",
+            "label": "Twopence",
+            "desc": "Or, if you prefer, 'tuppence'. A sort of Janus of pennies.",
+            "aspects": {"pence":2},
+            "xtriggers": {"payment":"receipt"},
+            "sort":"_k"
+
+        },
+        {
+            "id": "threepence",
+            "label": "Threepence",
+            "desc": "Or 'thruppence', or a 'thruppenny bit'. Like twopence, but more so.",
+            "aspects": {"pence":3},
+            "xtriggers": {"payment":"receipt"},
+            "sort":"_j"
+
+        },
+        {
+            "id": "sixpence",
+            "label": "Sixpence",
+            "desc": "The silver coin of least value - but silver, nonetheless.",
+            "aspects": {"pence":6},
+            "xtriggers": {"payment":"receipt"},
+            "sort":"_i"
+
+        },
+        {
+            "id": "shilling",
+            "label": "Shilling",
+            "desc": "Twelve pence or, if you prefer, one-twentieth of a pound.",
+            "aspects": {"pence":12},
+            "xtriggers": {"payment":"receipt"},
+            "sort":"_h"
+
+        },
+        {
+            "id": "florin",
+            "label": "Florin",
+            "desc": "A shilling per side.",
+            "aspects": {"pence":24},
+            "xtriggers": {"payment":"receipt"},
+            "sort":"_g"
+
+        },
+        {
+            "id": "halfcrown",
+            "label": "Half Crown",
+            "desc": "Two and a half shillings. Obviously.",
+            "aspects": {"pence":30},
+            "xtriggers": {"payment":"receipt"},
+            "sort":"_f"
+
+        },
+        {
+            "id": "crown",
+            "label": "Crown",
+            "desc": "Five shillings; one-quarter of a pound.",
+            "aspects": {"pence":60},
+            "xtriggers": {"payment":"receipt"},            
+            "sort":"_e"
+
+        },
+        {
+            "id": "tenshillingnote",
+            "label": "Ten Shilling Note",
+            "desc": "Half a pound; but not half a note. A recent innovation.",
+            "aspects": {"pence":120},
+            "xtriggers": {"payment":"receipt"},            
+            "sort":"_d"
+
+        }, 
+         {
+            "id": "poundnote",
+            "label": "One Pound Note",
+            "desc": "A noble paper in soothing green. Britannia lounges on her throne, flaming hammer propped insouciantly across her knee.",
+            "aspects": {"pence":240},
+            "xtriggers": {"payment":"receipt"},            
+            "sort":"_c"
+
+        },
+        {
+            "id": "fivepoundnote",
+            "label": "Five Pound Note",
+            "desc": "'I promise to pay the Bearer on Demand the Sum of Five Pounds'. The Bearer never does demand, though.",
+            "aspects": {"pence":1200},
+            "xtriggers": {"payment":"receipt"},            
+            "sort":"_b"
+
+        },
+        {
+            "id": "sevenpoundnote",
+            "label": "Seven Pound Note",
+            "desc": "Swirls and curlicues in solemn hues. Until recently, one could exchange bank notes for gold in the banks of the capital. A seven-pound note can still be exchanged for rarer metals in rarer places.",
+            "aspects": {"pence":1680},
+            "xtriggers": {"payment":"receipt"},            
+            "sort":"_a"
+
+        },
+        {
+            "id": "receipt",
+            "label": "Payment Received",
+            "desc": "This could use different levels to indicate the amount paid.",
+            "lifetime":1
+
+        }
+
+
+    ]
+}

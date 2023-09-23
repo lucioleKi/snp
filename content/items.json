@@ -5,13 +5,25 @@
       "label": "Pouch: Taverner and Scribe's",
       "description": "|Pouch desc|",
       "aspects": {
-        "denier": 100
+        "denier": 15
+      },
+      "xtriggers": {
+        "givegold": {
+          "id": "denier",
+          "morpheffect": "mutate",
+          "level": -5
+        }
       }
     },
     {
       "id": "scribe.sestertius",
       "label": "Sestertius",
       "description": "|Sestertius desc|"
+    },
+    {
+      "id": "shoppinglist.tavern.ch2",
+      "label": "Shopping List For The Week",
+      "description": "Onion for fermenting herrings, peas, and beer hops green as spring. The taverner must have left the shopping list here intentionally. Time to head to the market."
     },
     {
       "id": "poison.hemlock",

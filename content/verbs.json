@@ -1,15 +1,16 @@
 {
   "verbs": [
     {
-      "id": "wait",
-      "label": "Wait",
-      "description": "If you are willing to spare the time...",
+      "id": "pier",
+      "label": "Pier: Bench",
+      "description": "The pier stretches into the sea, offering an escape from the bustling tavern nearby. A wooden bench sits at its end. To one side, a small boat is tied to weathered post.",
       "slot": {
         "id": "waitslot",
-        "label": "Character",
-        "description": "Technically, one can say a book is waiting for the right person. But more often, it's the person that does the waiting.",
+        "label": "Character/Event",
+        "description": "Being on the pier requires at least one main character.",
         "required": {
-          "knight": 1
+          "maincharacter": 1,
+          "storyevent": 1
         }
       }
     },
@@ -32,10 +33,11 @@
       "description": "|Fort Main Hall description|",
       "slot": {
         "id": "explorefortslot.mainhall",
-        "label": "Character",
+        "label": "Character/Event",
         "description": "Exploring the Fort Main Hall requires at least one main character.",
         "required": {
-          "maincharacter": 1
+          "maincharacter": 1,
+          "storyevent": 1
 
         }
       }
@@ -91,18 +93,32 @@
         "required": {
           "scribe": 1,
           "taverner": 1,
-          "minstrel": 1
+          "lawyer": 1
         }
       }
     },
     {
-      "id": "tavern.private.bedroom",
-      "label": "Tavern: Owners' Room",
+      "id": "tavern.private.desk",
+      "label": "Tavern: Owners' Room - Desk",
       "description": "The private room is where the taverner and the scribe reside. It has a bed, a desk, a roof that was recently repaired, and a vault containing all their money.",
       "slot": {
-        "id": "tavernslot.bedroom",
+        "id": "tavernslot.desk",
         "label": "Character",
-        "description": "Keeping the tavern in order needs at least one person.",
+        "description": "Using the desk requires at least one person.",
+        "required": {
+          "scribe": 1,
+          "taverner": 1
+        }
+      }
+    },
+    {
+      "id": "market.buy",
+      "label": "Market",
+      "description": "|Market buy desc|",
+      "slot": {
+        "id": "marketslot.character",
+        "label": "Character",
+        "description": "Buying at the market requires at least one person.",
         "required": {
           "scribe": 1,
           "taverner": 1

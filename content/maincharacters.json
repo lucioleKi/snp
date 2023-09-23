@@ -46,24 +46,30 @@
           "id": "slot.main.temperament.dining.ch1",
           "label": "Temperament",
           "actionid": "explorefort.diningroom",
-          "required": { "temperament": 1 },
+          "essential": {
+            "temperament": 1,
+            "knights": 1
+          },
           "forbidden": { "tired": 1 },
-          "description": "|Temperament slot desc|"
+          "description": "The character acts with a certain mood."
         },
         {
           "id": "slot.main.temperament.training.ch1",
           "label": "Temperament",
           "actionid": "explorefort.trainingyard",
-          "required": { "temperament": 1 },
+          "essential": {
+            "temperament": 1,
+            "knights": 1
+          },
           "forbidden": { "tired": 1 },
-          "description": "|Temperament slot desc|"
+          "description": "The character acts with a certain mood."
         }
       ]
     },
     {
       "id": "scribe",
       "label": "The Scribe",
-      "description": "The scribe is familiar with Latin, the absurdity of indulgence, and which frying fish is the most delicious.",
+      "description": "The scribe is familiar with Latin, the absurdity of indulgence, and which kind of frying fish is the most delicious.",
       "aspects": {
         "maincharacter": 1,
         "skill.observer": 3,
@@ -73,10 +79,31 @@
         {
           "id": "slot.main.letter1",
           "label": "Coin",
-          "actionid": "tavern.private.bedroom",
+          "actionid": "tavern.private.desk",
           "required": { "scribe.sestertius": 1 },
-          "description": "The scribe needs their coin when writing a personal letter to the baron. Why?",
-          "greedy": true
+          "description": "The scribe needs their coin when writing a personal letter to the baron. Why?"
+        },
+        {
+          "id": "slot.main.keeper.scribe",
+          "label": "Temperament",
+          "actionid": "tavern.public.keeperseat",
+          "essential": {
+            "temperament": 1,
+            "scribes": 1
+          },
+          "forbidden": { "tired": 1 },
+          "description": "The character acts with a certain mood."
+        },
+        {
+          "id": "slot.main.market",
+          "label": "Temperament",
+          "actionid": "market.buy",
+          "essential": {
+            "temperament": 1,
+            "scribes": 1
+          },
+          "forbidden": { "tired": 1 },
+          "description": "The character acts with a certain mood."
         }
       ]
     },
@@ -87,8 +114,32 @@
       "aspects": {
         "maincharacter": 1,
         "skill.fishmonger": 3,
-        "skill.lancer": 3
-      }
+        "skill.brewer": 3
+      },
+      "slots": [
+        {
+          "id": "slot.main.keeper.taverner",
+          "label": "Temperament",
+          "actionid": "tavern.public.keeperseat",
+          "essential": {
+            "temperament": 1,
+            "taverners": 1
+          },
+          "forbidden": { "tired": 1 },
+          "description": "The character acts with a certain mood."
+        },
+        {
+          "id": "slot.main.market",
+          "label": "Temperament",
+          "actionid": "market.buy",
+          "essential": {
+            "temperament": 1,
+            "taverners": 1
+          },
+          "forbidden": { "tired": 1 },
+          "description": "The character acts with a certain mood."
+        }
+      ]
     },
     {
       "id": "doctor",
@@ -101,9 +152,9 @@
       }
     },
     {
-      "id": "prior",
-      "label": "The Prior",
-      "description": "The prior comes from a wealthy family in a foreign land. They are charismatic and diligent.",
+      "id": "vicar",
+      "label": "The Vicar",
+      "description": "The vicar comes from a wealthy family in a foreign land. They are charismatic and diligent.",
       "aspects": {
         "maincharacter": 1,
         "skill.orator": 3,

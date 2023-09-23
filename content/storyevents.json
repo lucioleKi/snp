@@ -6,8 +6,46 @@
       "description": "|Event: Fort Main Hall desc|",
       "aspects": {
         "storyevent": 1
-      }
-
+      },
+      "slots": [
+        {
+          "id": "slot.main.ch1.knight",
+          "label": "Character",
+          "actionid": "explorefort.mainhall",
+          "required": {
+            "knight": 1
+          },
+          "description": "The scribe should wait for the taverner on the pier."
+        }
+      ]
+    },
+    {
+      "id": "ch2.boat",
+      "label": "Event: Pier",
+      "description": "|Event: Pier desc|",
+      "aspects": {
+        "storyevent": 1
+      },
+      "slots": [
+        {
+          "id": "slot.main.ch2.taverner",
+          "label": "Character",
+          "actionid": "pier",
+          "required": {
+            "taverner": 1
+          },
+          "description": "The scribe should wait for the taverner on the pier."
+        },
+        {
+          "id": "slot.main.ch2.scribe",
+          "label": "Character",
+          "actionid": "pier",
+          "required": {
+            "scribe": 1
+          },
+          "description": "The taverner should invite the scribe to come along."
+        }
+      ]
     }
   ]
 }
