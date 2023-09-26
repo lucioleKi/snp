@@ -15,7 +15,16 @@
           "required": {
             "knight": 1
           },
-          "description": "The scribe should wait for the taverner on the pier."
+          "description": "One night, the knight is drinking alone in the main hall."
+        },
+        {
+          "id": "slot.main.ch1.soldier",
+          "label": "Character",
+          "actionid": "explorefort.mainhall",
+          "required": {
+            "soldier": 1
+          },
+          "description": "The soldier hears noise, and treads downstairs."
         }
       ]
     },

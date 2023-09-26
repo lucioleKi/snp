@@ -48,7 +48,10 @@
         {
           "id": "emptyrecipe.fort.trainingyard"
         }
-      ]
+      ],
+      "required":{
+        "soldier": 1
+      }
     },
     {
       "id": "emptyrecipe.fort.mainhall",
@@ -173,8 +176,11 @@
       "purge": {
         "chapter1": 1,
         "knight.sanguine.exhausted": 1,
-        "knight.choleric.exhausted": 1,
-        "ch1.drunk": 1
+        "knight.choleric.exhausted": 1
+        
+      },
+      "effects": {
+        "ch1.drunk": -1
       },
       "requirements": { "ch1.drunk": 1 },
       "inductions": [
@@ -248,6 +254,9 @@
       "tablereqs": { "lawyer": -1 },
       "effects": {
         "lawyer": 1
+      },
+      "xpans": {
+        "givegold": 3
       }
     },
     {
@@ -266,6 +275,9 @@
       "tablereqs": { "lawyer": -1 },
       "effects": {
         "lawyer": 1
+      },
+      "xpans": {
+        "givegold": 2
       }
     },
     {
@@ -279,7 +291,10 @@
       "aspects": {
         "exhausted": 1
       },
-      "requirements": { "taverner.sanguine": 1 }
+      "requirements": { "taverner.sanguine": 1 },
+      "xpans": {
+        "givegold": 3
+      }
     },
     {
       "id": "recipe.tavern.keeperseat.taverner1b",
@@ -292,8 +307,10 @@
       "aspects": {
         "exhausted": 1
       },
-      "requirements": { "taverner.melancholic": 1 }
-
+      "requirements": { "taverner.melancholic": 1 },
+      "xpans": {
+        "givegold": 2
+      }
     },
     {
       "id": "recipe.tavern.keeperseat.scribe1a",
@@ -306,7 +323,10 @@
       "aspects": {
         "exhausted": 1
       },
-      "requirements": { "scribe.sanguine": 1 }
+      "requirements": { "scribe.sanguine": 1 },
+      "xpans": {
+        "givegold": 2
+      }
 
     },
     {
@@ -320,8 +340,10 @@
       "aspects": {
         "exhausted": 1
       },
-      "requirements": { "scribe.phlegmatic": 1 }
-
+      "requirements": { "scribe.phlegmatic": 1 },
+      "xpans": {
+        "givegold": 1
+      }
     },
     {
       "id": "emptyrecipe.market.buy",
@@ -351,7 +373,7 @@
         "shoppinglist.tavern.ch2": 1
       },
       "xpans": {
-        "givegold": -4
+        "givegold": -1
       },
       "effects": {
         "ch2.boat": 1
@@ -373,7 +395,10 @@
       "aspects": {
         "recharge": 1
       },
-      "requirements": { "ch2.boat": 1 }
+      "requirements": { "ch2.boat": 1 },
+      "effects": {
+        "ch2.boat": -1
+      }
       
     }
   ]

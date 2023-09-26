@@ -163,7 +163,7 @@
       "isAspect": true
     },
     {
-      "id": "vicar",
+      "id": "vicars",
       "label": "Belongs to Vicar",
       "description": "This belongs to the Vicar, whatever it means.",
       "isAspect": true

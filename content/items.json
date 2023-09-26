@@ -5,13 +5,14 @@
       "label": "Pouch: Taverner and Scribe's",
       "description": "|Pouch desc|",
       "aspects": {
-        "denier": 15
+        "denier": 15,
+        "taverners": 1,
+        "scribes": 1
       },
       "xtriggers": {
         "givegold": {
           "id": "denier",
-          "morpheffect": "mutate",
-          "level": -5
+          "morpheffect": "mutate"
         }
       }
     },

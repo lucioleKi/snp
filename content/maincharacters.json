@@ -35,14 +35,6 @@
           "description": "The knight should invite the soldier to come along."
         },
         {
-          "id": "slot.main.story.mainhall.ch1",
-          "label": "Story Event",
-          "actionid": "explorefort.mainhall",
-          "required": { "ch1.drunk": 1 },
-          "description": "|Story event slot desc|",
-          "consumes": true
-        },
-        {
           "id": "slot.main.temperament.dining.ch1",
           "label": "Temperament",
           "actionid": "explorefort.diningroom",
@@ -104,6 +96,16 @@
           },
           "forbidden": { "tired": 1 },
           "description": "The character acts with a certain mood."
+        },
+        {
+          "id": "slot.main.market.pouch",
+          "label": "Money",
+          "actionid": "market.buy",
+          "essential": {
+            "denier": 1,
+            "scribes": 1
+          },
+          "description": "The character needs to bring money."
         }
       ]
     },
@@ -138,6 +140,16 @@
           },
           "forbidden": { "tired": 1 },
           "description": "The character acts with a certain mood."
+        },
+        {
+          "id": "slot.main.market.pouch",
+          "label": "Money",
+          "actionid": "market.buy",
+          "essential": {
+            "denier": 1,
+            "taverners": 1
+          },
+          "description": "The character needs to bring money."
         }
       ]
     },
