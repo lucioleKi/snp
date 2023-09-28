@@ -37,6 +37,12 @@
       "isAspect": true
     },
     {
+      "id": "endofchapter",
+      "label": "End of Chapter",
+      "description": "This event will end the chapter.",
+      "isAspect": true
+    },
+    {
       "id": "skill.hunter",
       "label": "Skill: Hunter",
       "description": "|Skill: Hunter desc|",
@@ -111,7 +117,7 @@
     {
       "id": "mainmemory",
       "label": "Memory",
-      "description": "This is a main character's memory. It might be important, who knows.",
+      "description": "This is a main character's memory. It might be important enough to change an action in the future.",
       "isAspect": true
     },
     {
@@ -130,6 +136,12 @@
       "id": "poison",
       "label": "Poison",
       "description": "|Poison desc|",
+      "isAspect": true
+    },
+    {
+      "id": "medicine",
+      "label": "Medicine",
+      "description": "|Medicine desc|",
       "isAspect": true
     },
     {

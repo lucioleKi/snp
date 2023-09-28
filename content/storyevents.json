@@ -1,11 +1,40 @@
 {
   "elements": [
     {
+      "id": "ch1.tower",
+      "label": "Event: Tower",
+      "description": "|Event: Fort Tower desc|",
+      "aspects": {
+        "storyevent": 1
+      },
+      "slots": [
+        {
+          "id": "slot.main.ch1.knight",
+          "label": "Character",
+          "actionid": "explorefort.tower",
+          "required": {
+            "knight": 1
+          },
+          "description": "|tower event desc|"
+        },
+        {
+          "id": "slot.main.ch1.soldier",
+          "label": "Character",
+          "actionid": "explorefort.tower",
+          "required": {
+            "soldier": 1
+          },
+          "description": "|tower event desc|"
+        }
+      ]
+    },
+    {
       "id": "ch1.drunk",
       "label": "Event: Fort Main Hall",
       "description": "|Event: Fort Main Hall desc|",
       "aspects": {
-        "storyevent": 1
+        "storyevent": 1,
+        "endofchapter": 1
       },
       "slots": [
         {
@@ -33,6 +62,7 @@
       "label": "Event: Pier",
       "description": "|Event: Pier desc|",
       "aspects": {
+        "endofchapter": 1,
         "storyevent": 1
       },
       "slots": [

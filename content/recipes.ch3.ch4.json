@@ -1,0 +1,45 @@
+{
+  "recipes": [
+    {
+      "id": "recipe.church.garden.ch3a",
+      "actionid": "church.garden",
+      "label": "Monastery Garden: Herbalist",
+      "craftable": true,
+      "startdescription": "|Monastery Garden: Herbalist start desc|",
+      "description": "|Monastery Garden: Herbalist desc|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "maincharacter",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.herbalist"
+        }
+      ],
+      "requirements": {
+        "doctor.phlegmatic": 1
+      }
+    },
+    {
+      "id": "recipe.church.garden.ch3b",
+      "actionid": "church.garden",
+      "label": "Monastery Garden: Gathering Herbs",
+      "craftable": true,
+      "startdescription": "|Monastery Garden: Gathering Herbs start desc|",
+      "description": "|Monastery Garden: Gathering Herbs desc|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "effects": {
+        "medicine.coriander": 1
+      },
+      "requirements": {
+        "doctor.melancholic": 1
+      }
+    }
+  ]
+}

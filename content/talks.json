@@ -1,0 +1,54 @@
+{
+  "recipes": [
+    {
+      "id": "recipe.ch1.traveltofort",
+      "actionid": "converse",
+      "label": "Travel to Fort",
+      "craftable": true,
+      "startdescription": "<i>\"We should catch up more later. I haven't even told you about the archbishop.\"</i>\nAs the knight shows them to the extra horse, the soldier smiles to him: <i>\"You'll have plenty of time. Let's go now.\"</i>",
+      "description": "They rode through the town and the forest. The fort sits atop a hillock, with a drawbridge already down. The soldier's mouth hangs slightly open as they enter the fort.",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "inductions": [
+        {
+          "id": "emptyrecipe.fort.mainhall"
+        },
+        {
+          "id": "emptyrecipe.fort.diningroom"
+        },
+        {
+          "id": "emptyrecipe.fort.tower"
+        },
+        {
+          "id": "emptyrecipe.fort.trainingyard"
+        }
+      ],
+      "required": {
+        "knight": 1
+      },
+      "tablereqs": {
+        "chapter1": 1
+      },
+      "effects": {
+        "ch1.tower": 1
+      }
+    },
+    {
+      "id": "recipe.ch2.scribetaverner",
+      "actionid": "converse",
+      "label": "|Scribe taverner conversation|",
+      "craftable": true,
+      "startdescription": "|recipe.ch2.scribetaverner start desc|",
+      "description": "|recipe.ch2.scribetaverner desc|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "required": {
+        "scribe": 1,
+        "taverner": 1
+      },
+      "tablereqs": {
+        "chapter2": 1
+      }
+    }
+  ]
+}

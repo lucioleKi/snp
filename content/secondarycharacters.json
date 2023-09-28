@@ -58,9 +58,9 @@
       }
     },
     {
-      "id": "lawyer",
-      "label": "The Lawyer",
-      "description": "|A calm and patient lawyer.|",
+      "id": "arbitrator",
+      "label": "The Arbitrator",
+      "description": "|A calm and patient arbitrator.|",
       "aspects": {
         "secondarycharacter": 1
       }

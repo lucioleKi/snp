@@ -27,6 +27,22 @@
       "description": "Onion for fermenting herrings, peas, and beer hops green as spring. The taverner must have left the shopping list here intentionally. Time to head to the market."
     },
     {
+      "id": "shoppinglist.tavern.ch3",
+      "label": "Shopping List For The Week",
+      "description": "|Shopping list ch 3|"
+
+    },
+    {
+      "id": "doctor.kit",
+      "label": "Doctor's Kit",
+      "description": "|Doctor's Kit desc|"
+    },
+    {
+      "id": "bishop.brooch",
+      "label": "Brooch",
+      "description": "|Brooch desc|"
+    },
+    {
       "id": "poison.hemlock",
       "label": "Hemlock",
       "description": "|Hemlock is a highly poisonous plant that has been used as a poison in various works of literature. It can cause paralysis and respiratory failure.|",
@@ -85,6 +101,25 @@
         "plant": 1,
         "poison": 1
       }
+    },
+    {
+      "id": "medicine.comfrey",
+      "label": "Comfrey",
+      "description": "|Its roots and leaves contain allantoin and rosmarinic acid. They make skins and bones grow faster, and relieve pain and inflammation.|",
+      "aspects": {
+        "plant": 1,
+        "medicine": 1
+      }
+    },
+    {
+      "id": "medicine.coriander",
+      "label": "Coriander",
+      "description": "|Its leaves taste distinctly different from the roots. Besides pickling vegetables and making sausages, coriander also makes the fever goes down.|",
+      "aspects": {
+        "plant": 1,
+        "medicine": 1
+      }
     }
+  
   ]
 }

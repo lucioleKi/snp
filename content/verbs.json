@@ -15,15 +15,15 @@
       }
     },
     {
-      "id": "traveltofort",
-      "label": "Travel",
-      "description": "|Travel description|",
+      "id": "converse",
+      "label": "Talk",
+      "description": "Two characters can talk about life, gossip, or the inevitability of death.",
       "slot": {
-        "id": "traveltofortslot",
+        "id": "converseslot",
         "label": "Character",
-        "description": "|Knight needs to travel with soldier|",
+        "description": "There must be at least one main character among the two.",
         "required": {
-          "knight": 1
+          "maincharacter": 1
         }
       }
     },
@@ -62,10 +62,11 @@
       "description": "|Fort Tower description|",
       "slot": {
         "id": "explorefortslot.tower",
-        "label": "Character",
+        "label": "Character/Event",
         "description": "Exploring the Fort Tower requires at least one main character.",
         "required": {
-          "maincharacter": 1
+          "maincharacter": 1,
+          "storyevent": 1
         }
       }
     },
@@ -122,6 +123,49 @@
         "required": {
           "scribe": 1,
           "taverner": 1
+        }
+      }
+    },
+    {
+      "id": "church.tower.workstation",
+      "label": "Monastery East Tower: Workstation",
+      "description": "|Workstation desc|",
+      "slot": {
+        "id": "workstationslot.character",
+        "label": "Character",
+        "description": "Using the workstation requires at least one person.",
+        "required": {
+          "doctor": 1
+        }
+      }
+    },
+    {
+      "id": "church.garden",
+      "label": "Monastery: Garden",
+      "description": "|Monastery garden desc|",
+      "slot": {
+        "id": "gardenslot.character",
+        "label": "Character",
+        "description": "Going to the garden requires at least one person.",
+        "required": {
+          "bishop": 1,
+          "doctor": 1,
+          "vicar": 1
+        }
+      }
+    },
+    {
+      "id": "church.infirmary",
+      "label": "Monastery: Infirmary",
+      "description": "|Monastery infirmary desc|",
+      "slot": {
+        "id": "infirmaryslot.character",
+        "label": "Character",
+        "description": "Going to the infirmary requires at least one person.",
+        "required": {
+          "bishop": 1,
+          "doctor": 1,
+          "vicar": 1
         }
       }
     }

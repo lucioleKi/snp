@@ -20,68 +20,6 @@
       ]
     },
     {
-      "id": "emptyrecipe.traveltofort",
-      "actionid": "traveltofort",
-      "label": "Conversation",
-      "startdescription": "",
-      "description": "The knight frowns: <i>\"You brought everything with you? No more consideration needed?\"</i>\nThe soldier simply replies: <i>\"I'd follow you anywhere, as long as you'll have me.\"</i>"
-    },
-    {
-      "id": "recipe.traveltofort",
-      "actionid": "traveltofort",
-      "label": "Travel to Fort",
-      "craftable": true,
-      "startdescription": "<i>\"We should catch up more later. I haven't even told you about the archbishop.\"</i>\nAs the knight shows them to the extra horse, the soldier smiles to him: <i>\"You'll have plenty of time. Let's go now.\"</i>",
-      "description": "They rode through the town and the forest. The fort sits atop a hillock, with a drawbridge already down. The soldier's mouth hangs slightly open as they enter the fort.",
-      "warmup": 1,
-      "maxexecutions": 1,
-      "inductions": [
-        {
-          "id": "emptyrecipe.fort.mainhall"
-        },
-        {
-          "id": "emptyrecipe.fort.diningroom"
-        },
-        {
-          "id": "emptyrecipe.fort.tower"
-        },
-        {
-          "id": "emptyrecipe.fort.trainingyard"
-        }
-      ],
-      "required":{
-        "soldier": 1
-      }
-    },
-    {
-      "id": "emptyrecipe.fort.mainhall",
-      "actionid": "explorefort.mainhall",
-      "label": "Location Discoverd: Main Hall",
-      "startdescription": "",
-      "description": "The main hall is elaborated decorated with tapestries. The knight explains: <i>\"Before the baron left, they renovated the whole fort.\"</i>"
-    },
-    {
-      "id": "emptyrecipe.fort.diningroom",
-      "actionid": "explorefort.diningroom",
-      "label": "Location Discoverd: Dining Room",
-      "startdescription": "",
-      "description": "The knight lead them to the table: <i>\"Have some bread and wine if you're hungry. They might not be as tasty as the ones you bake. I hope you don't mind.\"</i>"
-    },
-    {
-      "id": "emptyrecipe.fort.tower",
-      "actionid": "explorefort.tower",
-      "label": "Location Discoverd: Tower",
-      "startdescription": "",
-      "description": "After showing the soldier their new bedroom, the knight stops before the stairs leading to the tower. <i>\"Get some wine for me, would you? Then we'll go up the tower together.\"</i>"
-    },
-    {
-      "id": "emptyrecipe.fort.trainingyard",
-      "actionid": "explorefort.trainingyard",
-      "label": "Location Discoverd: Training Yard",
-      "startdescription": "",
-      "description": "The knight kindly reminds the soldier that training is not for today. Tomorrow, they may spar as much as they want."
-    },
-    {
       "id": "recipe.fort.towerconvo",
       "actionid": "explorefort.tower",
       "label": "Enjoy View from Top of the Tower",
@@ -90,10 +28,8 @@
       "description": "The soldier murmurs: \"No, you could’ve...\" \"Could’ve what? I have no gold, no land of my own. How do I summon anyone with nothing?\" The soldier falls silent for a while, and then they says: \"You always have me.\"",
       "warmup": 1,
       "maxexecutions": 1,
-      "deleteverb": {
-        "traveltofort": 1
-      },
       "effects": {
+        "ch1.tower": -1,
         "ch1.drunk": 1
       }
     },
@@ -108,7 +44,10 @@
       "aspects": {
         "exhausted": 1
       },
-      "requirements": { "knight.sanguine": 1 }
+      "requirements": { "knight.sanguine": 1 },
+      "effects": {
+        "memory.ch1.dining1a": 1
+      }
     },
     {
       "id": "recipe.fort.diningroom.ch1b",
@@ -121,7 +60,10 @@
       "aspects": {
         "exhausted": 1
       },
-      "requirements": { "knight.choleric": 1 }
+      "requirements": { "knight.choleric": 1 },
+      "effects": {
+        "memory.ch1.dining1b": 1
+      }
     },
     {
       "id": "recipe.fort.training.ch1a",
@@ -193,32 +135,6 @@
       ]
     },
     {
-      "id": "emptyrecipe.tavern.keeperseat",
-      "actionid": "tavern.public.keeperseat",
-      "label": "Location Unlocked. Tavern - Keeper's Seat",
-      "startdescription": "",
-      "description": "The taverner sits in the keeper's seat. They serve bread, stew, and wine to the guests, and keep a barely illegible ledger.",
-      "effects": {
-        "taverner": 1,
-        "taverner.sanguine": 1,
-        "taverner.melancholic": 1,
-        "pouch.tavern": 1
-      }
-    },
-    {
-      "id": "emptyrecipe.tavern.desk",
-      "actionid": "tavern.private.desk",
-      "label": "Location Unlocked. Tavern: Owners' Room - Desk",
-      "startdescription": "",
-      "description": "The scribe sits in front of the desk, reading a letter. The letter is from the baron, who agreed to rent out their fort to the knight.",
-      "effects": {
-        "scribe": 1,
-        "scribe.sanguine": 1,
-        "scribe.phlegmatic": 1,
-        "scribe.sestertius": 1
-      }
-    },
-    {
       "id": "recipe.tavern.bedroom.letter1",
       "actionid": "tavern.private.desk",
       "label": "Writing: Letter to the Baron",
@@ -251,9 +167,9 @@
         "exhausted": 1
       },
       "requirements": { "taverner.sanguine": 1 },
-      "tablereqs": { "lawyer": -1 },
+      "tablereqs": { "arbitrator": -1 },
       "effects": {
-        "lawyer": 1
+        "arbitrator": 1
       },
       "xpans": {
         "givegold": 3
@@ -272,9 +188,9 @@
         "exhausted": 1
       },
       "requirements": { "taverner.melancholic": 1 },
-      "tablereqs": { "lawyer": -1 },
+      "tablereqs": { "arbitrator": -1 },
       "effects": {
-        "lawyer": 1
+        "arbitrator": 1
       },
       "xpans": {
         "givegold": 2
@@ -346,14 +262,6 @@
       }
     },
     {
-      "id": "emptyrecipe.market.buy",
-      "actionid": "market.buy",
-      "label": "Location Unlocked: Market",
-      "startdescription": "",
-      "description": "|Market buy emptyrecipe desc|"
-
-    },
-    {
       "id": "recipe.market.buy.ch2",
       "actionid": "market.buy",
       "label": "Market: Browsing and Shopping",
@@ -388,7 +296,7 @@
       "startdescription": "|recipe.pier.boat.ch2 start desc|",
       "description": "|recipe.pier.boat.ch2 desc|",
       "maxexecutions": 1,
-      "warmup": 1,
+      "warmup": 10,
       "purge": {
         "chapter2": 1
       },
@@ -398,8 +306,30 @@
       "requirements": { "ch2.boat": 1 },
       "effects": {
         "ch2.boat": -1
-      }
-      
+      },
+      "inductions": [
+        {
+          "id": "emptyrecipe.church.tower"
+        },
+        {
+          "id": "emptyrecipe.church.garden"
+        }
+
+      ],
+      "slots": [
+        {
+          "id": "slot.ch2.boatqte",
+          "label": "Temperament",
+          "essential": {
+            "temperament": 1
+          },
+          "required": {
+            "scribes": 1,
+            "taverners": 1
+          },
+          "forbidden": { "tired": 1 }
+        }
+      ]
     }
   ]
 }
