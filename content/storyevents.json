@@ -85,6 +85,45 @@
           "description": "The taverner should invite the scribe to come along."
         }
       ]
-    }
+    },
+    {
+      "id": "ch3.treatment",
+      "label": "Event: Bishop's Room",
+      "description": "|Event: Bishop's Room desc|",
+      "aspects": {
+        "storyevent": 1
+      },
+      "slots": [
+        {
+          "id": "slot.main.ch3.doctor",
+          "label": "Character",
+          "actionid": "church.bishops",
+          "required": {
+            "doctor": 1
+          },
+          "description": "The doctor must go treat the patient."
+        },
+        {
+          "id": "slot.main.ch2.bishop",
+          "label": "Character",
+          "actionid": "church.bishops",
+          "required": {
+            "bishop.sick": 1
+          },
+          "greedy": "True",
+          "description": "The bishop lies unconscious on the bed."
+        },
+        {
+          "id": "slot.main.ch2.lord",
+          "label": "Character",
+          "actionid": "church.bishops",
+          "required": {
+            "lord": 1
+          },
+          "description": "The lord does not want to leave the bishop, in case they would wake up."
+        }
+      ]
+    },
+    
   ]
 }

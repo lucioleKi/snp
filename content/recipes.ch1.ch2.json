@@ -31,7 +31,8 @@
       "effects": {
         "ch1.tower": -1,
         "ch1.drunk": 1
-      }
+      },
+      "requirements": { "ch1.tower": 1 }
     },
     {
       "id": "recipe.fort.diningroom.ch1a",
@@ -298,10 +299,13 @@
       "maxexecutions": 1,
       "warmup": 10,
       "purge": {
-        "chapter2": 1
-      },
-      "aspects": {
-        "recharge": 1
+        "chapter2": 1,
+        "knight.sanguine.exhausted": 1,
+        "knight.choleric.exhausted": 1,
+        "taverner.sanguine.exhausted": 1,
+        "taverner.melancholic.exhausted": 1,
+        "scribe.sanguine.exhausted": 1,
+        "scribe.phlegmatic.exhausted": 1
       },
       "requirements": { "ch2.boat": 1 },
       "effects": {
@@ -313,6 +317,9 @@
         },
         {
           "id": "emptyrecipe.church.garden"
+        },
+        {
+          "id": "emptyrecipe.church.bishops"
         }
 
       ],

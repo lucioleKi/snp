@@ -33,11 +33,6 @@
 
     },
     {
-      "id": "doctor.kit",
-      "label": "Doctor's Kit",
-      "description": "|Doctor's Kit desc|"
-    },
-    {
       "id": "bishop.brooch",
       "label": "Brooch",
       "description": "|Brooch desc|"

@@ -199,6 +199,17 @@
           },
           "forbidden": { "tired": 1 },
           "description": "The character acts with a certain mood."
+        },
+        {
+          "id": "slot.main.temperament.workstation.ch3",
+          "label": "Temperament",
+          "actionid": "church.tower.workstation",
+          "essential": {
+            "temperament": 1,
+            "doctors": 1
+          },
+          "forbidden": { "tired": 1 },
+          "description": "The character acts with a certain mood."
         }
       ]
     },

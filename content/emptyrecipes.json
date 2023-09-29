@@ -78,8 +78,7 @@
       "effects": {
         "doctor": 1,
         "doctor.melancholic": 1,
-        "doctor.phlegmatic": 1,
-        "doctor.kit": 1
+        "doctor.phlegmatic": 1
       }
     },
     {
@@ -87,18 +86,31 @@
       "actionid": "church.garden",
       "label": "Location Unlocked: Monastry - Garden",
       "startdescription": "",
-      "description": "|Monastry - Garden emptyrecipe desc|"
+      "description": "|Monastry - Garden emptyrecipe desc|",
+      "effects": {
+        "ch3.treatment": 1
+      }
     },
     {
-      "id": "emptyrecipe.church.infirmary",
-      "actionid": "church.infirmary",
-      "label": "Location Unlocked: Monastry - Infirmary",
+      "id": "emptyrecipe.church.bishops",
+      "actionid": "church.bishops",
+      "label": "Location Unlocked: Monastry - Bishop's (Temporary) Room",
       "startdescription": "",
       "description": "|Monastry - Infirmary emptyrecipe desc|",
       "effects": {
         "lord": 1,
         "bishop.sick": 1,
         "bishop.brooch": 1
+      }
+    },
+    {
+      "id": "emptyrecipe.church.priors",
+      "actionid": "church.priors",
+      "label": "Location Unlocked: Monastry - Prior's Room",
+      "startdescription": "",
+      "description": "|Monastry - Prior's Room emptyrecipe desc|",
+      "effects": {
+        "prior": 1
       }
     }
   ]

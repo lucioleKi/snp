@@ -45,13 +45,13 @@
     {
       "id": "skill.hunter",
       "label": "Skill: Hunter",
-      "description": "|Skill: Hunter desc|",
+      "description": "The character is specialized in hunting using bows and arrows. They have a good eye for preys.",
       "isAspect": true
     },
     {
       "id": "skill.scholar",
       "label": "Skill: Scholar",
-      "description": "|Skill: Scholar desc|",
+      "description": "The character is a book-worm in their area of interests, delving deep and eager to learn.",
       "isAspect": true
     },
     {
@@ -93,25 +93,25 @@
     {
       "id": "skill.alchemist",
       "label": "Skill: Alchemist",
-      "description": "|Skill: Alchemist desc|",
+      "description": "The character believes in their power of making pure gold or panacea, sometimes also medicine.",
       "isAspect": true
     },
     {
       "id": "skill.herbalist",
       "label": "Skill: Herbalist",
-      "description": "|Skill: Herbalist desc|",
+      "description": "The character is knowledgeable about various herbs and their effects.",
       "isAspect": true
     },
     {
       "id": "skill.orator",
       "label": "Skill: Orator",
-      "description": "|Skill: Orator desc|",
+      "description": "The character is eloquent and good at giving speeches.",
       "isAspect": true
     },
     {
       "id": "skill.theologian",
       "label": "Skill: Theologian",
-      "description": "|Skill: Theologian desc|",
+      "description": "The character is devoted to the study of God and His words, sometimes also bring theology into practice.",
       "isAspect": true
     },
     {
@@ -123,25 +123,25 @@
     {
       "id": "denier",
       "label": "Denier",
-      "description": "|Denier desc|",
+      "description": "Silver coin. A denier can buy a dozen of eggs.",
       "isAspect": true
     },
     {
       "id": "plant",
       "label": "Plant",
-      "description": "|Plant desc|",
+      "description": "Trees, flowers, herbs, but not mushrooms.",
       "isAspect": true
     },
     {
       "id": "poison",
       "label": "Poison",
-      "description": "|Poison desc|",
+      "description": "If you consume them, maybe you'll die, maybe you'll grow tentacles. Who knows?",
       "isAspect": true
     },
     {
       "id": "medicine",
       "label": "Medicine",
-      "description": "|Medicine desc|",
+      "description": "Chemicals or herbs that can alleviate or cure diseases, illnesses, or injuries. They are not always effective.",
       "isAspect": true
     },
     {

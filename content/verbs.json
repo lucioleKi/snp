@@ -30,7 +30,7 @@
     {
       "id": "explorefort.mainhall",
       "label": "Fort: Main Hall",
-      "description": "|Fort Main Hall description|",
+      "description": "The main hall is decorated with tapestries and ornaments from different origins. A deer head hangs above the fireplace. One can always find a piece of memory here.",
       "slot": {
         "id": "explorefortslot.mainhall",
         "label": "Character/Event",
@@ -45,7 +45,7 @@
     {
       "id": "explorefort.diningroom",
       "label": "Fort: Dining Room",
-      "description": "|Fort Dining Room description|",
+      "description": "The dining room is where the baron used to host banquets. Besides the bread on the long table, one can always find a piece of memory here.",
       "slot": {
         "id": "explorefortslot.diningroom",
         "label": "Character",
@@ -59,7 +59,7 @@
     {
       "id": "explorefort.tower",
       "label": "Fort: Tower",
-      "description": "|Fort Tower description|",
+      "description": "The tower provides a nice view. On a clear day, one can see both the sea and the monastery from here.",
       "slot": {
         "id": "explorefortslot.tower",
         "label": "Character/Event",
@@ -73,7 +73,7 @@
     {
       "id": "explorefort.trainingyard",
       "label": "Fort: Training Yard",
-      "description": "|Fort Training Yard description|",
+      "description": "The training yard is a large dirt ground within the fort yard. It has a weapon rack, and the stable is nearby. ",
       "slot": {
         "id": "explorefortslot.trainingyard",
         "label": "Character",
@@ -129,7 +129,7 @@
     {
       "id": "church.tower.workstation",
       "label": "Monastery East Tower: Workstation",
-      "description": "|Workstation desc|",
+      "description": "The workstation was given to the doctor by the prior. The doctor does alchemy experiments and blend herbs here. An oven, a balance, a mortar, and many crystal vials scattered around it.",
       "slot": {
         "id": "workstationslot.character",
         "label": "Character",
@@ -142,7 +142,7 @@
     {
       "id": "church.garden",
       "label": "Monastery: Garden",
-      "description": "|Monastery garden desc|",
+      "description": "The garden in the monastery grows flowers and trees, as well as medicinal herbs.",
       "slot": {
         "id": "gardenslot.character",
         "label": "Character",
@@ -155,17 +155,34 @@
       }
     },
     {
-      "id": "church.infirmary",
-      "label": "Monastery: Infirmary",
+      "id": "church.bishops",
+      "label": "Monastery: Bishop's (Temporary) Room",
       "description": "|Monastery infirmary desc|",
       "slot": {
         "id": "infirmaryslot.character",
-        "label": "Character",
-        "description": "Going to the infirmary requires at least one person.",
+        "label": "Character/Event",
+        "description": "Going to Bishop's Room requires at least one person.",
         "required": {
           "bishop": 1,
           "doctor": 1,
-          "vicar": 1
+          "vicar": 1,
+          "storyevent": 1
+        }
+      }
+    },
+    {
+      "id": "church.priors",
+      "label": "Monastery: Prior's Room",
+      "description": "|Monastery prior's room desc|",
+      "slot": {
+        "id": "infirmaryslot.character",
+        "label": "Character/Event",
+        "description": "Going to Prior's Room requires at least one person.",
+        "required": {
+          "bishop": 1,
+          "doctor": 1,
+          "vicar": 1,
+          "storyevent": 1
         }
       }
     }

@@ -30,6 +30,7 @@
       "craftable": true,
       "startdescription": "|Monastery Garden: Gathering Herbs start desc|",
       "description": "|Monastery Garden: Gathering Herbs desc|",
+      "maxexecutions": 1,
       "warmup": 1,
       "aspects": {
         "exhausted": 1
@@ -40,6 +41,97 @@
       "requirements": {
         "doctor.melancholic": 1
       }
+    },
+    {
+      "id": "recipe.church.workstation.ch3a",
+      "actionid": "church.tower.workstation",
+      "label": "Workstation: Alchemy",
+      "craftable": true,
+      "startdescription": "|Tower Workstation: Alchemy start desc|",
+      "description": "|Tower Workstation: Alchemy desc|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "maincharacter",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.alchemist"
+        }
+      ],
+      "requirements": {
+        "doctor.phlegmatic": 1
+      }
+    },
+    {
+      "id": "recipe.church.ch3.treatment",
+      "actionid": "church.bishops",
+      "label": "Treat the Bishop",
+      "craftable": true,
+      "startdescription": "|recipe.church.ch3.treatment start desc|",
+      "description": "|recipe.church.ch3.treatment desc|",
+      "maxexecutions": 1,
+      "warmup": 10,
+      "effects": {
+        "ch3.treatment": -1
+      },
+      "requirements": {
+        "ch3.treatment": 1
+      },
+      "linked": [
+        {
+          "id": "recipe.church.ch3.treatment.pt2",
+          "chance": 100
+        }
+      ],
+      "inductions": [
+        {
+          "id": "emptyrecipe.church.priors"
+        }
+      ]
+    },
+    {
+      "id": "recipe.church.ch3.treatment.pt2",
+      "actionid": "church.bishops",
+      "label": "Apply some medicine",
+      "startdescription": "|recipe.church.ch3.treatment.pt2 start desc|",
+      "description": "|recipe.church.ch3.treatment.pt2 desc|",
+      "warmup": 10,
+      "slots": [
+        {
+          "id": "slot.main.ch3.coriander",
+          "label": "Medicine",
+          "required": {
+            "medicine": 1
+          }
+        }
+      ],
+      "linked": [
+        {
+          "id": "recipe.church.ch3.treatment.pt3",
+          "chance": 100
+        }
+      ]
+    },
+    {
+      "id": "recipe.church.ch3.treatment.pt3",
+      "actionid": "church.bishops",
+      "label": "The Prior enters",
+      "startdescription": "|recipe.church.ch3.treatment.pt3 start desc|",
+      "description": "|recipe.church.ch3.treatment.pt3 desc|",
+      "warmup": 10,
+      "slots": [
+        {
+          "id": "slot.main.ch3.prior",
+          "label": "Character",
+          "required": {
+            "prior": 1
+          },
+          "greedy": "True"
+        }
+      ]
     }
   ]
 }
