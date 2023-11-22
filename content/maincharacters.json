@@ -6,8 +6,7 @@
       "description": "The bishop looks peaceful and quiet. They have a chest wound, and a brooch.",
       "aspects": {
         "maincharacter": 1,
-        "skill.hunter": 3,
-        "skill.scholar": 3
+        "sick": 5
       }
     },
     {
@@ -221,7 +220,20 @@
         "maincharacter": 1,
         "skill.orator": 3,
         "skill.theologian": 3
-      }
+      },
+      "slots": [
+        {
+          "id": "slot.main.temperament.village.ch3",
+          "label": "Temperament",
+          "actionid": "service.village",
+          "essential": {
+            "temperament": 1,
+            "vicars": 1
+          },
+          "forbidden": { "tired": 1 },
+          "description": "The character acts with a certain mood."
+        }
+      ]
     }
   ]
 }

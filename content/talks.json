@@ -3,7 +3,7 @@
     {
       "id": "recipe.ch1.traveltofort",
       "actionid": "converse",
-      "label": "Travel to Fort",
+      "label": "Conversation: Knight & Soldier (Travel to Fort)",
       "craftable": true,
       "startdescription": "<i>\"We should catch up more later. I haven't even told you about the archbishop.\"</i>\nAs the knight shows them to the extra horse, the soldier smiles to him: <i>\"You'll have plenty of time. Let's go now.\"</i>",
       "description": "They rode through the town and the forest. The fort sits atop a hillock, with a drawbridge already down. The soldier's mouth hangs slightly open as they enter the fort.",
@@ -24,7 +24,8 @@
         }
       ],
       "required": {
-        "knight": 1
+        "knight": 1,
+        "soldier": 1
       },
       "tablereqs": {
         "chapter1": 1
@@ -36,10 +37,10 @@
     {
       "id": "recipe.ch2.scribetaverner",
       "actionid": "converse",
-      "label": "|Scribe taverner conversation|",
+      "label": "Conversation: Scribe & Taverner",
       "craftable": true,
-      "startdescription": "|recipe.ch2.scribetaverner start desc|",
-      "description": "|recipe.ch2.scribetaverner desc|",
+      "startdescription": "One night, the taverner and the scribe are chatting in the private room of tavern.",
+      "description": "\"Are you writing to the Baron again?\"\n\"Yes, to congratulate them about the marriage.\"\n\"They just got married? Thank god. Well, relay my congratulation to them too.\"",
       "warmup": 1,
       "maxexecutions": 1,
       "required": {
@@ -48,6 +49,159 @@
       },
       "tablereqs": {
         "chapter2": 1
+      }
+    },
+    {
+      "id": "recipe.ch2.tavernerarbitrator",
+      "actionid": "converse",
+      "label": "Conversation: Taverner & Arbitrator",
+      "craftable": true,
+      "startdescription": "One afternoon, the taverner and the arbitrator are chatting in the tavern.",
+      "description": "\"Good lord! You heard that the tax for wine has increased a tenth?\"\n\"I have heard about it. Quite unfortunate.\"",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "required": {
+        "arbitrator": 1,
+        "taverner": 1
+      },
+      "tablereqs": {
+        "chapter2": 1
+      }
+    },
+    {
+      "id": "recipe.ch2.scribearbitrator",
+      "actionid": "converse",
+      "label": "Conversation: Scribe & Arbitrator",
+      "craftable": true,
+      "startdescription": "One afternoon, the scribe and the arbitrator are chatting in the tavern.",
+      "description": "\"How was the sermon today?\"\n\"Quite good. It was given by the Vicar today.\"\n\"The Vicar? Interesting.\"",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "required": {
+        "arbitrator": 1,
+        "scribe": 1
+      },
+      "tablereqs": {
+        "chapter2": 1
+      }
+    },
+    {
+      "id": "recipe.ch2.knightsoldier",
+      "actionid": "converse",
+      "label": "Conversation: Knight & Soldier",
+      "craftable": true,
+      "startdescription": "One morning, the knight and the soldier are discussing something in the training yard.",
+      "description": "\"My posture on horseback is still as bad as when I joined the army.\"\n\"That's nonsense! You've improved quite a lot! Besides, you have never been really bad. You just needed more guidance.\"",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "required": {
+        "knight": 1,
+        "soldier": 1
+      },
+      "tablereqs": {
+        "chapter2": 1
+      }
+    },
+    {
+      "id": "recipe.ch3.doctorlord",
+      "actionid": "converse",
+      "label": "Conversation: Doctor & Lord",
+      "craftable": true,
+      "startdescription": "One morning, the knight and the soldier are discussing something in the training yard.",
+      "description": "\"It is a long ride for you to get here. You should get some rest.\"\n\"No need for that. I brought some herbs. See any could be of use.\"",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "required": {
+        "doctor": 1,
+        "lord": 1
+      },
+      "tablereqs": {
+        "chapter3": 1
+      }
+    },
+    {
+      "id": "recipe.ch3.doctorprior",
+      "actionid": "converse",
+      "label": "Conversation: Doctor & Prior",
+      "craftable": true,
+      "startdescription": "One morning, the doctor and the prior are discussing something in the Doctor's tower.",
+      "description": "\"How was your progress with making gold?\"\n\"You remember. Not too well. I wasn't able to purify it.\"\n\"Well, I guess even the alchemists in Paris wasn't good enough to do it.\"\n\"No. No, they were not helpful at all.\"",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "required": {
+        "doctor": 1,
+        "prior": 1
+      },
+      "tablereqs": {
+        "chapter3": 1
+      }
+    },
+    {
+      "id": "recipe.ch3.scribetaverner",
+      "actionid": "converse",
+      "label": "Conversation: Scribe & Taverner",
+      "craftable": true,
+      "startdescription": "One afternoon, the taverner and the scribe are chatting in the tavern.",
+      "description": "\"How's the fishing today?\"\n\"Pretty good. Sold some to the market and here's the rest.\"\n\"What's that in your hand?\"\n\"This?\" The scribe holds up the shining shell in their hand with a smirk, \"a bonus gift.\"",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "required": {
+        "scribe": 1,
+        "taverner": 1
+      },
+      "tablereqs": {
+        "chapter3": 1
+      }
+    },
+    {
+      "id": "recipe.ch3.tavernerarbitrator",
+      "actionid": "converse",
+      "label": "Conversation: Taverner & Arbitrator",
+      "craftable": true,
+      "startdescription": "One morning, the taverner and the arbitrator are chatting in the tavern.",
+      "description": "\"Do you plan to propose to the Scribe soon?\"\n\"Shhh...Don't let them hear about it! But yes, I've been thinking about it for a while. I don't know what the best time is.\"",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "required": {
+        "arbitrator": 1,
+        "taverner": 1
+      },
+      "tablereqs": {
+        "chapter3": 1
+      }
+    },
+    {
+      "id": "recipe.ch3.scribearbitrator",
+      "actionid": "converse",
+      "label": "Conversation: Scribe & Arbitrator",
+      "craftable": true,
+      "startdescription": "|One afternoon, the scribe and the arbitrator are chatting in the tavern.|",
+      "description": "|\"recipe.ch3.scribearbitrator description\"|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "required": {
+        "arbitrator": 1,
+        "scribe": 1
+      },
+      "tablereqs": {
+        "chapter3": 1
+      }
+    },
+    {
+      "id": "recipe.ch3.knightsoldier",
+      "actionid": "converse",
+      "label": "Conversation: Knight & Soldier",
+      "craftable": true,
+      "startdescription": "One morning, the knight and the soldier are discussing something in the training yard.",
+      "description": "\"So, had you been a cook at the tavern ever since you left my troupe?\"\n\"Yes.\"\n\"How have you found your life as a cook.\"\n\"Quite decent. Just a little boring sometimes. Not as exciting as the life in the army.\"",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "required": {
+        "knight": 1,
+        "soldier": 1
+      },
+      "tablereqs": {
+        "chapter3": 1
       }
     }
   ]

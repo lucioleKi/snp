@@ -31,6 +31,12 @@
       "isAspect": true
     },
     {
+      "id": "sick",
+      "label": "Unconscious",
+      "description": "The character is unconscious. They will wake up when this aspect reaches 0.",
+      "isAspect": true
+    },
+    {
       "id": "storyevent",
       "label": "Required Event",
       "description": "This event has to happen somewhere, either with the right or the wrong people, before the story can progress.",

@@ -115,7 +115,7 @@
     {
       "id": "market.buy",
       "label": "Market",
-      "description": "|Market buy desc|",
+      "description": "The market is a lively place filled with mechants of fish, sheep, trinkets, and many others. One can also find selling indulgences.",
       "slot": {
         "id": "marketslot.character",
         "label": "Character",
@@ -157,9 +157,9 @@
     {
       "id": "church.bishops",
       "label": "Monastery: Bishop's (Temporary) Room",
-      "description": "|Monastery infirmary desc|",
+      "description": "This dark and humid room is the bishop's temporary bedroom in the monastery. It has a bed, a closet, a desk, and a large window covered by thick drapes of curtains.",
       "slot": {
-        "id": "infirmaryslot.character",
+        "id": "bishopsslot.character",
         "label": "Character/Event",
         "description": "Going to Bishop's Room requires at least one person.",
         "required": {
@@ -173,14 +173,28 @@
     {
       "id": "church.priors",
       "label": "Monastery: Prior's Room",
-      "description": "|Monastery prior's room desc|",
+      "description": "The prior's room serves not only as their bedroom, but also as a place for small meetings. The room has a round table with chairs, a desk, a map of the town, and a small altar.",
       "slot": {
-        "id": "infirmaryslot.character",
+        "id": "priorsslot.character",
         "label": "Character/Event",
         "description": "Going to Prior's Room requires at least one person.",
         "required": {
           "bishop": 1,
           "doctor": 1,
+          "vicar": 1,
+          "storyevent": 1
+        }
+      }
+    },
+    {
+      "id": "service.village",
+      "label": "Village: Vicar's Home Service",
+      "description": "|Village: Vicar's Home Service desc|",
+      "slot": {
+        "id": "villageslot.character",
+        "label": "Character/Event",
+        "description": "Going to the Village requires at least one person.",
+        "required": {
           "vicar": 1,
           "storyevent": 1
         }

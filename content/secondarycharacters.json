@@ -36,7 +36,7 @@
     {
       "id": "lord",
       "label": "The Neighboring Lord",
-      "description": "|A neighboring lord that visits the local monastry.|",
+      "description": "A neighboring lord, visiting the local monastry.",
       "aspects": {
         "secondarycharacter": 1
       }
@@ -44,7 +44,7 @@
     {
       "id": "prior",
       "label": "The Prior",
-      "description": "|A prior who is not so popolar in the parish.|",
+      "description": "A prior who is not so popolar in the parish.",
       "aspects": {
         "secondarycharacter": 1
       }
@@ -60,7 +60,7 @@
     {
       "id": "arbitrator",
       "label": "The Arbitrator",
-      "description": "|A calm and patient arbitrator.|",
+      "description": "A calm and patient arbitrator.",
       "aspects": {
         "secondarycharacter": 1
       }

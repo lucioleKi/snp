@@ -112,6 +112,18 @@
       "effects": {
         "prior": 1
       }
+    },
+    {
+      "id": "emptyrecipe.village",
+      "actionid": "service.village",
+      "label": "Location Unlocked: Village - Vicar's Home Service",
+      "startdescription": "",
+      "description": "|Village - Vicar's Home Service emptyrecipe desc|",
+      "effects": {
+        "vicar": 1,
+        "vicar.choleric": 1,
+        "vicar.melancholic": 1
+      }
     }
   ]
 }

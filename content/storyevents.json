@@ -3,7 +3,7 @@
     {
       "id": "ch1.tower",
       "label": "Event: Tower",
-      "description": "|Event: Fort Tower desc|",
+      "description": "The sun begins its descent, painting the sky in hues of fiery orange and deep crimson. Amidst the stone walls and looming shadows, the knight and the soldier are drinking on the tower, each lost in their own thoughts.",
       "aspects": {
         "storyevent": 1
       },
@@ -15,7 +15,7 @@
           "required": {
             "knight": 1
           },
-          "description": "|tower event desc|"
+          "description": "The knight likes to gaze out at the monastery afar. It reminds them of many past memories, both bitter and sweet."
         },
         {
           "id": "slot.main.ch1.soldier",
@@ -24,14 +24,14 @@
           "required": {
             "soldier": 1
           },
-          "description": "|tower event desc|"
+          "description": "The soldier follows the knight to the tower. They notice that the knight is trapped in their thoughts."
         }
       ]
     },
     {
       "id": "ch1.drunk",
       "label": "Event: Fort Main Hall",
-      "description": "|Event: Fort Main Hall desc|",
+      "description": "It was deep into the night. The knight is sitting alone in front of the fireplace, sunken deep into the chair. A deer head hangs above the fireplace. Four names were engraved on the antlers, one of which belongs to the knight. It was a gift from the knight to the baron.",
       "aspects": {
         "storyevent": 1,
         "endofchapter": 1
@@ -60,7 +60,7 @@
     {
       "id": "ch2.boat",
       "label": "Event: Pier",
-      "description": "|Event: Pier desc|",
+      "description": "The wind is howling and a storm is about to come. It’s certainly a bad time to sail into the see. But here come the scribe and the taverner, ready to set off.",
       "aspects": {
         "endofchapter": 1,
         "storyevent": 1
@@ -89,7 +89,7 @@
     {
       "id": "ch3.treatment",
       "label": "Event: Bishop's Room",
-      "description": "|Event: Bishop's Room desc|",
+      "description": "The bishop’s room is sultry and smells of blood. The thick curtains are drawn closed. The only lightsource is a dimly lit candle. The bishop lies unconsciously in bed, fatally wounded, their breath shallow. The doctor and the lord are attending to them.",
       "aspects": {
         "storyevent": 1
       },
@@ -124,6 +124,26 @@
         }
       ]
     },
-    
+    {
+      "id": "ch3.memory",
+      "label": "Event: Bishop's Memory",
+      "description": "|Event: Bishop's Memory desc|",
+      "aspects": {
+        "storyevent": 1,
+        "endofchapter": 1
+      },
+      "slots": [
+        {
+          "id": "slot.main.ch2.bishop",
+          "label": "Character",
+          "actionid": "church.bishops",
+          "required": {
+            "bishop.sick": 1
+          },
+          "greedy": "True",
+          "description": "The bishop is having a dream. Or is it a memory?"
+        }
+      ]
+    }
   ]
 }

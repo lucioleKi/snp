@@ -72,7 +72,7 @@
       "label": "Training Yard: Archer",
       "craftable": true,
       "startdescription": "The weapon rack holds a variation of bows and arrows. Maybe this is a day for training aim and accuracy.",
-      "description": "|recipe.fort.training.ch1a desc|",
+      "description": "The strong wind makes it difficult to aim, but it is good practice for fighting in different kinds of weather. \nArchery +1.",
       "warmup": 1,
       "aspects": {
         "exhausted": 1
@@ -93,7 +93,7 @@
       "label": "Training Yard: Lancer",
       "craftable": true,
       "startdescription": "The weapon rack holds a lance, a javlin, and a pike. Maybe this is a day for training strength and equestrian skills.",
-      "description": "|recipe.fort.training.ch1b desc|",
+      "description": "The knight had a good fight with the soldier. They are exhausted but exhilarated after the practice. \nLancing +1.",
       "warmup": 1,
       "aspects": {
         "exhausted": 1
@@ -113,14 +113,14 @@
       "actionid": "explorefort.mainhall",
       "label": "Main Hall: A Drunken Knight",
       "craftable": true,
-      "startdescription": "|Main Hall: A Drunken Knight start desc|",
-      "description": "|Main Hall: A Drunken Knight desc|",
+      "startdescription": "The knight is sitting in front of the fireplace with bottles of wine by the feet. They stared blankly at the stuffed deer head hanging on the wall. Their eyes are bloodshot.",
+      "description": "The knight cried into the arms of the soldier, and it took them a while to comfort the knight.",
       "warmup": 1,
       "purge": {
         "chapter1": 1,
         "knight.sanguine.exhausted": 1,
         "knight.choleric.exhausted": 1
-        
+
       },
       "effects": {
         "ch1.drunk": -1
@@ -140,8 +140,8 @@
       "actionid": "tavern.private.desk",
       "label": "Writing: Letter to the Baron",
       "craftable": true,
-      "startdescription": "|recipe.tavern.bedroom.letter1 starting desc.|",
-      "description": "|recipe.tavern.bedroom.letter1 desc|",
+      "startdescription": "The scribe is writing a secret letter to the baron, asking whether they are willing to rent their fort to the knight.",
+      "description": "As a finishing touch, the scribe imprinted the shape of their coin in the conner or the letter, so no one could counterfeit it. They could send out the letter on their way to shopping on the market. They have a long list of supplies to buy for the tavern.",
       "warmup": 1,
       "maxexecutions": 1,
       "requirements": { "scribe.sestertius": 1 },
@@ -160,8 +160,8 @@
       "actionid": "tavern.public.keeperseat",
       "label": "Be the Tavern Keeper for Today",
       "craftable": true,
-      "startdescription": "|recipe.tavern.keeperseat.taverner1a start desc|",
-      "description": "|recipe.tavern.keeperseat.taverner1a desc|",
+      "startdescription": "The Taverner is humming and hanging some sea shells onto the wall as decorations when the Arbitrator walks in.",
+      "description": "The Taverner greets the Arbitrator with a big smile and a hug. \\\"Haven’t seen you in a while! How\\'s your life going without working for the Church?\" \"Much less stressful. I’m happy about it.\" the Arbitrator smiled warmly.",
       "maxexecutions": 1,
       "warmup": 1,
       "aspects": {
@@ -171,9 +171,6 @@
       "tablereqs": { "arbitrator": -1 },
       "effects": {
         "arbitrator": 1
-      },
-      "xpans": {
-        "givegold": 3
       }
     },
     {
@@ -181,7 +178,7 @@
       "actionid": "tavern.public.keeperseat",
       "label": "Be the Tavern Keeper for Today",
       "craftable": true,
-      "startdescription": "|recipe.tavern.keeperseat.taverner1b start desc|",
+      "startdescription": "The tavern door was opened and the arbitrator walks in. The Taverner cracked out a smile as they saw the Arbitrator.",
       "description": "|recipe.tavern.keeperseat.taverner1b desc|",
       "maxexecutions": 1,
       "warmup": 1,
@@ -192,9 +189,6 @@
       "tablereqs": { "arbitrator": -1 },
       "effects": {
         "arbitrator": 1
-      },
-      "xpans": {
-        "givegold": 2
       }
     },
     {
@@ -202,48 +196,39 @@
       "actionid": "tavern.public.keeperseat",
       "label": "Be the Tavern Keeper for Today",
       "craftable": true,
-      "startdescription": "|recipe.tavern.keeperseat.taverner1a start desc|",
-      "description": "|recipe.tavern.keeperseat.taverner1a desc|",
+      "startdescription": "The Taverner is telling people their sailing stories and bragging about their fishing skills. They start to get drunk. Their laughter fills the tavern.",
+      "description": "The Taverner starts dancing to the music. They look rather foolish, dancing wobbly. Suddenly, they slipped and fell onto the floor. The tavern roars with laughter.",
       "warmup": 1,
       "aspects": {
         "exhausted": 1
       },
-      "requirements": { "taverner.sanguine": 1 },
-      "xpans": {
-        "givegold": 3
-      }
+      "requirements": { "taverner.sanguine": 1 }
     },
     {
       "id": "recipe.tavern.keeperseat.taverner1b",
       "actionid": "tavern.public.keeperseat",
       "label": "Be the Tavern Keeper for Today",
       "craftable": true,
-      "startdescription": "|recipe.tavern.keeperseat.taverner1b start desc|",
-      "description": "|recipe.tavern.keeperseat.taverner1b desc|",
+      "startdescription": "The barley for bread has dwindled sharply. They say a war devoured all the stock. The tavern is also scarcely getting customers. A group of bandits were spotted in the forest south of the town. Fewer travelers are willing to pass by.",
+      "description": "The Taverner sighed. They can only pray they catch enough fish now. Maybe they should not have spent so much on drinking last month.",
       "warmup": 1,
       "aspects": {
         "exhausted": 1
       },
-      "requirements": { "taverner.melancholic": 1 },
-      "xpans": {
-        "givegold": 2
-      }
+      "requirements": { "taverner.melancholic": 1 }
     },
     {
       "id": "recipe.tavern.keeperseat.scribe1a",
       "actionid": "tavern.public.keeperseat",
       "label": "Be the Tavern Keeper for Today",
       "craftable": true,
-      "startdescription": "|recipe.tavern.keeperseat.scribe1a start desc|",
-      "description": "|recipe.tavern.keeperseat.scribe1a desc|",
+      "startdescription": "The scribe is in a talkative mood today. They even listened to complaints about the rising wine taxes. The scribe always finds it amusing that their costumers keep coming back for their wine, since the scribe knows very well that the taverner adds vinegar into the wine…",
+      "description": "In their delight, the scribe flipped a coin in their hands. It lands facing up. They recorded down the result in the back of the ledger.",
       "warmup": 1,
       "aspects": {
         "exhausted": 1
       },
-      "requirements": { "scribe.sanguine": 1 },
-      "xpans": {
-        "givegold": 2
-      }
+      "requirements": { "scribe.sanguine": 1 }
 
     },
     {
@@ -251,24 +236,21 @@
       "actionid": "tavern.public.keeperseat",
       "label": "Be the Tavern Keeper for Today",
       "craftable": true,
-      "startdescription": "|recipe.tavern.keeperseat.scribe1b start desc|",
-      "description": "|recipe.tavern.keeperseat.scribe1b desc|",
+      "startdescription": "The scribe isn’t in the mood to chat with customers today and is busy checking the ledger.",
+      "description": "There are a few suspicious spendings, obviously written by the taverner. The scribe decides to keep a closer eye on them with the increasing wine tax.",
       "warmup": 1,
       "aspects": {
         "exhausted": 1
       },
-      "requirements": { "scribe.phlegmatic": 1 },
-      "xpans": {
-        "givegold": 1
-      }
+      "requirements": { "scribe.phlegmatic": 1 }
     },
     {
       "id": "recipe.market.buy.ch2",
       "actionid": "market.buy",
       "label": "Market: Browsing and Shopping",
       "craftable": true,
-      "startdescription": "",
-      "description": "|Market buy desc|",
+      "startdescription": "They sold a bag of fish the taverner just caught this morning and had a cheerful chat with the buyer. They then go to buy some flour and salt.",
+      "description": "They are attracted by exotic-looking merchants, who sell dried lamb and exotic herbs. They poke their head into the crowd to get a closer look, but is disappointed by the price. “Dishonest merchants.” They mutters under their breath.",
       "warmup": 1,
       "purge": {
         "shoppinglist.tavern.ch2": 1
@@ -281,9 +263,6 @@
         "chapter2": 1,
         "shoppinglist.tavern.ch2": 1
       },
-      "xpans": {
-        "givegold": -1
-      },
       "effects": {
         "ch2.boat": 1
       }
@@ -294,8 +273,8 @@
       "label": "A conversation at sea",
       "verbicon": "icon.pier.boat.ch2",
       "craftable": true,
-      "startdescription": "|recipe.pier.boat.ch2 start desc|",
-      "description": "|recipe.pier.boat.ch2 desc|",
+      "startdescription": "\"You still don’t intend to tell me the whole story, do you?\" inquires the Taverner.\n\"I've told you everything I could.\" sighs the scribe, \"Curiosity would lure you into danger.\"",
+      "description": "After a long silence, the scribe says: \"I do what I consider right. If the road ahead is destined to be rough, come what may.\"\n\"I would never want to see you in danger. But if you are determined to go down this path, I’ll follow you anywhere.\" says the taverner. They leaned forward to kiss each other.",
       "maxexecutions": 1,
       "warmup": 10,
       "purge": {
@@ -336,7 +315,10 @@
           },
           "forbidden": { "tired": 1 }
         }
-      ]
+      ],
+      "xpans": {
+        "givegold": -1
+      }
     }
   ]
 }

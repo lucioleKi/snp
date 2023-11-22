@@ -12,7 +12,8 @@
       "xtriggers": {
         "givegold": {
           "id": "denier",
-          "morpheffect": "mutate"
+          "morpheffect": "mutate",
+          "level": -5
         }
       }
     },
@@ -40,7 +41,7 @@
     {
       "id": "poison.hemlock",
       "label": "Hemlock",
-      "description": "|Hemlock is a highly poisonous plant that has been used as a poison in various works of literature. It can cause paralysis and respiratory failure.|",
+      "description": "Hemlock is a highly poisonous plant that has been used as a poison in various works of literature. It can cause paralysis and respiratory failure.",
       "aspects": {
         "plant": 1,
         "poison": 1
@@ -49,7 +50,7 @@
     {
       "id": "poison.cyanide",
       "label": "Cyanide",
-      "description": "|Cyanide is a fast-acting poison that affects the body's ability to use oxygen. It can cause rapid loss of consciousness and cardiac arrest.|",
+      "description": "Cyanide is a fast-acting poison that affects the body's ability to use oxygen. It can cause rapid loss of consciousness and cardiac arrest.",
       "aspects": {
         "poison": 1
       }
@@ -57,7 +58,7 @@
     {
       "id": "poison.nightshade",
       "label": "Nightshade",
-      "description": "|Nightshade plants, such as Belladonna or Deadly Nightshade, contain toxic compounds that can cause hallucinations, respiratory distress, and even death.|",
+      "description": "Nightshade plants, such as Belladonna or Deadly Nightshade, contain toxic compounds that can cause hallucinations, respiratory distress, and even death.",
       "aspects": {
         "plant": 1,
         "poison": 1
@@ -66,7 +67,7 @@
     {
       "id": "poison.strychnine",
       "label": "Strychnine",
-      "description": "|Strychnine is a highly toxic alkaloid that affects the nervous system, leading to muscle spasms, convulsions, and respiratory failure.|",
+      "description": "Strychnine is a highly toxic alkaloid that affects the nervous system, leading to muscle spasms, convulsions, and respiratory failure.",
       "aspects": {
         "poison": 1
       }
@@ -74,7 +75,7 @@
     {
       "id": "poison.digitalis",
       "label": "Digitalis",
-      "description": "|Digitalis, derived from the foxglove plant, contains cardiac glycosides. It has been historically used to treat heart conditions, but in high doses, it can be toxic. Overdosing on digitalis can cause irregular heart rhythms, nausea, vomiting, and visual disturbances.|",
+      "description": "Digitalis, derived from the foxglove plant, contains cardiac glycosides. It has been historically used to treat heart conditions, but in high doses, it can be toxic. Overdosing on digitalis can cause irregular heart rhythms, nausea, vomiting, and visual disturbances.",
       "aspects": {
         "plant": 1,
         "poison": 1
@@ -83,7 +84,7 @@
     {
       "id": "poison.mercury",
       "label": "Mercury",
-      "description": "|Mercury is a toxic heavy metal that has been used in various forms throughout history. Ingesting or inhaling mercury vapors can lead to mercury poisoning, causing symptoms like neurological impairment, kidney damage, respiratory issues, and gastrointestinal problems.|",
+      "description": "Mercury is a toxic metal that has been used in various forms throughout history. Ingesting or inhaling mercury vapors can lead to mercury poisoning, causing symptoms like neurological impairment, kidney damage, respiratory issues, and gastrointestinal problems.",
       "aspects": {
         "poison": 1
       }
@@ -91,7 +92,7 @@
     {
       "id": "poison.wolfsbane",
       "label": "Wolfsbane",
-      "description": "|Its roots and leaves contain aconitine alkaloids, which can affect the heart and nervous system. Ingesting aconite can lead to symptoms like numbness, tingling, paralysis, cardiac arrhythmias, and respiratory failure.|",
+      "description": "Its roots and leaves contain aconitine alkaloids, which can affect the heart and nervous system. Ingesting aconite can lead to symptoms like numbness, tingling, paralysis, cardiac arrhythmias, and respiratory failure.",
       "aspects": {
         "plant": 1,
         "poison": 1
@@ -100,7 +101,7 @@
     {
       "id": "medicine.comfrey",
       "label": "Comfrey",
-      "description": "|Its roots and leaves contain allantoin and rosmarinic acid. They make skins and bones grow faster, and relieve pain and inflammation.|",
+      "description": "Its roots and leaves contain allantoin and rosmarinic acid. They make skins and bones grow faster, and relieve pain and inflammation.",
       "aspects": {
         "plant": 1,
         "medicine": 1
@@ -109,7 +110,7 @@
     {
       "id": "medicine.coriander",
       "label": "Coriander",
-      "description": "|Its leaves taste distinctly different from the roots. Besides pickling vegetables and making sausages, coriander also makes the fever goes down.|",
+      "description": "Its leaves taste distinctly different from the roots. Besides pickling vegetables and making sausages, coriander also makes the fever goes down.",
       "aspects": {
         "plant": 1,
         "medicine": 1
