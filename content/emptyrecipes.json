@@ -12,7 +12,7 @@
       "actionid": "explorefort.mainhall",
       "label": "Location Discoverd: Main Hall",
       "startdescription": "",
-      "description": "The main hall is elaborated decorated with tapestries. The knight explains: <i>\"Before the baron left, they renovated the whole fort.\"</i>"
+      "description": "The main hall is elaborately decorated with tapestries. The knight explains: <i>\"Before the baron left, they renovated the whole fort.\"</i>"
     },
     {
       "id": "emptyrecipe.fort.diningroom",
@@ -66,7 +66,7 @@
       "actionid": "market.buy",
       "label": "Location Unlocked: Market",
       "startdescription": "",
-      "description": "|Market buy emptyrecipe desc|"
+      "description": "The Tavern’s cellar is quite empty. Their cheese and oat are completely out of stock. Either the Scribe or the Taverner needs to go to the market soon."
 
     },
     {
