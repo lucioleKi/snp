@@ -24,7 +24,7 @@
       "actionid": "explorefort.tower",
       "label": "Enjoy View from Top of the Tower",
       "craftable": true,
-      "startdescription": "Their gaze falls on the forest, and then on the distant town's silhouette. The soldier suddenly asks: \"Did you live in the castle alone in the last month?\" The knight bottoms up their wine: \"If I didn’t see you at the port, I think I’d given up.\"",
+      "startdescription": "Their gaze falls on the forest, and then on the distant town's silhouette. The soldier suddenly asks: \"Have you been living in the castle alone for the last month?\" The knight bottoms up their wine: \"If I hadn’t see you at the port, I think I’d have given up.\"",
       "description": "The soldier murmurs: \"No, you could’ve...\" \"Could’ve what? I have no gold, no land of my own. How do I summon anyone with nothing?\" The soldier falls silent for a while, and then they says: \"You always have me.\"",
       "warmup": 1,
       "maxexecutions": 1,
@@ -161,7 +161,7 @@
       "label": "Be the Tavern Keeper for Today",
       "craftable": true,
       "startdescription": "The Taverner is humming and hanging some sea shells onto the wall as decorations when the Arbitrator walks in.",
-      "description": "The Taverner greets the Arbitrator with a big smile and a hug. \\\"Haven’t seen you in a while! How\\'s your life going without working for the Church?\" \"Much less stressful. I’m happy about it.\" the Arbitrator smiled warmly.",
+      "description": "The Taverner greets the Arbitrator with a big smile and a hug. \"Haven’t seen you in a while! How's your life going without working for the Church?\" \"Much less stressful. I’m happy about it.\" the Arbitrator smiled warmly.",
       "maxexecutions": 1,
       "warmup": 1,
       "aspects": {

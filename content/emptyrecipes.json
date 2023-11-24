@@ -40,7 +40,7 @@
       "actionid": "tavern.public.keeperseat",
       "label": "Location Unlocked. Tavern - Keeper's Seat",
       "startdescription": "",
-      "description": "The taverner sits in the keeper's seat. They serve bread, stew, and wine to the guests, and keep a barely illegible ledger.",
+      "description": "The taverner sits in the keeper's seat. They serve bread, stew, and wine to the guests, and keep a barely legible ledger.",
       "effects": {
         "taverner": 1,
         "taverner.sanguine": 1,
