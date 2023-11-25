@@ -1,6 +1,14 @@
 {
   "endings": [
     {
+      "id": "endofdemo",
+      "image": "contentment",
+      "label": "End of Demo",
+      "description": "You reach the end of our demo. Thanks for playing!",
+      "flavour": "Grand",
+      "anim": "DramaticLightCool"
+    },
+    {
       "id": "maincharacterdeath",
       "image": "badending",
       "label": "Game Over",

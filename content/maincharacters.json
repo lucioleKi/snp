@@ -209,6 +209,15 @@
           },
           "forbidden": { "tired": 1 },
           "description": "The character acts with a certain mood."
+        },
+        {
+          "id": "slot.main.priors.ch3",
+          "label": "Character",
+          "actionid": "church.priors",
+          "essential": {
+            "prior": 1
+          },
+          "description": "The character needs to talk to another character."
         }
       ]
     },

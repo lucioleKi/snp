@@ -10,35 +10,35 @@
     {
       "id": "emptyrecipe.fort.mainhall",
       "actionid": "explorefort.mainhall",
-      "label": "Location Discoverd: Main Hall",
+      "label": "Location Unlocked: Fort - Main Hall",
       "startdescription": "",
       "description": "The main hall is elaborately decorated with tapestries. The knight explains: <i>\"Before the baron left, they renovated the whole fort.\"</i>"
     },
     {
       "id": "emptyrecipe.fort.diningroom",
       "actionid": "explorefort.diningroom",
-      "label": "Location Discoverd: Dining Room",
+      "label": "Location Unlocked: Fort - Dining Room",
       "startdescription": "",
       "description": "The knight lead them to the table: <i>\"Have some bread and wine if you're hungry. They might not be as tasty as the ones you bake. I hope you don't mind.\"</i>"
     },
     {
       "id": "emptyrecipe.fort.tower",
       "actionid": "explorefort.tower",
-      "label": "Location Discoverd: Tower",
+      "label": "Location Unlocked: Fort - Tower",
       "startdescription": "",
       "description": "After showing the soldier their new bedroom, the knight stops before the stairs leading to the tower. <i>\"Get some wine for me, would you? Then we'll go up the tower together.\"</i>"
     },
     {
       "id": "emptyrecipe.fort.trainingyard",
       "actionid": "explorefort.trainingyard",
-      "label": "Location Discoverd: Training Yard",
+      "label": "Location Unlocked: Fort - Training Yard",
       "startdescription": "",
       "description": "The knight kindly reminds the soldier that training is not for today. Tomorrow, they may spar as much as they want."
     },
     {
       "id": "emptyrecipe.tavern.keeperseat",
       "actionid": "tavern.public.keeperseat",
-      "label": "Location Unlocked. Tavern - Keeper's Seat",
+      "label": "Location Unlocked: Tavern - Keeper's Seat",
       "startdescription": "",
       "description": "The taverner sits in the keeper's seat. They serve bread, stew, and wine to the guests, and keep a barely legible ledger.",
       "effects": {
@@ -51,7 +51,7 @@
     {
       "id": "emptyrecipe.tavern.desk",
       "actionid": "tavern.private.desk",
-      "label": "Location Unlocked. Tavern: Owners' Room - Desk",
+      "label": "Location Unlocked: Tavern: Owners' Room - Desk",
       "startdescription": "",
       "description": "The scribe sits in front of the desk, reading a letter. The letter is from the baron, who agreed to rent out their fort to the knight.",
       "effects": {

@@ -94,7 +94,7 @@
         "required": {
           "scribe": 1,
           "taverner": 1,
-          "lawyer": 1
+          "arbitrator": 1
         }
       }
     },

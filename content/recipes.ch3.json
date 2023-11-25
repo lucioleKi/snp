@@ -136,7 +136,7 @@
       ],
       "inductions": [
         {
-          "id":"emptyrecipe.village"
+          "id": "emptyrecipe.village"
         }
       ],
       "mutations": [
@@ -149,6 +149,9 @@
       ],
       "requirements": {
         "medicine": 1
+      },
+      "effects": {
+        "medicine.coriander": -1
       }
     },
     {
@@ -187,6 +190,9 @@
       },
       "requirements": {
         "vicar.melancholic": 1
+      },
+      "effects": {
+        "ch3.memory": 1
       }
     },
     {
@@ -202,18 +208,94 @@
       },
       "requirements": {
         "vicar.choleric": 1
+      },
+      "effects": {
+        "ch3.memory": 1
       }
+    },
+    {
+      "id": "recipe.church.priors.ch3",
+      "actionid": "church.priors",
+      "label": "Doctor's debriefing about the bishop's situation",
+      "craftable": true,
+      "startdescription": "|recipe.church.priors.ch3 start desc|",
+      "description": "|recipe.church.priors.ch3 desc|",
+      "maxexecutions": 1,
+      "warmup": 1,
+      "requirements": {
+        "doctor": 1
+      },
+      "slots": [
+        {
+          "id": "slot.ch3.priors",
+          "label": "Temperament",
+          "essential": {
+            "temperament": 1
+          },
+          "required": {
+            "doctors": 1
+          },
+          "forbidden": { "tired": 1 }
+        }
+      ]
+    },
+    {
+      "id": "recipe.church.priors.ch3a",
+      "actionid": "church.priors",
+      "label": "Doctor's debriefing about the bishop's situation",
+      "startdescription": "|recipe.church.priors.ch3a start desc|",
+      "description": "|recipe.church.priors.ch3a desc|",
+      "warmup": 10,
+      "requirements": { "doctor.melancholic": 1 }
+    },
+    {
+      "id": "recipe.church.priors.ch3b",
+      "actionid": "church.priors",
+      "label": "Doctor's debriefing about the bishop's situation",
+      "startdescription": "|recipe.church.priors.ch3a start desc|",
+      "description": "|recipe.church.priors.ch3a desc|",
+      "warmup": 10,
+      "requirements": { "doctor.phlegmatic": 1 }
     },
     {
       "id": "recipe.ch3.memory",
       "actionid": "church.bishops",
       "label": "Bishop's Dream (or Memory)",
       "craftable": true,
-      "startdescription": "|Ch3 Bishop's Dream (or Memory) start desc|",
-      "description": "|Ch3 Bishop's Dream (or Memory) desc|",
+      "startdescription": "|Bishop's dream pt1|",
+      "description": "",
       "warmup": 10,
+      "effects": {
+        "ch3.memory": -1
+      },
+      "requirements": {
+        "ch3.memory": 1
+      },
+      "linked": [
+        {
+          "id": "recipe.ch3.memory.lord"
+        }
+      ]
+    },
+    {
+      "id": "recipe.ch3.memory.lord",
+      "actionid": "church.bishops",
+      "label": "Meanwhile...",
+      "startdescription": "|Bishop's dream pt2|",
+      "description": "|The scene in reality|",
+      "warmup": 10,
+      "slots": [
+        {
+          "id": "slot.main.ch3.lord",
+          "label": "Character",
+          "required": {
+            "lord": 1
+          },
+          "greedy": "True"
+        }
+      ],
       "purge": {
-        "chapter2": 1,
+        "chapter3": 1,
         "knight.sanguine.exhausted": 1,
         "knight.choleric.exhausted": 1,
         "taverner.sanguine.exhausted": 1,
@@ -225,12 +307,7 @@
         "doctor.phlegmatic.exhausted": 1,
         "doctor.melancholic.exhausted": 1
       },
-      "effects": {
-        "ch3.memory": -1
-      },
-      "requirements": {
-        "ch3.memory": 1
-      }
+      "ending": "endofdemo"
     }
   ]
 }

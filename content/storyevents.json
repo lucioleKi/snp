@@ -132,6 +132,7 @@
         "storyevent": 1,
         "endofchapter": 1
       },
+      "unique": true,
       "slots": [
         {
           "id": "slot.main.ch2.bishop",
