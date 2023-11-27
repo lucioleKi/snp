@@ -5,8 +5,8 @@
       "actionid": "church.garden",
       "label": "Monastery Garden: Herbalist",
       "craftable": true,
-      "startdescription": "|Monastery Garden: Herbalist start desc|",
-      "description": "|Monastery Garden: Herbalist desc|",
+      "startdescription": "The Doctor has noticed a few unique species in the garden, quite different from what they have seen in other gardens and forests. Perhaps it’s the soil, or the water.",
+      "description": "The Doctor carefully draws down some herbs in their notebook and picks a few samples with them to test their properties.",
       "warmup": 1,
       "aspects": {
         "exhausted": 1
@@ -28,8 +28,8 @@
       "actionid": "church.garden",
       "label": "Monastery Garden: Gathering Herbs",
       "craftable": true,
-      "startdescription": "|Monastery Garden: Gathering Herbs start desc|",
-      "description": "|Monastery Garden: Gathering Herbs desc|",
+      "startdescription": "The Monastery Garden is a harbor for different herbs. If the Doctor would like to use them for study, for cure, or even for poison, is an interesting question.",
+      "description": "The Doctor got what they needs from the garden. They have a lot to do with these herbs they found today.",
       "maxexecutions": 1,
       "warmup": 1,
       "aspects": {
@@ -47,8 +47,8 @@
       "actionid": "church.tower.workstation",
       "label": "Workstation: Alchemy",
       "craftable": true,
-      "startdescription": "|Tower Workstation: Alchemy start desc|",
-      "description": "|Tower Workstation: Alchemy desc|",
+      "startdescription": "The Workstation is a magical and yet dangerous place. Here, the Doctor can create elixir or poison, or perhaps even gold, at least so they claim.",
+      "description": "The Doctor carefully puts their results into bowls and vials, and then stretched contently.",
       "warmup": 1,
       "aspects": {
         "exhausted": 1
@@ -82,8 +82,7 @@
       },
       "linked": [
         {
-          "id": "recipe.church.ch3.treatment.pt2",
-          "chance": 100
+          "id": "recipe.church.ch3.treatment.pt2"
         }
       ],
       "inductions": [

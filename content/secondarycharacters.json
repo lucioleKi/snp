@@ -3,7 +3,7 @@
     {
       "id": "minstrel",
       "label": "The Minstrel",
-      "description": "|A young minstrel who likes singing and cats.|",
+      "description": "A young minstrel who likes singing and cats.",
       "aspects": {
         "secondarycharacter": 1
       }
@@ -52,7 +52,7 @@
     {
       "id": "monk",
       "label": "The Monk",
-      "description": "|An observant and quiet monk.|",
+      "description": "A quiet and perceptive monk.",
       "aspects": {
         "secondarycharacter": 1
       }
@@ -68,7 +68,7 @@
     {
       "id": "chevalier",
       "label": "The Chevalier",
-      "description": "|A brave and charismatic chevalier.|",
+      "description": "A brave and charismatic chevalier.",
       "aspects": {
         "secondarycharacter": 1
       }

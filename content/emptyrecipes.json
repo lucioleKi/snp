@@ -96,7 +96,7 @@
       "actionid": "church.bishops",
       "label": "Location Unlocked: Monastry - Bishop's (Temporary) Room",
       "startdescription": "",
-      "description": "|Monastry - Infirmary emptyrecipe desc|",
+      "description": "The Infirmary is a dim, stuffy room. The Bishop lies unconsciously in bed. The Lord, sat in a chair by their bedside, is taking an uneasy nap.",
       "effects": {
         "lord": 1,
         "bishop.sick": 1,
@@ -108,7 +108,7 @@
       "actionid": "church.priors",
       "label": "Location Unlocked: Monastry - Prior's Room",
       "startdescription": "",
-      "description": "|Monastry - Prior's Room emptyrecipe desc|",
+      "description": "The Doctor waited until almost noon to knock on The Prior’s door, and is welcomed into the room as they expected. <i>\"How’s the Bishop?\"</i> asked the Prior anxiously but expectantly. <i>\"Alive.\"</i> answered the Doctor, and paused, <i>\"I think they will wake up, if they were lucky.\"</i>",
       "effects": {
         "prior": 1
       }
