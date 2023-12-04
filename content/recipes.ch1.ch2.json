@@ -133,7 +133,10 @@
         {
           "id": "emptyrecipe.tavern.desk"
         }
-      ]
+      ],
+      "deleteverb": {
+        "explorefort.tower": 1
+      }
     },
     {
       "id": "recipe.tavern.bedroom.letter1",
@@ -178,8 +181,8 @@
       "actionid": "tavern.public.keeperseat",
       "label": "Be the Tavern Keeper for Today",
       "craftable": true,
-      "startdescription": "The tavern door was opened and the arbitrator walks in. The Taverner cracked out a smile as they saw the Arbitrator.",
-      "description": "|recipe.tavern.keeperseat.taverner1b desc|",
+      "startdescription": "The tavern door is opened. The arbitrator walks in. The Taverner cracks out a smile as they see the Arbitrator.",
+      "description": "<i>\"You look upset. What’s the matter?\"</i> says the Arbitrator. The Taverner sighs: <i>\"It’s the tax of wine and beer, of course. What else could it be? The Scribe has warned me against buying more wine for myself, and the profit of the tavern is dwindling too.\"</i>",
       "maxexecutions": 1,
       "warmup": 1,
       "aspects": {
@@ -197,7 +200,7 @@
       "label": "Be the Tavern Keeper for Today",
       "craftable": true,
       "startdescription": "The Taverner is telling people their sailing stories and bragging about their fishing skills. They start to get drunk. Their laughter fills the tavern.",
-      "description": "The Taverner starts dancing to the music. They look rather foolish, dancing wobbly. Suddenly, they slipped and fell onto the floor. The tavern roars with laughter.",
+      "description": "The Taverner starts dancing to the music. They look rather foolish, dancing wobbly. Suddenly, they slip and fall onto the floor. The tavern roars with laughter.",
       "warmup": 1,
       "aspects": {
         "exhausted": 1
@@ -222,8 +225,8 @@
       "actionid": "tavern.public.keeperseat",
       "label": "Be the Tavern Keeper for Today",
       "craftable": true,
-      "startdescription": "The scribe is in a talkative mood today. They even listened to complaints about the rising wine taxes. The scribe always finds it amusing that their costumers keep coming back for their wine, since the scribe knows very well that the taverner adds vinegar into the wine…",
-      "description": "In their delight, the scribe flipped a coin in their hands. It lands facing up. They recorded down the result in the back of the ledger.",
+      "startdescription": "The scribe is in a talkative mood today. They even listen to a few complaints about the rising wine taxes. The scribe always finds it amusing that their costumers keep coming back for their wine, since the scribe knows very well that the taverner adds vinegar into the wine…",
+      "description": "In their delight, the scribe flips a coin in their hands. It lands facing up. They record down the result in the back of the ledger.",
       "warmup": 1,
       "aspects": {
         "exhausted": 1
@@ -237,7 +240,7 @@
       "label": "Be the Tavern Keeper for Today",
       "craftable": true,
       "startdescription": "The scribe isn’t in the mood to chat with customers today and is busy checking the ledger.",
-      "description": "There are a few suspicious spendings, obviously written by the taverner. The scribe decides to keep a closer eye on them with the increasing wine tax.",
+      "description": "There are a few suspicious spendings, obviously written by the Taverner. The Scribe decides to keep a closer eye on them with the increasing wine tax.",
       "warmup": 1,
       "aspects": {
         "exhausted": 1
@@ -249,8 +252,8 @@
       "actionid": "market.buy",
       "label": "Market: Browsing and Shopping",
       "craftable": true,
-      "startdescription": "They sold a bag of fish the taverner just caught this morning and had a cheerful chat with the buyer. They then go to buy some flour and salt.",
-      "description": "They are attracted by exotic-looking merchants, who sell dried lamb and exotic herbs. They poke their head into the crowd to get a closer look, but is disappointed by the price. “Dishonest merchants.” They mutters under their breath.",
+      "startdescription": "They sell a bag of fish the taverner just caught this morning and has a cheerful chat with the buyer. They then go to buy some flour and salt.",
+      "description": "They are attracted by exotic-looking merchants, who sell dried lamb and exotic herbs. They poke their head into the crowd to get a closer look, but is disappointed by the price. “Dishonest merchants.” They mutter under their breath.",
       "warmup": 1,
       "purge": {
         "shoppinglist.tavern.ch2": 1
@@ -314,7 +317,7 @@
       "actionid": "pier",
       "label": "A conversation at sea",
       "startdescription": "|recipe.pier.boat.ch2.default start desc|",
-      "description": "After a long silence, the scribe says: <i>\"I do what I consider right. If the road ahead is destined to be rough, come what may.\"</i>\n<i>\"I would never want to see you in danger. But if you are determined to go down this path, I’ll follow you anywhere.\"</i> says the taverner. They leaned forward to kiss each other.",
+      "description": "After a long silence, the scribe says: <i>\"I do what I consider right. If the road ahead is destined to be rough, come what may.\"</i>\n<i>\"I would never want to see you in danger. But if you are determined to go down this path, I’ll follow you.\"</i> says the taverner. They leaned forward to kiss each other.",
       "effects": {
         "ch2.boat": -1
       },
@@ -344,8 +347,8 @@
       "id": "recipe.pier.boat.ch2a",
       "actionid": "pier",
       "label": "A conversation at sea",
-      "startdescription": "|recipe.pier.boat.ch2a start desc|",
-      "description": "|recipe.pier.boat.ch2a desc|",
+      "startdescription": "The scribe senses that the taverner has questions for them, but they could not satisfy the taverner. \"I've told you everything I could.\" sighs the scribe, \"Curiosity would lure you into danger.\"",
+      "description": "After a long silence, the scribe says: \"I do what I consider right. If the road ahead is destined to be rough, come what may.\"\n\"I would never want to see you in danger. But if you are determined to go down this path, I’ll follow you anywhere.\" says the taverner. They leaned forward to kiss each other.",
       "warmup": 10,
       "requirements": { "scribe.sanguine": 1 },
       "effects": {
@@ -377,8 +380,8 @@
       "id": "recipe.pier.boat.ch2b",
       "actionid": "pier",
       "label": "A conversation at sea",
-      "startdescription": "|recipe.pier.boat.ch2b start desc|",
-      "description": "|recipe.pier.boat.ch2b desc|",
+      "startdescription": "The scribe senses that the taverner has questions for them, but they could not satisfy the taverner. \"I've told you everything I could.\" sighs the scribe, \"Curiosity would lure you into danger.\"",
+      "description": "\"Then I won't ask. I'll simply come with you onto the same road, and then save you.\" says the taverner.\n\"Save our leaky tavern before you save me.\" the scribe chuckles, and then they sigh, \"If only I can come with you...\"",
       "warmup": 10,
       "requirements": { "scribe.phlegmatic": 1 },
       "effects": {
@@ -410,8 +413,8 @@
       "id": "recipe.pier.boat.ch2c",
       "actionid": "pier",
       "label": "A conversation at sea",
-      "startdescription": "|recipe.pier.boat.ch2c start desc|",
-      "description": "|recipe.pier.boat.ch2c desc|",
+      "startdescription": "\"You still won't tell me everything.\" says the taverner.\n\"I've told you everything I could.\" sighs the scribe, \"You know what curiosity can kill.\"",
+      "description": "The taverner knows that the scribe cannot be swayed. \"Well, worst case scenario, I'll fight for you using a pitchfork.\" says the taverner cheerfully, \"Nothing will do us apart.\" The taverner holds the scribe's hands and they kiss.",
       "warmup": 10,
       "requirements": { "taverner.sanguine": 1 },
       "effects": {
@@ -443,8 +446,8 @@
       "id": "recipe.pier.boat.ch2d",
       "actionid": "pier",
       "label": "A conversation at sea",
-      "startdescription": "|recipe.pier.boat.ch2d start desc|",
-      "description": "|recipe.pier.boat.ch2d desc|",
+      "startdescription": "\"You still won't tell me everything.\" says the taverner.\n\"I've told you everything I could.\" sighs the scribe, \"You know what curiosity can kill.\"",
+      "description": "\"What about your safety?\" asks the taverner.\n\"What danger could I be pulled into? Certainly you don't expect me to fight in a battle for them, do you?\" the scribe glossed it over lightly. The taverner does not reply. An unsettling silence falls between them.",
       "warmup": 10,
       "requirements": { "taverner.melancholic": 1 },
       "effects": {

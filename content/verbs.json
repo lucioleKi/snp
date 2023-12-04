@@ -188,8 +188,8 @@
     },
     {
       "id": "service.village",
-      "label": "Village: Vicar's Home Service",
-      "description": "|Village: Vicar's Home Service desc|",
+      "label": "Village: Vicar's Work",
+      "description": "One could quote Scripture here. However, the Vicar's work is often more down-to-earth. They reach villagers' lives via rites and sacraments.",
       "slot": {
         "id": "villageslot.character",
         "label": "Character/Event",

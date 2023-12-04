@@ -1,26 +1,9 @@
 {
   "elements": [
     {
-      "id": "pouch.tavern",
-      "label": "Pouch: Taverner and Scribe's",
-      "description": "|Pouch desc|",
-      "aspects": {
-        "denier": 15,
-        "taverners": 1,
-        "scribes": 1
-      },
-      "xtriggers": {
-        "givegold": {
-          "id": "denier",
-          "morpheffect": "mutate",
-          "level": -5
-        }
-      }
-    },
-    {
       "id": "scribe.sestertius",
       "label": "Sestertius",
-      "description": "|Sestertius desc|"
+      "description": "A Roman bronze coin. The Scribe flips it quite a lot. It might be a prized artifact, or something more?"
     },
     {
       "id": "shoppinglist.tavern.ch2",

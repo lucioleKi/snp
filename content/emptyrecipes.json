@@ -74,7 +74,7 @@
       "actionid": "church.tower.workstation",
       "label": "Location Unlocked: Monastry - Doctor's Tower",
       "startdescription": "",
-      "description": "|Monastry - Doctor's Tower emptyrecipe desc|",
+      "description": "The workstation was given to the doctor by the prior. The doctor does alchemy experiments and blend herbs here. An oven, a balance, a mortar, and many crystal vials scattered around it.",
       "effects": {
         "doctor": 1,
         "doctor.melancholic": 1,
@@ -86,7 +86,7 @@
       "actionid": "church.garden",
       "label": "Location Unlocked: Monastry - Garden",
       "startdescription": "",
-      "description": "|Monastry - Garden emptyrecipe desc|",
+      "description": "Although not so voluntarily, the Doctor was persuaded to take a look at the injured Bishop. The garden should have herbs the Doctor needs, sufficient for simple treatment to the injury.",
       "effects": {
         "ch3.treatment": 1
       }
@@ -116,9 +116,9 @@
     {
       "id": "emptyrecipe.village",
       "actionid": "service.village",
-      "label": "Location Unlocked: Village - Vicar's Home Service",
+      "label": "Location Unlocked: Village - Vicar's Work",
       "startdescription": "",
-      "description": "|Village - Vicar's Home Service emptyrecipe desc|",
+      "description": "The vicar is getting ready to a day of work in the village. They hum as they walk past the cloister garden - Singing would not be appopriate once they are outside of these walls.",
       "effects": {
         "vicar": 1,
         "vicar.choleric": 1,

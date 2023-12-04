@@ -70,8 +70,8 @@
       "actionid": "church.bishops",
       "label": "Treat the Bishop",
       "craftable": true,
-      "startdescription": "|recipe.church.ch3.treatment start desc|",
-      "description": "|recipe.church.ch3.treatment desc|",
+      "startdescription": "The Doctor walks into the room as quietly as possible. They do not wish to disturb the Lord from their uneasy rest. The room is filled with the smell of blood and the annoying sound of flies. The Doctor tests the Bishop’s breath with a shaky hand. Thankfully, the Bishop is still alive.",
+      "description": "The Doctor unwraps the bandages around the Bishop’s shoulder and chest, revealing the deep cuts into their left shoulder and chest. The wounds are festered and horrifying.",
       "maxexecutions": 1,
       "warmup": 10,
       "effects": {
@@ -95,8 +95,8 @@
       "id": "recipe.church.ch3.treatment.pt2",
       "actionid": "church.bishops",
       "label": "Apply some medicine",
-      "startdescription": "|recipe.church.ch3.treatment.pt2 start desc|",
-      "description": "|recipe.church.ch3.treatment.pt2 desc|",
+      "startdescription": "The Doctor decides to change the bandages first. If they have herbs available, they can apply some to the wound to help with healing.",
+      "description": "The noise startles the Lord. They sits upright but relaxes as they see the Doctor. \"How is it?\" asks the Lord, their eyes glued to the Bishop. \"Still alive, which is already a miracle. I can promise nothing more.\" says the Doctor.",
       "warmup": 10,
       "slots": [
         {
@@ -120,8 +120,8 @@
       "id": "recipe.church.ch3.treatment.pt3.medicine",
       "actionid": "church.bishops",
       "label": "The Prior enters",
-      "startdescription": "|recipe.church.ch3.treatment.pt3 start desc|",
-      "description": "|recipe.church.ch3.treatment.pt3 desc|",
+      "startdescription": "Someone knocks, and the Prior enters with some bread and beer in hand. They hesitates at the door before stepping in and giving the food to the Lord. Then they quickly steps back to the door again and looks at the Doctor with an anxious, questioning look.",
+      "description": "The Doctor gives the Prior an affirmative nod. \"I’ve applied some medicine to their injury.\" The Prior sighs in relief and asks the Lord to get some sleep. The Lord politely refuses. \"Come. We can talk more in my room.\" The Prior turns to the Doctor.",
       "warmup": 10,
       "slots": [
         {
@@ -157,8 +157,8 @@
       "id": "recipe.church.ch3.treatment.pt3.nomedicine",
       "actionid": "church.bishops",
       "label": "The Prior enters",
-      "startdescription": "|recipe.church.ch3.treatment.pt3 start desc|",
-      "description": "|recipe.church.ch3.treatment.pt3 desc|",
+      "startdescription": "Someone knocks, and the Prior enters with some bread and beer in hand. They hesitates at the door before stepping in and giving the food to the Lord. Then they quickly steps back to the door again and looks at the Doctor with an anxious, questioning look.",
+      "description": "The Doctor looks at the Prior with a paled face that is difficult to hide. The Prior looks shaken, not at all convinced by anything. Before the Prior quietly leaving the room, they turns to the Doctor and whispered: \"I'll be in my room, if you wish to discuss more.\"",
       "warmup": 1,
       "slots": [
         {
@@ -179,16 +179,20 @@
     {
       "id": "recipe.village.ch3a",
       "actionid": "service.village",
-      "label": "Vicar's Home Service: Anointing of the Sick",
+      "label": "Vicar's Work: Anointing of the Sick",
       "craftable": true,
-      "startdescription": "|Ch3 Vicar's Home Service: Anointing of the Sick start desc|",
-      "description": "|Ch3 Vicar's Home Service: Anointing of the Sick desc|",
+      "startdescription": "The old, widowed stable hand is very sick. One of their twins comes to ask the vicar to perform anointing of the sick.",
+      "description": "The poor stable hand likely only have a few days to live. The vicar looks around in the decrepit hut. The smell is usually horrible in this kind of situation, yet the room is relatively clean.",
       "warmup": 1,
+      "maxexecutions": 1,
       "aspects": {
         "exhausted": 1
       },
       "requirements": {
         "vicar.melancholic": 1
+      },
+      "tablereqs": {
+        "chapter3": 1
       },
       "effects": {
         "ch3.memory": 1
@@ -199,9 +203,10 @@
       "actionid": "service.village",
       "label": "Vicar's Work: Penance",
       "craftable": true,
-      "startdescription": "|Ch3 Vicar's Work: Penance start desc|",
-      "description": "|Ch3 Vicar's Work: Penance desc|",
+      "startdescription": "The vicar listens to peasants' penance on a daily basis. They are quite familiar with most of the venial sins, and can answer queries without consulting penitential books.",
+      "description": "The vicar usually asks the sinners to make extra prayers, or to come to the Eucharist more frequently. No need to turn any frightened soul away. \nTheologian +1.",
       "warmup": 1,
+      "maxexecutions": 1,
       "aspects": {
         "exhausted": 1
       },
@@ -223,38 +228,7 @@
       "warmup": 1,
       "requirements": {
         "doctor": 1
-      },
-      "slots": [
-        {
-          "id": "slot.ch3.priors",
-          "label": "Temperament",
-          "essential": {
-            "temperament": 1
-          },
-          "required": {
-            "doctors": 1
-          },
-          "forbidden": { "tired": 1 }
-        }
-      ]
-    },
-    {
-      "id": "recipe.church.priors.ch3a",
-      "actionid": "church.priors",
-      "label": "Doctor's debriefing about the bishop's situation",
-      "startdescription": "|recipe.church.priors.ch3a start desc|",
-      "description": "|recipe.church.priors.ch3a desc|",
-      "warmup": 10,
-      "requirements": { "doctor.melancholic": 1 }
-    },
-    {
-      "id": "recipe.church.priors.ch3b",
-      "actionid": "church.priors",
-      "label": "Doctor's debriefing about the bishop's situation",
-      "startdescription": "|recipe.church.priors.ch3a start desc|",
-      "description": "|recipe.church.priors.ch3a desc|",
-      "warmup": 10,
-      "requirements": { "doctor.phlegmatic": 1 }
+      }
     },
     {
       "id": "recipe.ch3.memory",
@@ -307,6 +281,26 @@
         "doctor.melancholic.exhausted": 1
       },
       "ending": "endofdemo"
+    },
+    {
+      "id": "recipe.market.buy.ch3",
+      "actionid": "market.buy",
+      "label": "Market: Browsing and Shopping",
+      "craftable": true,
+      "startdescription": "They weave through stalls selling fruits and fresh cheese, stuffing a dried plum into the mouth as they go by.",
+      "description": "They navigate the lively market, sniffing fresh cheese and oats. After seeing a new flower stand in the corner, they choose to buy a floral wreath for a certain someone. ",
+      "warmup": 1,
+      "purge": {
+        "shoppinglist.tavern.ch3": 1
+      },
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "temperament": 1 },
+      "tablereqs": {
+        "chapter2": 1,
+        "shoppinglist.tavern.ch3": 1
+      }
     }
   ]
 }

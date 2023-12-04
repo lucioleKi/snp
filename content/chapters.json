@@ -25,26 +25,7 @@
       "description": "A dream in the tower of Babel.",
       "aspects": {
         "chapter": 3
-      },
-      "decayTo": "chapter4"
-    },
-    {
-      "id": "chapter4",
-      "label": "Chapter 4",
-      "description": "A marriage, a sermon, and a growing suspicion.",
-      "aspects": {
-        "chapter": 4
-      },
-      "decayTo": "chapter5"
-    },
-    {
-      "id": "chapter5",
-      "label": "Chapter 5",
-      "description": "|Ch5 desc|",
-      "aspects": {
-        "chapter": 5
-      },
-      "decayTo": "chapter6"
+      }
     }
   ]
 }

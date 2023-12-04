@@ -9,14 +9,6 @@
       }
     },
     {
-      "id": "formercook",
-      "label": "The Former Cook",
-      "description": "|The tavern's former cook. They have put down stews and pots for another cause.|",
-      "aspects": {
-        "secondarycharacter": 1
-      }
-    },
-    {
       "id": "soldier",
       "label": "The Soldier",
       "description": "The soldier was a cook in the tavern. Until they took off the apron, and decided to follow the knight, just like old times.",
