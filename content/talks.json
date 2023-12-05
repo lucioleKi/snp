@@ -176,7 +176,7 @@
       "label": "Conversation: Scribe & Arbitrator",
       "craftable": true,
       "startdescription": "One afternoon, the scribe and the arbitrator are chatting in the tavern.",
-      "description": "<i>\"This year's winter was exteremely cold. I heard the crops didn't grow well. I hope your lands are not severely affected.\"</i>\n<i>\"They inevitably have been. But I'm more concerned about the possible feminine than my tax collection.\"</i>",
+      "description": "<i>\"This year's winter was exteremely cold. I heard the crops didn't grow well. I hope your lands are not severely affected.\"</i>\n<i>\"They inevitably have been. I'm more concerned about the possible femine than my tax collection.\"</i>",
       "warmup": 1,
       "maxexecutions": 1,
       "requirements": {

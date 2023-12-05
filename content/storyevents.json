@@ -127,7 +127,7 @@
     {
       "id": "ch3.memory",
       "label": "Event: Bishop's Memory",
-      "description": "|Event: Bishop's Memory desc|",
+      "description": "The Bishop is having an uneasy dream on their sickbed. What is the incident that got the Bishop into this horrible state? It still plagues them.",
       "aspects": {
         "storyevent": 1,
         "endofchapter": 1

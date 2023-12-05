@@ -48,7 +48,7 @@
       "label": "Workstation: Alchemy",
       "craftable": true,
       "startdescription": "The Workstation is a magical and yet dangerous place. Here, the Doctor can create elixir or poison, or perhaps even gold, at least so they claim.",
-      "description": "The Doctor carefully puts their results into bowls and vials, and then stretched contently.",
+      "description": "The Doctor carefully puts their results into bowls and vials, and then stretched contently.\nAlchemist +1",
       "warmup": 1,
       "aspects": {
         "exhausted": 1
@@ -203,7 +203,7 @@
       "actionid": "service.village",
       "label": "Vicar's Work: Penance",
       "craftable": true,
-      "startdescription": "The vicar listens to peasants' penance on a daily basis. They are quite familiar with most of the venial sins, and can answer queries without consulting penitential books.",
+      "startdescription": "The vicar hears peasants' penance on a daily basis. They are quite familiar with most of the venial sins, and can answer queries without consulting penitential books.",
       "description": "The vicar usually asks the sinners to make extra prayers, or to come to the Eucharist more frequently. No need to turn any frightened soul away. \nTheologian +1.",
       "warmup": 1,
       "maxexecutions": 1,
@@ -222,8 +222,8 @@
       "actionid": "church.priors",
       "label": "Doctor's debriefing about the bishop's situation",
       "craftable": true,
-      "startdescription": "|recipe.church.priors.ch3 start desc|",
-      "description": "|recipe.church.priors.ch3 desc|",
+      "startdescription": "<i>\"Do you think the Bishop will wake up soon?\"</i> asks the Prior.\n<i>\"I don’t know. They seem to be stabbed by a sword. Who did it?\"</i>",
+      "description": "<i>\"I don’t know. The servants who sent the Bishop here said they didn’t catch the perpectrator.\"</i> the Prior shifts their feet uneasily. The Doctor raises their eyebrows in surprise. <i>\"Looks like the Bishop got themselves a true enemy…\"</i>",
       "maxexecutions": 1,
       "warmup": 1,
       "requirements": {
@@ -235,7 +235,7 @@
       "actionid": "church.bishops",
       "label": "Bishop's Dream (or Memory)",
       "craftable": true,
-      "startdescription": "|Bishop's dream pt1|",
+      "startdescription": "The Bishop feels a sharp pain on the left shoulder. Before they could react, a sword stabs into their chest. The Bishop falls onto their knees and tries to catch the sword by the blade. They raise their eyes, seeing the Knight’s familiar face twisted in anger.",
       "description": "",
       "warmup": 10,
       "effects": {
@@ -254,8 +254,8 @@
       "id": "recipe.ch3.memory.lord",
       "actionid": "church.bishops",
       "label": "Meanwhile...",
-      "startdescription": "|Bishop's dream pt2|",
-      "description": "|The scene in reality|",
+      "startdescription": "The Bishop sneers with ice-cold eyes. They choke out softly: \"Your hands are shaking. Are you already regretting it?\" The Knight pulls out the sword in fury, even before the last syllable. The blood gushes from the Bishop’s chest, staining their pristine robe more intensely than the Pope's attire.  \"Here’s to all you have wished for.\" the Knight whispers.",
+      "description": "The Lord sees the Bishop’s lips moved, but ushered no word. They immediately rush to the Bishop’s side and holds their hands. They cannot understand what the Bishop tries to say.",
       "warmup": 10,
       "slots": [
         {
@@ -291,7 +291,8 @@
       "description": "They navigate the lively market, sniffing fresh cheese and oats. After seeing a new flower stand in the corner, they choose to buy a floral wreath for a certain someone. ",
       "warmup": 1,
       "purge": {
-        "shoppinglist.tavern.ch3": 1
+        "shoppinglist.tavern.ch3": 1,
+        "funds": 2
       },
       "aspects": {
         "exhausted": 1
@@ -299,6 +300,29 @@
       "requirements": { "temperament": 1 },
       "tablereqs": {
         "chapter2": 1,
+        "shoppinglist.tavern.ch3": 1
+      }
+    },
+    {
+      "id": "recipe.market.buy.ch3.badending",
+      "actionid": "market.buy",
+      "label": "Market: Browsing and Shopping (Insufficient funds)",
+      "craftable": true,
+      "startdescription": "Insufficient funds for going to the market. Starting this will lead to a bad ending!",
+      "description": "",
+      "warmup": 1,
+      "ending": {
+        "golddeficit": 1
+      },
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": {
+        "temperament": 1,
+        "funds": -2
+      },
+      "tablereqs": {
+        "chapter3": 1,
         "shoppinglist.tavern.ch3": 1
       }
     }

@@ -1,18 +1,25 @@
 {
   "elements": [
     {
+      "id": "funds",
+      "description": "Funds for running the tavern. Shared between the Taverner and the Scribe.",
+      "aspects": {
+        "denier": 1
+      }
+    },
+    {
       "id": "scribe.sestertius",
       "label": "Sestertius",
       "description": "A Roman bronze coin. The Scribe flips it quite a lot. It might be a prized artifact, or something more?"
     },
     {
       "id": "shoppinglist.tavern.ch2",
-      "label": "Shopping List For The Week",
+      "label": "Shopping List For The Week. Cost: 1 funds.",
       "description": "Onion for fermenting herrings, peas, and beer hops green as spring. The taverner must have left the shopping list here intentionally. Time to head to the market."
     },
     {
       "id": "shoppinglist.tavern.ch3",
-      "label": "Shopping List For The Week",
+      "label": "Shopping List For The Week. Cost: 2 funds.",
       "description": "The shopping list contains peas, carrots, cheese, oat, eggs, and on the last line, a crookedly written 'wine'. It has been crossed off by someone else. "
 
     },
@@ -99,6 +106,6 @@
         "medicine": 1
       }
     }
-  
+
   ]
 }

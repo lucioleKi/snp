@@ -20,7 +20,7 @@
       "id": "golddeficit",
       "image": "badending",
       "label": "Game Over",
-      "description": "Money deficit.",
+      "description": "The tavern has no money left and has to close down.",
       "flavour": "Melancholy",
       "anim": "DramaticLightCool"
     }
