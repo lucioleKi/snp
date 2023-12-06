@@ -408,6 +408,63 @@
         "shoppinglist.tavern.ch3": 1,
         "funds": -2
       }
+    },
+    {
+      "id": "recipe.pet.cat",
+      "actionid": "tavern.public.cat",
+      "label": "Pet Juniper",
+      "craftable": true,
+      "startdescription": "It's always a good time to pet Juniper. ",
+      "description": "",
+      "warmup": 1,
+      "requirements": {
+        "cat": 1
+      },
+      "linked": [
+        {
+          "id": "recipe.pet.cat1",
+          "chance": 25
+        },
+        {
+          "id": "recipe.pet.cat2",
+          "chance": 33
+        },
+        {
+          "id": "recipe.pet.cat3",
+          "chance": 50
+        },
+        {
+          "id": "recipe.pet.cat4"
+        }
+      ]
+    },
+    {
+      "id": "recipe.pet.cat1",
+      "actionid": "tavern.public.cats",
+      "label": "Pet Juniper",
+      "startdescription": "",
+      "description": "Juniper purrs contently, leaning into the gentle strokes. She enjoys the attention very much."
+    },
+    {
+      "id": "recipe.pet.cat2",
+      "actionid": "tavern.public.cats",
+      "label": "Pet Juniper",
+      "startdescription": "",
+      "description": "Juniper accepts the little treat that is offered to her and quietly turns away."
+    },
+    {
+      "id": "recipe.pet.cat3",
+      "actionid": "tavern.public.cats",
+      "label": "Pet Juniper",
+      "startdescription": "",
+      "description": "Juniper playfully engages, meeting the teasing hand with a paw. She is ready for another game."
+    },
+    {
+      "id": "recipe.pet.cat4",
+      "actionid": "tavern.public.cats",
+      "label": "Pet Juniper",
+      "startdescription": "",
+      "description": "Juniper gracefully moves away, clearly expressing the desire to be alone."
     }
   ]
 }

@@ -334,6 +334,9 @@
         },
         {
           "id": "emptyrecipe.church.bishops"
+        },
+        {
+          "id": "emptyrecipe.tavern.cat"
         }
 
       ],
@@ -367,8 +370,10 @@
         },
         {
           "id": "emptyrecipe.church.bishops"
+        },
+        {
+          "id": "emptyrecipe.tavern.cat"
         }
-
       ],
       "purge": {
         "chapter2": 1,
@@ -400,8 +405,10 @@
         },
         {
           "id": "emptyrecipe.church.bishops"
+        },
+        {
+          "id": "emptyrecipe.tavern.cat"
         }
-
       ],
       "purge": {
         "chapter2": 1,
@@ -433,8 +440,10 @@
         },
         {
           "id": "emptyrecipe.church.bishops"
+        },
+        {
+          "id": "emptyrecipe.tavern.cat"
         }
-
       ],
       "purge": {
         "chapter2": 1,
@@ -466,8 +475,10 @@
         },
         {
           "id": "emptyrecipe.church.bishops"
+        },
+        {
+          "id": "emptyrecipe.tavern.cat"
         }
-
       ],
       "purge": {
         "chapter2": 1,

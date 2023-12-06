@@ -60,7 +60,7 @@
     {
       "id": "ch2.boat",
       "label": "Event: Pier",
-      "description": "The wind is howling and a storm is about to come. It’s certainly a bad time to sail into the see. But here come the scribe and the taverner, ready to set off.",
+      "description": "The wind is howling and a storm is about to come. It’s certainly a bad time to sail into the sea. But here come the scribe and the taverner, ready to set off.",
       "aspects": {
         "endofchapter": 1,
         "storyevent": 1

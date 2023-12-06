@@ -113,6 +113,19 @@
       }
     },
     {
+      "id": "tavern.public.cat",
+      "label": "Tavern: Juniper's Seat",
+      "description": "A pile of golden hay rests in a quiet corner of the tavern. It is Juniper's usual seat when she is not wandering in the kitchen.",
+      "slot": {
+        "id": "tavernslot.cat",
+        "label": "Cat",
+        "description": "Petting the cat requires at least one cat nearby.",
+        "required": {
+          "cat": 1
+        }
+      }
+    },
+    {
       "id": "market.buy",
       "label": "Market",
       "description": "The market is a lively place filled with mechants of fish, sheep, trinkets, and many others. One can also find selling indulgences.",

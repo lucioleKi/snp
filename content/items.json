@@ -105,7 +105,23 @@
         "plant": 1,
         "medicine": 1
       }
+    },
+    {
+      "id": "cat",
+      "label": "Juniper",
+      "description": "The cat is said to be from a juniper forest in the mountains. She has a pair of grey eyes that are strikingly similar to the Scribe’s, or maybe it is the other way around.",
+      "slots": [
+        {
+          "id": "slot.cat.person",
+          "label": "Character",
+          "actionid": "tavern.public.cat",
+          "required": {
+            "taverner": 1,
+            "scribe": 1
+          },
+          "description": "Who is the lucky one to pet Juniper this time?"
+        }
+      ]
     }
-
   ]
 }
