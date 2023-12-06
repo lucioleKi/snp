@@ -246,6 +246,12 @@
       },
       "linked": [
         {
+          "id": "recipe.ch3.memory.lord.badending"
+        },
+        {
+          "id": "recipe.ch3.memory.lord.wshoppinglist"
+        },
+        {
           "id": "recipe.ch3.memory.lord"
         }
       ]
@@ -280,7 +286,85 @@
         "doctor.phlegmatic.exhausted": 1,
         "doctor.melancholic.exhausted": 1
       },
+      "tablereqs": {
+        "shoppinglist.tavern.ch3": -1
+      },
       "ending": "endofdemo"
+    },
+    {
+      "id": "recipe.ch3.memory.lord.wshoppinglist",
+      "actionid": "church.bishops",
+      "label": "Meanwhile...",
+      "startdescription": "The Bishop sneers with ice-cold eyes. They choke out softly: \"Your hands are shaking. Are you already regretting it?\" The Knight pulls out the sword in fury, even before the last syllable. The blood gushes from the Bishop’s chest, staining their pristine robe more intensely than the Pope's attire.  \"Here’s to all you have wished for.\" the Knight whispers.",
+      "description": "The Lord sees the Bishop’s lips moved, but ushered no word. They immediately rush to the Bishop’s side and holds their hands. They cannot understand what the Bishop tries to say.",
+      "warmup": 10,
+      "slots": [
+        {
+          "id": "slot.main.ch3.lord",
+          "label": "Character",
+          "required": {
+            "lord": 1
+          },
+          "greedy": "True"
+        }
+      ],
+      "purge": {
+        "chapter3": 1,
+        "knight.sanguine.exhausted": 1,
+        "knight.choleric.exhausted": 1,
+        "taverner.sanguine.exhausted": 1,
+        "taverner.melancholic.exhausted": 1,
+        "scribe.sanguine.exhausted": 1,
+        "scribe.phlegmatic.exhausted": 1,
+        "vicar.melancholic.exhausted": 1,
+        "vicar.choleric.exhausted": 1,
+        "doctor.phlegmatic.exhausted": 1,
+        "doctor.melancholic.exhausted": 1,
+        "shoppinglist.tavern.ch3": 1
+      },
+      "tablereqs": {
+        "shoppinglist.tavern.ch3": 1,
+        "funds": 2
+      },
+      "ending": "endofdemo"
+    },
+    {
+      "id": "recipe.ch3.memory.lord.badending",
+      "actionid": "church.bishops",
+      "label": "Meanwhile...",
+      "startdescription": "The Bishop sneers with ice-cold eyes. They choke out softly: \"Your hands are shaking. Are you already regretting it?\" The Knight pulls out the sword in fury, even before the last syllable. The blood gushes from the Bishop’s chest, staining their pristine robe more intensely than the Pope's attire.  \"Here’s to all you have wished for.\" the Knight whispers.",
+      "description": "The Lord sees the Bishop’s lips moved, but ushered no word. They immediately rush to the Bishop’s side and holds their hands. They cannot understand what the Bishop tries to say.",
+      "warmup": 10,
+      "slots": [
+        {
+          "id": "slot.main.ch3.lord",
+          "label": "Character",
+          "required": {
+            "lord": 1
+          },
+          "greedy": "True"
+        }
+      ],
+      "purge": {
+        "chapter3": 1,
+        "knight.sanguine.exhausted": 1,
+        "knight.choleric.exhausted": 1,
+        "taverner.sanguine.exhausted": 1,
+        "taverner.melancholic.exhausted": 1,
+        "scribe.sanguine.exhausted": 1,
+        "scribe.phlegmatic.exhausted": 1,
+        "vicar.melancholic.exhausted": 1,
+        "vicar.choleric.exhausted": 1,
+        "doctor.phlegmatic.exhausted": 1,
+        "doctor.melancholic.exhausted": 1,
+        "shoppinglist.tavern.ch3": 1
+      },
+      "ending": "golddeficit",
+      "tablereqs": {
+        "chapter3": 1,
+        "shoppinglist.tavern.ch3": 1,
+        "funds": -2
+      }
     },
     {
       "id": "recipe.market.buy.ch3",
@@ -299,8 +383,9 @@
       },
       "requirements": { "temperament": 1 },
       "tablereqs": {
-        "chapter2": 1,
-        "shoppinglist.tavern.ch3": 1
+        "chapter3": 1,
+        "shoppinglist.tavern.ch3": 1,
+        "funds": 2
       }
     },
     {
@@ -311,19 +396,17 @@
       "startdescription": "Insufficient funds for going to the market. Starting this will lead to a bad ending!",
       "description": "",
       "warmup": 1,
-      "ending": {
-        "golddeficit": 1
-      },
+      "ending": "golddeficit",
       "aspects": {
         "exhausted": 1
       },
       "requirements": {
-        "temperament": 1,
-        "funds": -2
+        "temperament": 1
       },
       "tablereqs": {
         "chapter3": 1,
-        "shoppinglist.tavern.ch3": 1
+        "shoppinglist.tavern.ch3": 1,
+        "funds": -2
       }
     }
   ]

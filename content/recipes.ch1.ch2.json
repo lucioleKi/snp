@@ -246,7 +246,8 @@
       "requirements": { "temperament": 1 },
       "tablereqs": {
         "chapter2": 1,
-        "shoppinglist.tavern.ch2": 1
+        "shoppinglist.tavern.ch2": 1,
+        "funds": 1
       },
       "effects": {
         "ch2.boat": 1
@@ -260,19 +261,17 @@
       "startdescription": "Insufficient funds for going to the market. Starting this will lead to a bad ending!",
       "description": "",
       "warmup": 1,
-      "ending": {
-        "golddeficit": 1
-      },
+      "ending": "golddeficit",
       "aspects": {
         "exhausted": 1
       },
       "requirements": {
-        "temperament": 1,
-        "funds": -1
+        "temperament": 1
       },
       "tablereqs": {
         "chapter2": 1,
-        "shoppinglist.tavern.ch2": 1
+        "shoppinglist.tavern.ch2": 1,
+        "funds": -1
       }
     },
     {
@@ -280,7 +279,7 @@
       "actionid": "pier",
       "label": "A conversation at sea",
       "craftable": true,
-      "startdescription": "<i>\"You still don’t intend to tell me the whole story, do you?\"</i> inquires the Taverner.\n<i>\"I've told you everything I could.\"</i> sighs the scribe, <i>\"You know who curiosity can kill.\"</i>",
+      "startdescription": "The Taverner rows their boat to the middle of the sea. A storm is approaching. They are both confident in the boat's familiar dance with waves.",
       "description": "",
       "maxexecutions": 1,
       "warmup": 10,
@@ -321,8 +320,8 @@
       "id": "recipe.pier.boat.ch2.default",
       "actionid": "pier",
       "label": "A conversation at sea",
-      "startdescription": "|recipe.pier.boat.ch2.default start desc|",
-      "description": "After a long silence, the scribe says: <i>\"I do what I consider right. If the road ahead is destined to be rough, come what may.\"</i>\n<i>\"I would never want to see you in danger. But if you are determined to go down this path, I’ll follow you.\"</i> says the taverner. They leaned forward to kiss each other.",
+      "startdescription": "",
+      "description": "<i>\"You still don’t want to tell me the whole story.\"</i> says the Taverner.\nAfter a long silence, the scribe says: <i>\"I can't. I do what I consider right. If the road ahead is destined to be rough, come what may.\"</i>\nThe Taverner sighs, leaning forward to kiss the Scribe.",
       "effects": {
         "ch2.boat": -1
       },

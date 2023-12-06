@@ -19,7 +19,7 @@
     },
     {
       "id": "shoppinglist.tavern.ch3",
-      "label": "Shopping List For The Week. Cost: 2 funds.",
+      "label": "Shopping List For The Week. Cost: 2 funds (if not spent at market, it will be deducted at end of chapter).",
       "description": "The shopping list contains peas, carrots, cheese, oat, eggs, and on the last line, a crookedly written 'wine'. It has been crossed off by someone else. "
 
     },

@@ -64,6 +64,14 @@
       "aspects": {
         "secondarycharacter": 1
       }
+    },
+    {
+      "id": "pilgrim",
+      "label": "The Pilgrim",
+      "description": "Before going on the pilgrimage, the pilgrim was a landlord in the neighboring town.",
+      "aspects": {
+        "secondarycharacter": 1
+      }
     }
   ]
 }

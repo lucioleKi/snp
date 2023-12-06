@@ -13,7 +13,7 @@
     {
       "id": "chapter2",
       "label": "Chapter 2",
-      "description": "A tavern, a boat, and a serious conversation.",
+      "description": "A tavern, a boat, and a serious conversation.\n<i>- Have you journeyed to the springs of the sea? Have you seen the gates of the deepest darkness?</i>",
       "aspects": {
         "chapter": 2
       },
