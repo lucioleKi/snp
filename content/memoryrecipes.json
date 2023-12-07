@@ -13,7 +13,10 @@
         "exhausted": 1
       },
       "requirements": { "knight.sanguine": 1 },
-      "tablereqs": { "chapter": 1 },
+      "tablereqs": {
+        "chapter": 1,
+        "ch1to3": 1
+      },
       "effects": {
         "memory.ch1.dining1a": 1
       }
@@ -31,7 +34,10 @@
         "exhausted": 1
       },
       "requirements": { "knight.choleric": 1 },
-      "tablereqs": { "chapter": 1 },
+      "tablereqs": {
+        "chapter": 1,
+        "ch1to3": 1
+      },
       "effects": {
         "memory.ch1.dining1b": 1
       }
@@ -49,7 +55,9 @@
         "exhausted": 1
       },
       "requirements": { "knight.sanguine": 1 },
-      "tablereqs": { "chapter": 2 },
+      "tablereqs": {
+        "chapter": 2
+      },
       "effects": {
         "memory.ch2.dining1a": 1
       }

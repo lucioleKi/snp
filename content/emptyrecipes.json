@@ -96,7 +96,7 @@
       "actionid": "church.garden",
       "label": "Location Unlocked: Monastry - Garden",
       "startdescription": "",
-      "description": "Although not so voluntarily, the Doctor was persuaded to take a look at the injured Bishop. The garden should have herbs the Doctor needs, sufficient for simple treatment to the injury.",
+      "description": "Although not so voluntarily, the Doctor was persuaded to take a look at the injured Bishop. The garden has herbs the Doctor can use for simple treatment. The Doctor can gather them with calm hands.",
       "effects": {
         "ch3.treatment": 1
       }

@@ -185,6 +185,12 @@
       "label": "Belongs to Vicar",
       "description": "This belongs to the Vicar, whatever it means.",
       "isAspect": true
+    },
+    {
+      "id": "ch1to3",
+      "isHidden": true,
+      "isAspect": true,
+      "noArtNeeded": true
     }
   ]
 }

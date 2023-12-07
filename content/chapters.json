@@ -5,7 +5,8 @@
       "label": "Chapter 1",
       "description": "A reunion, a journey to the fort, and a drunken knight.",
       "aspects": {
-        "chapter": 1
+        "chapter": 1,
+        "ch1to3": 1
       },
       "decayTo": "chapter2"
 
@@ -15,7 +16,8 @@
       "label": "Chapter 2",
       "description": "A tavern, a boat, and a serious conversation.\n<i>- Have you journeyed to the springs of the sea? Have you seen the gates of the deepest darkness?</i>",
       "aspects": {
-        "chapter": 2
+        "chapter": 2,
+        "ch1to3": 1
       },
       "decayTo": "chapter3"
     },
@@ -24,7 +26,8 @@
       "label": "Chapter 3",
       "description": "A dream in the tower of Babel.",
       "aspects": {
-        "chapter": 3
+        "chapter": 3,
+        "ch1to3": 1
       }
     }
   ]
