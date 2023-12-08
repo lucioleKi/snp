@@ -117,7 +117,7 @@
     {
       "id": "taverner",
       "label": "The Taverner",
-      "description": "The taverner owns the tavern by the harbor, a cat named Nora, and a secret frying-fish recipe.",
+      "description": "The taverner owns the tavern by the harbor, a cat named Juniper, and a secret frying-fish recipe.",
       "aspects": {
         "maincharacter": 1,
         "skill.fishmonger": 3,
