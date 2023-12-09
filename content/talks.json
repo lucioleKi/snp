@@ -7,7 +7,7 @@
       "craftable": true,
       "startdescription": "<i>\"We should catch up more later. I haven't even told you about the archbishop.\"</i>\nAs the knight shows them to the extra horse, the soldier smiles to him: <i>\"You'll have plenty of time. Let's go now.\"</i>",
       "description": "They rode through the town and the forest. The fort sits atop a hillock, with a drawbridge already down. The soldier's mouth hangs slightly open as they enter the fort.",
-      "warmup": 1,
+      "warmup": 10,
       "maxexecutions": 1,
       "inductions": [
         {
@@ -41,7 +41,7 @@
       "craftable": true,
       "startdescription": "One night, the taverner and the scribe are chatting in the private room of tavern.",
       "description": "<i>\"Are you writing to the Baron again?\"</i>\n<i>\"Yes, to congratulate them about the marriage.\"</i>\n<i>\"They just got married? Thank god. Well, relay my congratulation to them too.\"</i>",
-      "warmup": 1,
+      "warmup": 10,
       "maxexecutions": 1,
       "requirements": {
         "scribe": 1,
@@ -58,7 +58,7 @@
       "craftable": true,
       "startdescription": "One afternoon, the taverner and the arbitrator are chatting in the tavern.",
       "description": "<i>\"Good lord! You heard that the tax for wine has increased a tenth?\"</i>\n<i>\"I have heard about it. Quite unfortunate.\"</i>",
-      "warmup": 1,
+      "warmup": 10,
       "maxexecutions": 1,
       "requirements": {
         "arbitrator": 1,
@@ -75,7 +75,7 @@
       "craftable": true,
       "startdescription": "One afternoon, the scribe and the arbitrator are chatting in the tavern.",
       "description": "<i>\"How was the sermon today?\"</i>\n<i>\"Quite good. It was given by the Vicar today.\"</i>\n<i>\"The Vicar? Interesting.\"</i>",
-      "warmup": 1,
+      "warmup": 10,
       "maxexecutions": 1,
       "requirements": {
         "arbitrator": 1,
@@ -92,7 +92,7 @@
       "craftable": true,
       "startdescription": "One morning, the knight and the soldier are discussing something in the training yard.",
       "description": "<i>\"My posture on horseback is still as bad as when I joined the army.\"</i>\n<i>\"That's nonsense! You've improved quite a lot! Besides, you have never been really bad. You just needed more guidance.\"</i>",
-      "warmup": 1,
+      "warmup": 10,
       "maxexecutions": 1,
       "requirements": {
         "knight": 1,
@@ -109,7 +109,7 @@
       "craftable": true,
       "startdescription": "One morning, the knight and the soldier are discussing something in the training yard.",
       "description": "<i>\"It is a long ride for you to get here. You should get some rest.\"</i>\n<i>\"No need for that. I brought some herbs. See any could be of use.\"</i>",
-      "warmup": 1,
+      "warmup": 10,
       "maxexecutions": 1,
       "requirements": {
         "doctor": 1,
@@ -126,7 +126,7 @@
       "craftable": true,
       "startdescription": "One morning, the doctor and the prior are discussing something in the Doctor's tower.",
       "description": "<i>\"How was your progress with making gold?\"</i>\n<i>\"You remember. Not too well. I wasn't able to purify it.\"</i>\n<i>\"Well, I guess even the alchemists in Paris wasn't good enough to do it.\"</i>\n<i>\"No. No, they were not helpful at all.\"</i>",
-      "warmup": 1,
+      "warmup": 10,
       "maxexecutions": 1,
       "requirements": {
         "doctor": 1,
@@ -143,7 +143,7 @@
       "craftable": true,
       "startdescription": "One afternoon, the taverner and the scribe are chatting in the tavern.",
       "description": "<i>\"How's the fishing today?\"</i>\n<i>\"Pretty good. Sold some to the market and here's the rest.\"</i>\n<i>\"What's that in your hand?\"</i>\n<i>\"This?\"</i> The scribe holds up the shining shell in their hand with a smirk, <i>\"a bonus.\"</i>",
-      "warmup": 1,
+      "warmup": 10,
       "maxexecutions": 1,
       "requirements": {
         "scribe": 1,
@@ -160,7 +160,7 @@
       "craftable": true,
       "startdescription": "One morning, the taverner and the arbitrator are chatting in the tavern.",
       "description": "<i>\"Do you plan to propose to the Scribe soon?\"</i>\n<i>\"Shhh...Don't let them hear about it! But yes, I've been thinking about it for a while. I don't know what the best time is.\"</i>",
-      "warmup": 1,
+      "warmup": 10,
       "maxexecutions": 1,
       "requirements": {
         "arbitrator": 1,
@@ -177,7 +177,7 @@
       "craftable": true,
       "startdescription": "One afternoon, the scribe and the arbitrator are chatting in the tavern.",
       "description": "<i>\"This year's winter was exteremely cold. I heard the crops didn't grow well. I hope your lands are not severely affected.\"</i>\n<i>\"They inevitably have been. I'm more concerned about the possible femine than my tax collection.\"</i>",
-      "warmup": 1,
+      "warmup": 10,
       "maxexecutions": 1,
       "requirements": {
         "arbitrator": 1,
@@ -194,7 +194,7 @@
       "craftable": true,
       "startdescription": "One morning, the knight and the soldier are discussing something in the training yard.",
       "description": "<i>\"So, had you been a cook at the tavern ever since you left my troupe?\"</i>\n<i>\"Yes.\"</i>\n<i>\"How have you found your life as a cook.\"</i>\n<i>\"Decent. Just a little boring sometimes. Not as exciting as the life in the army.\"</i>",
-      "warmup": 1,
+      "warmup": 10,
       "maxexecutions": 1,
       "requirements": {
         "knight": 1,

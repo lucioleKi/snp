@@ -7,7 +7,7 @@
       "craftable": true,
       "startdescription": "After supper, the knight ponders alone. They remember a feast after victory.",
       "description": "The memory leaves a bitter taste. Only the soldier follows him now, after all.",
-      "warmup": 1,
+      "warmup": 10,
       "maxexecutions": 1,
       "aspects": {
         "exhausted": 1
@@ -28,7 +28,7 @@
       "craftable": true,
       "startdescription": "After supper, the knight ponders alone. They remember a feast with friends.",
       "description": "The memory leaves a sour taste. The knight is no longer friends with one of them, after all.",
-      "warmup": 1,
+      "warmup": 10,
       "maxexecutions": 1,
       "aspects": {
         "exhausted": 1
@@ -47,9 +47,9 @@
       "actionid": "explorefort.diningroom",
       "label": "Dining Room: Sanguine",
       "craftable": true,
-      "startdescription": "|After supper, the knight ponders alone. They remember...|",
-      "description": "|recipe.fort.diningroom.ch2a|",
-      "warmup": 1,
+      "startdescription": "After breakfast, the knight ponders alone. They remember the breakfast they had upon their first arrival at the fort.",
+      "description": "The memory leaves a complicated feeling, but they feel lucky that they got to know the scribe and the baron from that occasion.",
+      "warmup": 10,
       "maxexecutions": 1,
       "aspects": {
         "exhausted": 1
@@ -67,9 +67,9 @@
       "actionid": "explorefort.diningroom",
       "label": "Dining Room: Choleric",
       "craftable": true,
-      "startdescription": "|After supper, the knight ponders alone. They remember...|",
-      "description": "|recipe.fort.diningroom.ch2b|",
-      "warmup": 1,
+      "startdescription": "After supper, the knight ponders alone. They remember many inspiring conversations they had with friends in Shroudburn, especially those on military tactics and strategies.",
+      "description": "The knight once thought they were such like-minded friends, and yet they are going to use those tacts against each other soon…",
+      "warmup": 10,
       "maxexecutions": 1,
       "aspects": {
         "exhausted": 1
@@ -81,39 +81,22 @@
       }
     },
     {
-      "id": "recipe.fort.diningroom.ch3a",
-      "actionid": "explorefort.diningroom",
-      "label": "Dining Room: Sanguine",
-      "craftable": true,
-      "startdescription": "|After supper, the knight ponders alone. They remember...|",
-      "description": "|recipe.fort.diningroom.ch3a|",
-      "warmup": 1,
-      "maxexecutions": 1,
-      "aspects": {
-        "exhausted": 1
-      },
-      "requirements": { "knight.sanguine": 1 },
-      "tablereqs": { "chapter": 3 },
-      "effects": {
-        "memory.ch3.dining1a": 1
-      }
-    },
-    {
-      "id": "recipe.fort.diningroom.ch3b",
-      "actionid": "explorefort.diningroom",
+      "id": "recipe.fort.mainhall.memory.tactics",
+      "actionid": "explorefort.mainhall",
+      "greedy": true,
       "label": "Dining Room: Choleric",
       "craftable": true,
-      "startdescription": "|After supper, the knight ponders alone. They remember...|",
-      "description": "|recipe.fort.diningroom.ch3b|",
-      "warmup": 1,
+      "startdescription": "The knight remembers discussing tactics with the bishop before setting out for a war. Those discussions helped the knight achieve a smooth victory without much casualties.",
+      "description": "The knight realizes that the bishop has influenced them so much, that it has become a part of how they think and fight now.",
+      "warmup": 10,
       "maxexecutions": 1,
-      "aspects": {
-        "exhausted": 1
+      "requirements": { "skill.lancer": 5 },
+      "tablereqs": {
+        "chapter": 3,
+        "memory.ch1.dining1a": 1
       },
-      "requirements": { "knight.choleric": 1 },
-      "tablereqs": { "chapter": 3 },
       "effects": {
-        "memory.ch3.dining1b": 1
+        "memory.tactics": 1
       }
     }
   ]

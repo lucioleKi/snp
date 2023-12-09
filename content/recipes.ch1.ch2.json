@@ -26,7 +26,7 @@
       "craftable": true,
       "startdescription": "Their gaze falls on the forest, and then on the distant town's silhouette. The soldier suddenly asks: <i>\"Have you been living in the castle alone for the last month?\"</i> The knight bottoms up their wine: <i>\"If I hadn’t see you at the port, I think I’d have given up.\"</i>",
       "description": "The soldier murmurs: <i>\"No, you could’ve...\"</i> <i>\"Could’ve? I have no gold, no land of my own. How do I summon anyone with nothing?\"</i> The soldier falls silent for a while, and then they say: <i>\"You always have me.\"</i>",
-      "warmup": 1,
+      "warmup": 10,
       "maxexecutions": 1,
       "effects": {
         "ch1.tower": -1,
@@ -41,7 +41,7 @@
       "craftable": true,
       "startdescription": "The weapon rack holds a variation of bows and arrows. Maybe this is a day for training aim and accuracy.",
       "description": "The strong wind makes it difficult to aim, but it is good practice for fighting in different kinds of weather. \nArchery +1.",
-      "warmup": 1,
+      "warmup": 10,
       "aspects": {
         "exhausted": 1
       },
@@ -62,7 +62,7 @@
       "craftable": true,
       "startdescription": "The weapon rack holds a lance, a javlin, and a pike. Maybe this is a day for training strength and equestrian skills.",
       "description": "The knight had a good fight with the soldier. They are exhausted but exhilarated after the practice. \nLancing +1.",
-      "warmup": 1,
+      "warmup": 10,
       "aspects": {
         "exhausted": 1
       },
@@ -83,7 +83,7 @@
       "craftable": true,
       "startdescription": "The knight is sitting in front of the fireplace with bottles of wine by the feet. They stared blankly at the stuffed deer head hanging on the wall. Their eyes are bloodshot.",
       "description": "The knight cried into the arms of the soldier, and it took them a while to comfort the knight.",
-      "warmup": 1,
+      "warmup": 10,
       "purge": {
         "chapter1": 1,
         "knight.sanguine.exhausted": 1,
@@ -113,7 +113,7 @@
       "craftable": true,
       "startdescription": "The scribe is writing a secret letter to the baron, asking whether they are willing to rent their fort to the knight.",
       "description": "As a finishing touch, the scribe imprinted the shape of their coin in the conner or the letter, so no one could counterfeit it. They could send out the letter on their way to shopping on the market. They have a long list of supplies to buy for the tavern.",
-      "warmup": 1,
+      "warmup": 10,
       "maxexecutions": 1,
       "requirements": { "scribe.sestertius": 1 },
       "inductions": [
@@ -134,7 +134,7 @@
       "startdescription": "The Taverner is humming and hanging some sea shells onto the wall as decorations when the Arbitrator walks in.",
       "description": "The Taverner greets the Arbitrator with a big smile and a hug. <i>\"Haven’t seen you in a while! How's your life going without working for the Church?\"</i> <i>\"Much less stressful. I’m happy about it.\"</i> the Arbitrator smiled warmly.",
       "maxexecutions": 1,
-      "warmup": 1,
+      "warmup": 10,
       "aspects": {
         "exhausted": 1
       },
@@ -153,7 +153,7 @@
       "startdescription": "The tavern door is opened. The arbitrator walks in. The Taverner cracks out a smile as they see the Arbitrator.",
       "description": "<i>\"You look upset. What’s the matter?\"</i> says the Arbitrator. The Taverner sighs: <i>\"It’s the tax of wine and beer, of course. What else could it be? The Scribe has warned me against buying more wine for myself, and the profit of the tavern is dwindling too.\"</i>",
       "maxexecutions": 1,
-      "warmup": 1,
+      "warmup": 10,
       "aspects": {
         "exhausted": 1
       },
@@ -171,7 +171,7 @@
       "craftable": true,
       "startdescription": "The Taverner is telling people their sailing stories and bragging about their fishing skills. They start to get drunk. Their laughter fills the tavern.",
       "description": "The Taverner starts dancing to the music. They look rather foolish, dancing wobbly. Suddenly, they slip and fall onto the floor. The tavern roars with laughter.",
-      "warmup": 1,
+      "warmup": 10,
       "aspects": {
         "exhausted": 1
       },
@@ -187,7 +187,7 @@
       "craftable": true,
       "startdescription": "The barley for bread has dwindled sharply. They say a war devoured all the stock. The tavern is also scarcely getting customers. A group of bandits were spotted in the forest south of the town. Fewer travelers are willing to pass by.",
       "description": "The Taverner sighed. They can only pray they catch enough fish now. Maybe they should not have spent so much on drinking last month.",
-      "warmup": 1,
+      "warmup": 10,
       "aspects": {
         "exhausted": 1
       },
@@ -203,7 +203,7 @@
       "craftable": true,
       "startdescription": "The scribe is in a talkative mood today. They even listen to a few complaints about the rising wine taxes. The scribe always finds it amusing that their costumers keep coming back for their wine, since the scribe knows very well that the taverner adds vinegar into the wine…",
       "description": "In their delight, the scribe flips a coin in their hands. It lands facing up. They record down the result in the back of the ledger.",
-      "warmup": 1,
+      "warmup": 10,
       "aspects": {
         "exhausted": 1
       },
@@ -219,7 +219,7 @@
       "craftable": true,
       "startdescription": "The scribe isn’t in the mood to chat with customers today and is busy checking the ledger.",
       "description": "There are a few suspicious spendings, obviously written by the Taverner. The Scribe decides to keep a closer eye on them with the increasing wine tax.",
-      "warmup": 1,
+      "warmup": 10,
       "aspects": {
         "exhausted": 1
       },
@@ -235,7 +235,7 @@
       "craftable": true,
       "startdescription": "They sell a bag of fish the taverner just caught this morning and has a cheerful chat with the buyer. They then go to buy some flour and salt.",
       "description": "They are attracted by exotic-looking merchants, who sell dried lamb and exotic herbs. They poke their head into the crowd to get a closer look, but is disappointed by the price. “Dishonest merchants.” They mutter under their breath.",
-      "warmup": 1,
+      "warmup": 10,
       "purge": {
         "shoppinglist.tavern.ch2": 1,
         "funds": 1
@@ -260,7 +260,7 @@
       "craftable": true,
       "startdescription": "Insufficient funds for going to the market. Starting this will lead to a bad ending!",
       "description": "",
-      "warmup": 1,
+      "warmup": 10,
       "ending": "golddeficit",
       "aspects": {
         "exhausted": 1
