@@ -3,7 +3,7 @@
 
 
 
-Steam workshop link where you can read about and download the demo: 
+Steam workshop link where you can read about and download the demo: https://steamcommunity.com/sharedfiles/filedetails/?id=3110968133
 
 
 
