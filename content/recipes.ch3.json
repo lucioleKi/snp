@@ -7,7 +7,7 @@
       "craftable": true,
       "startdescription": "The Doctor has noticed a few unique species in the garden, quite different from what they have seen in other gardens and forests. Perhaps it’s the soil, or the water.",
       "description": "The Doctor carefully draws down some herbs in their notebook and picks a few samples with them to test their properties.",
-      "warmup": 1,
+      "warmup": 10,
       "aspects": {
         "exhausted": 1
       },
@@ -31,7 +31,7 @@
       "startdescription": "The Monastery Garden is a harbor for different herbs. If the Doctor would like to use them for study, for cure, or even for poison, is an interesting question.",
       "description": "The Doctor got what they needs from the garden. They have a lot to do with these herbs they found today.",
       "maxexecutions": 1,
-      "warmup": 1,
+      "warmup": 10,
       "aspects": {
         "exhausted": 1
       },
@@ -49,7 +49,7 @@
       "craftable": true,
       "startdescription": "The Workstation is a magical and yet dangerous place. Here, the Doctor can create elixir or poison, or perhaps even gold, at least so they claim.",
       "description": "The Doctor carefully puts their results into bowls and vials, and then stretched contently.\nAlchemist +1",
-      "warmup": 1,
+      "warmup": 10,
       "aspects": {
         "exhausted": 1
       },
@@ -159,7 +159,7 @@
       "label": "The Prior enters",
       "startdescription": "Someone knocks, and the Prior enters with some bread and beer in hand. They hesitates at the door before stepping in and giving the food to the Lord. Then they quickly steps back to the door again and looks at the Doctor with an anxious, questioning look.",
       "description": "The Doctor looks at the Prior with a paled face that is difficult to hide. The Prior looks shaken, not at all convinced by anything. Before the Prior quietly leaving the room, they turns to the Doctor and whispered: \"I'll be in my room, if you wish to discuss more.\"",
-      "warmup": 1,
+      "warmup": 10,
       "slots": [
         {
           "id": "slot.main.ch3.prior",
@@ -183,7 +183,7 @@
       "craftable": true,
       "startdescription": "The old, widowed stable hand is very sick. One of their twins comes to ask the vicar to perform anointing of the sick.",
       "description": "The poor stable hand likely only have a few days to live. The vicar looks around in the decrepit hut. The smell is usually horrible in this kind of situation, yet the room is relatively clean.",
-      "warmup": 1,
+      "warmup": 10,
       "maxexecutions": 1,
       "aspects": {
         "exhausted": 1
@@ -205,7 +205,7 @@
       "craftable": true,
       "startdescription": "The vicar hears peasants' penance on a daily basis. They are quite familiar with most of the venial sins, and can answer queries without consulting penitential books.",
       "description": "The vicar usually asks the sinners to make extra prayers, or to come to the Eucharist more frequently. No need to turn any frightened soul away. \nTheologian +1.",
-      "warmup": 1,
+      "warmup": 10,
       "maxexecutions": 1,
       "aspects": {
         "exhausted": 1
@@ -233,7 +233,7 @@
       "startdescription": "<i>\"Do you think the Bishop will wake up soon?\"</i> asks the Prior.\n<i>\"I don’t know. They seem to be stabbed by a sword. Who did it?\"</i>",
       "description": "<i>\"I don’t know. The servants who sent the Bishop here said they didn’t catch the perpectrator.\"</i> the Prior shifts their feet uneasily. The Doctor raises their eyebrows in surprise. <i>\"Looks like the Bishop got themselves a true enemy…\"</i>",
       "maxexecutions": 1,
-      "warmup": 1,
+      "warmup": 10,
       "requirements": {
         "doctor": 1
       }
@@ -398,7 +398,7 @@
       "craftable": true,
       "startdescription": "They weave through stalls selling fruits and fresh cheese, stuffing a dried plum into the mouth as they go by.",
       "description": "They navigate the lively market, sniffing fresh cheese and oats. After seeing a new flower stand in the corner, they choose to buy a floral wreath for a certain someone. ",
-      "warmup": 1,
+      "warmup": 10,
       "purge": {
         "shoppinglist.tavern.ch3": 1,
         "funds": 2
@@ -420,7 +420,7 @@
       "craftable": true,
       "startdescription": "Insufficient funds for going to the market. Starting this will lead to a bad ending!",
       "description": "",
-      "warmup": 1,
+      "warmup": 10,
       "ending": "golddeficit",
       "aspects": {
         "exhausted": 1
@@ -441,7 +441,7 @@
       "craftable": true,
       "startdescription": "It's always a good time to pet Juniper. ",
       "description": "",
-      "warmup": 1,
+      "warmup": 10,
       "requirements": {
         "cat": 1
       },
