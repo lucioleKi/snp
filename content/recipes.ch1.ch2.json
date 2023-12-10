@@ -323,7 +323,8 @@
       "startdescription": "",
       "description": "<i>\"You still don’t want to tell me the whole story.\"</i> says the Taverner.\nAfter a long silence, the scribe says: <i>\"I can't. I do what I consider right. If the road ahead is destined to be rough, come what may.\"</i>\nThe Taverner sighs, leaning forward to kiss the Scribe.",
       "effects": {
-        "ch2.boat": -1
+        "ch2.boat": -1,
+        "shoppinglist.tavern.ch3": 1
       },
       "inductions": [
         {
@@ -359,7 +360,8 @@
       "warmup": 10,
       "requirements": { "scribe.sanguine": 1 },
       "effects": {
-        "ch2.boat": -1
+        "ch2.boat": -1,
+        "shoppinglist.tavern.ch3": 1
       },
       "inductions": [
         {
@@ -394,7 +396,8 @@
       "warmup": 10,
       "requirements": { "scribe.phlegmatic": 1 },
       "effects": {
-        "ch2.boat": -1
+        "ch2.boat": -1,
+        "shoppinglist.tavern.ch3": 1
       },
       "inductions": [
         {
@@ -429,7 +432,8 @@
       "warmup": 10,
       "requirements": { "taverner.sanguine": 1 },
       "effects": {
-        "ch2.boat": -1
+        "ch2.boat": -1,
+        "shoppinglist.tavern.ch3": 1
       },
       "inductions": [
         {
@@ -464,7 +468,8 @@
       "warmup": 10,
       "requirements": { "taverner.melancholic": 1 },
       "effects": {
-        "ch2.boat": -1
+        "ch2.boat": -1,
+        "shoppinglist.tavern.ch3": 1
       },
       "inductions": [
         {
