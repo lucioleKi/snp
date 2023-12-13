@@ -2,6 +2,8 @@
 # The Sacred and The Profane
 
 
+## This branch is NOT a stable version! If you are looking for the demo version, see below:
+
 
 Steam workshop link where you can read about and download the demo: https://steamcommunity.com/sharedfiles/filedetails/?id=3110968133
 

@@ -29,6 +29,14 @@
         "chapter": 3,
         "ch1to3": 1
       }
+    },
+    {
+      "id": "chapter4",
+      "label": "Chapter 4",
+      "description": "A song, a job posting, and a kiss for Salome.",
+      "aspects": {
+        "chapter": 4
+      }
     }
   ]
 }
