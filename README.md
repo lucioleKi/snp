@@ -76,4 +76,5 @@ Same as above. Contact K on steam or discord. We welcome all kinds of feedback.
 
 Icons used by the game are either from *Sixth History art assets*, or listed in *icon_credits.txt*.
 
-
+## Changelog
+12/14/2023 Fixed a soft block in Chapter 2. Thank you bridgeofblues@steam for pointing it out!
