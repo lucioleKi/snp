@@ -1,0 +1,57 @@
+{
+  "recipes": [
+    {
+      {
+        "id": "recipe.tavern.brewery.ch4a",
+        "actionid": "tavern.private.kitchen",
+        "label": "Brewer",
+        "craftable": true,
+        "startdescription": "|recipe.tavern.brewery.ch4a startdescription|",
+        "description": "|recipe.tavern.brewery.ch4a description Brewer +1.|",
+        "warmup": 1,
+        "aspects": {
+          "exhausted": 1
+        },
+        "mutations": [
+          {
+            "filter": "taverner",
+            "level": 1,
+            "additive": true,
+            "mutate": "skill.brewer"
+          }
+        ],
+        "requirements": { "taverner.sanguine": 1 }
+      }
+    },
+    {
+      "id": "recipe.tavern.kitchen.talk",
+      "actionid": "tavern.private.kitchen",
+      "label": "Brewer",
+      "craftable": true,
+      "startdescription": "|recipe.tavern.kitchen.talk startdescription|",
+      "description": "|recipe.tavern.kitchen.talk description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "ch4.cook": 1
+
+      },
+      "effects": {
+        "cook1": 1,
+        "cook2": 1,
+        "cook3": 1
+      }
+    },
+    {
+      "id": "recipe.tavern.bedroom.coin",
+      "actionid": "tavern.private.desk",
+      "label": "Flip the coin",
+      "craftable": true,
+      "startdescription": "|recipe.tavern.bedroom.coin startdescription|",
+      "description": "As a finishing touch, the scribe imprinted the shape of their coin in the conner or the letter, so no one could counterfeit it. They could send out the letter on their way to shopping on the market. They have a long list of supplies to buy for the tavern.",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": { "scribe.sestertius": 1 }
+    }
+  ]
+}

@@ -62,6 +62,16 @@
       }
     },
     {
+      "id": "emptyrecipe.tavern.kitchen",
+      "actionid": "tavern.private.kitchen",
+      "label": "Location Unlocked: Tavern: Kitchen",
+      "startdescription": "",
+      "description": "|kitchen is used by the taverner as a breweing room, as they can't make good bread anyway|",
+      "effects": {
+        "taverner.sanguine": 1
+      }
+    },
+    {
       "id": "emptyrecipe.tavern.cat",
       "actionid": "tavern.public.cat",
       "label": "Location Unlocked: Tavern: Juniper's Seat",

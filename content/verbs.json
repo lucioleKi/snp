@@ -126,6 +126,20 @@
       }
     },
     {
+      "id": "tavern.private.kitchen",
+      "label": "Tavern: Kitchen",
+      "description": "|Tavern: Kitchen description|",
+      "slot": {
+        "id": "tavernslot.kitchen",
+        "label": "Character/Event",
+        "description": "Going to the Kitchen requires at least one person.",
+        "required": {
+          "taverner": 1,
+          "storyevent": 1
+        }
+      }
+    },
+    {
       "id": "market.buy",
       "label": "Market",
       "description": "The market is a lively place filled with mechants of fish, sheep, trinkets, and many others. One can also find selling indulgences.",

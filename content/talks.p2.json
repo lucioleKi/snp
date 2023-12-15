@@ -1,0 +1,124 @@
+{
+  "recipes": [
+    {
+      "id": "recipe.ch4.tavernerscribe",
+      "actionid": "converse",
+      "label": "Conversation: Taverner & Scribe",
+      "craftable": "true",
+      "startdescription": "|recipe.ch4.tavernerscribe startdescription|",
+      "description": "|recipe.ch4.tavernerscribe description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "taverner": 1,
+        "scribe": 1
+      },
+      "tablereqs": { "chapter4": 1 }
+    },
+    {
+      "id": "recipe.ch4.tavernerarbitrator",
+      "actionid": "converse",
+      "label": "Conversation: Taverner & Arbitrator",
+      "craftable": "true",
+      "startdescription": "|recipe.ch4.tavernerarbitrator startdescription|",
+      "description": "|recipe.ch4.tavernerarbitrator description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "taverner": 1,
+        "arbitrator": 1
+      },
+      "tablereqs": { "chapter4": 1 }
+    },
+    {
+      "id": "recipe.ch4.tavernerminstrel",
+      "actionid": "converse",
+      "label": "Conversation: Taverner & Minstrel",
+      "craftable": "true",
+      "startdescription": "|recipe.ch4.tavernerminstrel startdescription|",
+      "description": "|recipe.ch4.tavernerminstrel description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "taverner": 1,
+        "minstrel": 1
+      },
+      "tablereqs": { "chapter4": 1 }
+    },
+    {
+      "id": "recipe.ch4.scribearbitrator",
+      "actionid": "converse",
+      "label": "Conversation: Scribe & Arbitrator",
+      "craftable": "true",
+      "startdescription": "|recipe.ch4.scribearbitrator startdescription|",
+      "description": "|recipe.ch4.scribearbitrator description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "scribe": 1,
+        "arbitrator": 1
+      },
+      "tablereqs": { "chapter4": 1 }
+    },
+    {
+      "id": "recipe.ch4.scribeminstrel",
+      "actionid": "converse",
+      "label": "Conversation: Scribe & Minstrel",
+      "craftable": "true",
+      "startdescription": "|recipe.ch4.scribeminstrel startdescription|",
+      "description": "|recipe.ch4.scribeminstrel description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "scribe": 1,
+        "minstrel": 1
+      },
+      "tablereqs": { "chapter4": 1 }
+    },
+    {
+      "id": "recipe.ch4.doctorlord",
+      "actionid": "converse",
+      "label": "Conversation: Doctor & Lord",
+      "craftable": "true",
+      "startdescription": "|recipe.ch4.doctorlord startdescription|",
+      "description": "|recipe.ch4.doctorlord description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "doctor": 1,
+        "lord": 1
+      },
+      "tablereqs": { "chapter4": 1 }
+    },
+    {
+      "id": "recipe.ch4.doctorprior",
+      "actionid": "converse",
+      "label": "Conversation: Doctor & Prior",
+      "craftable": "true",
+      "startdescription": "|recipe.ch4.doctorprior startdescription|",
+      "description": "|recipe.ch4.doctorprior description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "doctor": 1,
+        "prior": 1
+      },
+      "tablereqs": { "chapter4": 1 }
+    },
+    {
+      "id": "recipe.ch4.knightsoldier",
+      "actionid": "converse",
+      "label": "Conversation: Knight & Soldier",
+      "craftable": "true",
+      "startdescription": "|recipe.ch4.knightsoldier startdescription|",
+      "description": "|recipe.ch4.knightsoldier description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "knight": 1,
+        "soldier": 1
+      },
+      "tablereqs": { "chapter4": 1 }
+    }
+  ]
+}

@@ -56,7 +56,8 @@
       },
       "requirements": { "knight.sanguine": 1 },
       "tablereqs": {
-        "chapter": 2
+        "chapter": 2,
+        "ch1to3": 1
       },
       "effects": {
         "memory.ch2.dining1a": 1
@@ -75,7 +76,10 @@
         "exhausted": 1
       },
       "requirements": { "knight.choleric": 1 },
-      "tablereqs": { "chapter": 2 },
+      "tablereqs": {
+        "chapter": 2,
+        "ch1to3": 1
+      },
       "effects": {
         "memory.ch2.dining1b": 1
       }
@@ -97,6 +101,90 @@
       },
       "effects": {
         "memory.tactics": 1
+      }
+    },
+    {
+      "id": "recipe.fort.diningroom.ch4a",
+      "actionid": "explorefort.diningroom",
+      "label": "Dining Room: Sanguine",
+      "craftable": true,
+      "startdescription": "|recipe.fort.diningroom.ch4a startdescription|",
+      "description": "|recipe.fort.diningroom.ch4a description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "knight.sanguine": 1 },
+      "tablereqs": {
+        "chapter": 4,
+        "ch1to3": -1
+      },
+      "effects": {
+        "memory.ch2.dining1a": 1
+      }
+    },
+    {
+      "id": "recipe.fort.diningroom.ch4b",
+      "actionid": "explorefort.diningroom",
+      "label": "Dining Room: Choleric",
+      "craftable": true,
+      "startdescription": "|recipe.fort.diningroom.ch4b startdescription|",
+      "description": "|recipe.fort.diningroom.ch4b description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "knight.choleric": 1 },
+      "tablereqs": {
+        "chapter": 4,
+        "ch1to3": -1
+      },
+      "effects": {
+        "memory.ch2.dining1b": 1
+      }
+    },
+    {
+      "id": "recipe.fort.diningroom.ch5a",
+      "actionid": "explorefort.diningroom",
+      "label": "Dining Room: Sanguine",
+      "craftable": true,
+      "startdescription": "|recipe.fort.diningroom.ch5a startdescription|",
+      "description": "|recipe.fort.diningroom.ch5a description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "knight.sanguine": 1 },
+      "tablereqs": {
+        "chapter": 5,
+        "ch1to3": -1
+      },
+      "effects": {
+        "memory.ch2.dining1a": 1
+      }
+    },
+    {
+      "id": "recipe.fort.diningroom.ch5b",
+      "actionid": "explorefort.diningroom",
+      "label": "Dining Room: Choleric",
+      "craftable": true,
+      "startdescription": "|recipe.fort.diningroom.ch5b startdescription|",
+      "description": "|recipe.fort.diningroom.ch5b description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "knight.choleric": 1 },
+      "tablereqs": {
+        "chapter": 5,
+        "ch1to3": -1
+      },
+      "effects": {
+        "memory.ch2.dining1b": 1
       }
     }
   ]

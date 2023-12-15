@@ -145,6 +145,34 @@
           "description": "The bishop is having a dream. Or is it a memory?"
         }
       ]
+    },
+    {
+      "id": "ch4.cook",
+      "label": "Event: Tavern Kitchen",
+      "description": "|Event card description|",
+      "aspects": {
+        "storyevent": 1
+      },
+      "slots": [
+        {
+          "id": "slot.main.ch4.taverner",
+          "label": "Character",
+          "actionid": "pier",
+          "required": {
+            "taverner": 1
+          },
+          "description": "The scribe should go find the taverner in the kitchen."
+        },
+        {
+          "id": "slot.main.ch4.scribe",
+          "label": "Character",
+          "actionid": "pier",
+          "required": {
+            "scribe": 1
+          },
+          "description": "The taverner should wait for the scribe in the kitchen."
+        }
+      ]
     }
   ]
 }

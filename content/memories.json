@@ -43,6 +43,42 @@
       "aspects": {
         "mainmemory": 1
       }
+    },
+    {
+      "id": "memory.ch4.dining1a",
+      "label": "Memory: Dining with the Baron",
+      "description": "|Memory: Dining with the Baron card description|",
+      "aspects": {
+        "mainmemory": 1
+      }
+
+    },
+    {
+      "id": "memory.ch4.dining1b",
+      "label": "Memory: Dining with the Scribe",
+      "description": "|Memory: Dining with the Scribe card description|",
+      "aspects": {
+        "mainmemory": 1
+      }
+
+    },
+    {
+      "id": "memory.ch5.dining1a",
+      "label": "|Memory: ch5.dining1a|",
+      "description": "|Memory: ch5.dining1a card description|",
+      "aspects": {
+        "mainmemory": 1
+      }
+
+    },
+    {
+      "id": "memory.ch5.dining1b",
+      "label": "|Memory: ch5.dining1b|",
+      "description": "|Memory: ch5.dining1b card description|",
+      "aspects": {
+        "mainmemory": 1
+      }
+
     }
   ]
 }

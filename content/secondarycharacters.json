@@ -72,6 +72,30 @@
       "aspects": {
         "secondarycharacter": 1
       }
+    },
+    {
+      "id": "cook1",
+      "label": "The First Cook Candidate",
+      "description": "|The First Cook Candidate desc|",
+      "aspects": {
+        "secondarycharacter": 1
+      }
+    },
+    {
+      "id": "cook2",
+      "label": "The Second Cook Candidate",
+      "description": "|The First Cook Candidate desc|",
+      "aspects": {
+        "secondarycharacter": 1
+      }
+    },
+    {
+      "id": "cook3",
+      "label": "The Third Cook Candidate",
+      "description": "|The Third Cook Candidate desc|",
+      "aspects": {
+        "secondarycharacter": 1
+      }
     }
   ]
 }
