@@ -191,6 +191,12 @@
       "isHidden": true,
       "isAspect": true,
       "noArtNeeded": true
+    },
+    {
+      "id": "num.coin",
+      "isHidden": true,
+      "isAspect": true,
+      "noArtNeeded": true
     }
   ]
 }

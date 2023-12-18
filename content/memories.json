@@ -79,6 +79,14 @@
         "mainmemory": 1
       }
 
+    },
+    {
+      "id": "memory.cointoss.2",
+      "label": "|Memory: Coin toss|",
+      "description": "|Memory: Coin toss card description|",
+      "aspects": {
+        "mainmemory": 1
+      }
     }
   ]
 }

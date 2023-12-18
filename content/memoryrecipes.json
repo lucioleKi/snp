@@ -186,6 +186,90 @@
       "effects": {
         "memory.ch2.dining1b": 1
       }
+    },
+    {
+      "id": "recipe.ch4.memory.pt1",
+      "actionid": "church.bishops",
+      "label": "Bishop's Dream (or Memory)",
+      "craftable": true,
+      "startdescription": "|recipe.ch4.memory desc 1|",
+      "description": "",
+      "warmup": 1,
+      "effects": {
+        "ch4.memory": -1
+      },
+      "requirements": {
+        "ch4.memory": 1
+      },
+      "linked": [
+        {
+          "id": "recipe.ch4.memory.pt2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.ch4.memory.pt2",
+      "actionid": "church.bishops",
+      "label": "Bishop's Dream (or Memory)",
+      "startdescription": "|recipe.ch4.memory desc 2|",
+      "description": "|recipe.ch4.memory desc 3|",
+      "warmup": 1
+    },
+    {
+      "id": "recipe.ch5.memory.pt1",
+      "actionid": "church.bishops",
+      "label": "Bishop's Dream (or Memory)",
+      "craftable": true,
+      "startdescription": "|recipe.ch5.memory desc 1|",
+      "description": "",
+      "warmup": 1,
+      "effects": {
+        "ch5.memory": -1
+      },
+      "requirements": {
+        "ch5.memory": 1
+      },
+      "linked": [
+        {
+          "id": "recipe.ch5.memory.pt2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.ch5.memory.pt2",
+      "actionid": "church.bishops",
+      "label": "Bishop's Dream (or Memory)",
+      "startdescription": "|recipe.ch5.memory desc 2|",
+      "description": "|recipe.ch5.memory desc 3|",
+      "warmup": 1
+    },
+    {
+      "id": "recipe.ch6.memory.pt1",
+      "actionid": "church.bishops",
+      "label": "Bishop's Dream (or Memory)",
+      "craftable": true,
+      "startdescription": "|recipe.ch6.memory desc 1|",
+      "description": "",
+      "warmup": 1,
+      "effects": {
+        "ch4.memory": -1
+      },
+      "requirements": {
+        "ch4.memory": 1
+      },
+      "linked": [
+        {
+          "id": "recipe.ch6.memory.pt2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.ch6.memory.pt2",
+      "actionid": "church.bishops",
+      "label": "Bishop's Dream (or Memory)",
+      "startdescription": "|recipe.ch6.memory desc 2|",
+      "description": "|recipe.ch6.memory desc 3|",
+      "warmup": 1
     }
   ]
 }

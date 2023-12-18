@@ -366,7 +366,16 @@
         "doctor.phlegmatic.exhausted": 1,
         "doctor.melancholic.exhausted": 1,
         "shoppinglist.tavern.ch3": 1
-      }
+      },
+      "effects": {
+        "minstrel": 1,
+        "ch4.minstrel": 1
+      },
+      "linked": [
+        {
+          "id": "emptyrecipe.tavern.kitchen"
+        }
+      ]
     },
     {
       "id": "recipe.ch3.memory.lord.be",

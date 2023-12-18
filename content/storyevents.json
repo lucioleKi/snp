@@ -147,9 +147,9 @@
       ]
     },
     {
-      "id": "ch4.cook",
-      "label": "Event: Tavern Kitchen",
-      "description": "|Event card description|",
+      "id": "ch4.minstrel",
+      "label": "Event: Keeper's Seat",
+      "description": "|Event: Keeper's Seat card description|",
       "aspects": {
         "storyevent": 1
       },
@@ -157,20 +157,158 @@
         {
           "id": "slot.main.ch4.taverner",
           "label": "Character",
-          "actionid": "pier",
+          "actionid": "tavern.public.keeperseat",
           "required": {
             "taverner": 1
           },
-          "description": "The scribe should go find the taverner in the kitchen."
+          "description": "The taverner wants to have a chat with the minstrel in the tavern."
         },
         {
           "id": "slot.main.ch4.scribe",
           "label": "Character",
-          "actionid": "pier",
+          "actionid": "tavern.public.keeperseat",
+          "required": {
+            "minstrel": 1
+          },
+          "description": "The minstrel should find the taverner sitting on the keeper's seat."
+        }
+      ]
+    },
+    {
+      "id": "ch4.cook",
+      "label": "Event: Tavern Kitchen",
+      "description": "|Event Tavern Kitchen card description|",
+      "aspects": {
+        "storyevent": 1
+      },
+      "slots": [
+        {
+          "id": "slot.main.ch4.taverner",
+          "label": "Character",
+          "actionid": "tavern.private.kitchen",
+          "required": {
+            "taverner": 1
+          },
+          "description": "The taverner should wait for the scribe in the kitchen."
+        },
+        {
+          "id": "slot.main.ch4.scribe",
+          "label": "Character",
+          "actionid": "tavern.private.kitchen",
           "required": {
             "scribe": 1
           },
-          "description": "The taverner should wait for the scribe in the kitchen."
+          "description": "The scribe should go find the taverner in the kitchen."
+        }
+      ]
+    },
+    {
+      "id": "ch4.nameday",
+      "label": "Event: Keeper's Seat",
+      "description": "|Event name day card description|",
+      "aspects": {
+        "storyevent": 1,
+        "endofchapter": 1
+      },
+      "slots": [
+        {
+          "id": "slot.main.ch4.taverner",
+          "label": "Character",
+          "actionid": "tavern.public.keeperseat",
+          "required": {
+            "taverner": 1
+          },
+          "description": "The taverner sits at their usual seat."
+        },
+        {
+          "id": "slot.main.ch4.scribe",
+          "label": "Character",
+          "actionid": "tavern.public.keeperseat",
+          "required": {
+            "scribe": 1
+          },
+          "description": "The scribe sits besides the taverner."
+        },
+        {
+          "id": "slot.main.ch4.arbitrator",
+          "label": "Character",
+          "actionid": "tavern.public.keeperseat",
+          "required": {
+            "scribe": 1
+          },
+          "description": "The arbitrator strolls into the tavern, not realizing what is waiting in there."
+        }
+      ]
+    },
+    {
+      "id": "ch4.memory",
+      "label": "Event: Bishop's Memory",
+      "description": "|ch4.memory event card|",
+      "aspects": {
+        "storyevent": 1
+      },
+      "unique": true,
+      "slots": [
+        {
+          "id": "slot.main.ch4.bishop",
+          "label": "Character",
+          "actionid": "church.bishops",
+          "required": {
+            "bishop.sick": 1
+          },
+          "greedy": "True",
+          "description": "The bishop is having a dream. Or is it a memory?"
+        }
+      ]
+    },
+    {
+      "id": "ch5.memory",
+      "label": "Event: Bishop's Memory",
+      "description": "|ch5.memory event card|",
+      "aspects": {
+        "storyevent": 1
+      },
+      "unique": true,
+      "slots": [
+        {
+          "id": "slot.main.ch5.bishop",
+          "label": "Character",
+          "actionid": "church.bishops",
+          "required": {
+            "bishop.sick": 1
+          },
+          "greedy": "True",
+          "description": "The bishop is having a dream. Or is it a memory?"
+        }
+      ]
+    },
+    {
+      "id": "ch6.memory",
+      "label": "Event: Bishop's Memory",
+      "description": "|ch6.memory event card|",
+      "aspects": {
+        "storyevent": 1
+      },
+      "unique": true,
+      "slots": [
+        {
+          "id": "slot.main.ch6.bishop",
+          "label": "Character",
+          "actionid": "church.bishops",
+          "required": {
+            "bishop.sick": 1
+          },
+          "greedy": "True",
+          "description": "The bishop is having a dream. Or is it a memory?"
+        },
+        {
+          "id": "slot.main.ch6.lord",
+          "label": "Character",
+          "actionid": "church.bishops",
+          "required": {
+            "lord": 1
+          },
+          "description": "The lord does not want to leave the bishop, in case they would wake up."
         }
       ]
     }
