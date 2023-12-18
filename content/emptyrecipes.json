@@ -49,6 +49,16 @@
       }
     },
     {
+      "id": "emptyrecipe.tavern.keeperseat2",
+      "actionid": "tavern.public.keeperseat2",
+      "label": "Location Updated: Tavern - Keeper's Seat",
+      "startdescription": "",
+      "description": "The minstrel can now perform on the stage more attentively while the keeper looks after the tavern.",
+      "deleteverb": {
+        "tavern.public.keeperseat": 1
+      }
+    },
+    {
       "id": "emptyrecipe.tavern.desk",
       "actionid": "tavern.private.desk",
       "label": "Location Unlocked: Tavern: Owners' Room - Desk",

@@ -1,6 +1,45 @@
 {
   "recipes": [
     {
+      "id": "recipe.tavern.catandcoin1",
+      "label": "The cat is playing with something",
+      "craftable": true,
+      "maxexecutions": 1,
+      "startdescription": "|recipe.tavern.catandcoin startdescription|",
+      "description": "",
+      "warmup": 1,
+      "slots": [
+        {
+          "id": "catslot",
+          "required": { "cat": 1 },
+          "greedy": true
+        }
+
+      ],
+      "linked": [
+        {
+          "id": "recipe.tavern.catandcoin2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.catandcoin2",
+      "label": "The cat snatched the coin!",
+      "maxexecutions": 1,
+      "startdescription": "|recipe.tavern.catandcoin2 startdescription|",
+      "description": "As the Scribe go retrieve the coin, they suddenly have a thought: What would happen if one flips the coin 100 times?",
+      "warmup": 1,
+      "slots": [
+        {
+          "id": "coinslot",
+          "required": { "scribe.sestertius": 1 },
+          "greedy": true
+        }
+
+      ]
+
+    },
+    {
       "id": "recipe.tavern.brewery.ch4a",
       "actionid": "tavern.private.kitchen",
       "label": "Brewer",
@@ -27,7 +66,7 @@
       "label": "Taverner's Talk",
       "craftable": true,
       "startdescription": "|recipe.tavern.minstrel.intro startdescription|",
-      "description": "|recipe.tavern.minstrel.intro description|",
+      "description": "|unlock the possibility to have minstrel perform while taverner/scribe runs the tavern|",
       "warmup": 1,
       "maxexecutions": 1,
       "requirements": {
@@ -37,12 +76,81 @@
       "effects": {
         "funds": 1,
         "ch4.cook": 1
+      },
+      "inductions": [
+        {
+          "emptyrecipe.tavern.keeperseat2": 1
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.keeperseat.taverner4a",
+      "actionid": "tavern.public.keeperseat2",
+      "label": "Be the Tavern Keeper for Today",
+      "craftable": true,
+      "startdescription": "The Taverner is telling people their sailing stories and bragging about their fishing skills. They start to get drunk. Their laughter fills the tavern.",
+      "description": "The Taverner starts dancing to the music. They look rather foolish, dancing wobbly. Suddenly, they slip and fall onto the floor. The tavern roars with laughter.",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "taverner.sanguine": 1 },
+      "effects": {
+        "funds": 2
+      }
+    },
+    {
+      "id": "recipe.tavern.keeperseat.taverner4b",
+      "actionid": "tavern.public.keeperseat2",
+      "label": "Be the Tavern Keeper for Today",
+      "craftable": true,
+      "startdescription": "The barley for bread has dwindled sharply. They say a war devoured all the stock. The tavern is also scarcely getting customers. A group of bandits were spotted in the forest south of the town. Fewer travelers are willing to pass by.",
+      "description": "The Taverner sighed. They can only pray they catch enough fish now. Maybe they should not have spent so much on drinking last month.",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "taverner.melancholic": 1 },
+      "effects": {
+        "funds": 1
+      }
+    },
+    {
+      "id": "recipe.tavern.keeperseat.scribe4a",
+      "actionid": "tavern.public.keeperseat2",
+      "label": "Be the Tavern Keeper for Today",
+      "craftable": true,
+      "startdescription": "The scribe is in a talkative mood today. They even listen to a few complaints about the rising wine taxes. The scribe always finds it amusing that their costumers keep coming back for their wine, since the scribe knows very well that the taverner adds vinegar into the wine…",
+      "description": "In their delight, the scribe flips a coin in their hands. It lands facing up. They record down the result in the back of the ledger.",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "scribe.sanguine": 1 },
+      "effects": {
+        "funds": 1
+      }
+    },
+    {
+      "id": "recipe.tavern.keeperseat.scribe4b",
+      "actionid": "tavern.public.keeperseat2",
+      "label": "Be the Tavern Keeper for Today",
+      "craftable": true,
+      "startdescription": "The scribe isn’t in the mood to chat with customers today and is busy checking the ledger.",
+      "description": "There are a few suspicious spendings, obviously written by the Taverner. The Scribe decides to keep a closer eye on them with the increasing wine tax.",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "scribe.phlegmatic": 1 },
+      "effects": {
+        "funds": 1
       }
     },
     {
       "id": "recipe.tavern.kitchen.talk",
       "actionid": "tavern.private.kitchen",
-      "label": "Brewer",
+      "label": "Maybe we need a hand?",
       "craftable": true,
       "startdescription": "|recipe.tavern.kitchen.talk startdescription|",
       "description": "|recipe.tavern.kitchen.talk description|",
@@ -53,9 +161,10 @@
 
       },
       "effects": {
-        "cook1": 1,
-        "cook2": 1,
-        "cook3": 1
+        "cook1c": 1,
+        "cook2c": 1,
+        "cook3c": 1,
+        "ch4.nameday": 1
       }
     },
     {
@@ -110,21 +219,7 @@
       "description": "|recipe.tavern.nameday.ch4.default desc|",
       "effects": {
         "ch4.nameday": -1,
-        "shoppinglist.tavern.ch4": 1
-      },
-      "purge": {
-        "chapter4": 1,
-        "knight.sanguine.exhausted": 1,
-        "knight.choleric.exhausted": 1,
-        "taverner.sanguine.exhausted": 1,
-        "taverner.melancholic.exhausted": 1,
-        "scribe.sanguine.exhausted": 1,
-        "scribe.phlegmatic.exhausted": 1,
-        "vicar.melancholic.exhausted": 1,
-        "vicar.choleric.exhausted": 1,
-        "doctor.phlegmatic.exhausted": 1,
-        "doctor.melancholic.exhausted": 1,
-        "shoppinglist.tavern.ch4": 1
+        "ch4.memory": 1
       }
     },
     {
@@ -205,7 +300,82 @@
       "effects": {
         "memory.cointoss.2": 1
       }
+    },
+    {
+      "id": "recipe.ch4.be",
+      "actionid": "church.bishops",
+      "label": "",
+      "description": "",
+      "warmup": 1,
+      "ending": "golddeficit",
+      "tablereqs": {
+        "chapter4": 1,
+        "shoppinglist.tavern.ch4": 1,
+        "funds": -3
+      },
+      "purge": {
+        "chapter4": 1,
+        "knight.sanguine.exhausted": 1,
+        "knight.choleric.exhausted": 1,
+        "taverner.sanguine.exhausted": 1,
+        "taverner.melancholic.exhausted": 1,
+        "scribe.sanguine.exhausted": 1,
+        "scribe.phlegmatic.exhausted": 1,
+        "vicar.melancholic.exhausted": 1,
+        "vicar.choleric.exhausted": 1,
+        "doctor.phlegmatic.exhausted": 1,
+        "doctor.melancholic.exhausted": 1,
+        "shoppinglist.tavern.ch4": 1
+      }
+    },
+    {
+      "id": "recipe.ch4.ne.wshoppinglist",
+      "actionid": "church.bishops",
+      "label": "",
+      "description": "",
+      "tablereqs": {
+        "chapter4": 1,
+        "shoppinglist.tavern.ch4": 1,
+        "funds": 3
+      },
+      "purge": {
+        "funds": 3,
+        "chapter4": 1,
+        "knight.sanguine.exhausted": 1,
+        "knight.choleric.exhausted": 1,
+        "taverner.sanguine.exhausted": 1,
+        "taverner.melancholic.exhausted": 1,
+        "scribe.sanguine.exhausted": 1,
+        "scribe.phlegmatic.exhausted": 1,
+        "vicar.melancholic.exhausted": 1,
+        "vicar.choleric.exhausted": 1,
+        "doctor.phlegmatic.exhausted": 1,
+        "doctor.melancholic.exhausted": 1,
+        "shoppinglist.tavern.ch4": 1
+      }
+    },
+    {
+      "id": "recipe.ch4.ne",
+      "actionid": "church.bishops",
+      "label": "",
+      "description": "",
+      "tablereqs": {
+        "chapter4": 1,
+        "shoppinglist.tavern.ch4": -1
+      },
+      "purge": {
+        "chapter4": 1,
+        "knight.sanguine.exhausted": 1,
+        "knight.choleric.exhausted": 1,
+        "taverner.sanguine.exhausted": 1,
+        "taverner.melancholic.exhausted": 1,
+        "scribe.sanguine.exhausted": 1,
+        "scribe.phlegmatic.exhausted": 1,
+        "vicar.melancholic.exhausted": 1,
+        "vicar.choleric.exhausted": 1,
+        "doctor.phlegmatic.exhausted": 1,
+        "doctor.melancholic.exhausted": 1
+      }
     }
-
   ]
 }

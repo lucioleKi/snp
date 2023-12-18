@@ -94,7 +94,24 @@
         "required": {
           "scribe": 1,
           "taverner": 1,
-          "arbitrator": 1
+          "arbitrator": 1,
+          "storyevent": 1
+        }
+      }
+    },
+    {
+      "id": "tavern.public.keeperseat2",
+      "label": "Tavern: Keeper's Seat",
+      "description": "The seat belongs to the tavern's current keeper. It might be the scribe, or even the minstrel, if the taverner is too drunk.",
+      "slot": {
+        "id": "tavernslot.keeper",
+        "label": "Character",
+        "description": "Keeping the tavern in order requires at least one person.",
+        "required": {
+          "scribe": 1,
+          "taverner": 1,
+          "arbitrator": 1,
+          "storyevent": 1
         }
       }
     },

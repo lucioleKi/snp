@@ -371,9 +371,12 @@
         "minstrel": 1,
         "ch4.minstrel": 1
       },
-      "linked": [
+      "inductions": [
         {
           "id": "emptyrecipe.tavern.kitchen"
+        },
+        {
+          "id": "recipe.tavern.catandcoin1"
         }
       ]
     },

@@ -24,6 +24,12 @@
 
     },
     {
+      "id": "shoppinglist.tavern.ch4",
+      "label": "Shopping List For The Week. Cost: 3 funds (if not spent at market, it will be deducted at end of chapter).",
+      "description": "|Somewhat relevant to the arbitrator's name day|"
+
+    },
+    {
       "id": "bishop.brooch",
       "label": "Brooch",
       "description": "It is large and circular, half hollowed, half intricately carved with vine-like patterns. A cross lands slanted across the disc. At the center of the cross was a lazuli, lustrous in hue, blue as the sea. The cross bore intricate engravings too, as if restrained by an invisible force."

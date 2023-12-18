@@ -46,6 +46,48 @@
       "tablereqs": { "chapter4": 1 }
     },
     {
+      "id": "recipe.ch4.tavernercook1",
+      "actionid": "converse",
+      "label": "Interview: Taverner & Cook A",
+      "craftable": "true",
+      "startdescription": "|recipe.ch4.tavernercook1 startdescription|",
+      "description": "|recipe.ch4.tavernercook1 description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "taverner": 1,
+        "cook1c": 1
+      }
+    },
+    {
+      "id": "recipe.ch4.tavernercook2",
+      "actionid": "converse",
+      "label": "Interview: Taverner & Cook B",
+      "craftable": "true",
+      "startdescription": "|recipe.ch4.tavernercook2 startdescription|",
+      "description": "|recipe.ch4.tavernercook2 description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "taverner": 1,
+        "cook2c": 1
+      }
+    },
+    {
+      "id": "recipe.ch4.tavernercook3",
+      "actionid": "converse",
+      "label": "Interview: Taverner & Cook C",
+      "craftable": "true",
+      "startdescription": "|recipe.ch4.tavernercook3 startdescription|",
+      "description": "|recipe.ch4.tavernercook3 description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "taverner": 1,
+        "cook3c": 1
+      }
+    },
+    {
       "id": "recipe.ch4.scribearbitrator",
       "actionid": "converse",
       "label": "Conversation: Scribe & Arbitrator",

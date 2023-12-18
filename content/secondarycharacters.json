@@ -74,7 +74,7 @@
       }
     },
     {
-      "id": "cook1",
+      "id": "cook1c",
       "label": "The First Cook Candidate",
       "description": "|The First Cook Candidate desc|",
       "aspects": {
@@ -82,7 +82,7 @@
       }
     },
     {
-      "id": "cook2",
+      "id": "cook2c",
       "label": "The Second Cook Candidate",
       "description": "|The First Cook Candidate desc|",
       "aspects": {
@@ -90,9 +90,33 @@
       }
     },
     {
-      "id": "cook3",
+      "id": "cook3c",
       "label": "The Third Cook Candidate",
       "description": "|The Third Cook Candidate desc|",
+      "aspects": {
+        "secondarycharacter": 1
+      }
+    },
+    {
+      "id": "cook1",
+      "label": "The Cook",
+      "description": "|cook1 desc|",
+      "aspects": {
+        "secondarycharacter": 1
+      }
+    },
+    {
+      "id": "cook2",
+      "label": "The Cook",
+      "description": "|cook2 desc|",
+      "aspects": {
+        "secondarycharacter": 1
+      }
+    },
+    {
+      "id": "cook3",
+      "label": "The Cook",
+      "description": "|cook3 desc|",
       "aspects": {
         "secondarycharacter": 1
       }

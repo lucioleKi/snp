@@ -213,7 +213,18 @@
       "label": "Bishop's Dream (or Memory)",
       "startdescription": "|recipe.ch4.memory desc 2|",
       "description": "|recipe.ch4.memory desc 3|",
-      "warmup": 1
+      "warmup": 1,
+      "linked": [
+        {
+          "id": "recipe.ch4.be"
+        },
+        {
+          "id": "recipe.ch4.ne.wshoppinglist"
+        },
+        {
+          "id": "recipe.ch4.end"
+        }
+      ] 
     },
     {
       "id": "recipe.ch5.memory.pt1",
