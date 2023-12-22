@@ -47,7 +47,7 @@
     {
       "id": "memory.ch4.dining1a",
       "label": "Memory: Dining with the Baron",
-      "description": "|Memory: Dining with the Baron card description|",
+      "description": "The Knight misses the time they spent at the fort with the Baron, who took great care of them after the Knight was rescued from the deep forest.",
       "aspects": {
         "mainmemory": 1
       }
@@ -56,7 +56,7 @@
     {
       "id": "memory.ch4.dining1b",
       "label": "Memory: Dining with the Scribe",
-      "description": "|Memory: Dining with the Scribe card description|",
+      "description": "The Knight remembers that it was always awkward dining with the Scribe alone during their stay at the fort. They are still amazed that they became friends.",
       "aspects": {
         "mainmemory": 1
       }
@@ -64,8 +64,8 @@
     },
     {
       "id": "memory.ch5.dining1a",
-      "label": "|Memory: ch5.dining1a|",
-      "description": "|Memory: ch5.dining1a card description|",
+      "label": "Memory: Playing cards with the Baron and the Scribe",
+      "description": "Playing cards with the Baron and the Scribe was a common way of spending the evening during the Knight’s previous stay at the fort. They still get a few laugh thinking about those times.",
       "aspects": {
         "mainmemory": 1
       }
@@ -73,8 +73,8 @@
     },
     {
       "id": "memory.ch5.dining1b",
-      "label": "|Memory: ch5.dining1b|",
-      "description": "|Memory: ch5.dining1b card description|",
+      "label": "Memory: Philosophical discussion with the Scribe",
+      "description": "The Scribe is the most peculiar person the Knight has ever met. They are very philosophical, yet they do not believe in God.",
       "aspects": {
         "mainmemory": 1
       }

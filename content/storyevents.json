@@ -243,7 +243,7 @@
     {
       "id": "ch4.memory",
       "label": "Event: Bishop's Memory",
-      "description": "|ch4.memory event card|",
+      "description": "The Bishop dreams of the neighboring Lord. How strange… they haven’t seen each other in years.",
       "aspects": {
         "storyevent": 1
       },
@@ -264,7 +264,7 @@
     {
       "id": "ch5.memory",
       "label": "Event: Bishop's Memory",
-      "description": "|ch5.memory event card|",
+      "description": "The Bishop dreams of the Knight again. But this time, they are smiling at the Bishop…",
       "aspects": {
         "storyevent": 1
       },

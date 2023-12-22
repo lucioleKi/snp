@@ -215,8 +215,60 @@
       "id": "recipe.tavern.nameday.ch4.default",
       "actionid": "tavern.public.keeperseat",
       "label": "The Arbitrator's Name Day",
-      "startdescription": "",
+      "startdescription": "|recipe.tavern.nameday.ch4.default start desc|",
       "description": "|recipe.tavern.nameday.ch4.default desc|",
+      "warmup": 1,
+      "effects": {
+        "ch4.nameday": -1,
+        "ch4.memory": 1
+      }
+    },
+    {
+      "id": "recipe.tavern.nameday.ch4a",
+      "actionid": "tavern.public.keeperseat",
+      "label": "The Arbitrator's Name Day",
+      "startdescription": "|recipe.tavern.nameday.ch4a start desc|",
+      "description": "|recipe.tavern.nameday.ch4a desc|",
+      "requirements": { "scribe.sanguine": 1 },
+      "warmup": 1,
+      "effects": {
+        "ch4.nameday": -1,
+        "ch4.memory": 1
+      }
+    },
+    {
+      "id": "recipe.tavern.nameday.ch4b",
+      "actionid": "tavern.public.keeperseat",
+      "label": "The Arbitrator's Name Day",
+      "startdescription": "|recipe.tavern.nameday.ch4b start desc|",
+      "description": "|recipe.tavern.nameday.ch4b desc|",
+      "requirements": { "scribe.sanguine": 1 },
+      "warmup": 1,
+      "effects": {
+        "ch4.nameday": -1,
+        "ch4.memory": 1
+      }
+    },
+    {
+      "id": "recipe.tavern.nameday.ch4c",
+      "actionid": "tavern.public.keeperseat",
+      "label": "The Arbitrator's Name Day",
+      "startdescription": "|recipe.tavern.nameday.ch4c start desc|",
+      "description": "|recipe.tavern.nameday.ch4c desc|",
+      "requirements": { "scribe.sanguine": 1 },
+      "effects": {
+        "ch4.nameday": -1,
+        "ch4.memory": 1
+      }
+    },
+    {
+      "id": "recipe.tavern.nameday.ch4d",
+      "actionid": "tavern.public.keeperseat",
+      "label": "The Arbitrator's Name Day",
+      "startdescription": "|recipe.tavern.nameday.ch4d start desc|",
+      "description": "|recipe.tavern.nameday.ch4d desc|",
+      "requirements": { "scribe.sanguine": 1 },
+      "warmup": 1,
       "effects": {
         "ch4.nameday": -1,
         "ch4.memory": 1

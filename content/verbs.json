@@ -145,7 +145,7 @@
     {
       "id": "tavern.private.kitchen",
       "label": "Tavern: Kitchen",
-      "description": "|Tavern: Kitchen description|",
+      "description": "The tavern kitchen is a stuffy, messy place, reeks of the smell of seafood and bad wine. In the crackling hearth, a pot of soup is boiling happily. Barrels of wine line up along the wall. They certainly don’t have the luxury for a proper cellar.",
       "slot": {
         "id": "tavernslot.kitchen",
         "label": "Character/Event",

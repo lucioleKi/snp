@@ -76,7 +76,7 @@
       "actionid": "tavern.private.kitchen",
       "label": "Location Unlocked: Tavern: Kitchen",
       "startdescription": "",
-      "description": "|kitchen is used by the taverner as a breweing room, as they can't make good bread anyway|",
+      "description": "Kitchen is where the tasty food and salty radish are made. But above all, it is used by the Taverner for brewing, as they can't make good bread anyway.",
       "effects": {
         "taverner.sanguine": 1
       }

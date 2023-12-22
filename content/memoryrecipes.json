@@ -108,8 +108,8 @@
       "actionid": "explorefort.diningroom",
       "label": "Dining Room: Sanguine",
       "craftable": true,
-      "startdescription": "|recipe.fort.diningroom.ch4a startdescription|",
-      "description": "|recipe.fort.diningroom.ch4a description|",
+      "startdescription": "The Knight remembers the first breakfast they had with the Baron at the fort.",
+      "description": "The Baron was very hospitable and made sure the Knight’s injuries were taken care of.",
       "warmup": 1,
       "maxexecutions": 1,
       "aspects": {
@@ -129,8 +129,8 @@
       "actionid": "explorefort.diningroom",
       "label": "Dining Room: Choleric",
       "craftable": true,
-      "startdescription": "|recipe.fort.diningroom.ch4b startdescription|",
-      "description": "|recipe.fort.diningroom.ch4b description|",
+      "startdescription": "The Knight remembers a meal they had with the Scribe at the fort. They ate in silence throughout the meal.",
+      "description": "When eventually the Knight decided to comment on the delicious fried fish they had, the Scribe grinned, said it was not cooked by the chef here, and left.",
       "warmup": 1,
       "maxexecutions": 1,
       "aspects": {
@@ -150,8 +150,8 @@
       "actionid": "explorefort.diningroom",
       "label": "Dining Room: Sanguine",
       "craftable": true,
-      "startdescription": "|recipe.fort.diningroom.ch5a startdescription|",
-      "description": "|recipe.fort.diningroom.ch5a description|",
+      "startdescription": "After dinner, the Knight suddenly misses the companionship of the Scribe and the Baron. They used to play cards together in the evening.",
+      "description": "The Scribe was an amazing card player and had always made the card play quite a sport. The Knight enjoyed playing with them very much.",
       "warmup": 1,
       "maxexecutions": 1,
       "aspects": {
@@ -171,8 +171,8 @@
       "actionid": "explorefort.diningroom",
       "label": "Dining Room: Choleric",
       "craftable": true,
-      "startdescription": "|recipe.fort.diningroom.ch5b startdescription|",
-      "description": "|recipe.fort.diningroom.ch5b description|",
+      "startdescription": "The Knight recalls a religious discussion they had with the Scribe during lunch.",
+      "description": "The Scribe asked them why they believe in God. The Knight said that God had saved many soldiers of theirs from death bed.",
       "warmup": 1,
       "maxexecutions": 1,
       "aspects": {
@@ -192,7 +192,7 @@
       "actionid": "church.bishops",
       "label": "Bishop's Dream (or Memory)",
       "craftable": true,
-      "startdescription": "|recipe.ch4.memory desc 1|",
+      "startdescription": "The Bishop sees a familiar figure by the lake. They are waiting on a horse under the willow tree, smiling. The Lord looks young, exactly how they remember them when they were both in the Order. ",
       "description": "",
       "warmup": 1,
       "effects": {
@@ -211,8 +211,8 @@
       "id": "recipe.ch4.memory.pt2",
       "actionid": "church.bishops",
       "label": "Bishop's Dream (or Memory)",
-      "startdescription": "|recipe.ch4.memory desc 2|",
-      "description": "|recipe.ch4.memory desc 3|",
+      "startdescription": "The Lord approaches the Bishop, riding along side them. Their piercing emerald green eyes shimmering, and their face as charming as the spring blossoms. <i>\"So this will be our last fight. Our Order will be disbanded after. What’s your plan?\"</i> asks the Lord.",
+      "description": "<i>\"Maybe study under the church and become a clergyman.\"</i> answers the Bishop. <i>\"Then I can still see you from time to time.\"</i> grins the Lord. And so they did.",
       "warmup": 1,
       "linked": [
         {
@@ -224,14 +224,14 @@
         {
           "id": "recipe.ch4.end"
         }
-      ] 
+      ]
     },
     {
       "id": "recipe.ch5.memory.pt1",
       "actionid": "church.bishops",
       "label": "Bishop's Dream (or Memory)",
       "craftable": true,
-      "startdescription": "|recipe.ch5.memory desc 1|",
+      "startdescription": "The Bishop wonders that they are about to die, since they start to dream about many past memories. They say one would see their entire life as a flashback before one die. This time, the Bishop dreams of the Knight again.",
       "description": "",
       "warmup": 1,
       "effects": {
@@ -250,8 +250,8 @@
       "id": "recipe.ch5.memory.pt2",
       "actionid": "church.bishops",
       "label": "Bishop's Dream (or Memory)",
-      "startdescription": "|recipe.ch5.memory desc 2|",
-      "description": "|recipe.ch5.memory desc 3|",
+      "startdescription": "The Knight beamed at them on horseback, their childlike face glowing under the brilliant sunshine. The Knight jumped down from their horse and hugged the Pilgrim. The Pilgrim then introduced the Knight to the Bishop.",
+      "description": "The Bishop hardly heard what the Pilgrim has said. They only stares at the Knight, who kneels down before them, and kissed their ring. If only everything could have stayed this way.",
       "warmup": 1
     },
     {
