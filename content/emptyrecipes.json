@@ -1,6 +1,16 @@
 {
   "recipes": [
     {
+      "id": "emptyrecipe.pier2",
+      "actionid": "pier2",
+      "label": "Location Updated: Pier",
+      "startdescription": "",
+      "description": "The taverner and the scribe now have time to sail their boat and catch fish.",
+      "deleteverb": {
+        "pier": 1
+      }
+    },
+    {
       "id": "emptyrecipe.traveltofort",
       "actionid": "converse",
       "label": "Conversation",
@@ -36,6 +46,23 @@
       "description": "The knight kindly reminds the soldier that training is not for today. Tomorrow, they may spar as much as they want."
     },
     {
+      "id": "emptyrecipe.fort.forest",
+      "actionid": "fort.forest",
+      "label": "Location Unlocked: Fort - Forest",
+      "startdescription": "",
+      "description": "|emptyrecipe.fort.forest desc|",
+      "effects": {
+        "ch5.recruit.pt1": 1
+      }
+    },
+    {
+      "id": "emptyrecipe.fort.tradingpost",
+      "actionid": "fort.tradingpost",
+      "label": "Location Unlocked: Fort - Trading Post",
+      "startdescription": "",
+      "description": "|emptyrecipe.fort.tradingpost desc|"
+    },
+    {
       "id": "emptyrecipe.tavern.keeperseat",
       "actionid": "tavern.public.keeperseat",
       "label": "Location Unlocked: Tavern - Keeper's Seat",
@@ -69,6 +96,16 @@
         "scribe.sanguine": 1,
         "scribe.phlegmatic": 1,
         "scribe.sestertius": 1
+      }
+    },
+    {
+      "id": "emptyrecipe.tavern.desk2",
+      "actionid": "tavern.private.desk2",
+      "label": "Location Updated: Tavern: Owners' Room - Desk",
+      "startdescription": "",
+      "description": "The scribe can now contemplate on mathematics or flips the coin at the desk.",
+      "deleteverb": {
+        "tavern.private.desk": 1
       }
     },
     {
@@ -141,6 +178,16 @@
       "description": "The Doctor waited until almost noon to knock on The Prior’s door, and is welcomed into the room as they expected. <i>\"How’s the Bishop?\"</i> asked the Prior anxiously but expectantly. <i>\"Alive.\"</i> answered the Doctor, and paused, <i>\"I think they will wake up, if they were lucky.\"</i>",
       "effects": {
         "prior": 1
+      }
+    },
+    {
+      "id": "emptyrecipe.church.library",
+      "actionid": "church.library",
+      "label": "Location Unlocked: Monastry - Library and Scriptorium",
+      "startdescription": "",
+      "description": "|emptyrecipe.church.library desc|",
+      "effects": {
+        "monk": 1
       }
     },
     {

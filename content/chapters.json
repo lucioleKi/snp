@@ -36,7 +36,8 @@
       "label": "Chapter 4",
       "description": "A song, a job posting, and a kiss for Salome.",
       "aspects": {
-        "chapter": 4
+        "chapter": 4,
+        "ch4to6": 1
       },
       "decayTo": "chapter5"
     },
@@ -45,7 +46,8 @@
       "label": "Chapter 5",
       "description": "A pilgrim, a bag of flour, and a layer of thin ice.",
       "aspects": {
-        "chapter": 5
+        "chapter": 5,
+        "ch4to6": 1
       },
       "decayTo": "chapter6"
     },
@@ -54,7 +56,8 @@
       "label": "Chapter 6",
       "description": "A letter, a new addition to the tavern, and a final dream.",
       "aspects": {
-        "chapter": 6
+        "chapter": 6,
+        "ch4to6": 1
       },
       "decayTo": "chapter7"
     },

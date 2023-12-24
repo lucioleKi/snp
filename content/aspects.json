@@ -193,10 +193,28 @@
       "noArtNeeded": true
     },
     {
+      "id": "ch4to6",
+      "isHidden": true,
+      "isAspect": true,
+      "noArtNeeded": true
+    },
+    {
       "id": "num.coin",
       "isHidden": true,
       "isAspect": true,
       "noArtNeeded": true
+    },
+    {
+      "id": "potentialcook",
+      "label": "Potential cook",
+      "description": "This is a potential cook for the tavern. Pick (a reasonable) one before Chapter 6 to avoid a bad ending!",
+      "isAspect": true
+    },
+    {
+      "id": "num.merc",
+      "label": "Prosper Level",
+      "description": "This represents the prosper level of the trading post. The knight can use prosper level to recruit soldiers later.",
+      "isAspect": true
     }
   ]
 }

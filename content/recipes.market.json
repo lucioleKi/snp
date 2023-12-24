@@ -1,0 +1,301 @@
+{
+  "recipes": [
+    {
+      "id": "recipe.market.buy.ch2",
+      "actionid": "market.buy",
+      "label": "Market: Browsing and Shopping",
+      "craftable": true,
+      "startdescription": "They sell a bag of fish the taverner just caught this morning and has a cheerful chat with the buyer. They then go to buy some flour and salt.",
+      "description": "They are attracted by exotic-looking merchants, who sell dried lamb and exotic herbs. They poke their head into the crowd to get a closer look, but is disappointed by the price. “Dishonest merchants.” They mutter under their breath.",
+      "warmup": 1,
+      "purge": {
+        "shoppinglist.tavern.ch2": 1,
+        "funds": 1
+      },
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "temperament": 1 },
+      "tablereqs": {
+        "chapter2": 1,
+        "shoppinglist.tavern.ch2": 1,
+        "funds": 1
+      },
+      "effects": {
+        "ch2.boat": 1
+      },
+      "linked": [
+        {
+          "id": "recipe.market.observer"
+        }
+      ]
+    },
+    {
+      "id": "recipe.market.observer",
+      "actionid": "market.buy",
+      "label": "Market: Browsing and Shopping",
+      "warmup": 1,
+      "startdescription": "",
+      "description": "The scribe observes the market with ever-sharpening eyes. Observer +1.",
+      "requirements": {
+        "scribe": 1,
+        "scribe.phlegmatic": 1,
+        "funds": 1
+      },
+      "purge": {
+        "funds": 1
+      },
+      "mutations": [
+        {
+          "filter": "scribe",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.observer"
+        }
+      ]
+    },
+    {
+      "id": "recipe.market.buy.ch2.notemperament",
+      "actionid": "market.buy",
+      "label": "Market: Browsing and Shopping",
+      "craftable": true,
+      "startdescription": "They sell a bag of fish the taverner just caught this morning and has a cheerful chat with the buyer. They then go to buy some flour and salt.",
+      "description": "They are attracted by exotic-looking merchants, who sell dried lamb and exotic herbs. They poke their head into the crowd to get a closer look, but is disappointed by the price. “Dishonest merchants.” They mutter under their breath.",
+      "warmup": 10,
+      "purge": {
+        "shoppinglist.tavern.ch2": 1,
+        "funds": 1
+      },
+      "tablereqs": {
+        "chapter2": 1,
+        "shoppinglist.tavern.ch2": 1,
+        "funds": 1,
+        "scribe.sanguine.exhausted": 1,
+        "scribe.phlegmatic.exhausted": 1,
+        "taverner.sanguine.exhausted": 1,
+        "taverner.melancholic.exhausted": 1
+      },
+      "effects": {
+        "ch2.boat": 1
+      },
+      "linked": [
+        {
+          "id": "recipe.market.observer"
+        }
+      ]
+    },
+    {
+      "id": "recipe.market.buy.ch2.badending",
+      "actionid": "market.buy",
+      "label": "Market: Browsing and Shopping (Insufficient funds)",
+      "craftable": true,
+      "startdescription": "Insufficient funds for going to the market. Starting this will lead to a bad ending!",
+      "description": "",
+      "warmup": 1,
+      "ending": "golddeficit",
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": {
+        "temperament": 1
+      },
+      "tablereqs": {
+        "chapter2": 1,
+        "shoppinglist.tavern.ch2": 1,
+        "funds": -1
+      }
+    },
+    {
+      "id": "recipe.market.buy.ch3",
+      "actionid": "market.buy",
+      "label": "Market: Browsing and Shopping",
+      "craftable": true,
+      "startdescription": "They weave through stalls selling fruits and fresh cheese, stuffing a dried plum into the mouth as they go by.",
+      "description": "They navigate the lively market, sniffing fresh cheese and oats. After seeing a new flower stand in the corner, they choose to buy a floral wreath for a certain someone. ",
+      "warmup": 1,
+      "purge": {
+        "shoppinglist.tavern.ch3": 1,
+        "funds": 2
+      },
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "temperament": 1 },
+      "tablereqs": {
+        "chapter3": 1,
+        "shoppinglist.tavern.ch3": 1,
+        "funds": 2
+      },
+      "linked": [
+        {
+          "id": "recipe.market.observer"
+        }
+      ]
+    },
+    {
+      "id": "recipe.market.buy.ch3.badending",
+      "actionid": "market.buy",
+      "label": "Market: Browsing and Shopping (Insufficient funds)",
+      "craftable": true,
+      "startdescription": "Insufficient funds for going to the market. Starting this will lead to a bad ending!",
+      "description": "",
+      "warmup": 1,
+      "ending": "golddeficit",
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": {
+        "temperament": 1
+      },
+      "tablereqs": {
+        "chapter3": 1,
+        "shoppinglist.tavern.ch3": 1,
+        "funds": -2
+      }
+    },
+    {
+      "id": "recipe.market.buy.ch4",
+      "actionid": "market.buy",
+      "label": "Market: Browsing and Shopping",
+      "craftable": true,
+      "startdescription": "|recipe.market.buy.ch4 start desc|",
+      "description": "|recipe.market.buy.ch4 desc|",
+      "warmup": 1,
+      "purge": {
+        "shoppinglist.tavern.ch4": 1,
+        "funds": 3
+      },
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "temperament": 1 },
+      "tablereqs": {
+        "chapter4": 1,
+        "shoppinglist.tavern.ch4": 1,
+        "funds": 3
+      },
+      "linked": [
+        {
+          "id": "recipe.market.observer"
+        }
+      ]
+    },
+    {
+      "id": "recipe.market.buy.ch4.badending",
+      "actionid": "market.buy",
+      "label": "Market: Browsing and Shopping (Insufficient funds)",
+      "craftable": true,
+      "startdescription": "Insufficient funds for going to the market. Starting this will lead to a bad ending!",
+      "description": "",
+      "warmup": 1,
+      "ending": "golddeficit",
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": {
+        "temperament": 1
+      },
+      "tablereqs": {
+        "chapter4": 1,
+        "shoppinglist.tavern.ch4": 1,
+        "funds": -3
+      }
+    },
+    {
+      "id": "recipe.market.buy.ch5",
+      "actionid": "market.buy",
+      "label": "Market: Browsing and Shopping",
+      "craftable": true,
+      "startdescription": "|recipe.market.buy.ch5 start desc|",
+      "description": "|recipe.market.buy.ch5 desc|",
+      "warmup": 1,
+      "purge": {
+        "shoppinglist.tavern.ch5": 1,
+        "funds": 3
+      },
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "temperament": 1 },
+      "tablereqs": {
+        "chapter5": 1,
+        "shoppinglist.tavern.ch5": 1,
+        "funds": 3
+      },
+      "linked": [
+        {
+          "id": "recipe.market.observer"
+        }
+      ]
+    },
+    {
+      "id": "recipe.market.buy.ch5.badending",
+      "actionid": "market.buy",
+      "label": "Market: Browsing and Shopping (Insufficient funds)",
+      "craftable": true,
+      "startdescription": "Insufficient funds for going to the market. Starting this will lead to a bad ending!",
+      "description": "",
+      "warmup": 1,
+      "ending": "golddeficit",
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": {
+        "temperament": 1
+      },
+      "tablereqs": {
+        "chapter5": 1,
+        "shoppinglist.tavern.ch5": 1,
+        "funds": -3
+      }
+    },
+    {
+      "id": "recipe.market.buy.ch6",
+      "actionid": "market.buy",
+      "label": "Market: Browsing and Shopping",
+      "craftable": true,
+      "startdescription": "|recipe.market.buy.ch6 start desc|",
+      "description": "|recipe.market.buy.ch6 desc|",
+      "warmup": 1,
+      "purge": {
+        "shoppinglist.tavern.ch6": 1,
+        "funds": 3
+      },
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "temperament": 1 },
+      "tablereqs": {
+        "chapter6": 1,
+        "shoppinglist.tavern.ch6": 1,
+        "funds": 3
+      },
+      "linked": [
+        {
+          "id": "recipe.market.observer"
+        }
+      ]
+    },
+    {
+      "id": "recipe.market.buy.ch6.badending",
+      "actionid": "market.buy",
+      "label": "Market: Browsing and Shopping (Insufficient funds)",
+      "craftable": true,
+      "startdescription": "Insufficient funds for going to the market. Starting this will lead to a bad ending!",
+      "description": "",
+      "warmup": 1,
+      "ending": "golddeficit",
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": {
+        "temperament": 1
+      },
+      "tablereqs": {
+        "chapter6": 1,
+        "shoppinglist.tavern.ch6": 1,
+        "funds": -3
+      }
+    }
+  ]
+}

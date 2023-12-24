@@ -402,49 +402,7 @@
         "shoppinglist.tavern.ch3": 1
       }
     },
-    {
-      "id": "recipe.market.buy.ch3",
-      "actionid": "market.buy",
-      "label": "Market: Browsing and Shopping",
-      "craftable": true,
-      "startdescription": "They weave through stalls selling fruits and fresh cheese, stuffing a dried plum into the mouth as they go by.",
-      "description": "They navigate the lively market, sniffing fresh cheese and oats. After seeing a new flower stand in the corner, they choose to buy a floral wreath for a certain someone. ",
-      "warmup": 1,
-      "purge": {
-        "shoppinglist.tavern.ch3": 1,
-        "funds": 2
-      },
-      "aspects": {
-        "exhausted": 1
-      },
-      "requirements": { "temperament": 1 },
-      "tablereqs": {
-        "chapter3": 1,
-        "shoppinglist.tavern.ch3": 1,
-        "funds": 2
-      }
-    },
-    {
-      "id": "recipe.market.buy.ch3.badending",
-      "actionid": "market.buy",
-      "label": "Market: Browsing and Shopping (Insufficient funds)",
-      "craftable": true,
-      "startdescription": "Insufficient funds for going to the market. Starting this will lead to a bad ending!",
-      "description": "",
-      "warmup": 1,
-      "ending": "golddeficit",
-      "aspects": {
-        "exhausted": 1
-      },
-      "requirements": {
-        "temperament": 1
-      },
-      "tablereqs": {
-        "chapter3": 1,
-        "shoppinglist.tavern.ch3": 1,
-        "funds": -2
-      }
-    },
+    
     {
       "id": "recipe.pet.cat",
       "actionid": "tavern.public.cat",

@@ -1,0 +1,38 @@
+{
+  "recipes": [
+    {
+      "id": "recipe.pier.fishing.ch6a",
+      "actionid": "pier2",
+      "label": "Pier: Fish-monger",
+      "craftable": true,
+      "startdescription": "|recipe.pier.fishing.ch6a startdescription|",
+      "description": "|recipe.pier.fishing.ch6a description Fish-monger +1.|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "taverner",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.fishmonger"
+        }
+      ],
+      "requirements": { "taverner.melancholic": 1 }
+    },
+    {
+      "id": "recipe.pier.fishing.ch6b",
+      "actionid": "pier2",
+      "label": "Pier: Sail onto the open sea",
+      "craftable": true,
+      "startdescription": "|recipe.pier.fishing.ch6b startdescription|",
+      "description": "|rrecipe.pier.fishing.ch6b description |",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "taverner.sanguine": 1 }
+    }
+  ]
+}

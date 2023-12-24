@@ -36,13 +36,38 @@
           "greedy": true
         }
 
+      ],
+      "inductions": [
+        {
+          "emptyrecipe.tavern.desk2": 1
+        }
       ]
-
+    },
+    {
+      "id": "recipe.tavern.desk.ch4a",
+      "actionid": "tavern.private.desk2",
+      "label": "Tavern Desk: Mathematics",
+      "craftable": true,
+      "startdescription": "|recipe.tavern.desk.ch4a startdescription|",
+      "description": "|recipe.tavern.desk.ch4a description Mathematician +1.|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "scribe",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.mathematician"
+        }
+      ],
+      "requirements": { "scribe.sanguine": 1 }
     },
     {
       "id": "recipe.tavern.brewery.ch4a",
       "actionid": "tavern.private.kitchen",
-      "label": "Brewer",
+      "label": "Tavern Kitchen: Brewer",
       "craftable": true,
       "startdescription": "|recipe.tavern.brewery.ch4a startdescription|",
       "description": "|recipe.tavern.brewery.ch4a description Brewer +1.|",
@@ -168,8 +193,68 @@
       }
     },
     {
+      "id": "recipe.tavern.keeper.pickcook1",
+      "actionid": "tavern.public.keeperseat2",
+      "label": "Pick the new cook",
+      "craftable": true,
+      "startdescription": "|pick cook1 startdescription|",
+      "description": "|pick cook1 description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "ch4.pickcook": 1,
+        "cook1c": 1
+      },
+      "effects": {
+        "cook1c": -1,
+        "cook2c": -1,
+        "cook3c": -1,
+        "cook1": 1
+      }
+    },
+    {
+      "id": "recipe.tavern.keeper.pickcook2",
+      "actionid": "tavern.public.keeperseat2",
+      "label": "Pick the new cook",
+      "craftable": true,
+      "startdescription": "|pick cook2 startdescription|",
+      "description": "|pick cook2 description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "ch4.pickcook": 1,
+        "cook2c": 1
+      },
+      "effects": {
+        "cook1c": -1,
+        "cook2c": -1,
+        "cook3c": -1,
+        "cook2": 1
+      }
+    },
+    {
+      "id": "recipe.tavern.keeper.pickcook3",
+      "actionid": "tavern.public.keeperseat3",
+      "label": "Pick the new cook",
+      "craftable": true,
+      "startdescription": "|pick cook3 startdescription|",
+      "description": "|pick cook3 description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "ch4.pickcook": 1,
+        "cook3c": 1
+      },
+      "effects": {
+        "cook1c": -1,
+        "cook2c": -1,
+        "cook3c": -1,
+        "cook3": 1
+      }
+    },
+    {
       "id": "recipe.tavern.nameday.ch4",
-      "actionid": "tavern.public.keeperseat",
+      "actionid": "tavern.public.keeperseat2",
       "label": "The Arbitrator's Name Day",
       "craftable": true,
       "startdescription": "|recipe.tavern.nameday startdescription|",
@@ -275,51 +360,8 @@
       }
     },
     {
-      "id": "recipe.tavern.bedroom.coin",
-      "actionid": "tavern.private.desk",
-      "label": "Flip the coin",
-      "craftable": true,
-      "startdescription": "The Scribe flips the familiar coin once more.",
-      "description": "",
-      "warmup": 1,
-      "requirements": { "scribe.sestertius": 1 },
-      "tablereqs": { "chapter": 4 },
-      "linked": [
-        {
-          "id": "recipe.tavern.bedroom.coin.head",
-          "chance": 50
-        },
-        {
-          "id": "recipe.tavern.bedroom.coin.tail",
-          "chance": 100
-        }
-      ],
-      "mutations": [
-        {
-          "filter": "scribe",
-          "level": 1,
-          "additive": true,
-          "mutate": "num.coin"
-        }
-      ]
-    },
-    {
-      "id": "recipe.tavern.bedroom.coin.head",
-      "actionid": "tavern.private.desk",
-      "label": "Flip the coin: Head",
-      "startdescription": "",
-      "description": "The coin lands with head facing up."
-    },
-    {
-      "id": "recipe.tavern.bedroom.coin.tail",
-      "actionid": "tavern.private.desk",
-      "label": "Flip the coin: Tail",
-      "startdescription": "",
-      "description": "The coin lands with tail facing up."
-    },
-    {
-      "id": "recipe.tavern.bedroom.coin.4",
-      "actionid": "tavern.private.desk",
+      "id": "recipe.tavern.bedroom.coin.4m",
+      "actionid": "tavern.private.desk2",
       "label": "Flip the coin",
       "craftable": true,
       "startdescription": "The Scribe flips the familiar coin once more.",
@@ -352,6 +394,49 @@
       "effects": {
         "memory.cointoss.2": 1
       }
+    },
+    {
+      "id": "recipe.tavern.bedroom.coin",
+      "actionid": "tavern.private.desk2",
+      "label": "Flip the coin",
+      "craftable": true,
+      "startdescription": "The Scribe flips the familiar coin once more.",
+      "description": "",
+      "warmup": 1,
+      "requirements": { "scribe.sestertius": 1 },
+      "tablereqs": { "chapter": 4 },
+      "linked": [
+        {
+          "id": "recipe.tavern.bedroom.coin.head",
+          "chance": 50
+        },
+        {
+          "id": "recipe.tavern.bedroom.coin.tail",
+          "chance": 100
+        }
+      ],
+      "mutations": [
+        {
+          "filter": "scribe",
+          "level": 1,
+          "additive": true,
+          "mutate": "num.coin"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.bedroom.coin.head",
+      "actionid": "tavern.private.desk2",
+      "label": "Flip the coin: Head",
+      "startdescription": "",
+      "description": "The coin lands with head facing up."
+    },
+    {
+      "id": "recipe.tavern.bedroom.coin.tail",
+      "actionid": "tavern.private.desk2",
+      "label": "Flip the coin: Tail",
+      "startdescription": "",
+      "description": "The coin lands with tail facing up."
     },
     {
       "id": "recipe.ch4.be",
@@ -404,7 +489,16 @@
         "doctor.phlegmatic.exhausted": 1,
         "doctor.melancholic.exhausted": 1,
         "shoppinglist.tavern.ch4": 1
-      }
+      },
+      "effects": {
+        "shoppinglist.tavern.ch5": 1,
+        "ch5.priorvicar": 1
+      },
+      "inductions": [
+        {
+          "id": "emptyrecipe.fort.forest"
+        }
+      ]
     },
     {
       "id": "recipe.ch4.ne",
@@ -427,7 +521,16 @@
         "vicar.choleric.exhausted": 1,
         "doctor.phlegmatic.exhausted": 1,
         "doctor.melancholic.exhausted": 1
-      }
+      },
+      "effects": {
+        "shoppinglist.tavern.ch5": 1,
+        "ch5.priorvicar": 1
+      },
+      "inductions": [
+        {
+          "id": "emptyrecipe.fort.forest"
+        }
+      ]
     }
   ]
 }

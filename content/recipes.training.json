@@ -1,0 +1,88 @@
+{
+  "recipes": [
+    {
+      "id": "recipe.fort.training.ch4",
+      "actionid": "explorefort.trainingyard",
+      "label": "Training Yard: Knife in a haystack",
+      "craftable": true,
+      "startdescription": "|Training Yard: Knife in a haystack start desc|",
+      "description": "|Training Yard: Knife in a haystack desc|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": {
+        "temperament": 1,
+        "knights": 1
+      },
+      "tablereqs": {
+        "chapter": 4,
+        "knife": -1
+      },
+      "effects": {
+        "knife": 1
+      }
+    },
+    {
+      "id": "recipe.fort.training.lancer.7m",
+      "actionid": "explorefort.trainingyard",
+      "label": "Training Yard: Lancer",
+      "craftable": true,
+      "startdescription": "|slightly different start desc|",
+      "description": "|special desc for recipe.fort.training.lancer.7m: memory: how to save someone from a spooked horse|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": {
+        "knight.choleric": 1,
+        "skill.lancer": 7
+      },
+      "effects": { "memory.spookedhorse": 1 }
+    },
+    {
+      "id": "recipe.fort.training.ch1a",
+      "actionid": "explorefort.trainingyard",
+      "label": "Training Yard: Archer",
+      "craftable": true,
+      "startdescription": "The weapon rack holds a variation of bows and arrows. Maybe this is a day for training aim and accuracy.",
+      "description": "The strong wind makes it difficult to aim, but it is good practice for fighting in different kinds of weather. \nArcher +1.",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "knight",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.archer"
+        }
+      ],
+      "requirements": { "knight.sanguine": 1 }
+    },
+    {
+      "id": "recipe.fort.training.ch1b",
+      "actionid": "explorefort.trainingyard",
+      "label": "Training Yard: Lancer",
+      "craftable": true,
+      "startdescription": "The weapon rack holds a lance, a javlin, and a pike. Maybe this is a day for training strength and equestrian skills.",
+      "description": "The knight had a good fight with the soldier. They are exhausted but exhilarated after the practice. \nLancer +1.",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "knight",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.lancer"
+        }
+      ],
+      "requirements": { "knight.choleric": 1 }
+    }
+  ]
+}

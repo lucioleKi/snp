@@ -262,6 +262,147 @@
       ]
     },
     {
+      "id": "ch4.pickcook",
+      "label": "Event: Pick the new cook",
+      "description": "|Event: Pick the new cook card description|",
+      "aspects": {
+        "storyevent": 1
+      },
+      "slots": [
+        {
+          "id": "slot.main.ch4.taverner",
+          "label": "Character",
+          "actionid": "tavern.public.keeperseat",
+          "required": {
+            "taverner": 1
+          },
+          "description": "The taverner wants to welcome the new cook of the tavern."
+        },
+        {
+          "id": "slot.main.ch4.cook",
+          "label": "Character",
+          "actionid": "tavern.public.keeperseat",
+          "required": {
+            "potentialcook": 1
+          },
+          "description": "The new cook should come to the tavern."
+        }
+      ]
+    },
+    {
+      "id": "ch5.priorvicar",
+      "label": "Event: On the thin ice",
+      "description": "|Event: On the thin ice card description|",
+      "aspects": {
+        "storyevent": 1
+      },
+      "slots": [
+        {
+          "id": "slot.main.ch5.vicar",
+          "label": "Character",
+          "actionid": "church.priors",
+          "required": {
+            "vicar": 1
+          },
+          "description": "The vicar goes to see the prior in their room."
+        },
+        {
+          "id": "slot.main.ch5.prior",
+          "label": "Character",
+          "actionid": "church.priors",
+          "required": {
+            "monk": 1
+          },
+          "description": "The prior waits for the vicar in their room."
+        }
+      ]
+    },
+    {
+      "id": "ch5.letter",
+      "label": "Event: Letter to the Pilgrim",
+      "description": "|Event: Letter to the Pilgrim card description|",
+      "aspects": {
+        "storyevent": 1
+      },
+      "slots": [
+        {
+          "id": "slot.main.ch5.vicar",
+          "label": "Character",
+          "actionid": "church.library",
+          "required": {
+            "vicar": 1
+          },
+          "description": "The vicar goes to the scriptorium to retrieve a letter."
+        },
+        {
+          "id": "slot.main.ch5.monk",
+          "label": "Character",
+          "actionid": "church.library",
+          "required": {
+            "monk": 1
+          },
+          "description": "The monk just finished writing a letter at the scriptorium."
+        }
+      ]
+    },
+
+    {
+      "id": "ch5.recruit.pt1",
+      "label": "Event: Recruit the rookie. Part 1",
+      "description": "|Event: Recruit the rookie. Part 1 card description|",
+      "aspects": {
+        "storyevent": 1
+      },
+      "slots": [
+        {
+          "id": "slot.main.ch5.knight",
+          "label": "Character",
+          "actionid": "fort.forest",
+          "required": {
+            "knight": 1
+          },
+          "description": "The knight goes to the forest to visit a potential recruit."
+        },
+        {
+          "id": "slot.main.ch5.flour",
+          "label": "Flour",
+          "actionid": "fort.forest",
+          "required": {
+            "flour": 1
+          },
+          "description": "The knight needs to bring some practical gift."
+        }
+      ]
+    },
+    {
+      "id": "ch5.recruit.pt2",
+      "label": "Event: Recruit the rookie. Part 2",
+      "description": "|Event: Recruit the rookie. Part 2 card description|",
+      "aspects": {
+        "storyevent": 1
+      },
+      "slots": [
+        {
+          "id": "slot.main.ch5.knight",
+          "label": "Character",
+          "actionid": "fort.forest",
+          "required": {
+            "knight": 1
+          },
+          "description": "The knight goes to the forest to visit a potential recruit again."
+        },
+        {
+          "id": "slot.main.ch5.table",
+          "label": "Table and chairs",
+          "actionid": "fort.forest",
+          "required": {
+            "tablechair": 1
+          },
+          "description": "The knight needs to bring some more practical gift."
+        }
+      ]
+    },
+    {
       "id": "ch5.memory",
       "label": "Event: Bishop's Memory",
       "description": "The Bishop dreams of the Knight again. But this time, they are smiling at the Bishop…",

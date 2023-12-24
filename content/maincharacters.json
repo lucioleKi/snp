@@ -17,7 +17,30 @@
         "maincharacter": 1,
         "skill.hunter": 3,
         "skill.scholar": 3
-      }
+      },
+      "slots": [
+        {
+          "id": "slot.main.converse",
+          "label": "Character",
+          "actionid": "converse",
+          "required": {
+            "maincharacter": 1,
+            "secondarycharacter": 1
+          },
+          "description": "The character needs to talk to another character."
+        },
+        {
+          "id": "slot.main.temperament.library.ch5",
+          "label": "Temperament",
+          "actionid": "church.library",
+          "essential": {
+            "temperament": 1,
+            "bishops": 1
+          },
+          "forbidden": { "tired": 1 },
+          "description": "The character acts with a certain mood."
+        }
+      ]
     },
     {
       "id": "knight",
@@ -60,6 +83,17 @@
           },
           "forbidden": { "tired": 1 },
           "description": "The character acts with a certain mood."
+        },
+        {
+          "id": "slot.main.temperament.forest.ch5",
+          "label": "Temperament",
+          "actionid": "fort.forest",
+          "essential": {
+            "temperament": 1,
+            "knights": 1
+          },
+          "forbidden": { "tired": 1 },
+          "description": "The character acts with a certain mood."
         }
       ]
     },
@@ -91,9 +125,38 @@
           "description": "The scribe needs their coin when writing a personal letter to the baron. Why?"
         },
         {
+          "id": "slot.main.desk",
+          "label": "Temperament",
+          "actionid": "tavern.private.desk2",
+          "essential": {
+            "temperament": 1,
+            "scribes": 1
+          },
+          "forbidden": { "tired": 1 },
+          "description": "The character acts with a certain mood."
+        },
+        {
+          "id": "slot.main.coin",
+          "label": "Coin",
+          "actionid": "tavern.private.desk2",
+          "required": { "scribe.sestertius": 1 },
+          "description": "The scribe flips the coin."
+        },
+        {
           "id": "slot.main.keeper.scribe",
           "label": "Temperament",
           "actionid": "tavern.public.keeperseat",
+          "essential": {
+            "temperament": 1,
+            "scribes": 1
+          },
+          "forbidden": { "tired": 1 },
+          "description": "The character acts with a certain mood."
+        },
+        {
+          "id": "slot.main.keeper.scribe2",
+          "label": "Temperament",
+          "actionid": "tavern.public.keeperseat2",
           "essential": {
             "temperament": 1,
             "scribes": 1
@@ -135,9 +198,34 @@
           "description": "The character needs to talk to another character."
         },
         {
+          "id": "slot.main.cookinterview",
+          "label": "Temperament",
+          "actionid": "converse",
+          "essential": {
+            "temperament": 1,
+            "taverners": 1
+          },
+          "forbidden": { "tired": 1 },
+          "ifaspectspresent": {
+            "potentialcook": 1
+          },
+          "description": "The taverner needs some energy to come up with interview questions."
+        },
+        {
           "id": "slot.main.keeper.taverner",
           "label": "Temperament",
           "actionid": "tavern.public.keeperseat",
+          "essential": {
+            "temperament": 1,
+            "taverners": 1
+          },
+          "forbidden": { "tired": 1 },
+          "description": "The character acts with a certain mood."
+        },
+        {
+          "id": "slot.main.keeper.taverner2",
+          "label": "Temperament",
+          "actionid": "tavern.public.keeperseat2",
           "essential": {
             "temperament": 1,
             "taverners": 1
@@ -169,6 +257,16 @@
       },
       "slots": [
         {
+          "id": "slot.main.converse",
+          "label": "Character",
+          "actionid": "converse",
+          "required": {
+            "maincharacter": 1,
+            "secondarycharacter": 1
+          },
+          "description": "The character needs to talk to another character."
+        },
+        {
           "id": "slot.main.temperament.garden.ch3",
           "label": "Temperament",
           "actionid": "church.garden",
@@ -198,6 +296,17 @@
             "prior": 1
           },
           "description": "The character needs to talk to another character."
+        },
+        {
+          "id": "slot.main.library.ch5",
+          "label": "Character",
+          "actionid": "church.library",
+          "essential": {
+            "temperament": 1,
+            "doctors": 1
+          },
+          "forbidden": { "tired": 1 },
+          "description": "The character acts with a certain mood."
         }
       ]
     },
@@ -212,9 +321,39 @@
       },
       "slots": [
         {
+          "id": "slot.main.converse",
+          "label": "Character",
+          "actionid": "converse",
+          "required": {
+            "maincharacter": 1,
+            "secondarycharacter": 1
+          },
+          "description": "The character needs to talk to another character."
+        },
+        {
           "id": "slot.main.temperament.village.ch3",
           "label": "Temperament",
           "actionid": "service.village",
+          "essential": {
+            "temperament": 1,
+            "vicars": 1
+          },
+          "forbidden": { "tired": 1 },
+          "description": "The character acts with a certain mood."
+        },
+        {
+          "id": "slot.main.priors.ch5",
+          "label": "Character",
+          "actionid": "church.priors",
+          "essential": {
+            "prior": 1
+          },
+          "description": "The character needs to talk to another character."
+        },
+        {
+          "id": "slot.main.library.ch5",
+          "label": "Character",
+          "actionid": "church.library",
           "essential": {
             "temperament": 1,
             "vicars": 1

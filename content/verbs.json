@@ -15,6 +15,20 @@
       }
     },
     {
+      "id": "pier2",
+      "label": "Pier: Bench",
+      "description": "The pier stretches into the sea, offering an escape from the bustling tavern nearby. A wooden bench sits at its end. To one side, a small boat is tied to weathered post.",
+      "slot": {
+        "id": "fishingslot",
+        "label": "Character/Event",
+        "description": "Being on the pier requires at least one main character.",
+        "required": {
+          "maincharacter": 1,
+          "storyevent": 1
+        }
+      }
+    },
+    {
       "id": "converse",
       "label": "Talk",
       "description": "Two characters can talk about life, gossip, or the inevitability of death.",
@@ -84,9 +98,36 @@
       }
     },
     {
+      "id": "fort.forest",
+      "label": "Fort: Forest",
+      "description": "|Fort: Forest desc, mention town name here|",
+      "slot": {
+        "id": "fortslot.forest",
+        "label": "Character/Event",
+        "description": "Hunting in the forest requires at least one main character.",
+        "required": {
+          "maincharacter": 1,
+          "storyevent": 1
+        }
+      }
+    },
+    {
+      "id": "fort.tradingpost",
+      "label": "Fort: Trading Post",
+      "description": "|Fort: Trading Post desc, mention a rough location relative to the fort|",
+      "slot": {
+        "id": "fortslot.tradingpost",
+        "label": "Character",
+        "description": "Going to the trading post requires at least one main character.",
+        "required": {
+          "maincharacter": 1
+        }
+      }
+    },
+    {
       "id": "tavern.public.keeperseat",
       "label": "Tavern: Keeper's Seat",
-      "description": "The seat belongs to the tavern's current keeper. It might be the scribe, or even the minstrel, if the taverner is too drunk.",
+      "description": "The seat belongs to the tavern's current keeper. It might be the scribe, or even the arbitrator, if the taverner is too drunk.",
       "slot": {
         "id": "tavernslot.keeper",
         "label": "Character",
@@ -130,6 +171,21 @@
       }
     },
     {
+      "id": "tavern.private.desk2",
+      "label": "Tavern: Owners' Room - Desk",
+      "description": "The private room is where the taverner and the scribe reside. It has a bed, a desk, a roof that was recently repaired, and a vault containing all their money.",
+      "slot": {
+        "id": "tavernslot.desk",
+        "label": "Character/Event",
+        "description": "Using the desk requires at least one person.",
+        "required": {
+          "scribe": 1,
+          "taverner": 1,
+          "storyevent": 1
+        }
+      }
+    },
+    {
       "id": "tavern.public.cat",
       "label": "Tavern: Juniper's Seat",
       "description": "A pile of golden hay rests in a quiet corner of the tavern. It is Juniper's usual seat when she is not wandering in the kitchen.",
@@ -162,11 +218,12 @@
       "description": "The market is a lively place filled with mechants of fish, sheep, trinkets, and many others. One can also find selling indulgences.",
       "slot": {
         "id": "marketslot.character",
-        "label": "Character",
+        "label": "Character/Event",
         "description": "Buying at the market requires at least one person.",
         "required": {
           "scribe": 1,
-          "taverner": 1
+          "taverner": 1,
+          "storyevent": 1
         }
       }
     },
@@ -222,6 +279,22 @@
         "id": "priorsslot.character",
         "label": "Character/Event",
         "description": "Going to Prior's Room requires at least one person.",
+        "required": {
+          "bishop": 1,
+          "doctor": 1,
+          "vicar": 1,
+          "storyevent": 1
+        }
+      }
+    },
+    {
+      "id": "church.library",
+      "label": "Monastery: Library and Scriptorium",
+      "description": "|Monastery: Library and Scriptorium desc|",
+      "slot": {
+        "id": "libraryslot.character",
+        "label": "Character/Event",
+        "description": "Going to the library and scriptorium requires at least one person.",
         "required": {
           "bishop": 1,
           "doctor": 1,

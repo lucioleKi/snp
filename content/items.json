@@ -30,6 +30,18 @@
 
     },
     {
+      "id": "shoppinglist.tavern.ch5",
+      "label": "Shopping List For The Week. Cost: 3 funds (if not spent at market, it will be deducted at end of chapter).",
+      "description": "|shoppinglist.tavern.ch5 desc|"
+
+    },
+    {
+      "id": "shoppinglist.tavern.ch6",
+      "label": "Shopping List For The Week. Cost: 3 funds (if not spent at market, it will be deducted at end of chapter).",
+      "description": "|shoppinglist.tavern.ch6 desc|"
+
+    },
+    {
       "id": "bishop.brooch",
       "label": "Brooch",
       "description": "It is large and circular, half hollowed, half intricately carved with vine-like patterns. A cross lands slanted across the disc. At the center of the cross was a lazuli, lustrous in hue, blue as the sea. The cross bore intricate engravings too, as if restrained by an invisible force."
@@ -128,6 +140,30 @@
           "description": "Who is the lucky one to pet Juniper this time?"
         }
       ]
+    },
+    {
+      "id": "knife",
+      "label": "Knife",
+      "description": "|knife desc, you could mention that it's used to cut food, but don't spoil too much plot|"
+
+    },
+    {
+      "id": "flour",
+      "label": "A bag of flour",
+      "description": "|flour desc|"
+
+    },
+    {
+      "id": "tablechair",
+      "label": "A set of table and chairs",
+      "description": "|table and chairs desc|"
+
+    },
+    {
+      "id": "pelt",
+      "label": "Pelt",
+      "description": "|Pelt desc. A pelt can be traded at trading post for mercenary or equipment|"
+
     }
   ]
 }

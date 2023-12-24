@@ -76,31 +76,34 @@
     {
       "id": "cook1c",
       "label": "The First Cook Candidate",
-      "description": "|The First Cook Candidate desc|",
+      "description": "This cook claims that they were trained in a foreign land. They are specialized in wine-making and novel dishes.",
       "aspects": {
-        "secondarycharacter": 1
+        "secondarycharacter": 1,
+        "potentialcook": 1
       }
     },
     {
       "id": "cook2c",
       "label": "The Second Cook Candidate",
-      "description": "|The First Cook Candidate desc|",
+      "description": "This young cook doesn't talk much about their own training or experience. They simply ask the taverner to let them make a few signature dishes.",
       "aspects": {
-        "secondarycharacter": 1
+        "secondarycharacter": 1,
+        "potentialcook": 1
       }
     },
     {
       "id": "cook3c",
       "label": "The Third Cook Candidate",
-      "description": "|The Third Cook Candidate desc|",
+      "description": "This cook was the former cook of the baron. The scribe knows that they are too often drunk, and their seafood-making skill is questionable.",
       "aspects": {
-        "secondarycharacter": 1
+        "secondarycharacter": 1,
+        "potentialcook": 1
       }
     },
     {
       "id": "cook1",
       "label": "The Cook",
-      "description": "|cook1 desc|",
+      "description": "A cook who is sassy and talkative. They are always willing to try out new ideas.",
       "aspects": {
         "secondarycharacter": 1
       }
@@ -108,7 +111,7 @@
     {
       "id": "cook2",
       "label": "The Cook",
-      "description": "|cook2 desc|",
+      "description": "A cook who is a quick learner at everything. They seldom make mistakes.",
       "aspects": {
         "secondarycharacter": 1
       }
@@ -116,7 +119,15 @@
     {
       "id": "cook3",
       "label": "The Cook",
-      "description": "|cook3 desc|",
+      "description": "A cook who is experienced yet careless. It is probably a mistake to recruit them.",
+      "aspects": {
+        "secondarycharacter": 1
+      }
+    },
+    {
+      "id": "rookie",
+      "label": "The Rookie",
+      "description": "A rookie who is talented at various weapons and fighting techniques. They never undergone formal training.",
       "aspects": {
         "secondarycharacter": 1
       }

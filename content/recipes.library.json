@@ -1,0 +1,130 @@
+{
+  "recipes": [
+    {
+      "id": "recipe.church.library.bishop.orator",
+      "actionid": "church.library",
+      "label": "Library: Orator",
+      "craftable": true,
+      "startdescription": "|recipe.church.library.bishop.orator startdescription|",
+      "description": "|recipe.church.library.bishop.orator description Orator +1.|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "bishop",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.orator"
+        }
+      ],
+      "requirements": { "bishop.choleric": 1 }
+    },
+    {
+      "id": "recipe.church.library.vicar.orator",
+      "actionid": "church.library",
+      "label": "Library: Orator",
+      "craftable": true,
+      "startdescription": "|recipe.church.library.vicar.orator startdescription|",
+      "description": "|recipe.church.library.vicar.orator description Orator +1.|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "vicar",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.orator"
+        }
+      ],
+      "requirements": { "vicar.choleric": 1 }
+    },
+    {
+      "id": "recipe.church.library.bishop.scholar",
+      "actionid": "church.library",
+      "label": "Library: Scholar",
+      "craftable": true,
+      "startdescription": "|recipe.church.library.bishop.scholar startdescription|",
+      "description": "|recipe.church.library.bishop.scholar description Scholar +1.|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "bishop",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.scholar"
+        }
+      ],
+      "requirements": { "bishop.phlegmatic": 1 }
+    },
+    {
+      "id": "recipe.church.library.doctor.scholar",
+      "actionid": "church.library",
+      "label": "Library: Scholar",
+      "craftable": true,
+      "startdescription": "|recipe.church.library.doctor.scholar startdescription|",
+      "description": "|recipe.church.library.doctor.scholar description Scholar +1.|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "doctor",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.scholar"
+        }
+      ],
+      "requirements": { "doctor.phlegmatic": 1 }
+    },
+    {
+      "id": "recipe.church.library.vicar.theologian",
+      "actionid": "church.library",
+      "label": "Library: Theologian",
+      "craftable": true,
+      "startdescription": "|recipe.church.library.vicar.theologian startdescription|",
+      "description": "|recipe.church.library.vicar.theologian description Theologian +1.|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "vicar",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.theologian"
+        }
+      ],
+      "requirements": { "vicar.melancholic": 1 }
+    },
+    {
+      "id": "recipe.church.library.doctor.theologian",
+      "actionid": "church.library",
+      "label": "Library: Theologian",
+      "craftable": true,
+      "startdescription": "|recipe.church.library.doctor.theologian startdescription|",
+      "description": "|recipe.church.library.doctor.theologian description Theologian +1.|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "doctor",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.theologian"
+        }
+      ],
+      "requirements": { "doctor.melancholic": 1 }
+    }
+  ]
+}

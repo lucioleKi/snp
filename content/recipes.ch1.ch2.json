@@ -34,48 +34,7 @@
       },
       "requirements": { "ch1.tower": 1 }
     },
-    {
-      "id": "recipe.fort.training.ch1a",
-      "actionid": "explorefort.trainingyard",
-      "label": "Training Yard: Archer",
-      "craftable": true,
-      "startdescription": "The weapon rack holds a variation of bows and arrows. Maybe this is a day for training aim and accuracy.",
-      "description": "The strong wind makes it difficult to aim, but it is good practice for fighting in different kinds of weather. \nArchery +1.",
-      "warmup": 1,
-      "aspects": {
-        "exhausted": 1
-      },
-      "mutations": [
-        {
-          "filter": "knight",
-          "level": 1,
-          "additive": true,
-          "mutate": "skill.archer"
-        }
-      ],
-      "requirements": { "knight.sanguine": 1 }
-    },
-    {
-      "id": "recipe.fort.training.ch1b",
-      "actionid": "explorefort.trainingyard",
-      "label": "Training Yard: Lancer",
-      "craftable": true,
-      "startdescription": "The weapon rack holds a lance, a javlin, and a pike. Maybe this is a day for training strength and equestrian skills.",
-      "description": "The knight had a good fight with the soldier. They are exhausted but exhilarated after the practice. \nLancing +1.",
-      "warmup": 1,
-      "aspects": {
-        "exhausted": 1
-      },
-      "mutations": [
-        {
-          "filter": "knight",
-          "level": 1,
-          "additive": true,
-          "mutate": "skill.lancer"
-        }
-      ],
-      "requirements": { "knight.choleric": 1 }
-    },
+    
     {
       "id": "recipe.fort.mainhall.drunk",
       "actionid": "explorefort.mainhall",
@@ -226,77 +185,6 @@
       "requirements": { "scribe.phlegmatic": 1 },
       "effects": {
         "funds": 1
-      }
-    },
-    {
-      "id": "recipe.market.buy.ch2",
-      "actionid": "market.buy",
-      "label": "Market: Browsing and Shopping",
-      "craftable": true,
-      "startdescription": "They sell a bag of fish the taverner just caught this morning and has a cheerful chat with the buyer. They then go to buy some flour and salt.",
-      "description": "They are attracted by exotic-looking merchants, who sell dried lamb and exotic herbs. They poke their head into the crowd to get a closer look, but is disappointed by the price. “Dishonest merchants.” They mutter under their breath.",
-      "warmup": 1,
-      "purge": {
-        "shoppinglist.tavern.ch2": 1,
-        "funds": 1
-      },
-      "aspects": {
-        "exhausted": 1
-      },
-      "requirements": { "temperament": 1 },
-      "tablereqs": {
-        "chapter2": 1,
-        "shoppinglist.tavern.ch2": 1,
-        "funds": 1
-      },
-      "effects": {
-        "ch2.boat": 1
-      }
-    },
-    {
-      "id": "recipe.market.buy.ch2.notemperament",
-      "actionid": "market.buy",
-      "label": "Market: Browsing and Shopping",
-      "craftable": true,
-      "startdescription": "They sell a bag of fish the taverner just caught this morning and has a cheerful chat with the buyer. They then go to buy some flour and salt.",
-      "description": "They are attracted by exotic-looking merchants, who sell dried lamb and exotic herbs. They poke their head into the crowd to get a closer look, but is disappointed by the price. “Dishonest merchants.” They mutter under their breath.",
-      "warmup": 10,
-      "purge": {
-        "shoppinglist.tavern.ch2": 1,
-        "funds": 1
-      },
-      "tablereqs": {
-        "chapter2": 1,
-        "shoppinglist.tavern.ch2": 1,
-        "funds": 1,
-        "scribe.sanguine.exhausted": 1,
-        "scribe.phlegmatic.exhausted": 1,
-        "taverner.sanguine.exhausted": 1,
-        "taverner.melancholic.exhausted": 1
-      },
-      "effects": {
-        "ch2.boat": 1
-      }
-    },
-    {
-      "id": "recipe.market.buy.ch2.badending",
-      "actionid": "market.buy",
-      "label": "Market: Browsing and Shopping (Insufficient funds)",
-      "craftable": true,
-      "startdescription": "Insufficient funds for going to the market. Starting this will lead to a bad ending!",
-      "description": "",
-      "warmup": 1,
-      "ending": "golddeficit",
-      "aspects": {
-        "exhausted": 1
-      },
-      "requirements": {
-        "temperament": 1
-      },
-      "tablereqs": {
-        "chapter2": 1,
-        "shoppinglist.tavern.ch2": 1,
-        "funds": -1
       }
     },
     {

@@ -13,7 +13,8 @@
         "taverner": 1,
         "scribe": 1
       },
-      "tablereqs": { "chapter4": 1 }
+      "tablereqs": { "chapter4": 1 },
+      "effects": { "memory.formerstudent": 1 }
     },
     {
       "id": "recipe.ch4.tavernerarbitrator",
@@ -56,8 +57,15 @@
       "maxexecutions": 1,
       "requirements": {
         "taverner": 1,
-        "cook1c": 1
-      }
+        "cook1c": 1,
+        "temperament": 1,
+        "taverners": 1
+      },
+      "aspects": {
+        "exhausted": 1
+      },
+      "forbidden": { "tired": 1 },
+      "tablereqs": { "chapter": 4 }
     },
     {
       "id": "recipe.ch4.tavernercook2",
@@ -70,8 +78,15 @@
       "maxexecutions": 1,
       "requirements": {
         "taverner": 1,
-        "cook2c": 1
-      }
+        "cook2c": 1,
+        "temperament": 1,
+        "taverners": 1
+      },
+      "aspects": {
+        "exhausted": 1
+      },
+      "forbidden": { "tired": 1 },
+      "tablereqs": { "chapter": 4 }
     },
     {
       "id": "recipe.ch4.tavernercook3",
@@ -84,8 +99,15 @@
       "maxexecutions": 1,
       "requirements": {
         "taverner": 1,
-        "cook3c": 1
-      }
+        "cook3c": 1,
+        "temperament": 1,
+        "taverners": 1
+      },
+      "aspects": {
+        "exhausted": 1
+      },
+      "forbidden": { "tired": 1 },
+      "tablereqs": { "chapter": 4 }
     },
     {
       "id": "recipe.ch4.scribearbitrator",
@@ -193,6 +215,24 @@
       "tablereqs": { "chapter4": 1 }
     },
     {
+      "id": "recipe.ch5.tavernerscribe.first",
+      "actionid": "converse",
+      "label": "Conversation: Taverner & Scribe",
+      "craftable": "true",
+      "startdescription": "|recipe.ch5.tavernerscribe startdescription|",
+      "description": "|recipe.ch5.tavernerscribe description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "taverner": 1,
+        "scribe": 1
+      },
+      "tablereqs": {
+        "chapter5": 1,
+        "memory.formerstudent": 1
+      }
+    },
+    {
       "id": "recipe.ch5.tavernerscribe",
       "actionid": "converse",
       "label": "Conversation: Taverner & Scribe",
@@ -205,7 +245,11 @@
         "taverner": 1,
         "scribe": 1
       },
-      "tablereqs": { "chapter5": 1 }
+      "tablereqs": {
+        "chapter5": 1,
+        "memory.formerstudent": -1
+      },
+      "effects": { "memory.formerstudent": 1 }
     },
     {
       "id": "recipe.ch5.tavernerarbitrator",

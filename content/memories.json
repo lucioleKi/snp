@@ -87,6 +87,22 @@
       "aspects": {
         "mainmemory": 1
       }
+    },
+    {
+      "id": "memory.formerstudent",
+      "label": "|Memory: Former student|",
+      "description": "|Memory: Former student card description|",
+      "aspects": {
+        "mainmemory": 1
+      }
+    },
+    {
+      "id": "memory.spookedhorse",
+      "label": "|Memory: How to save someone from a spooked horse|",
+      "description": "|Memory: How to save someone from a spooked horse card description|",
+      "aspects": {
+        "mainmemory": 1
+      }
     }
   ]
 }

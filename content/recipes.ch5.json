@@ -1,0 +1,322 @@
+{
+  "recipes": [
+    {
+      "id": "recipe.church.priors.priorvicar",
+      "actionid": "church.priors",
+      "label": "Event: On the thin ice",
+      "craftable": true,
+      "startdescription": "|recipe.church.priors.priorvicar start desc|",
+      "description": "|recipe.church.priors.priorvicar desc|",
+      "warmup": 1,
+      "effects": {
+        "ch5.priorvicar": -1
+      },
+      "maxexecutions": 1,
+      "requirements": { "ch5.priorvicar": 1 },
+      "linked": [
+        {
+          "id": "recipe.church.priors.priorvicar.pt2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.church.priors.priorvicar.pt2",
+      "actionid": "church.priors",
+      "label": "Event: On the thin ice",
+      "startdescription": "",
+      "description": "|recipe.church.priors.priorvicar.pt2 desc|",
+      "warmup": 1,
+      "effects": {
+        "ch5.letter": 1
+      },
+      "inductions": [
+        {
+          "id": "emptyrecipe.church.library"
+        }
+      ]
+    },
+    {
+      "id": "recipe.fort.tradingpost.flour",
+      "actionid": "fort.tradingpost",
+      "label": "Fort Trading Post: Trade",
+      "craftable": true,
+      "startdescription": "|recipe.fort.tradingpost.flour start desc, Mention flour here|",
+      "description": "|recipe.fort.tradingpost.flour desc|",
+      "warmup": 1,
+      "effects": {
+        "pelt": -1,
+        "flour": 1
+      },
+      "maxexecutions": 1,
+      "requirements": { "pelt": 1 }
+    },
+    {
+      "id": "recipe.fort.forest.ch5a",
+      "actionid": "fort.forest",
+      "label": "Fort Forest: Hunter",
+      "craftable": true,
+      "startdescription": "|recipe.fort.forest.ch5a startdescription|",
+      "description": "|recipe.fort.forest.ch5a description Hunter +1.|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "knight",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.hunter"
+        }
+      ],
+      "requirements": { "knight.sanguine": 1 }
+    },
+    {
+      "id": "recipe.fort.forest.ch5b",
+      "actionid": "fort.forest",
+      "label": "Fort Forest: Hunt",
+      "craftable": true,
+      "startdescription": "|recipe.fort.forest.ch5b startdescription|",
+      "description": "|recipe.fort.forest.ch5b description. Gained item: pelt.|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "effects": {
+        "pelt": 1
+      },
+      "inductions": [
+        {
+          "id": "emptyrecipe.fort.tradingpost"
+        }
+      ],
+      "requirements": { "knight.choleric": 1 }
+    },
+    {
+      "id": "recipe.fort.tradingpost.flour",
+      "actionid": "fort.tradingpost",
+      "label": "Fort Trading Post: Trade",
+      "craftable": true,
+      "startdescription": "|recipe.fort.tradingpost.flour start desc, Mention flour here|",
+      "description": "|recipe.fort.tradingpost.flour desc|",
+      "warmup": 1,
+      "effects": {
+        "pelt": -1,
+        "flour": 1
+      },
+      "maxexecutions": 1,
+      "requirements": { "pelt": 1 }
+    },
+    {
+      "id": "recipe.fort.tradingpost.table",
+      "actionid": "fort.tradingpost",
+      "label": "Fort Trading Post: Trade",
+      "craftable": true,
+      "startdescription": "|recipe.fort.tradingpost.table start desc, Mention table and chairs here|",
+      "description": "|recipe.fort.tradingpost.table desc|",
+      "warmup": 1,
+      "effects": {
+        "pelt": -2,
+        "tablechair": 1
+      },
+      "maxexecutions": 1,
+      "requirements": { "pelt": 2 }
+    },
+    {
+      "id": "recipe.fort.tradingpost.ch5",
+      "actionid": "fort.tradingpost",
+      "label": "Fort Trading Post: Trade",
+      "craftable": true,
+      "startdescription": "|recipe.fort.tradingpost.ch5 start desc 1 pelt = 1 prosper point|",
+      "description": "|recipe.fort.tradingpost.ch5 desc|",
+      "warmup": 1,
+      "effects": {
+        "pelt": -1
+      },
+      "requirements": { "pelt": 1 },
+      "tablereqs": {
+        "ch5.recruit.pt2": -1
+      },
+      "mutations": [
+        {
+          "filter": "knight",
+          "level": 1,
+          "additive": true,
+          "mutate": "num.merc"
+        }
+      ]
+    },
+    {
+      "id": "recipe.fort.recruit.pt1",
+      "actionid": "fort.forest",
+      "label": "Event: Recruit the rookie. Part 1",
+      "craftable": true,
+      "startdescription": "|recipe.fort.recruit.pt1 startdescription|",
+      "description": "|recipe.fort.recruit.pt1 description. Remind the knight to come back later with one more gift.|",
+      "warmup": 1,
+      "effects": {
+        "ch5.recruit.pt1": -1,
+        "ch5.recruit.pt2": 1
+      },
+      "requirements": { "ch5.recruit.pt1": 1 }
+    },
+    {
+      "id": "recipe.fort.recruit.pt2",
+      "actionid": "fort.forest",
+      "label": "Event: Recruit the rookie. Part 2",
+      "craftable": true,
+      "startdescription": "|recipe.fort.recruit.pt2 startdescription|",
+      "description": "|recipe.fort.recruit.pt2. Gained item: pelt.|",
+      "warmup": 1,
+      "effects": {
+        "ch5.recruit.pt2": -1,
+        "rookie": 1
+      },
+      "requirements": { "ch5.recruit.pt2": 1 }
+    },
+    {
+      "id": "recipe.church.ch5.letter",
+      "actionid": "church.library",
+      "label": "Retrieve the letter to the Pilgrim",
+      "craftable": true,
+      "startdescription": "|recipe.church.ch5.letter start desc|",
+      "description": "|recipe.church.ch5.letter desc|",
+      "maxexecutions": 1,
+      "warmup": 1,
+      "effects": {
+        "ch5.letter": -1
+      },
+      "requirements": {
+        "ch5.letter": 1
+      },
+      "linked": [
+        {
+          "id": "recipe.church.ch5.letter.pt2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.church.ch5.letter.pt2",
+      "actionid": "church.library",
+      "label": "Read the letter?",
+      "startdescription": "|recipe.church.ch5.letter.pt2 start desc|",
+      "description": "|recipe.church.ch5.letter.pt2 desc|",
+      "warmup": 1,
+      "slots": [
+        {
+          "id": "slot.ch5.letterqte",
+          "label": "Temperament",
+          "essential": {
+            "temperament": 1
+          },
+          "required": {
+            "vicars": 1
+          },
+          "forbidden": { "tired": 1 }
+        }
+      ],
+      "linked": [
+        {
+          "id": "recipe.church.ch5.readletter"
+        },
+        {
+          "id": "recipe.church.ch5.noreadletter"
+        }
+      ]
+    },
+    {
+      "id": "recipe.church.ch5.readletter",
+      "actionid": "church.bishops",
+      "label": "The Prior enters",
+      "startdescription": "|recipe.church.ch5.readletter start desc|",
+      "description": "|recipe.church.ch5.readletter desc|",
+      "warmup": 1,
+      "requirements": {
+        "temperament": 1
+      },
+      "effects": {
+        "ch5.memory": 1
+      }
+    },
+    {
+      "id": "recipe.church.ch5.noreadletter",
+      "actionid": "church.bishops",
+      "label": "The Prior enters",
+      "startdescription": "|recipe.church.ch5.noreadletter start desc|",
+      "description": "|recipe.church.ch5.noreadletter desc|",
+      "warmup": 1,
+      "effects": {
+        "ch5.memory": 1
+      }
+    },
+
+    {
+      "id": "recipe.ch5.be",
+      "actionid": "church.bishops",
+      "label": "",
+      "description": "",
+      "warmup": 1,
+      "ending": "golddeficit",
+      "tablereqs": {
+        "chapter5": 1,
+        "shoppinglist.tavern.ch5": 1,
+        "funds": -3
+      }
+    },
+    {
+      "id": "recipe.ch5.ne.wshoppinglist",
+      "actionid": "church.bishops",
+      "label": "",
+      "description": "",
+      "tablereqs": {
+        "chapter5": 1,
+        "shoppinglist.tavern.ch5": 1,
+        "funds": 3
+      },
+      "purge": {
+        "funds": 3,
+        "chapter5": 1,
+        "knight.sanguine.exhausted": 1,
+        "knight.choleric.exhausted": 1,
+        "taverner.sanguine.exhausted": 1,
+        "taverner.melancholic.exhausted": 1,
+        "scribe.sanguine.exhausted": 1,
+        "scribe.phlegmatic.exhausted": 1,
+        "vicar.melancholic.exhausted": 1,
+        "vicar.choleric.exhausted": 1,
+        "doctor.phlegmatic.exhausted": 1,
+        "doctor.melancholic.exhausted": 1,
+        "shoppinglist.tavern.ch4": 1
+      },
+      "effects": {
+        "shoppinglist.tavern.ch6": 1
+      }
+    },
+    {
+      "id": "recipe.ch5.ne",
+      "actionid": "church.bishops",
+      "label": "",
+      "description": "",
+      "tablereqs": {
+        "chapter5": 1,
+        "shoppinglist.tavern.ch5": -1
+      },
+      "purge": {
+        "chapter5": 1,
+        "knight.sanguine.exhausted": 1,
+        "knight.choleric.exhausted": 1,
+        "taverner.sanguine.exhausted": 1,
+        "taverner.melancholic.exhausted": 1,
+        "scribe.sanguine.exhausted": 1,
+        "scribe.phlegmatic.exhausted": 1,
+        "vicar.melancholic.exhausted": 1,
+        "vicar.choleric.exhausted": 1,
+        "doctor.phlegmatic.exhausted": 1,
+        "doctor.melancholic.exhausted": 1
+      },
+      "effects": {
+        "shoppinglist.tavern.ch6": 1
+      }
+    }
+  ]
+}

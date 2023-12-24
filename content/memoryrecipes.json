@@ -222,7 +222,7 @@
           "id": "recipe.ch4.ne.wshoppinglist"
         },
         {
-          "id": "recipe.ch4.end"
+          "id": "recipe.ch4.ne"
         }
       ]
     },
@@ -251,15 +251,26 @@
       "actionid": "church.bishops",
       "label": "Bishop's Dream (or Memory)",
       "startdescription": "The Knight beamed at them on horseback, their childlike face glowing under the brilliant sunshine. The Knight jumped down from their horse and hugged the Pilgrim. The Pilgrim then introduced the Knight to the Bishop.",
-      "description": "The Bishop hardly heard what the Pilgrim has said. They only stares at the Knight, who kneels down before them, and kissed their ring. If only everything could have stayed this way.",
-      "warmup": 1
+      "description": "The Bishop hardly heard what the Pilgrim has said. They only stared at the Knight, who knelt down before them, and kissed their ring. If only everything could have stayed this way.",
+      "warmup": 1,
+      "linked": [
+        {
+          "id": "recipe.ch5.be"
+        },
+        {
+          "id": "recipe.ch5.ne.wshoppinglist"
+        },
+        {
+          "id": "recipe.ch5.ne"
+        }
+      ]
     },
     {
       "id": "recipe.ch6.memory.pt1",
       "actionid": "church.bishops",
       "label": "Bishop's Dream (or Memory)",
       "craftable": true,
-      "startdescription": "|recipe.ch6.memory desc 1|",
+      "startdescription": "It is the Lord's familiar voice: <i>\"I'd rather not leave them here.\"</i>\nAnd then, the Bishop somehow hears an echo of their own voice: <i>\"Don't worry. I won't leave you here.\"</i>",
       "description": "",
       "warmup": 1,
       "effects": {
@@ -278,8 +289,8 @@
       "id": "recipe.ch6.memory.pt2",
       "actionid": "church.bishops",
       "label": "Bishop's Dream (or Memory)",
-      "startdescription": "|recipe.ch6.memory desc 2|",
-      "description": "|recipe.ch6.memory desc 3|",
+      "startdescription": "Someone else murmured, their voice lost in the echo. The Lord sighs: <i>\"Alright. I'll be back soon.\"</i> The Bishop again hears their own voice in the echo, saying the same words.",
+      "description": "All the other voices faded. The Bishop is left with only one: <i>\"You really come back. I've never been happier in this life\"</i>\n<i>Where did I go?</i> The Bishop slowly opens their eyes.",
       "warmup": 1
     }
   ]
