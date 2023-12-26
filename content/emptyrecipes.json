@@ -71,8 +71,7 @@
       "effects": {
         "taverner": 1,
         "taverner.sanguine": 1,
-        "taverner.melancholic": 1,
-        "pouch.tavern": 1
+        "taverner.melancholic": 1
       }
     },
     {
@@ -83,6 +82,11 @@
       "description": "The minstrel can now perform on the stage more attentively while the keeper looks after the tavern.",
       "deleteverb": {
         "tavern.public.keeperseat": 1
+      },
+      "effects": {
+        "taverner": 1,
+        "minstrel": 1,
+        "ch4.cook": 1
       }
     },
     {

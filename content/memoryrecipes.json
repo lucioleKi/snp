@@ -87,7 +87,6 @@
     {
       "id": "recipe.fort.mainhall.memory.tactics",
       "actionid": "explorefort.mainhall",
-      "greedy": true,
       "label": "Dining Room: Choleric",
       "craftable": true,
       "startdescription": "The knight remembers discussing tactics with the bishop before setting out for a war. Those discussions helped the knight achieve a smooth victory without much casualties.",

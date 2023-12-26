@@ -207,14 +207,13 @@
       "label": "Event: Keeper's Seat",
       "description": "|Event name day card description|",
       "aspects": {
-        "storyevent": 1,
-        "endofchapter": 1
+        "storyevent": 1
       },
       "slots": [
         {
           "id": "slot.main.ch4.taverner",
           "label": "Character",
-          "actionid": "tavern.public.keeperseat",
+          "actionid": "tavern.public.keeperseat2",
           "required": {
             "taverner": 1
           },
@@ -223,7 +222,7 @@
         {
           "id": "slot.main.ch4.scribe",
           "label": "Character",
-          "actionid": "tavern.public.keeperseat",
+          "actionid": "tavern.public.keeperseat2",
           "required": {
             "scribe": 1
           },
@@ -232,9 +231,9 @@
         {
           "id": "slot.main.ch4.arbitrator",
           "label": "Character",
-          "actionid": "tavern.public.keeperseat",
+          "actionid": "tavern.public.keeperseat2",
           "required": {
-            "scribe": 1
+            "arbitrator": 1
           },
           "description": "The arbitrator strolls into the tavern, not realizing what is waiting in there."
         }
@@ -245,7 +244,8 @@
       "label": "Event: Bishop's Memory",
       "description": "The Bishop dreams of the neighboring Lord. How strange… they haven’t seen each other in years.",
       "aspects": {
-        "storyevent": 1
+        "storyevent": 1,
+        "endofchapter": 1
       },
       "unique": true,
       "slots": [
@@ -407,7 +407,8 @@
       "label": "Event: Bishop's Memory",
       "description": "The Bishop dreams of the Knight again. But this time, they are smiling at the Bishop…",
       "aspects": {
-        "storyevent": 1
+        "storyevent": 1,
+        "endofchapter": 1
       },
       "unique": true,
       "slots": [
@@ -428,7 +429,8 @@
       "label": "Event: Bishop's Memory",
       "description": "|ch6.memory event card|",
       "aspects": {
-        "storyevent": 1
+        "storyevent": 1,
+        "endofchapter": 1
       },
       "unique": true,
       "slots": [

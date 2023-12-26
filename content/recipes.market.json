@@ -6,7 +6,7 @@
       "label": "Market: Browsing and Shopping",
       "craftable": true,
       "startdescription": "They sell a bag of fish the taverner just caught this morning and has a cheerful chat with the buyer. They then go to buy some flour and salt.",
-      "description": "They are attracted by exotic-looking merchants, who sell dried lamb and exotic herbs. They poke their head into the crowd to get a closer look, but is disappointed by the price. “Dishonest merchants.” They mutter under their breath.",
+      "description": "They are attracted by exotic-looking merchants, who sell dried lamb and exotic herbs. They poke their head into the crowd to get a closer look, but is disappointed by the price. \"Dishonest merchants.\" They mutter under their breath.",
       "warmup": 1,
       "purge": {
         "shoppinglist.tavern.ch2": 1,
@@ -33,7 +33,7 @@
     {
       "id": "recipe.market.observer",
       "actionid": "market.buy",
-      "label": "Market: Browsing and Shopping",
+      "label": "Market: Observer",
       "warmup": 1,
       "startdescription": "",
       "description": "The scribe observes the market with ever-sharpening eyes. Observer +1.",
@@ -60,7 +60,7 @@
       "label": "Market: Browsing and Shopping",
       "craftable": true,
       "startdescription": "They sell a bag of fish the taverner just caught this morning and has a cheerful chat with the buyer. They then go to buy some flour and salt.",
-      "description": "They are attracted by exotic-looking merchants, who sell dried lamb and exotic herbs. They poke their head into the crowd to get a closer look, but is disappointed by the price. “Dishonest merchants.” They mutter under their breath.",
+      "description": "They are attracted by exotic-looking merchants, who sell dried lamb and exotic herbs. They poke their head into the crowd to get a closer look, but is disappointed by the price. \"Dishonest merchants.\" They mutter under their breath.",
       "warmup": 10,
       "purge": {
         "shoppinglist.tavern.ch2": 1,

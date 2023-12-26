@@ -82,8 +82,8 @@
     },
     {
       "id": "memory.cointoss.2",
-      "label": "|Memory: Coin toss|",
-      "description": "|Memory: Coin toss card description|",
+      "label": "Memory: The First Coin Flip",
+      "description": "|Memory: The First Coin Flip card description|",
       "aspects": {
         "mainmemory": 1
       }

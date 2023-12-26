@@ -64,7 +64,6 @@
       "aspects": {
         "exhausted": 1
       },
-      "forbidden": { "tired": 1 },
       "tablereqs": { "chapter": 4 }
     },
     {
@@ -85,7 +84,6 @@
       "aspects": {
         "exhausted": 1
       },
-      "forbidden": { "tired": 1 },
       "tablereqs": { "chapter": 4 }
     },
     {
@@ -106,7 +104,6 @@
       "aspects": {
         "exhausted": 1
       },
-      "forbidden": { "tired": 1 },
       "tablereqs": { "chapter": 4 }
     },
     {

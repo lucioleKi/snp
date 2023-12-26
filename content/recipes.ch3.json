@@ -369,7 +369,8 @@
       },
       "effects": {
         "minstrel": 1,
-        "ch4.minstrel": 1
+        "ch4.minstrel": 1,
+        "shoppinglist.tavern.ch4": 1
       },
       "inductions": [
         {

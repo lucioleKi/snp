@@ -2,6 +2,7 @@
   "recipes": [
     {
       "id": "recipe.tavern.catandcoin1",
+      "actionid": "temp.catandcoin",
       "label": "The cat is playing with something",
       "craftable": true,
       "maxexecutions": 1,
@@ -24,6 +25,7 @@
     },
     {
       "id": "recipe.tavern.catandcoin2",
+      "actionid": "temp.catandcoin",
       "label": "The cat snatched the coin!",
       "maxexecutions": 1,
       "startdescription": "|recipe.tavern.catandcoin2 startdescription|",
@@ -39,7 +41,7 @@
       ],
       "inductions": [
         {
-          "emptyrecipe.tavern.desk2": 1
+          "id": "emptyrecipe.tavern.desk2"
         }
       ]
     },
@@ -99,12 +101,11 @@
 
       },
       "effects": {
-        "funds": 1,
-        "ch4.cook": 1
+        "ch4.minstrel": -1
       },
       "inductions": [
         {
-          "emptyrecipe.tavern.keeperseat2": 1
+          "id": "emptyrecipe.tavern.keeperseat2"
         }
       ]
     },
@@ -119,7 +120,10 @@
       "aspects": {
         "exhausted": 1
       },
-      "requirements": { "taverner.sanguine": 1 },
+      "requirements": {
+        "taverner.sanguine": 1,
+        "minstrel": -1
+      },
       "effects": {
         "funds": 2
       }
@@ -135,9 +139,50 @@
       "aspects": {
         "exhausted": 1
       },
-      "requirements": { "taverner.melancholic": 1 },
+      "requirements": {
+        "taverner.melancholic": 1,
+        "minstrel": -1
+      },
       "effects": {
         "funds": 1
+      }
+    },
+    {
+      "id": "recipe.tavern.keeperseat.taverner4c",
+      "actionid": "tavern.public.keeperseat2",
+      "label": "Be the Tavern Keeper for Today (with Minstrel)",
+      "craftable": true,
+      "startdescription": "|recipe.tavern.keeperseat.taverner4c start desc|",
+      "description": "|recipe.tavern.keeperseat.taverner4c desc|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": {
+        "taverner.sanguine": 1,
+        "minstrel": 1
+      },
+      "effects": {
+        "funds": 3
+      }
+    },
+    {
+      "id": "recipe.tavern.keeperseat.taverner4d",
+      "actionid": "tavern.public.keeperseat2",
+      "label": "Be the Tavern Keeper for Today (with Minstrel)",
+      "craftable": true,
+      "startdescription": "|recipe.tavern.keeperseat.taverner4d start desc|",
+      "description": "|recipe.tavern.keeperseat.taverner4d desc|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": {
+        "taverner.melancholic": 1,
+        "minstrel": 1
+      },
+      "effects": {
+        "funds": 2
       }
     },
     {
@@ -151,7 +196,10 @@
       "aspects": {
         "exhausted": 1
       },
-      "requirements": { "scribe.sanguine": 1 },
+      "requirements": {
+        "scribe.sanguine": 1,
+        "minstrel": -1
+      },
       "effects": {
         "funds": 1
       }
@@ -167,7 +215,48 @@
       "aspects": {
         "exhausted": 1
       },
-      "requirements": { "scribe.phlegmatic": 1 },
+      "requirements": {
+        "scribe.phlegmatic": 1,
+        "minstrel": -1
+      },
+      "effects": {
+        "funds": 1
+      }
+    },
+    {
+      "id": "recipe.tavern.keeperseat.scribe4c",
+      "actionid": "tavern.public.keeperseat2",
+      "label": "Be the Tavern Keeper for Today (with Minstrel)",
+      "craftable": true,
+      "startdescription": "|recipe.tavern.keeperseat.scribe4c start desc|",
+      "description": "|recipe.tavern.keeperseat.scribe4c desc|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": {
+        "scribe.sanguine": 1,
+        "minstrel": 1
+      },
+      "effects": {
+        "funds": 2
+      }
+    },
+    {
+      "id": "recipe.tavern.keeperseat.scribe4d",
+      "actionid": "tavern.public.keeperseat2",
+      "label": "Be the Tavern Keeper for Today (with Minstrel)",
+      "craftable": true,
+      "startdescription": "|recipe.tavern.keeperseat.scribe4d start desc|",
+      "description": "|recipe.tavern.keeperseat.scribe4d desc|",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": {
+        "scribe.phlegmatic": 1,
+        "minstrel": 1
+      },
       "effects": {
         "funds": 1
       }
@@ -189,8 +278,17 @@
         "cook1c": 1,
         "cook2c": 1,
         "cook3c": 1,
-        "ch4.nameday": 1
-      }
+        "ch4.nameday": 1,
+        "ch4.cook": -1
+      },
+      "mutations": [
+        {
+          "filter": "taverner",
+          "level": 1,
+          "additive": true,
+          "mutate": "lookforcook"
+        }
+      ]
     },
     {
       "id": "recipe.tavern.keeper.pickcook1",
@@ -210,7 +308,15 @@
         "cook2c": -1,
         "cook3c": -1,
         "cook1": 1
-      }
+      },
+      "mutations": [
+        {
+          "filter": "taverner",
+          "level": 0,
+          "additive": false,
+          "mutate": "lookforcook"
+        }
+      ]
     },
     {
       "id": "recipe.tavern.keeper.pickcook2",
@@ -230,7 +336,15 @@
         "cook2c": -1,
         "cook3c": -1,
         "cook2": 1
-      }
+      },
+      "mutations": [
+        {
+          "filter": "taverner",
+          "level": 0,
+          "additive": false,
+          "mutate": "lookforcook"
+        }
+      ]
     },
     {
       "id": "recipe.tavern.keeper.pickcook3",
@@ -250,7 +364,15 @@
         "cook2c": -1,
         "cook3c": -1,
         "cook3": 1
-      }
+      },
+      "mutations": [
+        {
+          "filter": "taverner",
+          "level": 0,
+          "additive": false,
+          "mutate": "lookforcook"
+        }
+      ]
     },
     {
       "id": "recipe.tavern.nameday.ch4",
@@ -480,7 +602,7 @@
         "chapter4": 1,
         "knight.sanguine.exhausted": 1,
         "knight.choleric.exhausted": 1,
-        "taverner.sanguine.exhausted": 1,
+        "taverner.sanguine.exhausted": 2,
         "taverner.melancholic.exhausted": 1,
         "scribe.sanguine.exhausted": 1,
         "scribe.phlegmatic.exhausted": 1,
@@ -513,7 +635,7 @@
         "chapter4": 1,
         "knight.sanguine.exhausted": 1,
         "knight.choleric.exhausted": 1,
-        "taverner.sanguine.exhausted": 1,
+        "taverner.sanguine.exhausted": 2,
         "taverner.melancholic.exhausted": 1,
         "scribe.sanguine.exhausted": 1,
         "scribe.phlegmatic.exhausted": 1,

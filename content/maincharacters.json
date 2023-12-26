@@ -165,6 +165,16 @@
           "description": "The character acts with a certain mood."
         },
         {
+          "id": "slot.main.keeper.scribe2.minstrel",
+          "label": "Character",
+          "actionid": "tavern.public.keeperseat2",
+          "essential": {
+            "minstrel": 1
+          },
+          "forbidden": { "tired": 1 },
+          "description": "The minstrel can play on the stage."
+        },
+        {
           "id": "slot.main.market",
           "label": "Temperament",
           "actionid": "market.buy",
@@ -207,7 +217,7 @@
           },
           "forbidden": { "tired": 1 },
           "ifaspectspresent": {
-            "potentialcook": 1
+            "lookforcook": 1
           },
           "description": "The taverner needs some energy to come up with interview questions."
         },
@@ -226,6 +236,27 @@
           "id": "slot.main.keeper.taverner2",
           "label": "Temperament",
           "actionid": "tavern.public.keeperseat2",
+          "essential": {
+            "temperament": 1,
+            "taverners": 1
+          },
+          "forbidden": { "tired": 1 },
+          "description": "The character acts with a certain mood."
+        },
+        {
+          "id": "slot.main.keeper.taverner2.minstrel",
+          "label": "Character",
+          "actionid": "tavern.public.keeperseat2",
+          "essential": {
+            "minstrel": 1
+          },
+          "forbidden": { "tired": 1 },
+          "description": "The minstrel can play on the stage."
+        },
+        {
+          "id": "slot.main.kitchen.taverner",
+          "label": "Temperament",
+          "actionid": "tavern.private.kitchen",
           "essential": {
             "temperament": 1,
             "taverners": 1

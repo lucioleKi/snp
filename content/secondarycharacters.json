@@ -6,7 +6,20 @@
       "description": "A young minstrel who likes singing and cats.",
       "aspects": {
         "secondarycharacter": 1
-      }
+      },
+      "decayTo": "minstrel.exhausted",
+      "xtriggers": { "exhausted": "minstrel.exhausted" }
+    },
+    {
+      "id": "minstrel.exhausted",
+      "label": "Exhausted Minstrel",
+      "description": "A young minstrel who likes singing and cats.",
+      "aspects": {
+        "secondarycharacter": 1,
+        "tired": 1
+      },
+      "decayTo": "minstrel",
+      "xtriggers": { "recharge": "minstrel" }
     },
     {
       "id": "soldier",
@@ -55,7 +68,20 @@
       "description": "A calm and patient arbitrator.",
       "aspects": {
         "secondarycharacter": 1
-      }
+      },
+      "decayTo": "arbitrator.exhausted",
+      "xtriggers": { "exhausted": "arbitrator.exhausted" }
+    },
+    {
+      "id": "arbitrator.exhausted",
+      "label": "Exhausted Arbitrator",
+      "description": "A calm and patient arbitrator.",
+      "aspects": {
+        "secondarycharacter": 1,
+        "tired": 1
+      },
+      "decayTo": "arbitrator",
+      "xtriggers": { "recharge": "arbitrator" }
     },
     {
       "id": "chevalier",
