@@ -78,8 +78,9 @@
       "id": "emptyrecipe.tavern.keeperseat2",
       "actionid": "tavern.public.keeperseat2",
       "label": "Location Updated: Tavern - Keeper's Seat",
-      "startdescription": "",
-      "description": "The minstrel can now perform on the stage more attentively while the keeper looks after the tavern.",
+      "startdescription": "The Taverner threatens to deduct the Minstrel's wage again if they keeps playing so horribly.",
+      "description": "The Minstrel can now perform on the stage more attentively while the keeper looks after the tavern.",
+      "warmup": 1,
       "deleteverb": {
         "tavern.public.keeperseat": 1
       },

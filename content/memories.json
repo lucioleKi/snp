@@ -82,7 +82,7 @@
     },
     {
       "id": "memory.cointoss.2",
-      "label": "Memory: The First Coin Flip",
+      "label": "Memory: The first coin flip",
       "description": "|Memory: The First Coin Flip card description|",
       "aspects": {
         "mainmemory": 1
@@ -90,7 +90,7 @@
     },
     {
       "id": "memory.formerstudent",
-      "label": "|Memory: Former student|",
+      "label": "Memory: Scribe's former student",
       "description": "|Memory: Former student card description|",
       "aspects": {
         "mainmemory": 1
@@ -98,7 +98,7 @@
     },
     {
       "id": "memory.spookedhorse",
-      "label": "|Memory: How to save someone from a spooked horse|",
+      "label": "Memory: How to save someone from a spooked horse",
       "description": "|Memory: How to save someone from a spooked horse card description|",
       "aspects": {
         "mainmemory": 1

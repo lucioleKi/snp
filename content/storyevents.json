@@ -149,7 +149,7 @@
     {
       "id": "ch4.minstrel",
       "label": "Event: Keeper's Seat",
-      "description": "|Event: Keeper's Seat card description|",
+      "description": "The Taverner is looking for the Minstrel. This can’t be good news to the Minstrel…",
       "aspects": {
         "storyevent": 1
       },
@@ -177,7 +177,7 @@
     {
       "id": "ch4.cook",
       "label": "Event: Tavern Kitchen",
-      "description": "|Event Tavern Kitchen card description|",
+      "description": "The Taverner and the Scribe finally decide to look for a new chef. They have been deprived of a chef for too long.",
       "aspects": {
         "storyevent": 1
       },
@@ -205,7 +205,7 @@
     {
       "id": "ch4.nameday",
       "label": "Event: Keeper's Seat",
-      "description": "|Event name day card description|",
+      "description": "The Minstrel is preparing something for the Arbitrator’s name day. Is it going to be a surprise or a disaster?",
       "aspects": {
         "storyevent": 1
       },

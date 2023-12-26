@@ -6,7 +6,7 @@
       "label": "The cat is playing with something",
       "craftable": true,
       "maxexecutions": 1,
-      "startdescription": "|recipe.tavern.catandcoin startdescription|",
+      "startdescription": "The Scribe is reading at the desk when the Juniper jumps onto the desk, staring at them. It looks like the cat is up to something.",
       "description": "",
       "warmup": 1,
       "slots": [
@@ -28,7 +28,7 @@
       "actionid": "temp.catandcoin",
       "label": "The cat snatched the coin!",
       "maxexecutions": 1,
-      "startdescription": "|recipe.tavern.catandcoin2 startdescription|",
+      "startdescription": "When Juniper sees that the Scribe is not paying attention, they push the coin off the edge of the desk, and starts chasing it. The coin lands facing up.",
       "description": "As the Scribe go retrieve the coin, they suddenly have a thought: What would happen if one flips the coin 100 times?",
       "warmup": 1,
       "slots": [
@@ -71,8 +71,8 @@
       "actionid": "tavern.private.kitchen",
       "label": "Tavern Kitchen: Brewer",
       "craftable": true,
-      "startdescription": "|recipe.tavern.brewery.ch4a startdescription|",
-      "description": "|recipe.tavern.brewery.ch4a description Brewer +1.|",
+      "startdescription": "The Taverner is looking for ways to preserve or add flavor to the beer.",
+      "description": "Another barrel, another experiment. Brewer +1.",
       "warmup": 1,
       "aspects": {
         "exhausted": 1
@@ -92,8 +92,8 @@
       "actionid": "tavern.public.keeperseat",
       "label": "Taverner's Talk",
       "craftable": true,
-      "startdescription": "|recipe.tavern.minstrel.intro startdescription|",
-      "description": "|unlock the possibility to have minstrel perform while taverner/scribe runs the tavern|",
+      "startdescription": "The Minstrel is absent-mindedly playing the lute and singing in the tavern, when they see the Taverner waves for them to come. The Minstrel hops down the stage, feeling dread in the stomach.",
+      "description": "The Taverner threatens to deduct the Minstrel's wage again if they keeps playing so horribly.",
       "warmup": 1,
       "maxexecutions": 1,
       "requirements": {
@@ -266,7 +266,7 @@
       "actionid": "tavern.private.kitchen",
       "label": "Maybe we need a hand?",
       "craftable": true,
-      "startdescription": "|recipe.tavern.kitchen.talk startdescription|",
+      "startdescription": "The Scribed finds the Taverner pondering in the kitchen and asks if they have any leads in finding a new cook.",
       "description": "|recipe.tavern.kitchen.talk description|",
       "warmup": 1,
       "maxexecutions": 1,
