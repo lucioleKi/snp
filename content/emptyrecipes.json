@@ -80,7 +80,7 @@
       "label": "Location Updated: Tavern - Keeper's Seat",
       "startdescription": "The Taverner threatens to deduct the Minstrel's wage again if they keeps playing so horribly.",
       "description": "The Minstrel can now perform on the stage more attentively while the keeper looks after the tavern.",
-      "warmup": 1,
+      "warmup": 10,
       "deleteverb": {
         "tavern.public.keeperseat": 1
       },

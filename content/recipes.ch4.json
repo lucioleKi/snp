@@ -8,7 +8,7 @@
       "maxexecutions": 1,
       "startdescription": "The Scribe is reading at the desk when the Juniper jumps onto the desk, staring at them. It looks like the cat is up to something.",
       "description": "",
-      "warmup": 1,
+      "warmup": 10,
       "slots": [
         {
           "id": "catslot",
@@ -30,7 +30,7 @@
       "maxexecutions": 1,
       "startdescription": "When Juniper sees that the Scribe is not paying attention, they push the coin off the edge of the desk, and starts chasing it. The coin lands facing up.",
       "description": "As the Scribe go retrieve the coin, they suddenly have a thought: What would happen if one flips the coin 100 times?",
-      "warmup": 1,
+      "warmup": 10,
       "slots": [
         {
           "id": "coinslot",
@@ -94,7 +94,7 @@
       "craftable": true,
       "startdescription": "The Minstrel is absent-mindedly playing the lute and singing in the tavern, when they see the Taverner waves for them to come. The Minstrel hops down the stage, feeling dread in the stomach.",
       "description": "The Taverner threatens to deduct the Minstrel's wage again if they keeps playing so horribly.",
-      "warmup": 1,
+      "warmup": 10,
       "maxexecutions": 1,
       "requirements": {
         "ch4.minstrel": 1

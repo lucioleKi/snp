@@ -47,7 +47,7 @@
     {
       "id": "memory.ch4.dining1a",
       "label": "Memory: Dining with the Baron",
-      "description": "The Knight misses the time they spent at the fort with the Baron, who took great care of them after the Knight was rescued from the deep forest.",
+      "description": "The Knight misses the time they spent at the fort with the Baron and the Scribe, who were lively and interesting company.",
       "aspects": {
         "mainmemory": 1
       }
@@ -82,7 +82,7 @@
     },
     {
       "id": "memory.cointoss.2",
-      "label": "Memory: The first coin flip",
+      "label": "Memory: Why flipping coins?",
       "description": "|Memory: The First Coin Flip card description|",
       "aspects": {
         "mainmemory": 1

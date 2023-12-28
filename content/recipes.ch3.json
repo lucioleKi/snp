@@ -311,6 +311,9 @@
         "shoppinglist.tavern.ch3": 1,
         "funds": 2
       },
+      "purge": {
+        "funds": 2
+      },
       "linked": [
         {
           "id": "recipe.ch3.memory.lord.ne"

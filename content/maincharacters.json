@@ -196,6 +196,7 @@
         "skill.fishmonger": 3,
         "skill.brewer": 3
       },
+      "unique": true,
       "slots": [
         {
           "id": "slot.main.converse",

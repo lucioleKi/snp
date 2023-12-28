@@ -7,6 +7,7 @@
       "aspects": {
         "secondarycharacter": 1
       },
+      "unique": true,
       "decayTo": "minstrel.exhausted",
       "xtriggers": { "exhausted": "minstrel.exhausted" }
     },
