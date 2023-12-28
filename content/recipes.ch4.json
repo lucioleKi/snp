@@ -93,7 +93,7 @@
       "label": "Taverner's Talk",
       "craftable": true,
       "startdescription": "The Minstrel is absent-mindedly playing the lute and singing in the tavern, when they see the Taverner waves for them to come. The Minstrel hops down the stage, feeling dread in the stomach.",
-      "description": "The Taverner threatens to deduct the Minstrel's wage again if they keeps playing so horribly.",
+      "description": "",
       "warmup": 10,
       "maxexecutions": 1,
       "requirements": {
@@ -103,6 +103,20 @@
       "effects": {
         "ch4.minstrel": -1
       },
+      "linked": [
+        {
+          "id": "recipe.tavern.minstrel.intro.pt2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.minstrel.intro.pt2",
+      "actionid": "tavern.public.keeperseat",
+      "label": "Taverner's Talk",
+      "startdescription": "The Taverner threatens to deduct the Minstrel's wage again if they keeps playing so horribly.",
+      "description": "",
+      "warmup": 10,
+      "maxexecutions": 1,
       "inductions": [
         {
           "id": "emptyrecipe.tavern.keeperseat2"
