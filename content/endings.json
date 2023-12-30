@@ -23,6 +23,22 @@
       "description": "The tavern has no money left and has to close down.",
       "flavour": "Melancholy",
       "anim": "DramaticLightCool"
+    },
+    {
+      "id": "nocook",
+      "image": "badending",
+      "label": "Game Over",
+      "description": "The tavern has no cook and has to close down.",
+      "flavour": "Melancholy",
+      "anim": "DramaticLightCool"
+    },
+    {
+      "id": "wrongcook",
+      "image": "badending",
+      "label": "Game Over",
+      "description": "The new cook burned down the tavern. The taverner has clearly made the wrong choice!",
+      "flavour": "Melancholy",
+      "anim": "DramaticLightCool"
     }
   ]
 }

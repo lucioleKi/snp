@@ -264,6 +264,18 @@
       }
     },
     {
+      "id": "recipe.ch5.be2",
+      "actionid": "church.bishops",
+      "label": "",
+      "description": "",
+      "warmup": 1,
+      "ending": "nocook",
+      "tablereqs": {
+        "chapter5": 1,
+        "ch4.pickcook": 1
+      }
+    },
+    {
       "id": "recipe.ch5.ne.wshoppinglist",
       "actionid": "church.bishops",
       "label": "",
@@ -289,8 +301,14 @@
         "shoppinglist.tavern.ch4": 1
       },
       "effects": {
-        "shoppinglist.tavern.ch6": 1
-      }
+        "shoppinglist.tavern.ch6": 1,
+        "ch6.tavernermeeting": 1
+      },
+      "inductions": [
+        {
+          "id": "emptyrecipe.pier2"
+        }
+      ]
     },
     {
       "id": "recipe.ch5.ne",
@@ -315,8 +333,14 @@
         "doctor.melancholic.exhausted": 1
       },
       "effects": {
-        "shoppinglist.tavern.ch6": 1
-      }
+        "shoppinglist.tavern.ch6": 1,
+        "ch6.tavernermeeting": 1
+      },
+      "inductions": [
+        {
+          "id": "emptyrecipe.pier2"
+        }
+      ]
     }
   ]
 }

@@ -266,6 +266,15 @@
           "description": "The character acts with a certain mood."
         },
         {
+          "id": "slot.main.kitchen.taverner",
+          "label": "Cook",
+          "actionid": "tavern.private.kitchen",
+          "essential": {
+            "taverncook": 1
+          },
+          "description": "The cook can make signature dishes."
+        },
+        {
           "id": "slot.main.market",
           "label": "Temperament",
           "actionid": "market.buy",

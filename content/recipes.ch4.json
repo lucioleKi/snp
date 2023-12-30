@@ -178,7 +178,15 @@
       },
       "effects": {
         "funds": 3
-      }
+      },
+      "mutations": [
+        {
+          "filter": "minstrel",
+          "level": 1,
+          "additive": true,
+          "mutate": "num.perform"
+        }
+      ]
     },
     {
       "id": "recipe.tavern.keeperseat.taverner4d",
@@ -197,7 +205,15 @@
       },
       "effects": {
         "funds": 2
-      }
+      },
+      "mutations": [
+        {
+          "filter": "minstrel",
+          "level": 1,
+          "additive": true,
+          "mutate": "num.perform"
+        }
+      ]
     },
     {
       "id": "recipe.tavern.keeperseat.scribe4a",
@@ -254,7 +270,15 @@
       },
       "effects": {
         "funds": 2
-      }
+      },
+      "mutations": [
+        {
+          "filter": "minstrel",
+          "level": 1,
+          "additive": true,
+          "mutate": "num.perform"
+        }
+      ]
     },
     {
       "id": "recipe.tavern.keeperseat.scribe4d",
@@ -273,7 +297,15 @@
       },
       "effects": {
         "funds": 1
-      }
+      },
+      "mutations": [
+        {
+          "filter": "minstrel",
+          "level": 1,
+          "additive": true,
+          "mutate": "num.perform"
+        }
+      ]
     },
     {
       "id": "recipe.tavern.kitchen.talk",
@@ -293,6 +325,7 @@
         "cook2c": 1,
         "cook3c": 1,
         "ch4.nameday": 1,
+        "ch4.pickcook": 1,
         "ch4.cook": -1
       },
       "mutations": [
@@ -329,6 +362,12 @@
           "level": 0,
           "additive": false,
           "mutate": "lookforcook"
+        },
+        {
+          "filter": "taverner",
+          "level": 1,
+          "additive": true,
+          "mutate": "hascook"
         }
       ]
     },
@@ -338,7 +377,7 @@
       "label": "Pick the new cook",
       "craftable": true,
       "startdescription": "|pick cook2 startdescription|",
-      "description": "|pick cook2 description|",
+      "description": "",
       "warmup": 1,
       "maxexecutions": 1,
       "requirements": {
@@ -351,14 +390,21 @@
         "cook3c": -1,
         "cook2": 1
       },
-      "mutations": [
+      "linked": [
         {
-          "filter": "taverner",
-          "level": 0,
-          "additive": false,
-          "mutate": "lookforcook"
+          "id": "recipe.tavern.keeper.pickcook2.be"
         }
       ]
+    },
+    {
+      "id": "recipe.tavern.keeper.pickcook2.be",
+      "actionid": "tavern.public.keeperseat2",
+      "label": "Pick the new cook",
+      "startdescription": "|pick cook2 description|",
+      "description": "",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "ending": "wrongcook"
     },
     {
       "id": "recipe.tavern.keeper.pickcook3",
@@ -385,6 +431,12 @@
           "level": 0,
           "additive": false,
           "mutate": "lookforcook"
+        },
+        {
+          "filter": "taverner",
+          "level": 1,
+          "additive": true,
+          "mutate": "hascook"
         }
       ]
     },

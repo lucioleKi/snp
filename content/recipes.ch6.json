@@ -33,6 +33,526 @@
         "exhausted": 1
       },
       "requirements": { "taverner.sanguine": 1 }
+    },
+    {
+      "id": "recipe.pier.fishing.ch6c",
+      "actionid": "pier2",
+      "label": "Pier: Sail onto the open sea",
+      "craftable": true,
+      "startdescription": "|recipe.pier.fishing.ch6c startdescription|",
+      "description": "|rrecipe.pier.fishing.ch6c description |",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "scribe.sanguine": 1 }
+    },
+    {
+      "id": "recipe.tavern.ch6.meeting.pt1a",
+      "actionid": "tavern.private.kitchen",
+      "label": "The Taverner's secret recipe",
+      "craftable": true,
+      "startdescription": "|recipe.tavern.ch6.meeting.pt1a desc 1|",
+      "description": "",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "ch6.tavernermeeting": 1,
+        "cook1": 1,
+        "cook3": -1
+      },
+      "effects": {
+        "ch6.tavernermeeting": -1
+      },
+      "linked": [
+        {
+          "id": "recipe.tavern.ch6.meeting.pt2a"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.ch6.meeting.pt2a",
+      "actionid": "tavern.private.kitchen",
+      "label": "The Taverner's secret recipe",
+      "startdescription": "|recipe.tavern.ch6.meeting.pt2a desc 2|",
+      "description": "|recipe.tavern.ch6.meeting.pt2a desc 3|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "effects": {
+          "ch6.scribemeeting": 1
+      }
+      
+    },
+    {
+      "id": "recipe.tavern.ch6.meeting.pt1b",
+      "actionid": "tavern.private.kitchen",
+      "label": "The Taverner's secret recipe",
+      "craftable": true,
+      "startdescription": "|recipe.tavern.ch6.meeting.pt1b desc 1|",
+      "description": "",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "ch6.tavernermeeting": 1,
+        "cook1": -1,
+        "cook3": 1
+      },
+      "effects": {
+        "ch6.tavernermeeting": -1
+      },
+      "linked": [
+        {
+          "id": "recipe.tavern.ch6.meeting.pt2b"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.ch6.meeting.pt2b",
+      "actionid": "tavern.private.kitchen",
+      "label": "The Taverner's secret recipe",
+      "startdescription": "|recipe.tavern.ch6.meeting.pt2b desc 2|",
+      "description": "|recipe.tavern.ch6.meeting.pt2b desc 3|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "effects": 
+        {
+          "ch6.scribemeeting": 1
+        }
+      
+    },
+    {
+      "id": "recipe.tavern.ch6.meeting.pt3a",
+      "actionid": "tavern.private.kitchen",
+      "label": "The Taverner's secret recipe",
+      "craftable": true,
+      "startdescription": "|recipe.tavern.ch6.meeting.pt3a desc 1|",
+      "description": "",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "ch6.scribemeeting": 1,
+        "cook1": 1,
+        "cook3": -1
+      },
+      "effects": {
+        "ch6.scribemeeting": -1
+      },
+      "linked": [
+        {
+          "id": "recipe.tavern.ch6.meeting.pt4a"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.ch6.meeting.pt4a",
+      "actionid": "tavern.private.kitchen",
+      "label": "The Taverner's secret recipe",
+      "startdescription": "|recipe.tavern.ch6.meeting.pt4a desc 2|",
+      "description": "|recipe.tavern.ch6.meeting.pt4a desc 3|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "effects": 
+        {
+          "ch6.churchmeeting": 1
+        }
+      
+    },
+    {
+      "id": "recipe.tavern.ch6.meeting.pt3b",
+      "actionid": "tavern.private.kitchen",
+      "label": "The Taverner's secret recipe",
+      "craftable": true,
+      "startdescription": "|recipe.tavern.ch6.meeting.pt3b desc 1|",
+      "description": "",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "ch6.scribemeeting": 1,
+        "cook1": -1,
+        "cook3": 1
+      },
+      "effects": {
+        "ch6.scribemeeting": -1
+      },
+      "linked": [
+        {
+          "id": "recipe.tavern.ch6.meeting.pt4b"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.ch6.meeting.pt4b",
+      "actionid": "tavern.private.kitchen",
+      "label": "The Taverner's secret recipe",
+      "startdescription": "|recipe.tavern.ch6.meeting.pt4b desc 2|",
+      "description": "|recipe.tavern.ch6.meeting.pt4b desc 3|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "effects": 
+        {
+          "ch6.churchmeeting": 1
+        }
+      
+    },
+    {
+      "id": "recipe.church.meal.all3.ch6",
+      "actionid": "church.priors",
+      "label": "A meal shared among the prior, the vicar, and the doctor",
+      "craftable": true,
+      "startdescription": "|recipe.church.meal.all3.ch6 startdescription|",
+      "description": "",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "ch6.churchmeeting": 1,
+        "doctor": 1,
+        "vicar": 1,
+        "prior": 1
+      },
+      "slots": [
+        {
+          "id": "slot.ch6.churchqte",
+          "label": "Temperament",
+          "essential": {
+            "temperament": 1
+          },
+          "required": {
+            "vicars": 1,
+            "doctors": 1
+          },
+          "forbidden": { "tired": 1 }
+        }
+      ],
+      "linked": [
+        {
+          "id": "recipe.church.meal.all3.ch6a"
+        },
+        {
+          "id": "recipe.church.meal.all3.ch6b"
+        },
+        {
+          "id": "recipe.church.meal.all3.ch6c"
+        },
+        {
+          "id": "recipe.church.meal.all3.ch6d"
+        },
+        {
+          "id": "recipe.church.meal.all3.ch6.default"
+        }
+      ]
+    },
+    {
+      "id": "recipe.church.meal.all3.ch6.default",
+      "actionid": "church.priors",
+      "label": "A meal shared among the prior, the vicar, and the doctor",
+      "startdescription": "|recipe.church.meal.all3.ch6.default start desc|",
+      "description": "|recipe.church.meal.all3.ch6.default desc|",
+      "warmup": 1,
+      "effects": {
+        "ch6.churchmeeting": -1
+      }
+    },
+    {
+      "id": "recipe.church.meal.all3.ch6a",
+      "actionid": "church.priors",
+      "label": "A meal shared among the prior, the vicar, and the doctor",
+      "startdescription": "|recipe.church.meal.all3.ch6a start desc|",
+      "description": "|recipe.church.meal.all3.ch6a desc|",
+      "requirements": { "doctor.melancholic": 1 },
+      "warmup": 1,
+      "effects": {
+        "ch6.churchmeeting": -1
+      }
+    },
+    {
+      "id": "recipe.church.meal.all3.ch6b",
+      "actionid": "church.priors",
+      "label": "A meal shared among the prior, the vicar, and the doctor",
+      "startdescription": "|recipe.church.meal.all3.ch6b start desc|",
+      "description": "|recipe.church.meal.all3.ch6b desc|",
+      "requirements": { "doctor.phlegmatic": 1 },
+      "warmup": 1,
+      "effects": {
+        "ch6.churchmeeting": -1
+      }
+    },
+    {
+      "id": "recipe.church.meal.all3.ch6c",
+      "actionid": "church.priors",
+      "label": "A meal shared among the prior, the vicar, and the doctor",
+      "startdescription": "|recipe.church.meal.all3.ch6c start desc|",
+      "description": "|rrecipe.church.meal.all3.ch6c desc|",
+      "requirements": { "vicar.choleric": 1 },
+      "effects": {
+        "ch6.churchmeeting": -1
+      }
+    },
+    {
+      "id": "recipe.church.meal.all3.ch6d",
+      "actionid": "church.priors",
+      "label": "A meal shared among the prior, the vicar, and the doctor",
+      "startdescription": "|recipe.church.meal.all3.ch6d start desc|",
+      "description": "|recipe.church.meal.all3.ch6d desc|",
+      "requirements": { "vicar.melancholic": 1 },
+      "warmup": 1,
+      "effects": {
+        "ch6.churchmeeting": -1
+      }
+    },
+    {
+      "id": "recipe.church.meal.doctorvicar.ch6",
+      "actionid": "church.priors",
+      "label": "A meal shared between the vicar and the doctor",
+      "craftable": true,
+      "startdescription": "|recipe.church.meal.doctorvicar.ch6 startdescription|",
+      "description": "",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "ch6.churchmeeting": 1,
+        "doctor": 1,
+        "vicar": 1,
+        "prior": -1
+      },
+      "slots": [
+        {
+          "id": "slot.ch6.churchqte",
+          "label": "Temperament",
+          "essential": {
+            "temperament": 1
+          },
+          "required": {
+            "vicars": 1,
+            "doctors": 1
+          },
+          "forbidden": { "tired": 1 }
+        }
+      ],
+      "linked": [
+        {
+          "id": "recipe.church.meal.doctorvicar.ch6a"
+        },
+        {
+          "id": "recipe.church.meal.doctorvicar.ch6b"
+        },
+        {
+          "id": "recipe.church.meal.doctorvicar.ch6c"
+        },
+        {
+          "id": "recipe.church.meal.doctorvicar.ch6d"
+        },
+        {
+          "id": "recipe.church.meal.doctorvicar.ch6.default"
+        }
+      ]
+    },
+    {
+      "id": "recipe.church.meal.doctorvicar.ch6.default",
+      "actionid": "church.priors",
+      "label": "A meal shared between the vicar and the doctor",
+      "startdescription": "|recipe.church.meal.doctorvicar.ch6.default start desc|",
+      "description": "|recipe.church.meal.doctorvicar.ch6.default desc|",
+      "warmup": 1,
+      "effects": {
+        "ch6.churchmeeting": -1
+      }
+    },
+    {
+      "id": "recipe.church.meal.doctorvicar.ch6a",
+      "actionid": "church.priors",
+      "label": "A meal shared between the vicar and the doctor",
+      "startdescription": "|recipe.church.meal.doctorvicar.ch6a start desc|",
+      "description": "|recipe.church.meal.doctorvicar.ch6a desc|",
+      "requirements": { "doctor.melancholic": 1 },
+      "warmup": 1,
+      "effects": {
+        "ch6.churchmeeting": -1
+      }
+    },
+    {
+      "id": "recipe.church.meal.doctorvicar.ch6b",
+      "actionid": "church.priors",
+      "label": "A meal shared between the vicar and the doctor",
+      "startdescription": "|recipe.church.meal.doctorvicar.ch6b start desc|",
+      "description": "|recipe.church.meal.doctorvicar.ch6b desc|",
+      "requirements": { "doctor.phlegmatic": 1 },
+      "warmup": 1,
+      "effects": {
+        "ch6.churchmeeting": -1
+      }
+    },
+    {
+      "id": "recipe.church.meal.doctorvicar.ch6c",
+      "actionid": "church.priors",
+      "label": "A meal shared between the vicar and the doctor",
+      "startdescription": "|recipe.church.meal.doctorvicar.ch6c start desc|",
+      "description": "|recipe.church.meal.doctorvicar.ch6c desc|",
+      "requirements": { "vicar.choleric": 1 },
+      "effects": {
+        "ch6.churchmeeting": -1
+      }
+    },
+    {
+      "id": "recipe.church.meal.doctorvicar.ch6d",
+      "actionid": "church.priors",
+      "label": "A meal shared between the vicar and the doctor",
+      "startdescription": "|recipe.church.meal.doctorvicar.ch6d start desc|",
+      "description": "|recipe.church.meal.doctorvicar.ch6d desc|",
+      "requirements": { "vicar.melancholic": 1 },
+      "warmup": 1,
+      "effects": {
+        "ch6.churchmeeting": -1
+      }
+    },
+    {
+      "id": "recipe.church.meal.doctorprior.ch6",
+      "actionid": "church.priors",
+      "label": "A meal shared between the prior and the doctor",
+      "craftable": true,
+      "startdescription": "|recipe.church.meal.doctorvicar.ch6 startdescription|",
+      "description": "",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "ch6.churchmeeting": 1,
+        "doctor": 1,
+        "vicar": -1,
+        "prior": 1
+      },
+      "slots": [
+        {
+          "id": "slot.ch6.churchqte",
+          "label": "Temperament",
+          "essential": {
+            "temperament": 1
+          },
+          "required": {
+            "doctors": 1
+          },
+          "forbidden": { "tired": 1 }
+        }
+      ],
+      "linked": [
+        {
+          "id": "recipe.church.meal.doctorprior.ch6a"
+        },
+        {
+          "id": "recipe.church.meal.doctorprior.ch6b"
+        },
+        {
+          "id": "recipe.church.meal.doctorprior.ch6.default"
+        }
+      ]
+    },
+    {
+      "id": "recipe.church.meal.doctorprior.ch6.default",
+      "actionid": "church.priors",
+      "label": "A meal shared between the prior and the doctor",
+      "startdescription": "|recipe.church.meal.doctorprior.ch6.default start desc|",
+      "description": "|recipe.church.meal.doctorprior.ch6.default desc|",
+      "warmup": 1,
+      "effects": {
+        "ch6.churchmeeting": -1
+      }
+    },
+    {
+      "id": "recipe.church.meal.doctorprior.ch6a",
+      "actionid": "church.priors",
+      "label": "A meal shared between the prior and the doctor",
+      "startdescription": "|recipe.church.meal.doctorprior.ch6a start desc|",
+      "description": "|recipe.church.meal.doctorprior.ch6a desc|",
+      "requirements": { "doctor.melancholic": 1 },
+      "warmup": 1,
+      "effects": {
+        "ch6.churchmeeting": -1
+      }
+    },
+    {
+      "id": "recipe.church.meal.doctorprior.ch6b",
+      "actionid": "church.priors",
+      "label": "A meal shared between the prior and the doctor",
+      "startdescription": "|recipe.church.meal.doctorprior.ch6b start desc|",
+      "description": "|recipe.church.meal.doctorprior.ch6b desc|",
+      "requirements": { "doctor.phlegmatic": 1 },
+      "warmup": 1,
+      "effects": {
+        "ch6.churchmeeting": -1
+      }
+    },
+    {
+      "id": "recipe.church.meal.vicarprior.ch6",
+      "actionid": "church.priors",
+      "label": "A meal shared between the prior and the vicar",
+      "craftable": true,
+      "startdescription": "|recipe.church.meal.vicarprior.ch6 startdescription|",
+      "description": "",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "requirements": {
+        "ch6.churchmeeting": 1,
+        "doctor": 1,
+        "vicar": 1,
+        "prior": -1
+      },
+      "slots": [
+        {
+          "id": "slot.ch6.churchqte",
+          "label": "Temperament",
+          "essential": {
+            "temperament": 1
+          },
+          "required": {
+            "vicars": 1,
+            "doctors": 1
+          },
+          "forbidden": { "tired": 1 }
+        }
+      ],
+      "linked": [
+        {
+          "id": "recipe.church.meal.vicarprior.ch6c"
+        },
+        {
+          "id": "recipe.church.meal.vicarprior.ch6d"
+        },
+        {
+          "id": "recipe.church.meal.vicarprior.ch6.default"
+        }
+      ]
+    },
+    {
+      "id": "recipe.church.meal.vicarprior.ch6.default",
+      "actionid": "church.priors",
+      "label": "A meal shared between the prior and the vicar",
+      "startdescription": "|recipe.church.meal.vicarprior.ch6.default start desc|",
+      "description": "|recipe.church.meal.vicarprior.ch6.default desc|",
+      "warmup": 1,
+      "effects": {
+        "ch6.churchmeeting": -1
+      }
+    },
+    {
+      "id": "recipe.church.meal.vicarprior.ch6c",
+      "actionid": "church.priors",
+      "label": "A meal shared between the prior and the vicar",
+      "startdescription": "|recipe.church.meal.vicarprior.ch6c start desc|",
+      "description": "|recipe.church.meal.vicarprior.ch6c desc|",
+      "requirements": { "vicar.choleric": 1 },
+      "effects": {
+        "ch6.churchmeeting": -1
+      }
+    },
+    {
+      "id": "recipe.church.meal.vicarprior.ch6d",
+      "actionid": "church.priors",
+      "label": "A meal shared between the prior and the vicar",
+      "startdescription": "|recipe.church.meal.vicarprior.ch6d start desc|",
+      "description": "|recipe.church.meal.vicarprior.ch6d desc|",
+      "requirements": { "vicar.melancholic": 1 },
+      "warmup": 1,
+      "effects": {
+        "ch6.churchmeeting": -1
+      }
     }
   ]
 }

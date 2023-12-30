@@ -272,7 +272,7 @@
         {
           "id": "slot.main.ch4.taverner",
           "label": "Character",
-          "actionid": "tavern.public.keeperseat",
+          "actionid": "tavern.public.keeperseat2",
           "required": {
             "taverner": 1
           },
@@ -281,7 +281,7 @@
         {
           "id": "slot.main.ch4.cook",
           "label": "Character",
-          "actionid": "tavern.public.keeperseat",
+          "actionid": "tavern.public.keeperseat2",
           "required": {
             "potentialcook": 1
           },
@@ -311,7 +311,7 @@
           "label": "Character",
           "actionid": "church.priors",
           "required": {
-            "monk": 1
+            "prior": 1
           },
           "description": "The prior waits for the vicar in their room."
         }
@@ -422,6 +422,100 @@
           "greedy": "True",
           "description": "The bishop is having a dream. Or is it a memory?"
         }
+      ]
+    },
+    {
+      "id": "ch6.tavernermeeting",
+      "label": "Event: Taverner's meeting with the new cook",
+      "description": "|Event: Taverner's meeting with the new cook description|",
+      "aspects": {
+        "storyevent": 1
+      },
+      "slots": [
+        {
+          "id": "slot.main.ch6.taverner",
+          "label": "Character",
+          "actionid": "tavern.private.kitchen",
+          "required": {
+            "taverner": 1
+          },
+          "description": "The taverner wants to teach the new cook something."
+        },
+        {
+          "id": "slot.main.ch6.cook",
+          "label": "Character",
+          "actionid": "tavern.private.kitchen",
+          "essential": {
+            "taverncook": 1
+          },
+          "description": "The cook should come to the kitchen."
+        }
+      ]
+    },
+    {
+      "id": "ch6.scribemeeting",
+      "label": "Event: Scribe's meeting with the new cook",
+      "description": "|Event: Scribe's meeting with the new cook description|",
+      "aspects": {
+        "storyevent": 1
+      },
+      "slots": [
+        {
+          "id": "slot.main.ch6.scribe",
+          "label": "Character",
+          "actionid": "tavern.private.kitchen",
+          "required": {
+            "scribe": 1
+          },
+          "description": "The scribe wants to tell the new cook something."
+        },
+        {
+          "id": "slot.main.ch6.cook",
+          "label": "Character",
+          "actionid": "tavern.private.kitchen",
+          "essential": {
+            "taverncook": 1
+          },
+          "description": "The cook should come to the kitchen again."
+        }
+      ]
+    },
+    {
+      "id": "ch6.churchmeeting",
+      "label": "Event: A shared meal",
+      "description": "|Event: A shared meal card description. Mention that this meal can be eat with any 2 people or all 3|",
+      "aspects": {
+        "storyevent": 1
+      },
+      "slots": [
+        {
+          "id": "slot.main.ch6.doctor",
+          "label": "Character",
+          "actionid": "church.priors",
+          "required": {
+            "doctor": 1
+          },
+          "description": "The doctor can choose to share this meal with others."
+        },
+        {
+          "id": "slot.main.ch6.vicar",
+          "label": "Character",
+          "actionid": "church.priors",
+          "required": {
+            "vicar": 1
+          },
+          "description": "The vicar can choose to share this meal with others."
+        },
+        {
+          "id": "slot.main.ch6.prior",
+          "label": "Character",
+          "actionid": "church.priors",
+          "required": {
+            "prior": 1
+          },
+          "description": "The prior can choose to share this meal with others."
+        }
+
       ]
     },
     {

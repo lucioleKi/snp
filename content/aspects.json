@@ -206,9 +206,18 @@
     },
     {
       "id": "lookforcook",
-      "isHidden": true,
-      "isAspect": true,
-      "noArtNeeded": true
+      "label": "lookforcook",
+      "isAspect": true
+    },
+    {
+      "id": "hascook",
+      "label": "hascook",
+      "isAspect": true
+    },
+    {
+      "id": "num.perform",
+      "label": "num.perform",
+      "isAspect": true
     },
     {
       "id": "potentialcook",
@@ -217,10 +226,17 @@
       "isAspect": true
     },
     {
+      "id": "taverncook",
+      "label": "Tavern's cook",
+      "description": "This is the tavern's cook.",
+      "isAspect": true
+    },
+    {
       "id": "num.merc",
       "label": "Prosper Level",
       "description": "This represents the prosper level of the trading post. The knight can use prosper level to recruit soldiers later.",
       "isAspect": true
     }
+
   ]
 }
