@@ -354,6 +354,7 @@
         "cook1c": 1
       },
       "effects": {
+        "ch4.pickcook": -1,
         "cook1c": -1,
         "cook1": 1
       },
@@ -391,6 +392,7 @@
         "cook2c": 1
       },
       "effects": {
+        "ch4.pickcook": -1,
         "cook2c": -1,
         "cook2": 1
       },
@@ -429,6 +431,7 @@
         "cook3c": 1
       },
       "effects": {
+        "ch4.pickcook": -1,
         "cook3c": -1,
         "cook3": 1
       },
