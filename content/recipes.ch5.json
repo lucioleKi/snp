@@ -12,7 +12,11 @@
         "ch5.priorvicar": -1
       },
       "maxexecutions": 1,
-      "requirements": { "ch5.priorvicar": 1 },
+      "requirements": {
+        "ch5.priorvicar": 1,
+        "vicar": 1,
+        "prior": 1
+      },
       "linked": [
         {
           "id": "recipe.church.priors.priorvicar.pt2"
@@ -158,7 +162,11 @@
         "ch5.recruit.pt1": -1,
         "ch5.recruit.pt2": 1
       },
-      "requirements": { "ch5.recruit.pt1": 1 }
+      "requirements": {
+        "ch5.recruit.pt1": 1,
+        "knight": 1,
+        "flour": 1
+      }
     },
     {
       "id": "recipe.fort.recruit.pt2",
@@ -172,7 +180,11 @@
         "ch5.recruit.pt2": -1,
         "rookie": 1
       },
-      "requirements": { "ch5.recruit.pt2": 1 }
+      "requirements": {
+        "ch5.recruit.pt2": 1,
+        "knight": 1,
+        "tablechair": 1
+      }
     },
     {
       "id": "recipe.church.ch5.letter",
@@ -187,7 +199,9 @@
         "ch5.letter": -1
       },
       "requirements": {
-        "ch5.letter": 1
+        "ch5.letter": 1,
+        "vicar": 1,
+        "monk": 1
       },
       "linked": [
         {

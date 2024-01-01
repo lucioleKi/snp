@@ -58,6 +58,7 @@
       "maxexecutions": 1,
       "requirements": {
         "ch6.tavernermeeting": 1,
+        "taverner": 1,
         "cook1": 1,
         "cook3": -1
       },
@@ -69,19 +70,27 @@
           "id": "recipe.tavern.ch6.meeting.pt2a"
         }
       ]
+
     },
     {
       "id": "recipe.tavern.ch6.meeting.pt2a",
       "actionid": "tavern.private.kitchen",
       "label": "The Taverner's secret recipe",
       "startdescription": "|recipe.tavern.ch6.meeting.pt2a desc 2|",
-      "description": "|recipe.tavern.ch6.meeting.pt2a desc 3|",
+      "description": "|recipe.tavern.ch6.meeting.pt2a desc 3. Brewer +3.|",
       "warmup": 1,
       "maxexecutions": 1,
       "effects": {
-          "ch6.scribemeeting": 1
-      }
-      
+        "ch6.scribemeeting": 1
+      },
+      "mutations": [
+        {
+          "filter": "taverner",
+          "level": 3,
+          "additive": true,
+          "mutate": "skill.brewer"
+        }
+      ]
     },
     {
       "id": "recipe.tavern.ch6.meeting.pt1b",
@@ -94,6 +103,7 @@
       "maxexecutions": 1,
       "requirements": {
         "ch6.tavernermeeting": 1,
+        "taverner": 1,
         "cook1": -1,
         "cook3": 1
       },
@@ -123,7 +133,7 @@
     {
       "id": "recipe.tavern.ch6.meeting.pt3a",
       "actionid": "tavern.private.kitchen",
-      "label": "The Taverner's secret recipe",
+      "label": "The Scribe's mission",
       "craftable": true,
       "startdescription": "|recipe.tavern.ch6.meeting.pt3a desc 1|",
       "description": "",
@@ -131,6 +141,7 @@
       "maxexecutions": 1,
       "requirements": {
         "ch6.scribemeeting": 1,
+        "scribe": 1,
         "cook1": 1,
         "cook3": -1
       },
@@ -146,21 +157,20 @@
     {
       "id": "recipe.tavern.ch6.meeting.pt4a",
       "actionid": "tavern.private.kitchen",
-      "label": "The Taverner's secret recipe",
+      "label": "The Scribe's mission",
       "startdescription": "|recipe.tavern.ch6.meeting.pt4a desc 2|",
       "description": "|recipe.tavern.ch6.meeting.pt4a desc 3|",
       "warmup": 1,
       "maxexecutions": 1,
-      "effects": 
-        {
-          "ch6.churchmeeting": 1
-        }
-      
+      "effects": {
+        "ch6.churchmeeting": 1
+      }
+
     },
     {
       "id": "recipe.tavern.ch6.meeting.pt3b",
       "actionid": "tavern.private.kitchen",
-      "label": "The Taverner's secret recipe",
+      "label": "The Scribe's mission",
       "craftable": true,
       "startdescription": "|recipe.tavern.ch6.meeting.pt3b desc 1|",
       "description": "",
@@ -168,6 +178,7 @@
       "maxexecutions": 1,
       "requirements": {
         "ch6.scribemeeting": 1,
+        "scribe": 1,
         "cook1": -1,
         "cook3": 1
       },
@@ -183,16 +194,22 @@
     {
       "id": "recipe.tavern.ch6.meeting.pt4b",
       "actionid": "tavern.private.kitchen",
-      "label": "The Taverner's secret recipe",
+      "label": "The Scribe's mission",
       "startdescription": "|recipe.tavern.ch6.meeting.pt4b desc 2|",
-      "description": "|recipe.tavern.ch6.meeting.pt4b desc 3|",
+      "description": "|recipe.tavern.ch6.meeting.pt4b desc 3. Observer +3.|",
       "warmup": 1,
       "maxexecutions": 1,
-      "effects": 
+      "effects": {
+        "ch6.churchmeeting": 1
+      },
+      "mutations": [
         {
-          "ch6.churchmeeting": 1
+          "filter": "scribe",
+          "level": 3,
+          "additive": true,
+          "mutate": "skill.observer"
         }
-      
+      ]
     },
     {
       "id": "recipe.church.meal.all3.ch6",

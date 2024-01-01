@@ -198,7 +198,8 @@
         "ch4.memory": -1
       },
       "requirements": {
-        "ch4.memory": 1
+        "ch4.memory": 1,
+        "bishop.sick": 1
       },
       "linked": [
         {
@@ -237,7 +238,8 @@
         "ch5.memory": -1
       },
       "requirements": {
-        "ch5.memory": 1
+        "ch5.memory": 1,
+        "bishop.sick": 1
       },
       "linked": [
         {
@@ -276,10 +278,11 @@
       "description": "",
       "warmup": 1,
       "effects": {
-        "ch4.memory": -1
+        "ch6.memory": -1
       },
       "requirements": {
-        "ch4.memory": 1
+        "ch6.memory": 1,
+        "bishop.sick": 1
       },
       "linked": [
         {
@@ -292,7 +295,7 @@
       "actionid": "church.bishops",
       "label": "Bishop's Dream (or Memory)",
       "startdescription": "Someone else murmured, their voice lost in the echo. The Lord sighs: <i>\"Alright. I'll be back soon.\"</i> The Bishop again hears their own voice in the echo, saying the same words.",
-      "description": "All the other voices faded. The Bishop is left with only one: <i>\"You really come back. I've never been happier in this life\"</i>\n<i>Where did I go?</i> The Bishop slowly opens their eyes.",
+      "description": "All the other voices faded. The Bishop is left with only one: <i>\"You really come back. I've never been happier in this life.\"</i>\n<i>Where did I go?</i> The Bishop does not manage to find an answer before they slowly open their eyes.",
       "warmup": 1
     }
   ]

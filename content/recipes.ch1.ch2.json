@@ -32,7 +32,11 @@
         "ch1.tower": -1,
         "ch1.drunk": 1
       },
-      "requirements": { "ch1.tower": 1 }
+      "requirements": {
+        "ch1.tower": 1,
+        "knight": 1,
+        "soldier": 1
+      }
     },
     
     {
@@ -52,7 +56,11 @@
       "effects": {
         "ch1.drunk": -1
       },
-      "requirements": { "ch1.drunk": 1 },
+      "requirements": {
+        "ch1.drunk": 1,
+        "knight": 1,
+        "soldier": 1
+      },
       "inductions": [
         {
           "id": "emptyrecipe.tavern.keeperseat"
@@ -196,7 +204,11 @@
       "description": "",
       "maxexecutions": 1,
       "warmup": 1,
-      "requirements": { "ch2.boat": 1 },
+      "requirements": {
+        "ch2.boat": 1,
+        "taverner": 1,
+        "scribe": 1
+      },
       "slots": [
         {
           "id": "slot.ch2.boatqte",

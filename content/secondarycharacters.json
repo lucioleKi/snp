@@ -112,7 +112,7 @@
     {
       "id": "cook2c",
       "label": "The Second Cook Candidate",
-      "description": "This young cook doesn't talk much about their own training or experience. They simply ask the taverner to let them make a few signature dishes.",
+      "description": "This cook was the former cook of the baron. The scribe knows that they are too often drunk, and their seafood-making skill is questionable.",
       "aspects": {
         "secondarycharacter": 1,
         "potentialcook": 1
@@ -121,7 +121,7 @@
     {
       "id": "cook3c",
       "label": "The Third Cook Candidate",
-      "description": "This cook was the former cook of the baron. The scribe knows that they are too often drunk, and their seafood-making skill is questionable.",
+      "description": "This young cook doesn't talk much about their own training or experience. They simply ask the taverner to let them make a few signature dishes.",
       "aspects": {
         "secondarycharacter": 1,
         "potentialcook": 1
@@ -139,7 +139,7 @@
     {
       "id": "cook2",
       "label": "The Cook",
-      "description": "A cook who is a quick learner at everything. They seldom make mistakes.",
+      "description": "A cook who is experienced yet careless. It is probably a mistake to recruit them.",
       "aspects": {
         "secondarycharacter": 1,
         "taverncook": 1
@@ -148,7 +148,7 @@
     {
       "id": "cook3",
       "label": "The Cook",
-      "description": "A cook who is experienced yet careless. It is probably a mistake to recruit them.",
+      "description": "A cook who is a quick learner at everything. They seldom make mistakes.",
       "aspects": {
         "secondarycharacter": 1,
         "taverncook": 1

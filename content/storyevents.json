@@ -263,7 +263,7 @@
     },
     {
       "id": "ch4.pickcook",
-      "label": "Event: Pick the new cook",
+      "label": "Event: Tavern Keeper's Seat",
       "description": "|Event: Pick the new cook card description|",
       "aspects": {
         "storyevent": 1
@@ -291,7 +291,7 @@
     },
     {
       "id": "ch5.priorvicar",
-      "label": "Event: On the thin ice",
+      "label": "Event: Prior's Room",
       "description": "|Event: On the thin ice card description|",
       "aspects": {
         "storyevent": 1
@@ -319,7 +319,7 @@
     },
     {
       "id": "ch5.letter",
-      "label": "Event: Letter to the Pilgrim",
+      "label": "Event: Library/Scriptorium",
       "description": "|Event: Letter to the Pilgrim card description|",
       "aspects": {
         "storyevent": 1
@@ -348,7 +348,7 @@
 
     {
       "id": "ch5.recruit.pt1",
-      "label": "Event: Recruit the rookie. Part 1",
+      "label": "Event: Fort Forest",
       "description": "|Event: Recruit the rookie. Part 1 card description|",
       "aspects": {
         "storyevent": 1
@@ -376,7 +376,7 @@
     },
     {
       "id": "ch5.recruit.pt2",
-      "label": "Event: Recruit the rookie. Part 2",
+      "label": "Event: Fort Forest",
       "description": "|Event: Recruit the rookie. Part 2 card description|",
       "aspects": {
         "storyevent": 1
@@ -426,7 +426,7 @@
     },
     {
       "id": "ch6.tavernermeeting",
-      "label": "Event: Taverner's meeting with the new cook",
+      "label": "Event: Tavern Kitchen",
       "description": "|Event: Taverner's meeting with the new cook description|",
       "aspects": {
         "storyevent": 1
@@ -454,7 +454,7 @@
     },
     {
       "id": "ch6.scribemeeting",
-      "label": "Event: Scribe's meeting with the new cook",
+      "label": "Event: Tavern Kitchen",
       "description": "|Event: Scribe's meeting with the new cook description|",
       "aspects": {
         "storyevent": 1
@@ -482,7 +482,7 @@
     },
     {
       "id": "ch6.churchmeeting",
-      "label": "Event: A shared meal",
+      "label": "Event: Prior's Room",
       "description": "|Event: A shared meal card description. Mention that this meal can be eat with any 2 people or all 3|",
       "aspects": {
         "storyevent": 1
@@ -516,6 +516,43 @@
           "description": "The prior can choose to share this meal with others."
         }
 
+      ]
+    },
+    {
+      "id": "ch6.candlelight",
+      "label": "Event: Tavern Owner's Room",
+      "description": "|ch6.candlelight card desc|",
+      "aspects": {
+        "storyevent": 1
+      },
+      "slots": [
+        {
+          "id": "slot.main.ch6.scribe",
+          "label": "Character",
+          "actionid": "tavern.private.desk2",
+          "required": {
+            "scribe": 1
+          },
+          "description": "The scribe sits in front of the desk."
+        },
+        {
+          "id": "slot.main.ch6.taverner",
+          "label": "Character",
+          "actionid": "tavern.private.desk2",
+          "required": {
+            "taverner": 1
+          },
+          "description": "The taverner casually lies on the bed."
+        },
+        {
+          "id": "slot.main.ch6.coin",
+          "label": "Coin",
+          "actionid": "tavern.private.desk2",
+          "required": {
+            "scribe.sestertius": 1
+          },
+          "description": "The scribe needs their coin when writing a personal letter to the baron."
+        }
       ]
     },
     {

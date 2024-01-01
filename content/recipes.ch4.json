@@ -97,8 +97,9 @@
       "warmup": 10,
       "maxexecutions": 1,
       "requirements": {
-        "ch4.minstrel": 1
-
+        "ch4.minstrel": 1,
+        "taverner": 1,
+        "minstrel": 1
       },
       "effects": {
         "ch4.minstrel": -1
@@ -317,8 +318,9 @@
       "warmup": 1,
       "maxexecutions": 1,
       "requirements": {
-        "ch4.cook": 1
-
+        "ch4.cook": 1,
+        "taverner": 1,
+        "scribe": 1
       },
       "effects": {
         "cook1c": 1,
@@ -348,13 +350,16 @@
       "maxexecutions": 1,
       "requirements": {
         "ch4.pickcook": 1,
+        "taverner": 1,
         "cook1c": 1
       },
       "effects": {
         "cook1c": -1,
-        "cook2c": -1,
-        "cook3c": -1,
         "cook1": 1
+      },
+      "purge": {
+        "cook2c": 1,
+        "cook3c": 1
       },
       "mutations": [
         {
@@ -382,13 +387,16 @@
       "maxexecutions": 1,
       "requirements": {
         "ch4.pickcook": 1,
+        "taverner": 1,
         "cook2c": 1
       },
       "effects": {
-        "cook1c": -1,
         "cook2c": -1,
-        "cook3c": -1,
         "cook2": 1
+      },
+      "purge": {
+        "cook1c": 1,
+        "cook3c": 1
       },
       "linked": [
         {
@@ -408,7 +416,7 @@
     },
     {
       "id": "recipe.tavern.keeper.pickcook3",
-      "actionid": "tavern.public.keeperseat3",
+      "actionid": "tavern.public.keeperseat2",
       "label": "Pick the new cook",
       "craftable": true,
       "startdescription": "|pick cook3 startdescription|",
@@ -417,13 +425,16 @@
       "maxexecutions": 1,
       "requirements": {
         "ch4.pickcook": 1,
+        "taverner": 1,
         "cook3c": 1
       },
       "effects": {
-        "cook1c": -1,
-        "cook2c": -1,
         "cook3c": -1,
         "cook3": 1
+      },
+      "purge": {
+        "cook1c": 1,
+        "cook2c": 1
       },
       "mutations": [
         {
@@ -450,7 +461,10 @@
       "warmup": 1,
       "maxexecutions": 1,
       "requirements": {
-        "ch4.nameday": 1
+        "ch4.nameday": 1,
+        "taverner": 1,
+        "scribe": 1,
+        "arbitrator": 1
       },
       "slots": [
         {

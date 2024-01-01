@@ -78,7 +78,10 @@
         "ch3.treatment": -1
       },
       "requirements": {
-        "ch3.treatment": 1
+        "ch3.treatment": 1,
+        "doctor": 1,
+        "bishop.sick": 1,
+        "lord": 1
       },
       "linked": [
         {
@@ -250,7 +253,8 @@
         "ch3.memory": -1
       },
       "requirements": {
-        "ch3.memory": 1
+        "ch3.memory": 1,
+        "bishop.sick": 1
       },
       "linked": [
         {
