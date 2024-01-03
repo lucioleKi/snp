@@ -94,6 +94,15 @@
           },
           "forbidden": { "tired": 1 },
           "description": "The character acts with a certain mood."
+        },
+        {
+          "id": "slot.main.temperament.forest.ch5",
+          "label": "Pelt",
+          "actionid": "fort.tradingpost",
+          "required": {
+            "pelt": 1
+          },
+          "description": "The character trades pelts with merchants."
         }
       ]
     },

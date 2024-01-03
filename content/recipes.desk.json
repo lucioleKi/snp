@@ -71,8 +71,8 @@
     {
       "id": "recipe.tavern.desk.candlelight.ch6.temperament",
       "actionid": "tavern.private.desk2",
-      "label": "The Arbitrator's Name Day",
-      "startdescription": "|recipe.tavern.nameday startdescription|",
+      "label": "A conversation by the candle light",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6 startdescription|",
       "description": "",
       "warmup": 1,
       "maxexecutions": 1,
@@ -117,57 +117,294 @@
     {
       "id": "recipe.tavern.desk.candlelight.ch6.default",
       "actionid": "tavern.private.desk2",
-      "label": "A conversation under the candle light",
-      "startdescription": "|recipe.tavern.nameday.ch4.default start desc|",
-      "description": "|recipe.tavern.nameday.ch4.default desc|",
+      "label": "A conversation by the candle light",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6.default start desc|",
+      "description": "|recipe.tavern.desk.candlelight.ch6.default desc|",
       "warmup": 1,
-      "effects": {
-        "ch6.memory": 1
-      }
+      "linked": [
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.scribe.logical"
+        }
+      ]
     },
     {
       "id": "recipe.tavern.desk.candlelight.ch6a",
       "actionid": "tavern.private.desk2",
-      "label": "A conversation under the candle light",
-      "startdescription": "|recipe.tavern.nameday.ch4a start desc|",
-      "description": "|recipe.tavern.nameday.ch4a desc|",
+      "label": "A conversation by the candle light",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6a start desc|",
+      "description": "|recipe.tavern.desk.candlelight.ch6a desc|",
       "requirements": { "scribe.sanguine": 1 },
       "warmup": 1,
-      "effects": {
-        "ch6.memory": 1
-      }
+      "linked": [
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.scribe.logical"
+        }
+      ]
     },
     {
-      "id": "recipe.tavern.nameday.ch4b",
+      "id": "recipe.tavern.desk.candlelight.ch6b",
       "actionid": "tavern.private.desk2",
-      "label": "A conversation under the candle light",
-      "startdescription": "|recipe.tavern.nameday.ch4b start desc|",
-      "description": "|recipe.tavern.nameday.ch4b desc|",
+      "label": "A conversation by the candle light",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6b start desc|",
+      "description": "|recipe.tavern.desk.candlelight.ch6b desc|",
       "requirements": { "scribe.phlegmatic": 1 },
       "warmup": 1,
-      "effects": {
-        "ch6.memory": 1
-      }
+      "linked": [
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.scribe.logical"
+        }
+      ]
     },
     {
-      "id": "recipe.tavern.nameday.ch4c",
+      "id": "recipe.tavern.desk.candlelight.ch6c",
       "actionid": "tavern.private.desk2",
-      "label": "A conversation under the candle light",
-      "startdescription": "|recipe.tavern.nameday.ch4c start desc|",
-      "description": "|recipe.tavern.nameday.ch4c desc|",
+      "label": "A conversation by the candle light",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6c start desc|",
+      "description": "|recipe.tavern.desk.candlelight.ch6c desc|",
       "requirements": { "taverner.sanguine": 1 },
-      "effects": {
-        "ch6.memory": 1
-      }
+      "warmup": 1,
+      "linked": [
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.taverner.logical"
+        }
+      ]
     },
     {
-      "id": "recipe.tavern.nameday.ch4d",
+      "id": "recipe.tavern.desk.candlelight.ch6d",
       "actionid": "tavern.private.desk2",
-      "label": "A conversation under the candle light",
-      "startdescription": "|recipe.tavern.nameday.ch4d start desc|",
-      "description": "|recipe.tavern.nameday.ch4d desc|",
+      "label": "A conversation by the candle light",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6d start desc|",
+      "description": "|recipe.tavern.desk.candlelight.ch6d desc|",
       "requirements": { "taverner.melancholic": 1 },
       "warmup": 1,
+      "linked": [
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.taverner.logical"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.desk.candlelight.ch6.scribe.logical",
+      "actionid": "tavern.private.desk2",
+      "label": "A conversation by the candle light",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6.scribe.logical startdescription|",
+      "description": "|recipe.tavern.desk.candlelight.ch6.scribe.logical description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "linked": [
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.scribe.logical2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.desk.candlelight.ch6.taverner.logical",
+      "actionid": "tavern.private.desk2",
+      "label": "A conversation by the candle light",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6.taverner.logical startdescription|",
+      "description": "|recipe.tavern.desk.candlelight.ch6.taverner.logical description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "linked": [
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.taverner.logical2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.desk.candlelight.ch6.scribe.logical2",
+      "actionid": "tavern.private.desk2",
+      "label": "A conversation by the candle light",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6.scribe.logical2 startdescription|",
+      "description": "|recipe.tavern.desk.candlelight.ch6.scribe.logical2 description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "linked": [
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.scribe.rain"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.desk.candlelight.ch6.taverner.logical2",
+      "actionid": "tavern.private.desk2",
+      "label": "A conversation by the candle light",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6.taverner.logical2 startdescription|",
+      "description": "|recipe.tavern.desk.candlelight.ch6.taverner.logical2 description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "linked": [
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.taverner.rain"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.desk.candlelight.ch6.scribe.rain",
+      "actionid": "tavern.private.desk2",
+      "label": "Midnight rain",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6.scribe.rain startdescription|",
+      "description": "|recipe.tavern.desk.candlelight.ch6.scribe.rain description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "linked": [
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.scribe2"
+        },
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.def10"
+        },
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.scribeneg"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.desk.candlelight.ch6.taverner.rain",
+      "actionid": "tavern.private.desk2",
+      "label": "Midnight rain",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6.taverner.rain startdescription|",
+      "description": "|recipe.tavern.desk.candlelight.ch6.taverner.rain description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "linked": [
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.taverner2"
+        },
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.def10"
+        },
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.tavernerneg"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.desk.candlelight.ch6.scribe2",
+      "actionid": "tavern.private.desk2",
+      "label": "A conversation by the candle light",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6.scribe2 startdescription|",
+      "description": "|recipe.tavern.desk.candlelight.ch6.scribe2 description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "linked": [
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.scribe2.pt2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.desk.candlelight.ch6.scribe2.pt2",
+      "actionid": "tavern.private.desk2",
+      "label": "A conversation by the candle light",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6.scribe2.pt2 startdescription|",
+      "description": "|recipe.tavern.desk.candlelight.ch6.scribe2.pt2 description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "effects": {
+        "ch6.memory": 1
+      }
+    },
+    {
+      "id": "recipe.tavern.desk.candlelight.ch6.taverner2",
+      "actionid": "tavern.private.desk2",
+      "label": "A conversation by the candle light",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6.taverner2 startdescription|",
+      "description": "|recipe.tavern.desk.candlelight.ch6.taverner2 description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "linked": [
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.taverner2.pt2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.desk.candlelight.ch6.taverner2.pt2",
+      "actionid": "tavern.private.desk2",
+      "label": "A conversation by the candle light",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6.taverner2.pt2 startdescription|",
+      "description": "|recipe.tavern.desk.candlelight.ch6.taverner2.pt2 description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "effects": {
+        "ch6.memory": 1
+      }
+    },
+    {
+      "id": "recipe.tavern.desk.candlelight.ch6.def10",
+      "actionid": "tavern.private.desk2",
+      "label": "A conversation by the candle light",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6.def10 startdescription|",
+      "description": "|recipe.tavern.desk.candlelight.ch6.def10 description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "linked": [
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.def10.pt2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.desk.candlelight.ch6.def10.pt2",
+      "actionid": "tavern.private.desk2",
+      "label": "A conversation by the candle light",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6.def10.pt2 startdescription|",
+      "description": "|recipe.tavern.desk.candlelight.ch6.def10.pt2 description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "effects": {
+        "ch6.memory": 1
+      }
+    },
+    {
+      "id": "recipe.tavern.desk.candlelight.ch6.scribeneg",
+      "actionid": "tavern.private.desk2",
+      "label": "A conversation by the candle light",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6.scribeneg startdescription|",
+      "description": "|recipe.tavern.desk.candlelight.ch6.scribeneg description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "linked": [
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.scribeneg.pt2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.desk.candlelight.ch6.scribeneg.pt2",
+      "actionid": "tavern.private.desk2",
+      "label": "A conversation by the candle light",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6.scribeneg.pt2 startdescription|",
+      "description": "|recipe.tavern.desk.candlelight.ch6.scribeneg.pt2 description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "effects": {
+        "ch6.memory": 1
+      }
+    },
+    {
+      "id": "recipe.tavern.desk.candlelight.ch6.tavernerneg",
+      "actionid": "tavern.private.desk2",
+      "label": "A conversation by the candle light",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6.tavernerneg startdescription|",
+      "description": "|recipe.tavern.desk.candlelight.ch6.tavernerneg description|",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "linked": [
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.tavernerneg.pt2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.desk.candlelight.ch6.tavernerneg.pt2",
+      "actionid": "tavern.private.desk2",
+      "label": "A conversation by the candle light",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6.tavernerneg.pt2 startdescription|",
+      "description": "|recipe.tavern.desk.candlelight.ch6.tavernerneg.pt2 description|",
+      "warmup": 1,
+      "maxexecutions": 1,
       "effects": {
         "ch6.memory": 1
       }

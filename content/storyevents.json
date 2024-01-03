@@ -263,8 +263,8 @@
     },
     {
       "id": "ch4.pickcook",
-      "label": "Event: Tavern Keeper's Seat",
-      "description": "|Event: Pick the new cook card description|",
+      "label": "Event: Keeper's Seat",
+      "description": "|Event: Pick the new cook card description, will game over if not done before Chapter 6|",
       "aspects": {
         "storyevent": 1
       },
@@ -516,43 +516,6 @@
           "description": "The prior can choose to share this meal with others."
         }
 
-      ]
-    },
-    {
-      "id": "ch6.candlelight",
-      "label": "Event: Tavern Owner's Room",
-      "description": "|ch6.candlelight card desc|",
-      "aspects": {
-        "storyevent": 1
-      },
-      "slots": [
-        {
-          "id": "slot.main.ch6.scribe",
-          "label": "Character",
-          "actionid": "tavern.private.desk2",
-          "required": {
-            "scribe": 1
-          },
-          "description": "The scribe sits in front of the desk."
-        },
-        {
-          "id": "slot.main.ch6.taverner",
-          "label": "Character",
-          "actionid": "tavern.private.desk2",
-          "required": {
-            "taverner": 1
-          },
-          "description": "The taverner casually lies on the bed."
-        },
-        {
-          "id": "slot.main.ch6.coin",
-          "label": "Coin",
-          "actionid": "tavern.private.desk2",
-          "required": {
-            "scribe.sestertius": 1
-          },
-          "description": "The scribe needs their coin when writing a personal letter to the baron."
-        }
       ]
     },
     {
