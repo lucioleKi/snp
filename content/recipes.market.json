@@ -52,7 +52,32 @@
           "additive": true,
           "mutate": "skill.observer"
         }
+      ],
+      "linked": [
+        {
+          "id": "recipe.market.observer6"
+        }
       ]
+    },
+    {
+      "id": "recipe.market.observer6",
+      "actionid": "market.buy",
+      "label": "Market: Observer",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "startdescription": "",
+      "description": "The scribe sees a horse in the market. They suddenly remember something totally unrelated.",
+      "requirements": {
+        "scribe": 1,
+        "skill.observer": 6
+      },
+      "tablereqs": {
+        "ch4to6": 1,
+        "memory.deadhorse": -1
+      },
+      "effects": {
+        "memory.deadhorse": 1
+      }
     },
     {
       "id": "recipe.market.buy.ch2.notemperament",

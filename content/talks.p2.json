@@ -49,10 +49,10 @@
     {
       "id": "recipe.ch4.tavernercook1",
       "actionid": "converse",
-      "label": "Interview: Taverner & Cook A",
+      "label": "Interview: Taverner & Cook 1",
       "craftable": "true",
-      "startdescription": "|recipe.ch4.tavernercook1 startdescription|",
-      "description": "|recipe.ch4.tavernercook1 description|",
+      "startdescription": "The Taverner asks about the cook's specialties, and the cook immediately launches into a passionate monologue. They gush about all the exotic dishes they love to cook and the different ways they know of preserving wine.",
+      "description": "The Taverner’s eyes light up as the cook talks about adding sawdust and sand into wine for preservation and flavor. They are clearly intrigued.",
       "warmup": 1,
       "maxexecutions": 1,
       "requirements": {
@@ -69,10 +69,10 @@
     {
       "id": "recipe.ch4.tavernercook2",
       "actionid": "converse",
-      "label": "Interview: Taverner & Cook B",
+      "label": "Interview: Taverner & Cook 2",
       "craftable": "true",
-      "startdescription": "|recipe.ch4.tavernercook2 startdescription|",
-      "description": "|recipe.ch4.tavernercook2 description|",
+      "startdescription": "The Taverner asks the cook about their previous experiences. The cook replies that they served the Baron in Hazelford for a few years. Reminded of all the tales they heard from the Scribe, the Taverner asks why they have left the Baron.",
+      "description": "\"Oh, because the Baron held banquets too frequently, and they refuse to give me a raise when I asked for one.\" answers the cook. The Taverner ponders for a while and then nods.",
       "warmup": 1,
       "maxexecutions": 1,
       "requirements": {
@@ -89,10 +89,10 @@
     {
       "id": "recipe.ch4.tavernercook3",
       "actionid": "converse",
-      "label": "Interview: Taverner & Cook C",
+      "label": "Interview: Taverner & Cook 3",
       "craftable": "true",
-      "startdescription": "|recipe.ch4.tavernercook3 startdescription|",
-      "description": "|recipe.ch4.tavernercook3 description|",
+      "startdescription": "The Taverner asks about the cook's specialties and the cook replies tersely. The cook then takes out a loaf of bread from their bag and offers them to try it. They made it themselves.",
+      "description": "The Taverner gives it a try and is delighted. They were reminded of the previous cook. Hopefully this young one can last longer here.",
       "warmup": 1,
       "maxexecutions": 1,
       "requirements": {

@@ -33,13 +33,19 @@
     {
       "id": "sick",
       "label": "Unconscious",
-      "description": "The character is unconscious. They will wake up when this aspect reaches 0.",
+      "description": "The character is unconscious. They will not wake up until this aspect reaches 0.",
       "isAspect": true
     },
     {
       "id": "storyevent",
       "label": "Required Event",
       "description": "This event has to happen somewhere, either with the right or the wrong people, before the story can progress.",
+      "isAspect": true
+    },
+    {
+      "id": "pastevent",
+      "label": "Past Event",
+      "description": "This event has already happened. But there is more than one way for certain characters to perceive the same 'ground truth'. Uncover clues to change characters' perspective.",
       "isAspect": true
     },
     {

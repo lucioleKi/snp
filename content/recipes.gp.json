@@ -1,0 +1,254 @@
+{
+  "recipes": [
+    {
+      "id": "recipe.giftpromise.ch7.start",
+      "actionid": "temp.giftpromise",
+      "label": "Basic knowledge: The hunting trip",
+      "craftable": true,
+      "startdescription": "|recipe.giftpromise.ch7.start startdescription|",
+      "description": "",
+      "warmup": 10,
+      "requirements": {
+        "ch7.giftpromise": 1
+      },
+      "effects": {
+        "ch7.giftpromise": -1
+      },
+      "slots": [
+        {
+          "id": "cardslot",
+          "required": { "ch7.giftpromise": 1 },
+          "greedy": true
+        }
+
+      ],
+      "linked": [
+        {
+          "id": "recipe.giftpromise.ch7.start.pt2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.giftpromise.ch7.start.pt2",
+      "actionid": "temp.giftpromise",
+      "label": "Basic knowledge: The hunting trip",
+      "startdescription": "|recipe.giftpromise.ch7.start.pt2 startdescription|",
+      "description": "",
+      "warmup": 10,
+      "linked": [
+        {
+          "id": "recipe.giftpromise.ch7.lvl2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.giftpromise.ch7.lvl2",
+      "actionid": "temp.giftpromise",
+      "label": "Basic knowledge: The Bishop's involvement",
+      "startdescription": "|recipe.giftpromise.ch7.lvl2 startdescription|",
+      "description": "",
+      "warmup": 10,
+      "linked": [
+        {
+          "id": "recipe.giftpromise.ch7.lvl2.pt2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.giftpromise.ch7.lvl2.pt2",
+      "actionid": "temp.giftpromise",
+      "label": "Basic knowledge: The Bishop's involvement",
+      "startdescription": "|recipe.giftpromise.ch7.lvl2.pt2 startdescription|",
+      "description": "",
+      "warmup": 10,
+      "slots": [
+        {
+          "id": "memoryslot1",
+          "label": "Memory about a gift",
+          "required": { "memory.brooch3": 1 }
+        }
+      ],
+      "linked": [
+        {
+          "id": "recipe.giftpromise.ch7.lvl3"
+        },
+        {
+          "id": "recipe.giftpromise.ch7.lvl2.end"
+        }
+      ]
+    },
+    {
+      "id": "recipe.giftpromise.ch7.lvl2.end",
+      "actionid": "temp.giftpromise",
+      "label": "End of past event: No more knowledge available",
+      "startdescription": "|recipe.giftpromise.ch7.lvl2.end startdescription|",
+      "description": "|recipe.giftpromise.ch7.lvl2.end description|",
+      "warmup": 10
+    },
+    {
+      "id": "recipe.giftpromise.ch7.lvl3",
+      "actionid": "temp.giftpromise",
+      "label": "More knowledge: The time spent in the Baron's castle",
+      "startdescription": "|recipe.giftpromise.ch7.lvl3 startdescription|",
+      "description": "",
+      "warmup": 10,
+      "requirements": {
+        "memory.brooch3": 1
+      },
+      "linked": [
+        {
+          "id": "recipe.giftpromise.ch7.lvl3.pt2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.giftpromise.ch7.lvl3.pt2",
+      "actionid": "temp.giftpromise",
+      "label": "More knowledge: The time spent in the Baron's castle",
+      "startdescription": "|recipe.giftpromise.ch7.lvl3.pt2 startdescription|",
+      "description": "",
+      "warmup": 10,
+      "slots": [
+        {
+          "id": "memoryslot2",
+          "label": "Memory about an accident",
+          "required": { "memory.spookedhorse": 1 }
+        }
+      ],
+      "linked": [
+        {
+          "id": "recipe.giftpromise.ch7.lvl4"
+        },
+        {
+          "id": "recipe.giftpromise.ch7.lvl3.end"
+        }
+      ]
+    },
+    {
+      "id": "recipe.giftpromise.ch7.lvl3.end",
+      "actionid": "temp.giftpromise",
+      "label": "End of past event: No more knowledge available",
+      "startdescription": "|recipe.giftpromise.ch7.lvl3.end startdescription|",
+      "description": "|recipe.giftpromise.ch7.lvl3.end description|",
+      "warmup": 10
+    },
+    {
+      "id": "recipe.giftpromise.ch7.lvl4",
+      "actionid": "temp.giftpromise",
+      "label": "More knowledge: The Bishop's Knight in shining armor",
+      "startdescription": "|recipe.giftpromise.ch7.lvl4 startdescription|",
+      "description": "",
+      "warmup": 10,
+      "requirements": {
+        "memory.spookedhorse": 1
+      },
+      "linked": [
+        {
+          "id": "recipe.giftpromise.ch7.lvl4.pt2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.giftpromise.ch7.lvl4.pt2",
+      "actionid": "temp.giftpromise",
+      "label": "More knowledge: The Bishop's Knight in shining armor",
+      "startdescription": "|recipe.giftpromise.ch7.lvl4.pt2 startdescription|",
+      "description": "",
+      "warmup": 10,
+      "slots": [
+        {
+          "id": "memoryslot3",
+          "label": "Memory about a suspicion",
+          "required": { "memory.deadhorse": 1 }
+        }
+      ],
+      "linked": [
+        {
+          "id": "recipe.giftpromise.ch7.lvl5"
+        },
+        {
+          "id": "recipe.giftpromise.ch7.lvl4.end"
+        }
+      ]
+    },
+    {
+      "id": "recipe.giftpromise.ch7.lvl4.end",
+      "actionid": "temp.giftpromise",
+      "label": "End of past event: No more knowledge available",
+      "startdescription": "|recipe.giftpromise.ch7.lvl4.end startdescription|",
+      "description": "|recipe.giftpromise.ch7.lvl4.end description|",
+      "warmup": 10
+    },
+    {
+      "id": "recipe.giftpromise.ch7.lvl5",
+      "actionid": "temp.giftpromise",
+      "label": "More knowledge: The Scribe's dangerous theory",
+      "startdescription": "|recipe.giftpromise.ch7.lvl5 startdescription|",
+      "description": "",
+      "warmup": 10,
+      "requirements": {
+        "memory.deadhorse": 1
+      },
+      "linked": [
+        {
+          "id": "recipe.giftpromise.ch7.lvl5.pt2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.giftpromise.ch7.lvl5.pt2",
+      "actionid": "temp.giftpromise",
+      "label": "More knowledge: The Scribe's dangerous theory",
+      "startdescription": "|recipe.giftpromise.ch7.lvl5.pt2 startdescription|",
+      "description": "",
+      "warmup": 10,
+      "slots": [
+        {
+          "id": "memoryslot3",
+          "label": "The final evidence",
+          "required": { "knife": 1 }
+        }
+      ],
+      "linked": [
+        {
+          "id": "recipe.giftpromise.ch7.lvl6"
+        },
+        {
+          "id": "recipe.giftpromise.ch7.lvl5.end"
+        }
+      ]
+    },
+    {
+      "id": "recipe.giftpromise.ch7.lvl5.end",
+      "actionid": "temp.giftpromise",
+      "label": "End of past event: No more knowledge available",
+      "startdescription": "|recipe.giftpromise.ch7.lvl5.end startdescription|",
+      "description": "|recipe.giftpromise.ch7.lvl5.end description|",
+      "warmup": 10
+    },
+    {
+      "id": "recipe.giftpromise.ch7.lvl6",
+      "actionid": "temp.giftpromise",
+      "label": "Final knowledge: A knife in the haystack",
+      "startdescription": "|recipe.giftpromise.ch7.lvl5 startdescription|",
+      "description": "",
+      "warmup": 10,
+      "requirements": {
+        "knife": 1
+      },
+      "linked": [
+        {
+          "id": "recipe.giftpromise.ch7.lvl6.end"
+        }
+      ]
+    },
+    {
+      "id": "recipe.giftpromise.ch7.lvl6.end",
+      "actionid": "temp.giftpromise",
+      "label": "End of past event: All truth revealed",
+      "startdescription": "|recipe.giftpromise.ch7.lvl6.end startdescription|",
+      "description": "|recipe.giftpromise.ch7.lvl6.end description|",
+      "warmup": 10
+    }
+  ]
+}

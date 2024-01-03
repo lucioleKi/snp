@@ -293,7 +293,7 @@
       "label": "Maybe we need a hand?",
       "craftable": true,
       "startdescription": "The Scribed finds the Taverner pondering in the kitchen and asks if they have any leads in finding a new cook.",
-      "description": "|recipe.tavern.kitchen.talk description|",
+      "description": "The Taverner replies that they have found three potential candidates and are about to interview them soon. The Scribe gives a short laugh after hearing the candidates' names, and tells the Taverner to enjoy the interviews.",
       "warmup": 1,
       "maxexecutions": 1,
       "requirements": {

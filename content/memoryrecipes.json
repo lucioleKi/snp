@@ -296,7 +296,21 @@
       "label": "Bishop's Dream (or Memory)",
       "startdescription": "Someone else murmured, their voice lost in the echo. The Lord sighs: <i>\"Alright. I'll be back soon.\"</i> The Bishop again hears their own voice in the echo, saying the same words.",
       "description": "All the other voices faded. The Bishop is left with only one: <i>\"You really come back. I've never been happier in this life.\"</i>\n<i>Where did I go?</i> The Bishop does not manage to find an answer before they slowly open their eyes.",
-      "warmup": 1
+      "warmup": 1,
+      "linked": [
+        {
+          "id": "recipe.ch6.be"
+        },
+        {
+          "id": "recipe.ch6.be2"
+        },
+        {
+          "id": "recipe.ch6.ne.wshoppinglist"
+        },
+        {
+          "id": "recipe.ch6.ne"
+        }
+      ]
     }
   ]
 }

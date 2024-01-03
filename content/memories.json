@@ -37,9 +37,17 @@
 
     },
     {
-      "id": "memory.tactics",
-      "label": "Memory: The importance of Bishop's tactics",
-      "description": "The knight realizes that the bishop has played such important parts in many of their victories.",
+      "id": "memory.brooch2",
+      "label": "Memory: The brooch's acquirement",
+      "description": "|Memory: The brooch's acquirement desc|",
+      "aspects": {
+        "mainmemory": 1
+      }
+    },
+    {
+      "id": "memory.brooch3",
+      "label": "Memory: The brooch's new owner",
+      "description": "|Memory: The brooch's new owner desc|",
       "aspects": {
         "mainmemory": 1
       }
@@ -100,6 +108,14 @@
       "id": "memory.spookedhorse",
       "label": "Memory: How to save someone from a spooked horse",
       "description": "|Memory: How to save someone from a spooked horse card description|",
+      "aspects": {
+        "mainmemory": 1
+      }
+    },
+    {
+      "id": "memory.deadhorse",
+      "label": "Memory: Strange wound on the Bishop's dead horse",
+      "description": "|Memory: Strange wound on the Bishop's dead horse card description|",
       "aspects": {
         "mainmemory": 1
       }

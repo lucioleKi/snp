@@ -548,6 +548,15 @@
           "description": "The lord does not want to leave the bishop, in case they would wake up."
         }
       ]
+    },
+    {
+      "id": "ch7.giftpromise",
+      "label": "Past Event: A gift and a promise",
+      "description": "|ch7.giftpromise event card|",
+      "aspects": {
+        "storyevent": 1,
+        "pastevent": 1
+      }
     }
   ]
 }

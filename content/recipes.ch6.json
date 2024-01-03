@@ -124,11 +124,10 @@
       "description": "|recipe.tavern.ch6.meeting.pt2b desc 3|",
       "warmup": 1,
       "maxexecutions": 1,
-      "effects": 
-        {
-          "ch6.scribemeeting": 1
-        }
-      
+      "effects": {
+        "ch6.scribemeeting": 1
+      }
+
     },
     {
       "id": "recipe.tavern.ch6.meeting.pt3a",
@@ -196,7 +195,7 @@
       "actionid": "tavern.private.kitchen",
       "label": "The Scribe's mission",
       "startdescription": "|recipe.tavern.ch6.meeting.pt4b desc 2|",
-      "description": "|recipe.tavern.ch6.meeting.pt4b desc 3. Observer +3.|",
+      "description": "",
       "warmup": 1,
       "maxexecutions": 1,
       "effects": {
@@ -209,7 +208,32 @@
           "additive": true,
           "mutate": "skill.observer"
         }
+      ],
+      "linked": [
+        {
+          "id": "recipe.tavern.observer6"
+        }
       ]
+    },
+    {
+      "id": "recipe.tavern.observer6",
+      "actionid": "tavern.private.kitchen",
+      "label": "The Scribe's observation",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "startdescription": "|recipe.tavern.ch6.meeting.pt4b desc 3. Observer +3.|",
+      "description": "The scribe sees how the cook uses knives. They suddenly remember something totally unrelated.",
+      "requirements": {
+        "scribe": 1,
+        "skill.observer": 6
+      },
+      "tablereqs": {
+        "ch4to6": 1,
+        "memory.deadhorse": -1
+      },
+      "effects": {
+        "memory.deadhorse": 1
+      }
     },
     {
       "id": "recipe.church.meal.all3.ch6",
@@ -569,6 +593,94 @@
       "warmup": 1,
       "effects": {
         "ch6.churchmeeting": -1
+      }
+    },
+    {
+      "id": "recipe.ch6.be",
+      "actionid": "church.bishops",
+      "label": "",
+      "description": "",
+      "warmup": 1,
+      "ending": "golddeficit",
+      "tablereqs": {
+        "chapter6": 1,
+        "shoppinglist.tavern.ch6": 1,
+        "funds": -3
+      }
+    },
+    {
+      "id": "recipe.ch6.be2",
+      "actionid": "church.bishops",
+      "label": "",
+      "description": "",
+      "warmup": 1,
+      "ending": "deadbishop",
+      "tablereqs": {
+        "chapter6": 1,
+        "sick": 1
+      }
+    },
+    {
+      "id": "recipe.ch6.ne.wshoppinglist",
+      "actionid": "church.bishops",
+      "label": "",
+      "description": "",
+      "tablereqs": {
+        "chapter6": 1,
+        "shoppinglist.tavern.ch6": 1,
+        "funds": 3
+      },
+      "purge": {
+        "funds": 3,
+        "chapter6": 1,
+        "knight.sanguine.exhausted": 1,
+        "knight.choleric.exhausted": 1,
+        "taverner.sanguine.exhausted": 1,
+        "taverner.melancholic.exhausted": 1,
+        "scribe.sanguine.exhausted": 1,
+        "scribe.phlegmatic.exhausted": 1,
+        "vicar.melancholic.exhausted": 1,
+        "vicar.choleric.exhausted": 1,
+        "doctor.phlegmatic.exhausted": 1,
+        "doctor.melancholic.exhausted": 1,
+        "minstrel.exhausted": 1,
+        "shoppinglist.tavern.ch6": 1,
+        "bishop.sick": 1
+      },
+      "effects": {
+        "shoppinglist.tavern.ch7": 1,
+        "bishop.phlegmatic": 1,
+        "bishop.choleric": 1
+      }
+    },
+    {
+      "id": "recipe.ch6.ne",
+      "actionid": "church.bishops",
+      "label": "",
+      "description": "",
+      "tablereqs": {
+        "chapter5": 1,
+        "shoppinglist.tavern.ch6": -1
+      },
+      "purge": {
+        "chapter6": 1,
+        "knight.sanguine.exhausted": 1,
+        "knight.choleric.exhausted": 1,
+        "taverner.sanguine.exhausted": 1,
+        "taverner.melancholic.exhausted": 1,
+        "scribe.sanguine.exhausted": 1,
+        "scribe.phlegmatic.exhausted": 1,
+        "vicar.melancholic.exhausted": 1,
+        "vicar.choleric.exhausted": 1,
+        "doctor.phlegmatic.exhausted": 1,
+        "doctor.melancholic.exhausted": 1,
+        "minstrel.exhausted": 1,
+        "bishop.sick": 1
+      },
+      "effects": {
+        "shoppinglist.tavern.ch7": 1,
+        "bishop.phlegmatic": 1,
+        "bishop.choleric": 1
       }
     }
   ]
