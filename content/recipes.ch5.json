@@ -316,7 +316,8 @@
       },
       "effects": {
         "shoppinglist.tavern.ch6": 1,
-        "ch6.tavernermeeting": 1
+        "ch6.tavernermeeting": 1,
+        "ch6.churchmeeting": 1
       },
       "inductions": [
         {
@@ -348,7 +349,8 @@
       },
       "effects": {
         "shoppinglist.tavern.ch6": 1,
-        "ch6.tavernermeeting": 1
+        "ch6.tavernermeeting": 1,
+        "ch6.churchmeeting": 1
       },
       "inductions": [
         {

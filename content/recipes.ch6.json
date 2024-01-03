@@ -163,7 +163,7 @@
       "warmup": 1,
       "maxexecutions": 1,
       "effects": {
-        "ch6.churchmeeting": 1
+        "scribe.letter2": 1
       }
 
     },
@@ -200,7 +200,7 @@
       "warmup": 1,
       "maxexecutions": 1,
       "effects": {
-        "ch6.churchmeeting": 1
+        "scribe.letter2": 1
       },
       "mutations": [
         {
@@ -216,7 +216,7 @@
       "actionid": "church.priors",
       "label": "A meal shared among the prior, the vicar, and the doctor",
       "craftable": true,
-      "startdescription": "|recipe.church.meal.all3.ch6 startdescription|",
+      "startdescription": "|recipe.church.meal.all3.ch6 startdescription, seemingly friendly|",
       "description": "",
       "warmup": 1,
       "maxexecutions": 1,
@@ -262,7 +262,7 @@
       "id": "recipe.church.meal.all3.ch6.default",
       "actionid": "church.priors",
       "label": "A meal shared among the prior, the vicar, and the doctor",
-      "startdescription": "|recipe.church.meal.all3.ch6.default start desc|",
+      "startdescription": "|recipe.church.meal.all3.ch6.default start desc, friendly conversation about the past, monastery, doctor's work, not about the bishop|",
       "description": "|recipe.church.meal.all3.ch6.default desc|",
       "warmup": 1,
       "effects": {
@@ -273,7 +273,7 @@
       "id": "recipe.church.meal.all3.ch6a",
       "actionid": "church.priors",
       "label": "A meal shared among the prior, the vicar, and the doctor",
-      "startdescription": "|recipe.church.meal.all3.ch6a start desc|",
+      "startdescription": "|recipe.church.meal.all3.ch6a start desc, being sarcastic to the vicar's work, and how the other two interact with each other|",
       "description": "|recipe.church.meal.all3.ch6a desc|",
       "requirements": { "doctor.melancholic": 1 },
       "warmup": 1,
@@ -285,7 +285,7 @@
       "id": "recipe.church.meal.all3.ch6b",
       "actionid": "church.priors",
       "label": "A meal shared among the prior, the vicar, and the doctor",
-      "startdescription": "|recipe.church.meal.all3.ch6b start desc|",
+      "startdescription": "|recipe.church.meal.all3.ch6b start desc, being affectionate towards prior, showing off results in alchemy|",
       "description": "|recipe.church.meal.all3.ch6b desc|",
       "requirements": { "doctor.phlegmatic": 1 },
       "warmup": 1,
@@ -297,7 +297,7 @@
       "id": "recipe.church.meal.all3.ch6c",
       "actionid": "church.priors",
       "label": "A meal shared among the prior, the vicar, and the doctor",
-      "startdescription": "|recipe.church.meal.all3.ch6c start desc|",
+      "startdescription": "|recipe.church.meal.all3.ch6c start desc, trying to improve everyone's mood, hinting at they both miss the doctor while they're away|",
       "description": "|rrecipe.church.meal.all3.ch6c desc|",
       "requirements": { "vicar.choleric": 1 },
       "effects": {
@@ -308,7 +308,7 @@
       "id": "recipe.church.meal.all3.ch6d",
       "actionid": "church.priors",
       "label": "A meal shared among the prior, the vicar, and the doctor",
-      "startdescription": "|recipe.church.meal.all3.ch6d start desc|",
+      "startdescription": "|recipe.church.meal.all3.ch6d start desc, showing off their closeness with the prior|",
       "description": "|recipe.church.meal.all3.ch6d desc|",
       "requirements": { "vicar.melancholic": 1 },
       "warmup": 1,
@@ -321,7 +321,7 @@
       "actionid": "church.priors",
       "label": "A meal shared between the vicar and the doctor",
       "craftable": true,
-      "startdescription": "|recipe.church.meal.doctorvicar.ch6 startdescription|",
+      "startdescription": "|recipe.church.meal.doctorvicar.ch6 startdescription, vicar thanking the doctor for their work|",
       "description": "",
       "warmup": 1,
       "maxexecutions": 1,
@@ -367,7 +367,7 @@
       "id": "recipe.church.meal.doctorvicar.ch6.default",
       "actionid": "church.priors",
       "label": "A meal shared between the vicar and the doctor",
-      "startdescription": "|recipe.church.meal.doctorvicar.ch6.default start desc|",
+      "startdescription": "|recipe.church.meal.doctorvicar.ch6.default start desc, friendly conversation about the doctor's recent work|",
       "description": "|recipe.church.meal.doctorvicar.ch6.default desc|",
       "warmup": 1,
       "effects": {
@@ -378,7 +378,7 @@
       "id": "recipe.church.meal.doctorvicar.ch6a",
       "actionid": "church.priors",
       "label": "A meal shared between the vicar and the doctor",
-      "startdescription": "|recipe.church.meal.doctorvicar.ch6a start desc|",
+      "startdescription": "|recipe.church.meal.doctorvicar.ch6a start desc, complaints about treating the bishop|",
       "description": "|recipe.church.meal.doctorvicar.ch6a desc|",
       "requirements": { "doctor.melancholic": 1 },
       "warmup": 1,
@@ -390,7 +390,7 @@
       "id": "recipe.church.meal.doctorvicar.ch6b",
       "actionid": "church.priors",
       "label": "A meal shared between the vicar and the doctor",
-      "startdescription": "|recipe.church.meal.doctorvicar.ch6b start desc|",
+      "startdescription": "|recipe.church.meal.doctorvicar.ch6b start desc, asking about the vicar's recent work|",
       "description": "|recipe.church.meal.doctorvicar.ch6b desc|",
       "requirements": { "doctor.phlegmatic": 1 },
       "warmup": 1,
@@ -402,7 +402,7 @@
       "id": "recipe.church.meal.doctorvicar.ch6c",
       "actionid": "church.priors",
       "label": "A meal shared between the vicar and the doctor",
-      "startdescription": "|recipe.church.meal.doctorvicar.ch6c start desc|",
+      "startdescription": "|recipe.church.meal.doctorvicar.ch6c start desc, asking about what facilities are needed|",
       "description": "|recipe.church.meal.doctorvicar.ch6c desc|",
       "requirements": { "vicar.choleric": 1 },
       "effects": {
@@ -413,7 +413,7 @@
       "id": "recipe.church.meal.doctorvicar.ch6d",
       "actionid": "church.priors",
       "label": "A meal shared between the vicar and the doctor",
-      "startdescription": "|recipe.church.meal.doctorvicar.ch6d start desc|",
+      "startdescription": "|recipe.church.meal.doctorvicar.ch6d start desc, denying the possibility of alchemy funds|",
       "description": "|recipe.church.meal.doctorvicar.ch6d desc|",
       "requirements": { "vicar.melancholic": 1 },
       "warmup": 1,
@@ -426,7 +426,7 @@
       "actionid": "church.priors",
       "label": "A meal shared between the prior and the doctor",
       "craftable": true,
-      "startdescription": "|recipe.church.meal.doctorvicar.ch6 startdescription|",
+      "startdescription": "|recipe.church.meal.doctorvicar.ch6 startdescription, a warm yet strange atmosphere|",
       "description": "",
       "warmup": 1,
       "maxexecutions": 1,
@@ -465,7 +465,7 @@
       "id": "recipe.church.meal.doctorprior.ch6.default",
       "actionid": "church.priors",
       "label": "A meal shared between the prior and the doctor",
-      "startdescription": "|recipe.church.meal.doctorprior.ch6.default start desc|",
+      "startdescription": "|recipe.church.meal.doctorprior.ch6.default start desc, asking how prior likes the current post|",
       "description": "|recipe.church.meal.doctorprior.ch6.default desc|",
       "warmup": 1,
       "effects": {
@@ -476,7 +476,7 @@
       "id": "recipe.church.meal.doctorprior.ch6a",
       "actionid": "church.priors",
       "label": "A meal shared between the prior and the doctor",
-      "startdescription": "|recipe.church.meal.doctorprior.ch6a start desc|",
+      "startdescription": "|recipe.church.meal.doctorprior.ch6a start desc, complaints about their previous life abroad|",
       "description": "|recipe.church.meal.doctorprior.ch6a desc|",
       "requirements": { "doctor.melancholic": 1 },
       "warmup": 1,
@@ -488,7 +488,7 @@
       "id": "recipe.church.meal.doctorprior.ch6b",
       "actionid": "church.priors",
       "label": "A meal shared between the prior and the doctor",
-      "startdescription": "|recipe.church.meal.doctorprior.ch6b start desc|",
+      "startdescription": "|recipe.church.meal.doctorprior.ch6b start desc, asking the prior if they want to have a stroll in the woods, maybe herbs?|",
       "description": "|recipe.church.meal.doctorprior.ch6b desc|",
       "requirements": { "doctor.phlegmatic": 1 },
       "warmup": 1,
@@ -501,7 +501,7 @@
       "actionid": "church.priors",
       "label": "A meal shared between the prior and the vicar",
       "craftable": true,
-      "startdescription": "|recipe.church.meal.vicarprior.ch6 startdescription|",
+      "startdescription": "|recipe.church.meal.vicarprior.ch6 startdescription, work, work, work...|",
       "description": "",
       "warmup": 1,
       "maxexecutions": 1,
@@ -541,7 +541,7 @@
       "id": "recipe.church.meal.vicarprior.ch6.default",
       "actionid": "church.priors",
       "label": "A meal shared between the prior and the vicar",
-      "startdescription": "|recipe.church.meal.vicarprior.ch6.default start desc|",
+      "startdescription": "|recipe.church.meal.vicarprior.ch6.default start desc, friendly theological debate|",
       "description": "|recipe.church.meal.vicarprior.ch6.default desc|",
       "warmup": 1,
       "effects": {
@@ -552,7 +552,7 @@
       "id": "recipe.church.meal.vicarprior.ch6c",
       "actionid": "church.priors",
       "label": "A meal shared between the prior and the vicar",
-      "startdescription": "|recipe.church.meal.vicarprior.ch6c start desc|",
+      "startdescription": "|recipe.church.meal.vicarprior.ch6c start desc, passionately talking about the parish's future|",
       "description": "|recipe.church.meal.vicarprior.ch6c desc|",
       "requirements": { "vicar.choleric": 1 },
       "effects": {
@@ -563,7 +563,7 @@
       "id": "recipe.church.meal.vicarprior.ch6d",
       "actionid": "church.priors",
       "label": "A meal shared between the prior and the vicar",
-      "startdescription": "|recipe.church.meal.vicarprior.ch6d start desc|",
+      "startdescription": "|recipe.church.meal.vicarprior.ch6d start desc, expressing discontent towards the doctor's stay|",
       "description": "|recipe.church.meal.vicarprior.ch6d desc|",
       "requirements": { "vicar.melancholic": 1 },
       "warmup": 1,

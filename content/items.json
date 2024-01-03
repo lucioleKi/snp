@@ -13,6 +13,11 @@
       "description": "A Roman bronze coin. The Scribe flips it quite a lot. It might be a prized artifact, or something more?"
     },
     {
+      "id": "scribe.letter2",
+      "label": "Reply from the Baron",
+      "description": "|Reply from the Baron, ch6, not event card|"
+    },
+    {
       "id": "shoppinglist.tavern.ch2",
       "label": "Shopping List For The Week. Cost: 1 funds.",
       "description": "Onion for fermenting herrings, peas, and beer hops green as spring. The taverner must have left the shopping list here intentionally. Time to head to the market."

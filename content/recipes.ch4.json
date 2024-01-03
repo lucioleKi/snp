@@ -46,27 +46,6 @@
       ]
     },
     {
-      "id": "recipe.tavern.desk.ch4a",
-      "actionid": "tavern.private.desk2",
-      "label": "Tavern Desk: Mathematics",
-      "craftable": true,
-      "startdescription": "|recipe.tavern.desk.ch4a startdescription|",
-      "description": "|recipe.tavern.desk.ch4a description Mathematician +1.|",
-      "warmup": 1,
-      "aspects": {
-        "exhausted": 1
-      },
-      "mutations": [
-        {
-          "filter": "scribe",
-          "level": 1,
-          "additive": true,
-          "mutate": "skill.mathematician"
-        }
-      ],
-      "requirements": { "scribe.sanguine": 1 }
-    },
-    {
       "id": "recipe.tavern.brewery.ch4a",
       "actionid": "tavern.private.kitchen",
       "label": "Tavern Kitchen: Brewer",
@@ -459,7 +438,7 @@
       "actionid": "tavern.public.keeperseat2",
       "label": "The Arbitrator's Name Day",
       "craftable": true,
-      "startdescription": "|recipe.tavern.nameday startdescription|",
+      "startdescription": "It is the Arbitrator's Name Day, and the Minstrel is busy preparing a surprise. When the Taverner begins to fret about the Minstrel turning the kitchen upside down, the Minstrel finally emerges with a cake in hand.",
       "description": "",
       "warmup": 1,
       "maxexecutions": 1,
@@ -505,8 +484,21 @@
       "id": "recipe.tavern.nameday.ch4.default",
       "actionid": "tavern.public.keeperseat",
       "label": "The Arbitrator's Name Day",
-      "startdescription": "|recipe.tavern.nameday.ch4.default start desc|",
-      "description": "|recipe.tavern.nameday.ch4.default desc|",
+      "startdescription": "The Minstrel places the cake on the counter and vanishes beneath it, just as the Arbitrator walks into the tavern. The Scribes and the Taverner greets them, silently gesture towards the Minstrel's hiding place, and encourage the Arbitrator to give the cake a try.",
+      "description": "",
+      "warmup": 1,
+      "linked": [
+        {
+          "id": "recipe.tavern.nameday.ch4.default2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.nameday.ch4.default2",
+      "actionid": "tavern.public.keeperseat",
+      "label": "The Arbitrator's Name Day",
+      "startdescription": "The Arbitrator invites them all to share the cake. As they are busy dividing the cake, the Minstrel sneaks out. The Arbitrator suggests sharing the cake with the Minstrel, too. ",
+      "description": "The Minstrel sits down besides them, nervously waiting for the Arbitrator to give the cake a bite. The Arbitrator enjoys the cake very much and offers the Minstrel a piece to try. \"It does taste good.\" thinks the Minstrel.",
       "warmup": 1,
       "effects": {
         "ch4.nameday": -1,
@@ -517,8 +509,8 @@
       "id": "recipe.tavern.nameday.ch4a",
       "actionid": "tavern.public.keeperseat",
       "label": "The Arbitrator's Name Day",
-      "startdescription": "|recipe.tavern.nameday.ch4a start desc|",
-      "description": "|recipe.tavern.nameday.ch4a desc|",
+      "startdescription": "The Minstrel places the cake on the counter and vanishes beneath it, just as the Arbitrator walks into the tavern. The Scribe greets the Arbitrator and gestures towards the cake, saying the Minstrel made it for them. The Minstrel’s silently protests under the counter, but the Scribe ignores them.",
+      "description": "Happily surprised, the Arbitrator gives it a try. They like the cake very much, although it tastes more milky than they expect. They joyfully thank the Minstrel, who reluctantly emerges from their hiding spot, feeling slightly happy, and utterly embarrassed.",
       "requirements": { "scribe.sanguine": 1 },
       "warmup": 1,
       "effects": {
@@ -530,9 +522,23 @@
       "id": "recipe.tavern.nameday.ch4b",
       "actionid": "tavern.public.keeperseat",
       "label": "The Arbitrator's Name Day",
-      "startdescription": "|recipe.tavern.nameday.ch4b start desc|",
-      "description": "|recipe.tavern.nameday.ch4b desc|",
-      "requirements": { "scribe.sanguine": 1 },
+      "startdescription": "The Minstrel places the cake on the counter and vanishes beneath it, just as the Arbitrator walks into the tavern. The Scribe greets the Arbitrator, suggesting them all to try the new dessert. The Arbitrator happily agrees.",
+      "description": "",
+      "requirements": { "scribe.phlegmatic": 1 },
+      "warmup": 1,
+      "linked": [
+        {
+          "id": "recipe.tavern.nameday.ch4b2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.nameday.ch4b2",
+      "actionid": "tavern.public.keeperseat",
+      "label": "The Arbitrator's Name Day",
+      "startdescription": "All of them are enjoying the cake when the Minstrel finally sneaks out. The Arbitrator calls for the Minstrel to give it a try and says it’s the best cake they’ve ever had. \"Really? I thought I added too much milk... oh no.\" The Minstrel catches themselves and blushes.",
+      "description": "The Arbitrator takes the Minstrel’s hands into theirs and warmly expresses their appreciation. They share the rest of the cake. \"It is indeed the best cake.\" thinks the Minstrel.",
+      "requirements": { "scribe.phlegmatic": 1 },
       "warmup": 1,
       "effects": {
         "ch4.nameday": -1,
@@ -543,9 +549,24 @@
       "id": "recipe.tavern.nameday.ch4c",
       "actionid": "tavern.public.keeperseat",
       "label": "The Arbitrator's Name Day",
-      "startdescription": "|recipe.tavern.nameday.ch4c start desc|",
-      "description": "|recipe.tavern.nameday.ch4c desc|",
-      "requirements": { "scribe.sanguine": 1 },
+      "startdescription": "The Minstrel places the cake on the counter and vanishes beneath it, just as the Arbitrator walks into the tavern. The Taverner greets the Arbitrator and winks meaningfully, gesturing towards the cake.",
+      "description": "",
+      "requirements": { "taverner.sanguine": 1 },
+      "warmup": 1,
+      "linked": [
+        {
+          "id": "recipe.tavern.nameday.ch4c2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.nameday.ch4c2",
+      "actionid": "tavern.public.keeperseat",
+      "label": "The Arbitrator's Name Day",
+      "startdescription": "The Arbitrator invites them all to share the cake. The Taverner decides to go fetch some wine and checkes the kitchen. There are a few jars and cups knocked over, but not too bad. In relief, the Taverner walks back out.",
+      "description": "They grin as they see the Arbitrator is feeding a spoonful of cake to the Minstrel. The Taverner jokingly asks the Scribe to do the same. What they get is a plain rejection.",
+      "requirements": { "taverner.sanguine": 1 },
+      "warmup": 1,
       "effects": {
         "ch4.nameday": -1,
         "ch4.memory": 1
@@ -555,93 +576,28 @@
       "id": "recipe.tavern.nameday.ch4d",
       "actionid": "tavern.public.keeperseat",
       "label": "The Arbitrator's Name Day",
-      "startdescription": "|recipe.tavern.nameday.ch4d start desc|",
-      "description": "|recipe.tavern.nameday.ch4d desc|",
-      "requirements": { "scribe.sanguine": 1 },
+      "startdescription": "The Minstrel places the wobbly looking cake on the counter and vanishes beneath it, just as the Arbitrator walks into the tavern. The Taverner greets the Arbitrator and winks meaningfully, gesturing towards the cake.",
+      "description": "",
+      "requirements": { "taverner.melancholic": 1 },
+      "warmup": 1,
+      "linked": [
+        {
+          "id": "recipe.tavern.nameday.ch4d2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.nameday.ch4d2",
+      "actionid": "tavern.public.keeperseat",
+      "label": "The Arbitrator's Name Day",
+      "startdescription": "The Arbitrator invites them all to share the cake. The Taverner decides to go fetch some wine and checkes the kitchen. The kitchen is an absolute mess. Bowls and jars are knocked over, cream and milk is smeared everywhere.",
+      "description": "The Taverner frowns disapprovingly. They start to feel that buying those ingredients for the Minstrel to make the cake is a mistake.",
+      "requirements": { "taverner.melancholic": 1 },
       "warmup": 1,
       "effects": {
         "ch4.nameday": -1,
         "ch4.memory": 1
       }
-    },
-    {
-      "id": "recipe.tavern.bedroom.coin.4m",
-      "actionid": "tavern.private.desk2",
-      "label": "Flip the coin",
-      "craftable": true,
-      "startdescription": "The Scribe flips the familiar coin once more.",
-      "description": "",
-      "maxexecutions": 1,
-      "warmup": 1,
-      "requirements": {
-        "scribe.sestertius": 1,
-        "num.coin": 3
-      },
-      "tablereqs": { "chapter": 4 },
-      "linked": [
-        {
-          "id": "recipe.tavern.bedroom.coin.head",
-          "chance": 50
-        },
-        {
-          "id": "recipe.tavern.bedroom.coin.tail",
-          "chance": 100
-        }
-      ],
-      "mutations": [
-        {
-          "filter": "scribe",
-          "level": 1,
-          "additive": true,
-          "mutate": "num.coin"
-        }
-      ],
-      "effects": {
-        "memory.cointoss.2": 1
-      }
-    },
-    {
-      "id": "recipe.tavern.bedroom.coin",
-      "actionid": "tavern.private.desk2",
-      "label": "Flip the coin",
-      "craftable": true,
-      "startdescription": "The Scribe flips the familiar coin once more.",
-      "description": "",
-      "warmup": 1,
-      "requirements": { "scribe.sestertius": 1 },
-      "tablereqs": { "chapter": 4 },
-      "linked": [
-        {
-          "id": "recipe.tavern.bedroom.coin.head",
-          "chance": 50
-        },
-        {
-          "id": "recipe.tavern.bedroom.coin.tail",
-          "chance": 100
-        }
-      ],
-      "mutations": [
-        {
-          "filter": "scribe",
-          "level": 1,
-          "additive": true,
-          "mutate": "num.coin"
-        }
-      ]
-    },
-    {
-      "id": "recipe.tavern.bedroom.coin.head",
-      "actionid": "tavern.private.desk2",
-      "label": "Flip the coin: Head",
-      "startdescription": "",
-      "description": "The coin lands with head facing up."
-    },
-    {
-      "id": "recipe.tavern.bedroom.coin.tail",
-      "actionid": "tavern.private.desk2",
-      "label": "Flip the coin: Tail",
-      "startdescription": "",
-      "description": "The coin lands with tail facing up."
     },
     {
       "id": "recipe.ch4.be",
