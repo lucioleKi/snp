@@ -40,21 +40,6 @@
       ]
     },
     {
-      "id": "recipe.fort.tradingpost.flour",
-      "actionid": "fort.tradingpost",
-      "label": "Fort Trading Post: Trade",
-      "craftable": true,
-      "startdescription": "|recipe.fort.tradingpost.flour start desc, Mention flour here|",
-      "description": "|recipe.fort.tradingpost.flour desc|",
-      "warmup": 1,
-      "effects": {
-        "pelt": -1,
-        "flour": 1
-      },
-      "maxexecutions": 1,
-      "requirements": { "pelt": 1 }
-    },
-    {
       "id": "recipe.fort.forest.ch5a",
       "actionid": "fort.forest",
       "label": "Fort Forest: Hunter",

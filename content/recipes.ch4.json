@@ -146,8 +146,8 @@
       "actionid": "tavern.public.keeperseat2",
       "label": "Be the Tavern Keeper for Today (with Minstrel)",
       "craftable": true,
-      "startdescription": "|recipe.tavern.keeperseat.taverner4c start desc|",
-      "description": "|recipe.tavern.keeperseat.taverner4c desc|",
+      "startdescription": "The Minstrel seems to be in a good mood today. They are singing with high spirits and haven’t slacked at all so far, which is quite unusual. The Taverner is very satisfied.",
+      "description": "When the Minstrel is taking a break after another song, the Taverner passes some wine to them and whispers into their ears:\"This one is undiluted.\" They wink at the Minstrel and walk back to their seat, whistling and humming.",
       "warmup": 1,
       "aspects": {
         "exhausted": 1
@@ -173,8 +173,8 @@
       "actionid": "tavern.public.keeperseat2",
       "label": "Be the Tavern Keeper for Today (with Minstrel)",
       "craftable": true,
-      "startdescription": "|recipe.tavern.keeperseat.taverner4d start desc|",
-      "description": "|recipe.tavern.keeperseat.taverner4d desc|",
+      "startdescription": "The Minstrel is obviously absent-minded in their performance today. As they see the Arbitrator walks in, they immediately jumps off the stage and asks the Taverner if they can leave early.",
+      "description": "The Taverner does not look very pleased. They approve the request, but add that the Minstrel will receive less of their payment for today",
       "warmup": 1,
       "aspects": {
         "exhausted": 1
@@ -238,8 +238,8 @@
       "actionid": "tavern.public.keeperseat2",
       "label": "Be the Tavern Keeper for Today (with Minstrel)",
       "craftable": true,
-      "startdescription": "|recipe.tavern.keeperseat.scribe4c start desc|",
-      "description": "|recipe.tavern.keeperseat.scribe4c desc|",
+      "startdescription": "The Scribe notices that neither Juniper nor the Minstrel are in sight, as soon as they walk into the Tavern. Knowing the Minstrel is probably feeding Juniper with food stolen from kitchen, the Scribe whistles to call Juniper.",
+      "description": "The cat almost instantly appears around the corner and hops onto the counter. The Minstrel also emerges, embarrassed of being caught. \"I won’t tell the Taverner about this, but please play something good today to makeup for it.\" says the Scribe.",
       "warmup": 1,
       "aspects": {
         "exhausted": 1
@@ -265,8 +265,8 @@
       "actionid": "tavern.public.keeperseat2",
       "label": "Be the Tavern Keeper for Today (with Minstrel)",
       "craftable": true,
-      "startdescription": "|recipe.tavern.keeperseat.scribe4d start desc|",
-      "description": "|recipe.tavern.keeperseat.scribe4d desc|",
+      "startdescription": "The Scribe is flipping through the ledger as the Minstrel starts singing another song. The Minstrel sings popular ballads as well as those written by themselves. The Arbitrator helps them fill in the lyrics.",
+      "description": "Today, the Minstrel is singing a newly written song about someone awaiting the return of their loved one from the battlefield. The Scribe listens and wonders if the Minstrel really understand the meaning behind the lyrics.",
       "warmup": 1,
       "aspects": {
         "exhausted": 1
