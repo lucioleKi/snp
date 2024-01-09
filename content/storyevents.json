@@ -264,7 +264,7 @@
     {
       "id": "ch4.pickcook",
       "label": "Event: Keeper's Seat",
-      "description": "|Event: Pick the new cook card description, will game over if not done before Chapter 6|",
+      "description": "The Taverner is ready to hire a new cook. Which one should they pick? (Not resolving this event before Chapter 6 will result in a bad ending)",
       "aspects": {
         "storyevent": 1
       },

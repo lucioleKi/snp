@@ -100,7 +100,7 @@
     {
       "id": "fort.forest",
       "label": "Fort: Forest",
-      "description": "|Fort: Forest desc, mention town name here|",
+      "description": "The southern border of Hazelford is surrounded by mountains and forests, a great place to hunt.",
       "slot": {
         "id": "fortslot.forest",
         "label": "Character/Event",
@@ -114,7 +114,7 @@
     {
       "id": "fort.tradingpost",
       "label": "Fort: Trading Post",
-      "description": "|Fort: Trading Post desc, mention a rough location relative to the fort|",
+      "description": "To the west of the fort is the lively town of Hazelford, where a few trading posts happily take all kinds of goods and hunting spoils in exchange for goods, money, or mercenary.",
       "slot": {
         "id": "fortslot.tradingpost",
         "label": "Character",

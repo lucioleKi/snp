@@ -107,8 +107,8 @@
       "actionid": "explorefort.diningroom",
       "label": "Dining Room: Sanguine",
       "craftable": true,
-      "startdescription": "The Knight remembers the first breakfast they had with the Baron at the fort.",
-      "description": "The Baron was very hospitable and made sure the Knight’s injuries were taken care of.",
+      "startdescription": "The Knight remembers a dinner with the Baron and the Scribe at the fort. They were arguing about some scientific topic that the Knight didn’t understand.",
+      "description": "But the Knight was struck by the direct way that the Scribe talked to the Baron, and even more so that the Baron replied in a humble and lively manner.",
       "warmup": 1,
       "maxexecutions": 1,
       "aspects": {
@@ -128,8 +128,8 @@
       "actionid": "explorefort.diningroom",
       "label": "Dining Room: Choleric",
       "craftable": true,
-      "startdescription": "The Knight remembers a meal they had with the Scribe at the fort. They ate in silence throughout the meal.",
-      "description": "When eventually the Knight decided to comment on the delicious fried fish they had, the Scribe grinned, said it was not cooked by the chef here, and left.",
+      "startdescription": "The Knight remembers the fascinating conversations they used to have with the Scribe. The Knight loved to tell stories when they were the only two dinning around the table.",
+      "description": "The Scribe was curious about the culture and lifestyles of people living at other places, and they always offered quite interesting perspectives.",
       "warmup": 1,
       "maxexecutions": 1,
       "aspects": {
@@ -149,8 +149,8 @@
       "actionid": "explorefort.diningroom",
       "label": "Dining Room: Sanguine",
       "craftable": true,
-      "startdescription": "After dinner, the Knight suddenly misses the companionship of the Scribe and the Baron. They used to play cards together in the evening.",
-      "description": "The Scribe was an amazing card player and had always made the card play quite a sport. The Knight enjoyed playing with them very much.",
+      "startdescription": "The Knight can’t help missing the fun times they spent playing cards with the Baron and the Scribe. The Scribe was an amazing card player and always won.",
+      "description": "Utterly impressed, the Knight insisted the Scribe to share their secrets. The Scribe not only taught them how to guess their opponents' cards, but also their thoughts.",
       "warmup": 1,
       "maxexecutions": 1,
       "aspects": {

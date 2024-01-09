@@ -44,8 +44,8 @@
       "actionid": "fort.forest",
       "label": "Fort Forest: Hunter",
       "craftable": true,
-      "startdescription": "|recipe.fort.forest.ch5a startdescription|",
-      "description": "|recipe.fort.forest.ch5a description Hunter +1.|",
+      "startdescription": "The weather is nice today. The Knight decides to go hunting with the Soldier, so they can get some spoils for trade, and also practice archery.",
+      "description": "They only got a few rabbits and birds, but they had fun riding in the wind and competing against each other.",
       "warmup": 1,
       "aspects": {
         "exhausted": 1
@@ -65,8 +65,8 @@
       "actionid": "fort.forest",
       "label": "Fort Forest: Hunt",
       "craftable": true,
-      "startdescription": "|recipe.fort.forest.ch5b startdescription|",
-      "description": "|recipe.fort.forest.ch5b description. Gained item: pelt.|",
+      "startdescription": "The Knight decides to go hunting today in hope of getting some good spoils to trade. After a few hours roaming and tracking in the forest, they finally spot a few deer.",
+      "description": "They sneak close and take an aim. The arrow pierces right into the deer's neck. The Knight lets out a laugh. Its pelt would be a good trade, and its meat shall make a hearty meal for tonight.",
       "warmup": 1,
       "aspects": {
         "exhausted": 1
@@ -116,8 +116,8 @@
       "actionid": "fort.tradingpost",
       "label": "Fort Trading Post: Trade",
       "craftable": true,
-      "startdescription": "|recipe.fort.tradingpost.ch5 start desc 1 pelt = 1 prosper point|",
-      "description": "|recipe.fort.tradingpost.ch5 desc|",
+      "startdescription": "The Knight walks into the trading post with pelt in hand, and is warmly welcomed by the merchant there. The Knight beams back. (1 pelt = 1 prosper point)",
+      "description": "\"Your pelt is alway well-liked. Even our business got better!\" says the merchant. \"My pleasure.\" replies the Knight with a nod.",
       "warmup": 1,
       "effects": {
         "pelt": -1

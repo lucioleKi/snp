@@ -50,7 +50,7 @@
       "actionid": "fort.forest",
       "label": "Location Unlocked: Fort - Forest",
       "startdescription": "",
-      "description": "|emptyrecipe.fort.forest desc|",
+      "description": "The forest and mountains behind the fort is a harbor to wild creatures, and sometimes, bandits. Skilled hunters return with triumph and laden with spoils, or they may never return.",
       "effects": {
         "ch5.recruit.pt1": 1
       }
