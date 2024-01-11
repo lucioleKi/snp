@@ -50,7 +50,7 @@
       "actionid": "fort.forest",
       "label": "Location Unlocked: Fort - Forest",
       "startdescription": "",
-      "description": "The forest and mountains behind the fort is a harbor to wild creatures, and sometimes, bandits. Skilled hunters return with triumph and laden with spoils, or they may never return.",
+      "description": "The forest and mountains look quite different from the Knight’s memory. They are no longer covered in snow and traces of green are seen here and there. It looks peaceful yet lively. The horse fidgets, as if it also senses the uneasiness of its master.",
       "effects": {
         "ch5.recruit.pt1": 1
       }
@@ -60,7 +60,7 @@
       "actionid": "fort.tradingpost",
       "label": "Location Unlocked: Fort - Trading Post",
       "startdescription": "",
-      "description": "|emptyrecipe.fort.tradingpost desc|"
+      "description": "The Knight approaches the trading post with pelt in hand and looks around curiously. It is the first time they stepp into the heart of Hazelford. It is bustling with people. On and behind the counter, they spot food, spices, handicrafts, and even exotic tapestries."
     },
     {
       "id": "emptyrecipe.tavern.keeperseat",
@@ -189,7 +189,7 @@
       "actionid": "church.library",
       "label": "Location Unlocked: Monastry - Library and Scriptorium",
       "startdescription": "",
-      "description": "|emptyrecipe.church.library desc|",
+      "description": "The Vicar finds the Monk in the library, busily writing behind a shelf. The monk is so focused that they did not notice the Vicar. The Vicar clears their throat for attention, and asks if the monk has time to write a letter to the Pilgrim for them.",
       "effects": {
         "monk": 1
       }

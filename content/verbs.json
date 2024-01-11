@@ -290,7 +290,7 @@
     {
       "id": "church.library",
       "label": "Monastery: Library and Scriptorium",
-      "description": "|Monastery: Library and Scriptorium desc|",
+      "description": "The library hosts a large collection of different books. It is a quiet environment for reading and writing.",
       "slot": {
         "id": "libraryslot.character",
         "label": "Character/Event",

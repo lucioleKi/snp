@@ -65,7 +65,7 @@
       "actionid": "fort.forest",
       "label": "Fort Forest: Hunt",
       "craftable": true,
-      "startdescription": "The Knight decides to go hunting today in hope of getting some good spoils to trade. After a few hours roaming and tracking in the forest, they finally spot a few deer.",
+      "startdescription": "The Knight decides to go hunting today in hope of getting some good spoils to trade. After a few hours roaming and tracking in the forest, they finally spot a horde of deer.",
       "description": "They sneak close and take an aim. The arrow pierces right into the deer's neck. The Knight lets out a laugh. Its pelt would be a good trade, and its meat shall make a hearty meal for tonight.",
       "warmup": 1,
       "aspects": {
