@@ -86,8 +86,8 @@
       "actionid": "fort.tradingpost",
       "label": "Fort Trading Post: Trade",
       "craftable": true,
-      "startdescription": "|recipe.fort.tradingpost.flour start desc, Mention flour here|",
-      "description": "|recipe.fort.tradingpost.flour desc|",
+      "startdescription": "The Knight would like to trade the pelt for a bag of flour, so they can give it as a gift to recruit a new soldier, along with a few eggs for themselves.",
+      "description": "The merchant sees the Knight is well-dressed and therefore pitches to them how good their flour is, emphasizing it being worthy to exchange with one good pelt, if not with more. The Knight, not in the mood to argue, agrees to take only a bag of flour.",
       "warmup": 1,
       "effects": {
         "pelt": -1,
@@ -101,8 +101,8 @@
       "actionid": "fort.tradingpost",
       "label": "Fort Trading Post: Trade",
       "craftable": true,
-      "startdescription": "|recipe.fort.tradingpost.table start desc, Mention table and chairs here|",
-      "description": "|recipe.fort.tradingpost.table desc|",
+      "startdescription": "The Knight noticed that the young person’s family has neither table nor chairs for dinning and decides to trade a set for them. The merchant is more reluctant this time and being sarcastic of their stinginess.",
+      "description": "The Knight’s temper arises, calling the merchant a profiteer. They start to argue with each other. Eventually, the Knight irritatedly claims that they would exchange the pelt for coins and buy a set of tables and chairs elsewhere. Only then, the merchant yields and sells the set to the Knight.",
       "warmup": 1,
       "effects": {
         "pelt": -2,
@@ -140,8 +140,8 @@
       "actionid": "fort.forest",
       "label": "Event: Recruit the rookie. Part 1",
       "craftable": true,
-      "startdescription": "|recipe.fort.recruit.pt1 startdescription|",
-      "description": "|recipe.fort.recruit.pt1 description. Remind the knight to come back later with one more gift.|",
+      "startdescription": "The Scribe once suggested the Knight to recruit someone who lives in the forest. The young person is obsessed with archery and determined to join an army, but their family is unwilling to part with them. A gift such as a bag of flour may help persuade the family.",
+      "description": "The Knight is surprised to find that they have met the young person before, and was impressed with their archery. The young person is delighted to join them, but their family still hesitates. The Knight didn’t push the family, and they will revisit again in a few weeks.",
       "warmup": 1,
       "effects": {
         "ch5.recruit.pt1": -1,
@@ -158,8 +158,8 @@
       "actionid": "fort.forest",
       "label": "Event: Recruit the rookie. Part 2",
       "craftable": true,
-      "startdescription": "|recipe.fort.recruit.pt2 startdescription|",
-      "description": "|recipe.fort.recruit.pt2. Gained item: pelt.|",
+      "startdescription": "The Knight pays another visit, bringing a set of table and chairs along with them. The young one’s family is surprised and grateful of the gift. They are moved by the Knight’s sincerity.",
+      "description": "The young one’s family agrees and the rookie excitedly joins the Knight. They don’t have much to pack. The Knight feels guilty for having no money to pay them, but promises to send the family food from time to time.",
       "warmup": 1,
       "effects": {
         "ch5.recruit.pt2": -1,

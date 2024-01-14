@@ -349,7 +349,7 @@
     {
       "id": "ch5.recruit.pt1",
       "label": "Event: Fort Forest",
-      "description": "|Event: Recruit the rookie. Part 1 card description|",
+      "description": "The Knight is looking for more people to join their force. The Scribe recommended someone who lives in the forest.",
       "aspects": {
         "storyevent": 1
       },
@@ -377,7 +377,7 @@
     {
       "id": "ch5.recruit.pt2",
       "label": "Event: Fort Forest",
-      "description": "|Event: Recruit the rookie. Part 2 card description|",
+      "description": "The Knight decides to bring a set of table and chairs to the young one’s family as a gift, hoping they would concede this time.",
       "aspects": {
         "storyevent": 1
       },
