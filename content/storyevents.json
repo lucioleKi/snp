@@ -483,7 +483,7 @@
     {
       "id": "ch6.churchmeeting",
       "label": "Event: Prior's Room",
-      "description": "|Event: A shared meal card description. Mention that this meal can be eat with any 2 people or all 3|",
+      "description": "|Event: A shared meal card description. Mention that this meal can be eaten with any 2 people or all 3|",
       "aspects": {
         "storyevent": 1
       },
