@@ -292,7 +292,7 @@
     {
       "id": "ch5.priorvicar",
       "label": "Event: Prior's Room",
-      "description": "|Event: On the thin ice card description|",
+      "description": "The Bishop has been unconscious in bed for a week. The church still hear nothing from the Pilgrim. The Vicar knows they are walking on thin ice. It might be wise to persuade the Prior about writing a letter to the Pilgrim.",
       "aspects": {
         "storyevent": 1
       },
@@ -320,7 +320,7 @@
     {
       "id": "ch5.letter",
       "label": "Event: Library/Scriptorium",
-      "description": "|Event: Letter to the Pilgrim card description|",
+      "description": "The Vicar is busy today, but the letter needs to be written and sent out as soon as possible. They have decided to entrust the Monk to write it for them. ",
       "aspects": {
         "storyevent": 1
       },

@@ -5,8 +5,8 @@
       "actionid": "church.priors",
       "label": "Event: On the thin ice",
       "craftable": true,
-      "startdescription": "|recipe.church.priors.priorvicar start desc|",
-      "description": "|recipe.church.priors.priorvicar desc|",
+      "startdescription": "The Vicar finds the Prior in their room. They suggest writing a letter to the Pilgrim, who is the Lord of the land within the Bishop’s parish. The Pilgrim is in Constantinople. They may or may not have heard the news from their own servants. Regardless, the Vicar believes that they should inform the Pilgrim.",
+      "description": "",
       "warmup": 1,
       "effects": {
         "ch5.priorvicar": -1
@@ -27,8 +27,8 @@
       "id": "recipe.church.priors.priorvicar.pt2",
       "actionid": "church.priors",
       "label": "Event: On the thin ice",
-      "startdescription": "",
-      "description": "|recipe.church.priors.priorvicar.pt2 desc|",
+      "startdescription": "However, the Prior doesn’t know if the Pilgrim and the Bishop are in good terms or not. They are hesitant to meddle with their business. Instead, they could wait until the Bishop wakes up.",
+      "description": "The Vicar disagrees, saying that they are not even sure if the Bishop would live. They certainly do not want the blame to fall on them in case the Bishop dies. The Prior concedes on that note.",
       "warmup": 1,
       "effects": {
         "ch5.letter": 1

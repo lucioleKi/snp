@@ -66,7 +66,7 @@
       "warmup": 1,
       "maxexecutions": 1,
       "startdescription": "",
-      "description": "The scribe sees a horse in the market. They suddenly remember something totally unrelated.",
+      "description": "The scribe sees a horse being whipped in the market. They suddenly remember something totally unrelated.",
       "requirements": {
         "scribe": 1,
         "skill.observer": 6
@@ -183,8 +183,8 @@
       "actionid": "market.buy",
       "label": "Market: Browsing and Shopping",
       "craftable": true,
-      "startdescription": "|recipe.market.buy.ch4 start desc|",
-      "description": "|recipe.market.buy.ch4 desc|",
+      "startdescription": "It’s the Arbitrator’s Name Day. They wake up early to catch some fish and then go to the market. After exchanging fish for eggs, they approach the cheesemaker's stall. The Minstrel asks for a specific type of cheese, which they have never bought before.",
+      "description": "They frown slightly upon hearing the cheese's price. They decide to leave the merchant and ask around, in order to ensure that they hadn't been deceived by a low-quality option. When they return, the merchant offers them a lower price. They happily take the deal.",
       "warmup": 1,
       "purge": {
         "shoppinglist.tavern.ch4": 1,
@@ -231,8 +231,8 @@
       "actionid": "market.buy",
       "label": "Market: Browsing and Shopping",
       "craftable": true,
-      "startdescription": "|recipe.market.buy.ch5 start desc|",
-      "description": "|recipe.market.buy.ch5 desc|",
+      "startdescription": "As they go to the market and ask about cups, the merchant intends to sell them the more expensive ones. The merchant boasts that the cups are made of pine woods, with better carvings, but they immediately see through the trickery - those cups are made of Yews, just from a different area.",
+      "description": "After the fifth time they politely refuse the merchant, they start to become impatient. \"Just sell me a dozen of the cheapest ones, please.\" Reluctantly, the merchant passes them the plain wooden cups.",
       "warmup": 1,
       "purge": {
         "shoppinglist.tavern.ch5": 1,
@@ -279,8 +279,8 @@
       "actionid": "market.buy",
       "label": "Market: Browsing and Shopping",
       "craftable": true,
-      "startdescription": "|recipe.market.buy.ch6 start desc|",
-      "description": "|recipe.market.buy.ch6 desc|",
+      "startdescription": "The market is particularly crowded today. A circus has come into town and will perform later. They wonder if the Minstrel would like to watch it. They pass a monk selling indulgences before visiting the spice seller.",
+      "description": "They are very careful in picking the right spices for a reasonable price, as they know that the spices seller is particularly cunning. On the way back, they see an exotic-looking fortune teller is surrounded by people, not far from the monk selling indulgences. Always finding such a scene amusing, they grin.",
       "warmup": 1,
       "purge": {
         "shoppinglist.tavern.ch6": 1,

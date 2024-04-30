@@ -31,19 +31,19 @@
     {
       "id": "shoppinglist.tavern.ch4",
       "label": "Shopping List For The Week. Cost: 3 funds (if not spent at market, it will be deducted at end of chapter).",
-      "description": "|Somewhat relevant to the arbitrator's name day|"
+      "description": "Cheese, milk, eggs… They have to buy ingredients for the Arbitrator’s name day. The spending will be higher than usual."
 
     },
     {
       "id": "shoppinglist.tavern.ch5",
-      "label": "Shopping List For The Week. Cost: 3 funds (if not spent at market, it will be deducted at end of chapter).",
-      "description": "|shoppinglist.tavern.ch5 desc|"
+      "label": "Shopping List For The Week. Cost: 2 funds (if not spent at market, it will be deducted at end of chapter).",
+      "description": "Some of their bowls and cups have rotted, or covered with mold. They plan to buy a few new ones."
 
     },
     {
       "id": "shoppinglist.tavern.ch6",
       "label": "Shopping List For The Week. Cost: 3 funds (if not spent at market, it will be deducted at end of chapter).",
-      "description": "|shoppinglist.tavern.ch6 desc|"
+      "description": "They need to buy some flour and spices for the new cook, now they could make more variety of dishes."
 
     },
     {
