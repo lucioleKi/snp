@@ -15,7 +15,7 @@
     {
       "id": "scribe.letter2",
       "label": "Reply from the Baron",
-      "description": "|Reply from the Baron, ch6, not event card|"
+      "description": "A letter from the Baron, agreeing to renting their fort to the Knight, along with a few stories from their married life. It was sent to the Scribe a few weeks ago. The Scribe has not replied, because the Knight may decide to ask about borrowing the Baron’s forces."
     },
     {
       "id": "shoppinglist.tavern.ch2",
@@ -155,25 +155,25 @@
     {
       "id": "knife",
       "label": "Knife",
-      "description": "|knife desc, you could mention that it's used to cut food, but don't spoil too much plot|"
+      "description": "A table knife used for eating, with delicate patterns on the handle. Looks like one used by a nobility."
 
     },
     {
       "id": "flour",
       "label": "A bag of flour",
-      "description": "|flour desc|"
+      "description": "A large bag of high-quality flour, which could support a family for a while. It is a good gift for the person the Knight wants to recruit."
 
     },
     {
       "id": "tablechair",
       "label": "A set of table and chairs",
-      "description": "|table and chairs desc|"
+      "description": "A set of plain wooden table and chairs, coarsely made, yet sturdy and useful."
 
     },
     {
       "id": "pelt",
       "label": "Pelt",
-      "description": "|Pelt desc. A pelt can be traded at trading post for mercenary or equipment|"
+      "description": "A piece of pelt from a deer or a bear, tidy and intact. It can be sold at the trading post for mercenary or equipment."
 
     }
   ]

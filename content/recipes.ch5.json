@@ -176,8 +176,8 @@
       "actionid": "church.library",
       "label": "Retrieve the letter to the Pilgrim",
       "craftable": true,
-      "startdescription": "|recipe.church.ch5.letter start desc|",
-      "description": "|recipe.church.ch5.letter desc|",
+      "startdescription": "The Monk looks reluctant but agrees to write a letter. When they realize the letter is to the Pilgrim on the matter of the Bishop’s injuries, they seem more eager to write it. The Vicar knows that the Monk used to serve under the same parish as the Pilgrim, and so they trust the Monk in this matter.",
+      "description": "",
       "maxexecutions": 1,
       "warmup": 1,
       "effects": {
@@ -198,8 +198,34 @@
       "id": "recipe.church.ch5.letter.pt2",
       "actionid": "church.library",
       "label": "Read the letter?",
-      "startdescription": "|recipe.church.ch5.letter.pt2 start desc|",
-      "description": "|recipe.church.ch5.letter.pt2 desc|",
+      "startdescription": "Later in the afternoon, the Vicar finds the Monk in the library with the letter completed. As they retrieve the letter, the Monk asks the Vicar about the Bishop's injuries. Slightly surprised, the Vicar replies that the Bishop is still unconscious. Although the injuries have stopped worsening, it’s difficult to say if the Bishop will survive.",
+      "description": "",
+      "warmup": 1,
+      "linked": [
+        {
+          "id": "recipe.church.ch5.letter.pt3"
+        }
+      ]
+    },
+    {
+      "id": "recipe.church.ch5.letter.pt3",
+      "actionid": "church.library",
+      "label": "Read the letter?",
+      "startdescription": "The Monk seems to be upset. Out of curiousity, the Vicar asks if the Bishop and the Pilgrim have been on good terms. The Monk says yes as far as they know. The Vicar thanks the Monk and takes the letter.",
+      "description": "",
+      "warmup": 1,
+      "linked": [
+        {
+          "id": "recipe.church.ch5.letter.pt4"
+        }
+      ]
+    },
+    {
+      "id": "recipe.church.ch5.letter.pt4",
+      "actionid": "church.library",
+      "label": "Read the letter?",
+      "startdescription": "It is clear that the Monk is keeping in touch with either the Pilgrim or the Bishop. They might know more about what happened than anyone else here. That makes the Vicar feels concerned. Maybe they should read the letter just be sure.",
+      "description": "",
       "warmup": 1,
       "slots": [
         {
@@ -227,8 +253,8 @@
       "id": "recipe.church.ch5.readletter",
       "actionid": "church.bishops",
       "label": "The Vicar reads the letter",
-      "startdescription": "|recipe.church.ch5.readletter start desc|",
-      "description": "|recipe.church.ch5.readletter desc|",
+      "startdescription": "The Vicar goes back to their own place and reads the letter. In the letter, the Monk details the Bishop’s current state of health, indicating that the church is doing their best to treat the injuries, but also preparing for the worst.",
+      "description": "While the letter seems flawless, it has a tone of deep concern and urgency, which the Vicar has no intention of conveying. Sealing the letter and sending it out, the Vicar wonders if the Monk knows who or what might have led to the Bishop's injuries...",
       "warmup": 1,
       "requirements": {
         "temperament": 1
@@ -241,8 +267,8 @@
       "id": "recipe.church.ch5.noreadletter",
       "actionid": "church.bishops",
       "label": "The Vicar chooses not to read the letter",
-      "startdescription": "|recipe.church.ch5.noreadletter start desc|",
-      "description": "|recipe.church.ch5.noreadletter desc|",
+      "startdescription": "The Vicar trusts the Monk. They are writing on behalf of the church, not themselves. They would not include additional information even if they know more details. Doing so could make both the Vicar and the Pilgrim suspicious.",
+      "description": "The Vicar seals the letter and sends it out without reading, but they wonder if they should keep an eye on the Monk’s recent personal correspondence...",
       "warmup": 1,
       "effects": {
         "ch5.memory": 1
