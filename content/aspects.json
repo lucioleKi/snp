@@ -242,7 +242,18 @@
       "label": "Prosper Level",
       "description": "This represents the prosper level of the trading post. The knight can use prosper level to recruit soldiers later.",
       "isAspect": true
+    },
+    {
+      "id": "flag.taverner.scribe.2.6.pos",
+      "isHidden": true,
+      "isAspect": true,
+      "noArtNeeded": true
+    },
+    {
+      "id": "flag.taverner.scribe.2.6.neg",
+      "isHidden": true,
+      "isAspect": true,
+      "noArtNeeded": true
     }
-
   ]
 }

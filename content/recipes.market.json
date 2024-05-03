@@ -321,6 +321,54 @@
         "shoppinglist.tavern.ch6": 1,
         "funds": -3
       }
+    },
+    {
+      "id": "recipe.market.buy.ch7",
+      "actionid": "market.buy",
+      "label": "Market: Browsing and Shopping",
+      "craftable": true,
+      "startdescription": "|recipe.market.buy.ch7 startdesc|",
+      "description": "|recipe.market.buy.ch7 desc|",
+      "warmup": 1,
+      "purge": {
+        "shoppinglist.tavern.ch7": 1,
+        "funds": 3
+      },
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": { "temperament": 1 },
+      "tablereqs": {
+        "chapter7": 1,
+        "shoppinglist.tavern.ch7": 1,
+        "funds": 3
+      },
+      "linked": [
+        {
+          "id": "recipe.market.observer"
+        }
+      ]
+    },
+    {
+      "id": "recipe.market.buy.ch7.badending",
+      "actionid": "market.buy",
+      "label": "Market: Browsing and Shopping (Insufficient funds)",
+      "craftable": true,
+      "startdescription": "Insufficient funds for going to the market. Starting this will lead to a bad ending!",
+      "description": "",
+      "warmup": 1,
+      "ending": "golddeficit",
+      "aspects": {
+        "exhausted": 1
+      },
+      "requirements": {
+        "temperament": 1
+      },
+      "tablereqs": {
+        "chapter7": 1,
+        "shoppinglist.tavern.ch7": 1,
+        "funds": -3
+      }
     }
   ]
 }

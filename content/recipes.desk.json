@@ -76,12 +76,6 @@
       "description": "",
       "warmup": 1,
       "maxexecutions": 1,
-      "requirements": {
-        "ch4.nameday": 1,
-        "taverner": 1,
-        "scribe": 1,
-        "arbitrator": 1
-      },
       "slots": [
         {
           "id": "slot.ch4.namedayqte",
@@ -139,6 +133,13 @@
         {
           "id": "recipe.tavern.desk.candlelight.ch6.scribe.logical"
         }
+      ],
+      "mutations": [
+        {
+          "level": 1,
+          "additive": true,
+          "mutate": "flag.taverner.scribe.2.6.pos"
+        }
       ]
     },
     {
@@ -153,13 +154,20 @@
         {
           "id": "recipe.tavern.desk.candlelight.ch6.scribe.logical"
         }
+      ],
+      "mutations": [
+        {
+          "level": 1,
+          "additive": true,
+          "mutate": "flag.taverner.scribe.2.6.neg"
+        }
       ]
     },
     {
       "id": "recipe.tavern.desk.candlelight.ch6c",
       "actionid": "tavern.private.desk2",
       "label": "A conversation by the candle light",
-      "startdescription": "|recipe.tavern.desk.candlelight.ch6c start desc|",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6c start desc, jealous|",
       "description": "",
       "requirements": { "taverner.sanguine": 1 },
       "warmup": 1,
@@ -167,19 +175,33 @@
         {
           "id": "recipe.tavern.desk.candlelight.ch6.taverner.logical"
         }
+      ],
+      "mutations": [
+        {
+          "level": 1,
+          "additive": true,
+          "mutate": "flag.taverner.scribe.2.6.pos"
+        }
       ]
     },
     {
       "id": "recipe.tavern.desk.candlelight.ch6d",
       "actionid": "tavern.private.desk2",
       "label": "A conversation by the candle light",
-      "startdescription": "|recipe.tavern.desk.candlelight.ch6d start desc|",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6d start desc, business|",
       "description": "",
       "requirements": { "taverner.melancholic": 1 },
       "warmup": 1,
       "linked": [
         {
           "id": "recipe.tavern.desk.candlelight.ch6.taverner.logical"
+        }
+      ],
+      "mutations": [
+        {
+          "level": 1,
+          "additive": true,
+          "mutate": "flag.taverner.scribe.2.6.neg"
         }
       ]
     },
@@ -272,7 +294,10 @@
           "id": "recipe.tavern.desk.candlelight.ch6.taverner2"
         },
         {
-          "id": "recipe.tavern.desk.candlelight.ch6.def10"
+          "id": "recipe.tavern.desk.candlelight.ch6.def10.a"
+        },
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.def10.b"
         },
         {
           "id": "recipe.tavern.desk.candlelight.ch6.tavernerneg"
@@ -291,7 +316,10 @@
         {
           "id": "recipe.tavern.desk.candlelight.ch6.scribe2.pt2"
         }
-      ]
+      ],
+      "requirements": {
+        "flag.taverner.scribe.2.6.pos": 2
+      }
     },
     {
       "id": "recipe.tavern.desk.candlelight.ch6.scribe2.pt2",
@@ -317,7 +345,10 @@
         {
           "id": "recipe.tavern.desk.candlelight.ch6.taverner2.pt2"
         }
-      ]
+      ],
+      "requirements": {
+        "flag.taverner.scribe.2.6.pos": 2
+      }
     },
     {
       "id": "recipe.tavern.desk.candlelight.ch6.taverner2.pt2",
@@ -332,7 +363,7 @@
       }
     },
     {
-      "id": "recipe.tavern.desk.candlelight.ch6.def10",
+      "id": "recipe.tavern.desk.candlelight.ch6.def10.a",
       "actionid": "tavern.private.desk2",
       "label": "A conversation by the candle light",
       "startdescription": "|recipe.tavern.desk.candlelight.ch6.def10 startdescription|",
@@ -343,7 +374,27 @@
         {
           "id": "recipe.tavern.desk.candlelight.ch6.def10.pt2"
         }
-      ]
+      ],
+      "requirements": {
+        "flag.taverner.scribe.2.6.pos": 1
+      }
+    },
+    {
+      "id": "recipe.tavern.desk.candlelight.ch6.def10.b",
+      "actionid": "tavern.private.desk2",
+      "label": "A conversation by the candle light",
+      "startdescription": "|recipe.tavern.desk.candlelight.ch6.def10 startdescription|",
+      "description": "",
+      "warmup": 1,
+      "maxexecutions": 1,
+      "linked": [
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.def10.pt2"
+        }
+      ],
+      "requirements": {
+        "flag.taverner.scribe.2.6.neg": -1
+      }
     },
     {
       "id": "recipe.tavern.desk.candlelight.ch6.def10.pt2",

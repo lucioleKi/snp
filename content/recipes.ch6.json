@@ -650,7 +650,8 @@
       "effects": {
         "shoppinglist.tavern.ch7": 1,
         "bishop.phlegmatic": 1,
-        "bishop.choleric": 1
+        "bishop.choleric": 1,
+        "bishop.brooch": 1
       }
     },
     {
@@ -659,7 +660,7 @@
       "label": "",
       "description": "",
       "tablereqs": {
-        "chapter5": 1,
+        "chapter6": 1,
         "shoppinglist.tavern.ch6": -1
       },
       "purge": {
@@ -680,7 +681,8 @@
       "effects": {
         "shoppinglist.tavern.ch7": 1,
         "bishop.phlegmatic": 1,
-        "bishop.choleric": 1
+        "bishop.choleric": 1,
+        "bishop.brooch": 1
       }
     }
   ]

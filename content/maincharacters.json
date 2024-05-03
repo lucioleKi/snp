@@ -114,7 +114,9 @@
       "aspects": {
         "maincharacter": 1,
         "skill.observer": 3,
-        "skill.mathematician": 3
+        "skill.mathematician": 3,
+        "flag.taverner.scribe.2.6.pos": 0,
+        "flag.taverner.scribe.2.6.neg": 0
       },
       "slots": [
         {
@@ -204,7 +206,9 @@
       "aspects": {
         "maincharacter": 1,
         "skill.fishmonger": 3,
-        "skill.brewer": 3
+        "skill.brewer": 3,
+        "flag.taverner.scribe.2.6.pos": 0,
+        "flag.taverner.scribe.2.6.neg": 0
       },
       "unique": true,
       "slots": [

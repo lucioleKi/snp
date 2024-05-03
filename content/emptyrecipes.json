@@ -170,8 +170,7 @@
       "description": "The Infirmary is a dim, stuffy room. The Bishop lies unconsciously in bed. The Lord, sat in a chair by their bedside, is taking an uneasy nap.",
       "effects": {
         "lord": 1,
-        "bishop.sick": 1,
-        "bishop.brooch": 1
+        "bishop.sick": 1
       }
     },
     {

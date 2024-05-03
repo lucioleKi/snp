@@ -3,7 +3,7 @@
     {
       "id": "memory.ch1.dining1a",
       "label": "Memory: Feast after victory",
-      "description": "They enjoyed grilled lamb and mulled wine. The soldier receives the most toasts. Their cheeks getting redder each time.",
+      "description": "They enjoyed grilled lamb and mulled wine. The Soldier receives the most toasts. Their cheeks getting redder each time.",
       "aspects": {
         "mainmemory": 1
       }
@@ -12,7 +12,7 @@
     {
       "id": "memory.ch1.dining1b",
       "label": "Memory: Feast with friends",
-      "description": "They enjoyed mushroom pasties and fried fish. Afterwards, most of them stayed to play cards. The grey-eyed scribe won the most.",
+      "description": "They enjoyed mushroom pasties and fried fish. Afterwards, most of them stayed to play cards. The grey-eyed Scribe won the most.",
       "aspects": {
         "mainmemory": 1
       }
@@ -21,7 +21,7 @@
     {
       "id": "memory.ch2.dining1a",
       "label": "Memory: First arrival in the fort",
-      "description": "The knight remembers their first arrival at the fort a year ago. They were treated very well by the baron and the scribe.",
+      "description": "The Knight remembers their first arrival at the fort a year ago. They were treated very well by the Baron and the Scribe.",
       "aspects": {
         "mainmemory": 1
       }
@@ -30,7 +30,7 @@
     {
       "id": "memory.ch2.dining1b",
       "label": "Memory: Discussing tactics with friends",
-      "description": "The knight remembers that they had good friends in Shroudburn, who are now enemies.",
+      "description": "The Knight remembers that they had good friends in Shroudburn, who are now enemies.",
       "aspects": {
         "mainmemory": 1
       }
@@ -39,7 +39,7 @@
     {
       "id": "memory.brooch2",
       "label": "Memory: The brooch's acquirement",
-      "description": "|Memory: The brooch's acquirement desc|",
+      "description": "The Knight looted the brooch after a battle. They intend to keep the brooch for themselves.",
       "aspects": {
         "mainmemory": 1
       }
@@ -47,7 +47,7 @@
     {
       "id": "memory.brooch3",
       "label": "Memory: The brooch's new owner",
-      "description": "|Memory: The brooch's new owner desc|",
+      "description": "The brooch did not stay with the Knight for too long. The Knight gave it away for someone more fitting.",
       "aspects": {
         "mainmemory": 1
       }
