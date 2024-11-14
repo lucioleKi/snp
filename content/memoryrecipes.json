@@ -191,7 +191,7 @@
       "actionid": "church.bishops",
       "label": "Bishop's Dream (or Memory)",
       "craftable": true,
-      "startdescription": "The Bishop sees a familiar figure by the lake. They are waiting on a horse under the willow tree, smiling. The Lord looks young, exactly how they remember them when they were both in the Order. ",
+      "startdescription": "The Bishop sees a familiar figure by the lake. They are waiting on a horse under the willow tree, smiling. The Lord looks young, exactly how they remember them when they were both in the Order.",
       "description": "",
       "warmup": 1,
       "effects": {
@@ -211,7 +211,7 @@
       "id": "recipe.ch4.memory.pt2",
       "actionid": "church.bishops",
       "label": "Bishop's Dream (or Memory)",
-      "startdescription": "The Lord approaches the Bishop, riding along side them. Their piercing emerald green eyes shimmering, and their face as charming as the spring blossoms. <i>\"So this will be our last fight. Our Order will be disbanded after. What’s your plan?\"</i> asks the Lord.",
+      "startdescription": "The Lord approaches the Bishop, riding along side them. Their piercing emerald green eyes shimmering, and their face as charming as the spring blossoms. <i>\"So this will be our last fight. Our Order will be disbanded after. What's your plan?\"</i> asks the Lord.",
       "description": "<i>\"Maybe study under the church and become a clergyman.\"</i> answers the Bishop. <i>\"Then I can still see you from time to time.\"</i> grins the Lord. And so they did.",
       "warmup": 1,
       "linked": [
@@ -252,7 +252,7 @@
       "actionid": "church.bishops",
       "label": "Bishop's Dream (or Memory)",
       "startdescription": "The Knight beamed at them on horseback, their childlike face glowing under the brilliant sunshine. The Knight jumped down from their horse and hugged the Pilgrim. The Pilgrim then introduced the Knight to the Bishop.",
-      "description": "The Bishop hardly heard what the Pilgrim has said. They only stared at the Knight, who knelt down before them, and kissed their ring. If only everything could have stayed this way.",
+      "description": "The Bishop hardly heard what the Pilgrim said. They only stared at the Knight, who knelt down before them, and kissed their ring. If only everything could have stayed this way.",
       "warmup": 1,
       "linked": [
         {
@@ -294,8 +294,8 @@
       "id": "recipe.ch6.memory.pt2",
       "actionid": "church.bishops",
       "label": "Bishop's Dream (or Memory)",
-      "startdescription": "Someone else murmured, their voice lost in the echo. The Lord sighs: <i>\"Alright. I'll be back soon.\"</i> The Bishop again hears their own voice in the echo, saying the same words.",
-      "description": "All the other voices faded. The Bishop is left with only one: <i>\"You really come back. I've never been happier in this life.\"</i>\n<i>Where did I go?</i> The Bishop does not manage to find an answer before they slowly open their eyes.",
+      "startdescription": "Someone else murmurs, their voice lost in the echo. The Lord sighs: <i>\"Alright. I'll be back soon.\"</i> The Bishop again hears their own voice in the echo, saying the same words.",
+      "description": "All the other voices fade. The Bishop is left with only one: <i>\"You really come back. I've never been happier in this life.\"</i>\n<i>Where did I go?</i> The Bishop does not manage to find an answer before they slowly open their eyes.",
       "warmup": 1,
       "linked": [
         {

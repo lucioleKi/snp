@@ -119,6 +119,14 @@
       "aspects": {
         "mainmemory": 1
       }
+    },
+    {
+      "id": "memory.gp",
+      "label": "Memory: A gift and a promise",
+      "description": "In the cave they seeked shelter in, the Bishop helped the Knight to sit down. Then the Bishop wanted to find some branches to light a fire, and maybe fix the Knight's arm. Fear and a silent plea flickered in the Knight’s eyes, but they quickly concealed them. With numb fingers, the Knight fumbled to untie their cloak for the Bishop. The Bishop stopped the Knight. <i>\"Don't worry. I won't leave you here.\"</i> The Bishop’s voice was firm, comforting. After looking at the Knight once more, the Bishop disappeared into the snow. It was the longest wait in the Knight's life. But when the Knight saw the Bishop returned with sticks, snow on their hair and cloak, they chuckled. <i>\"You really come back. I've never been happier in this life.\"</i> The Bishop started a fire, and the Knight leaned against the Bishop, feeling warm and secure. They murmured: <i>\"You know where I live. When we get back, come find me in my room. I have a gift for you.\"</i> <i>\"Alright.\"</i> replied the Bishop, smiling.",
+      "aspects": {
+        "mainmemory": 1
+      }
     }
   ]
 }

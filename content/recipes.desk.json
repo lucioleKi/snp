@@ -26,7 +26,7 @@
       "actionid": "tavern.private.desk2",
       "label": "Writing: Letter to the Baron",
       "craftable": true,
-      "startdescription": "|recipe.tavern.desk.candlelight.ch6 startdescription|",
+      "startdescription": "As the Scribe finishing up the last paragraph, the Taverner steps into the room. The Taverner glances at the candle that will take its last breath in mere moments, and asks whether they should bring a fresh one. <i>\"You don’t have to. I'm almost done.\"</i>",
       "description": "",
       "warmup": 1,
       "requirements": {
@@ -41,6 +41,45 @@
       },
       "linked": [
         {
+          "id": "recipe.tavern.desk.candlelight.ch6.pt2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.desk.candlelight.ch6.pt2",
+      "actionid": "tavern.private.desk2",
+      "label": "Writing: Letter to the Baron",
+      "startdescription": "<i>\"Who are you writing to, the Baron?\"</i> Seeing that the Scribe silently nods, the Taverner clicks their tongue, <i>\"If only I knew beforehand, I'd have stayed in the kitchen longer. Or I would have brought wine with me.\"</i>",
+      "description": "",
+      "warmup": 10,
+      "linked": [
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.pt3"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.desk.candlelight.ch6.pt3",
+      "actionid": "tavern.private.desk2",
+      "label": "Writing: Letter to the Baron",
+      "startdescription": "<i>\"Before you decide to sit here like a fox outside of a chicken coop, check that all windows are closed downstairs, in case the rain doesn’t stop until morning.\"</i> The Scribe tries to nudge the Taverner. The Taverner carefully avoids, picks up an apple and starts eating.",
+      "description": "",
+      "warmup": 10,
+      "linked": [
+        {
+          "id": "recipe.tavern.desk.candlelight.ch6.pt4"
+        }
+      ]
+    },
+    {
+      "id": "recipe.tavern.desk.candlelight.ch6.pt4",
+      "actionid": "tavern.private.desk2",
+      "label": "Writing: Letter to the Baron",
+      "startdescription": "<i>\"I’ve checked already.\"</i> The Taverner shrugs, <i>\"Take your time with the letter. I am happy to read it anytime.\"</i> As the Scribe raises their eyebrows, the Taverner pretends to sigh, <i>\"'If you did not play the wrong cards twice like an ape, we would have won the mill back.' The nostalgia really shows in your letter!\"</i>",
+      "description": "",
+      "warmup": 10,
+      "linked": [
+        {
           "id": "recipe.tavern.desk.candlelight.ch6.taverner"
         }
       ]
@@ -49,7 +88,7 @@
       "id": "recipe.tavern.desk.candlelight.ch6.taverner",
       "actionid": "tavern.private.desk2",
       "label": "The taverner tries to take a peek",
-      "startdescription": "|recipe.tavern.desk.candlelight.ch6.taverner startdescription|",
+      "startdescription": "The Scribe shakes their head. They read through the letter one last time, and pass it to the Taverner. As the Taverner digests the letter, they forget about the apple in their hand completely.",
       "description": "",
       "warmup": 10,
       "slots": [
@@ -125,7 +164,7 @@
       "id": "recipe.tavern.desk.candlelight.ch6a",
       "actionid": "tavern.private.desk2",
       "label": "A conversation by the candle light",
-      "startdescription": "|recipe.tavern.desk.candlelight.ch6a start desc|",
+      "startdescription": "Seeing that the Taverner’s frown is getting deeper, the Scribe sighs softly: <i>\"You would not get the context. It is pointless for you to read, or even think about it. I already told you: the Baron is not asking anything from me even if everything works out.\"</i>",
       "description": "",
       "requirements": { "scribe.sanguine": 1 },
       "warmup": 1,
@@ -146,7 +185,7 @@
       "id": "recipe.tavern.desk.candlelight.ch6b",
       "actionid": "tavern.private.desk2",
       "label": "A conversation by the candle light",
-      "startdescription": "|recipe.tavern.desk.candlelight.ch6b start desc|",
+      "startdescription": "The Scribe pats the Taverner’s shoulder: <i>\"This letter is even more formal than the last. Don't think too much if the phrasing confuses you. After all, you are safer if you understand less context. Be assured that I will not sell our tavern to the Baron.\"</i>",
       "description": "",
       "requirements": { "scribe.phlegmatic": 1 },
       "warmup": 1,
@@ -167,7 +206,7 @@
       "id": "recipe.tavern.desk.candlelight.ch6c",
       "actionid": "tavern.private.desk2",
       "label": "A conversation by the candle light",
-      "startdescription": "|recipe.tavern.desk.candlelight.ch6c start desc, jealous|",
+      "startdescription": "<i>\"Why do I get the feeling that you and the Baron have countless inside jokes?\"</i> The Taverner’s frown cuts deep into the brows, <i>\"I'd be satisfied if I'm happily married, and own more land than before. Yet I see that you are still offering things to the Baron?\"</i>",
       "description": "",
       "requirements": { "taverner.sanguine": 1 },
       "warmup": 1,
@@ -188,7 +227,7 @@
       "id": "recipe.tavern.desk.candlelight.ch6d",
       "actionid": "tavern.private.desk2",
       "label": "A conversation by the candle light",
-      "startdescription": "|recipe.tavern.desk.candlelight.ch6d start desc, business|",
+      "startdescription": "<i>\"Look, I see that it is inevitable for you to involve the Baron in the deal, and the Baron surely wants payment. I am less trained than both of you in every way except for sailing. Could you enlighten your silliest pupil more?\"</i>",
       "description": "",
       "requirements": { "taverner.melancholic": 1 },
       "warmup": 1,

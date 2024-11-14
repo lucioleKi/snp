@@ -83,6 +83,246 @@
         }
       ],
       "requirements": { "knight.choleric": 1 }
+    },
+    {
+      "id": "recipe.fort.training.archer5",
+      "actionid": "explorefort.trainingyard",
+      "label": "Training Yard: Archer",
+      "craftable": true,
+      "startdescription": "|recipe.fort.training.archer5 startdescription|",
+      "description": "|recipe.fort.training.archer5 description| \nArcher +1.",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "knight",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.archer"
+        }
+      ],
+      "requirements": {
+        "knight.sanguine": 1,
+        "skill.archer": 5
+      }
+    },
+    {
+      "id": "recipe.fort.training.lancer5",
+      "actionid": "explorefort.trainingyard",
+      "label": "Training Yard: Lancer",
+      "craftable": true,
+      "startdescription": "|recipe.fort.training.lancer5 startdescription|",
+      "description": "|recipe.fort.training.lancer5 description| \nLancer +1.",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "knight",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.lancer"
+        }
+      ],
+      "requirements": {
+        "knight.choleric": 1,
+        "skill.lancer": 5
+      }
+    },
+    {
+      "id": "recipe.fort.training.archer8",
+      "actionid": "explorefort.trainingyard",
+      "label": "Training Yard: Archer",
+      "craftable": true,
+      "startdescription": "|recipe.fort.training.archer8 startdescription|",
+      "description": "|recipe.fort.training.archer8 description| \nArcher +1.",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "knight",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.archer"
+        }
+      ],
+      "requirements": {
+        "knight.sanguine": 1,
+        "skill.archer": 8
+      }
+    },
+    {
+      "id": "recipe.fort.training.lancer8",
+      "actionid": "explorefort.trainingyard",
+      "label": "Training Yard: Lancer",
+      "craftable": true,
+      "startdescription": "|recipe.fort.training.lancer8 startdescription|",
+      "description": "|recipe.fort.training.lancer8 description| \nLancer +1.",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "knight",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.lancer"
+        }
+      ],
+      "requirements": {
+        "knight.choleric": 1,
+        "skill.lancer": 8
+      }
+    },
+    {
+      "id": "recipe.fort.training.archer10",
+      "actionid": "explorefort.trainingyard",
+      "label": "Training Yard: Archer",
+      "craftable": true,
+      "startdescription": "|recipe.fort.training.archer10 startdescription|",
+      "description": "|recipe.fort.training.archer10 description| \nArcher +1.",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "knight",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.archer"
+        }
+      ],
+      "requirements": {
+        "knight.sanguine": 1,
+        "skill.archer": 10
+      }
+    },
+    {
+      "id": "recipe.fort.training.lancer10",
+      "actionid": "explorefort.trainingyard",
+      "label": "Training Yard: Lancer",
+      "craftable": true,
+      "startdescription": "|recipe.fort.training.lancer10 startdescription|",
+      "description": "|recipe.fort.training.lancer10 description| \nLancer +1.",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "knight",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.lancer"
+        }
+      ],
+      "requirements": {
+        "knight.choleric": 1,
+        "skill.lancer": 10
+      }
+    },
+    {
+      "id": "recipe.fort.training.archer13",
+      "actionid": "explorefort.trainingyard",
+      "label": "Training Yard: Archer",
+      "craftable": true,
+      "startdescription": "|recipe.fort.training.archer13 startdescription|",
+      "description": "|recipe.fort.training.archer13 description| \nArcher +1.",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "knight",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.archer"
+        }
+      ],
+      "requirements": {
+        "knight.sanguine": 1,
+        "skill.archer": 13
+      }
+    },
+    {
+      "id": "recipe.fort.training.lancer13",
+      "actionid": "explorefort.trainingyard",
+      "label": "Training Yard: Lancer",
+      "craftable": true,
+      "startdescription": "|recipe.fort.training.lancer13 startdescription|",
+      "description": "|recipe.fort.training.lancer13 description| \nLancer +1.",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "knight",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.lancer"
+        }
+      ],
+      "requirements": {
+        "knight.choleric": 1,
+        "skill.lancer": 13
+      }
+    },
+    {
+      "id": "recipe.fort.training.archer15",
+      "actionid": "explorefort.trainingyard",
+      "label": "Training Yard: Archer",
+      "craftable": true,
+      "startdescription": "|recipe.fort.training.archer15 startdescription|",
+      "description": "|recipe.fort.training.archer15 description| \nArcher +1.",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "knight",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.archer"
+        }
+      ],
+      "requirements": {
+        "knight.sanguine": 1,
+        "skill.archer": 15
+      }
+    },
+    {
+      "id": "recipe.fort.training.lancer15",
+      "actionid": "explorefort.trainingyard",
+      "label": "Training Yard: Lancer",
+      "craftable": true,
+      "startdescription": "|recipe.fort.training.lancer15 startdescription|",
+      "description": "|recipe.fort.training.lancer15 description| \nLancer +1.",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "knight",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.lancer"
+        }
+      ],
+      "requirements": {
+        "knight.choleric": 1,
+        "skill.lancer": 15
+      }
     }
   ]
 }

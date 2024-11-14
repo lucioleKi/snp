@@ -552,7 +552,7 @@
     {
       "id": "ch7.giftpromise",
       "label": "Past Event: A gift and a promise",
-      "description": "|ch7.giftpromise event card|",
+      "description": "When the Knight was still in Shroudburn, they once got lost in the woods hunting. All the strings of fate started to entangle from there...",
       "aspects": {
         "storyevent": 1,
         "pastevent": 1
