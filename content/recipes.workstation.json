@@ -1,0 +1,27 @@
+{
+  "recipes": [
+    {
+      "id": "recipe.church.workstation.ch3a",
+      "actionid": "church.tower.workstation",
+      "label": "Workstation: Alchemy",
+      "craftable": true,
+      "startdescription": "The Workstation is a magical and yet dangerous place. Here, the Doctor can create elixir or poison, or perhaps even gold, at least so they claim.",
+      "description": "The Doctor carefully puts their results into bowls and vials, and then stretched contently.\nAlchemist +1",
+      "warmup": 1,
+      "aspects": {
+        "exhausted": 1
+      },
+      "mutations": [
+        {
+          "filter": "maincharacter",
+          "level": 1,
+          "additive": true,
+          "mutate": "skill.alchemist"
+        }
+      ],
+      "requirements": {
+        "doctor.phlegmatic": 1
+      }
+    }
+  ]
+}

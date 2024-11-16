@@ -15,7 +15,7 @@
     {
       "id": "scribe.letter2",
       "label": "Reply from the Baron",
-      "description": "A letter from the Baron, agreeing to renting their fort to the Knight, along with a few stories from their married life. It was sent to the Scribe a few weeks ago. The Scribe has not replied, because the Knight may decide to ask about borrowing the Baron’s forces."
+      "description": "A letter from the Baron, agreeing to renting their fort to the Knight, along with a few stories from their married life. It was sent to the Scribe a few weeks ago. The Knight has decided to ask about borrowing the Baron's forces. The Scribe should reply at the Desk now."
     },
     {
       "id": "shoppinglist.tavern.ch2",
@@ -49,7 +49,7 @@
     {
       "id": "shoppinglist.tavern.ch7",
       "label": "Shopping List For The Week. Cost: 4 funds (if not spent at market, it will be deducted at end of chapter).",
-      "description": "|shoppinglist.tavern.ch7 desc|"
+      "description": "Their clothes have become so worn that they have to buy some cloth to make new ones."
 
     },
     {

@@ -2,26 +2,15 @@
   "recipes": [
     {
       "id": "recipe.giftpromise.ch7.start",
-      "actionid": "temp.giftpromise",
+      "actionid": "church.bishops",
       "label": "Basic knowledge: The hunting trip",
       "craftable": true,
       "startdescription": "When the Knight was still in Shroudburn, they once went on a hunting trip after a light snow. The weather was fine in the morning. A storm stroke later, and the Knight got trapped in the mountains.",
       "description": "",
-      "warmup": 10,
+      "warmup": 1,
       "requirements": {
         "ch7.giftpromise": 1
       },
-      "effects": {
-        "ch7.giftpromise": -1
-      },
-      "slots": [
-        {
-          "id": "cardslot",
-          "required": { "ch7.giftpromise": 1 },
-          "greedy": true
-        }
-
-      ],
       "linked": [
         {
           "id": "recipe.giftpromise.ch7.start.pt2"
@@ -30,11 +19,11 @@
     },
     {
       "id": "recipe.giftpromise.ch7.start.pt2",
-      "actionid": "temp.giftpromise",
+      "actionid": "church.bishops",
       "label": "Basic knowledge: The hunting trip",
       "startdescription": "They were fortunate enough to be rescued by soldiers from Hazelford, who were patrolling the area where the Knight hid through the night. The Knight was warmly welcomed into the Fort. During their stay, the Knight met the Baron and the Scribe, who was a tutor at the time.",
       "description": "",
-      "warmup": 10,
+      "warmup": 1,
       "linked": [
         {
           "id": "recipe.giftpromise.ch7.lvl2"
@@ -43,11 +32,11 @@
     },
     {
       "id": "recipe.giftpromise.ch7.lvl2",
-      "actionid": "temp.giftpromise",
+      "actionid": "church.bishops",
       "label": "Basic knowledge: The Bishop's involvement",
       "startdescription": "It is inevitable that the Knight remembers the Bishop, who was the reason that the Knight got lost. The memory brings a piercing pain. It was early spring. Snow had not melted on the mountains. The Knight, the Soldier, the Bishop, and the Pilgrim went on a hunting trip.",
       "description": "",
-      "warmup": 10,
+      "warmup": 1,
       "linked": [
         {
           "id": "recipe.giftpromise.ch7.lvl2.pt2"
@@ -56,16 +45,17 @@
     },
     {
       "id": "recipe.giftpromise.ch7.lvl2.pt2",
-      "actionid": "temp.giftpromise",
+      "actionid": "church.bishops",
       "label": "Basic knowledge: The Bishop's involvement",
       "startdescription": "It was a fruitful trip. They were having a great time. But as they were about to return, the Bishop’s horse suddenly got spooked. It dashed into the woods with the Bishop on its back.",
       "description": "",
-      "warmup": 10,
+      "warmup": 1,
       "slots": [
         {
           "id": "memoryslot1",
           "label": "Memory about a gift",
-          "required": { "memory.brooch3": 1 }
+          "required": { "memory.brooch3": 1 },
+          "greedy": true
         }
       ],
       "linked": [
@@ -79,19 +69,27 @@
     },
     {
       "id": "recipe.giftpromise.ch7.lvl2.end",
-      "actionid": "temp.giftpromise",
+      "actionid": "church.bishops",
       "label": "End of past event: No more knowledge available",
       "startdescription": "The Knight was also led deep into the forest. Although they tried their best to get back onto a main road or an open field, they were unable to do so before the dark settled in. The storm made everything hard to see and covered their trails swiftly.",
       "description": "The Bishop was rescued along with the Knight the next morning. They both stayed at the Fort for a month. During their stay, the Bishop became friends with the Baron, but not with the Scribe.",
-      "warmup": 10
+      "warmup": 1,
+      "effects": {
+        "ch7.giftpromise": 1
+      },
+      "purge": {
+        "memory.spookedhorse": 1,
+        "memory.deadhorse": 1,
+        "knife": 1
+      }
     },
     {
       "id": "recipe.giftpromise.ch7.lvl3",
-      "actionid": "temp.giftpromise",
+      "actionid": "church.bishops",
       "label": "More knowledge: The time spent in the Baron's castle",
       "startdescription": "The Soldier and the Pilgrim never get to know what happened after the Bishop's horse was spooked. After all, they did not follow the Bishop into the forest. Only the Knight chased the Bishop's horse in panic.",
       "description": "",
-      "warmup": 10,
+      "warmup": 1,
       "requirements": {
         "memory.brooch3": 1
       },
@@ -103,16 +101,17 @@
     },
     {
       "id": "recipe.giftpromise.ch7.lvl3.pt2",
-      "actionid": "temp.giftpromise",
+      "actionid": "church.bishops",
       "label": "More knowledge: The time spent in the Baron's castle",
       "startdescription": "After a while, the Soldier and the Pilgrim started to worry. But the storm made searching difficult. Eventually they decided to go back. The next morning, the Pilgrim sent out soldiers to look for them, to no avail.",
       "description": "",
-      "warmup": 10,
+      "warmup": 1,
       "slots": [
         {
           "id": "memoryslot2",
           "label": "Memory about an accident",
-          "required": { "memory.spookedhorse": 1 }
+          "required": { "memory.spookedhorse": 1 },
+          "greedy": true
         }
       ],
       "linked": [
@@ -126,19 +125,27 @@
     },
     {
       "id": "recipe.giftpromise.ch7.lvl3.end",
-      "actionid": "temp.giftpromise",
+      "actionid": "church.bishops",
       "label": "End of past event: No more knowledge available",
       "startdescription": "They received a message from the Baron close to noon, notifying them that the Bishop and the Knight were found. They were safely staying in the Fort. Relieved, the Pilgrim and the Soldier rode to the Fort.",
       "description": "The Soldier was surprised to see how the Knight's wounds: a long cut on the right leg, and a broken arm. Although feeble and in pain, the Knight still cracked out a smile. They also thanked the Bishop, for taking care of them last night, and for finding the patrolling soldiers. The Knight would like to give the Bishop a brooch as a gift.",
-      "warmup": 10
+      "warmup": 1,
+      "effects": {
+        "ch7.giftpromise": 1,
+        "memory.brooch3": 1
+      },
+      "purge": {
+        "memory.deadhorse": 1,
+        "knife": 1
+      }
     },
     {
       "id": "recipe.giftpromise.ch7.lvl4",
-      "actionid": "temp.giftpromise",
+      "actionid": "church.bishops",
       "label": "More knowledge: The Bishop's Knight in shining armor",
       "startdescription": "When the Bishop's horse got spooked, the Bishop called out the Knight's name in panic. Without a second thought, the Knight dashed out in full speed. They tried their best to keep up with the Bishop's horse, but it was difficult with all the rocks and trees.",
       "description": "",
-      "warmup": 10,
+      "warmup": 1,
       "requirements": {
         "memory.spookedhorse": 1
       },
@@ -150,11 +157,11 @@
     },
     {
       "id": "recipe.giftpromise.ch7.lvl4.pt2",
-      "actionid": "temp.giftpromise",
+      "actionid": "church.bishops",
       "label": "More knowledge: The Bishop's Knight in shining armor",
-      "startdescription": "The Bishop held as tightly to their horse as possible, their robe torn by branches. The Knight soon realized that they were running towards a cliff. \"Hold my hand! Kick off your stirrups!\" The Knight yelled. Desperately, the Bishop extended out a shaking hand and the Knight caught it.",
+      "startdescription": "The Bishop held as tightly to their horse as possible, their robe torn by branches. The Knight soon realized that they were running towards a cliff. <i>\"Hold my hand! Kick off your stirrups!\"</i> The Knight yelled. Desperately, the Bishop extended out a shaking hand and the Knight caught it.",
       "description": "",
-      "warmup": 10,
+      "warmup": 1,
       "requirements": {
         "memory.spookedhorse": 1
       },
@@ -166,15 +173,16 @@
     },
     {
       "id": "recipe.giftpromise.ch7.lvl4.pt3",
-      "actionid": "temp.giftpromise",
+      "actionid": "church.bishops",
       "label": "More knowledge: The Bishop's Knight in shining armor",
-      "description": "As the Knight shouted \"Now!\" the horse suddenly turned away and threw the Bishop off. With their hands still holding firmly, the Knight was thrown off their horse as well. The next second, the Bishop grunted as they struggled to get up. The Knight could not feel their arm, and their leg was bleeding.",
-      "warmup": 10,
+      "description": "As the Knight shouted <i>\"Now!\"</i> the horse suddenly turned away and threw the Bishop off. With their hands still holding firmly, the Knight was thrown off their horse as well. The next second, the Bishop grunted as they struggled to get up. The Knight could not feel their arm, and their leg was bleeding.",
+      "warmup": 1,
       "slots": [
         {
           "id": "memoryslot3",
           "label": "Memory about a suspicion",
-          "required": { "memory.deadhorse": 1 }
+          "required": { "memory.deadhorse": 1 },
+          "greedy": true
         }
       ],
       "linked": [
@@ -188,19 +196,25 @@
     },
     {
       "id": "recipe.giftpromise.ch7.lvl4.end",
-      "actionid": "temp.giftpromise",
+      "actionid": "church.bishops",
       "label": "End of past event: No more knowledge available",
       "startdescription": "They tried to find the way back before it got dark. However, without horses, and with the wounded Knight, they were stuck in the mountains that night. Eventually, they found shelter in a cave. The Bishop made fire, and took care of the Knight.",
       "description": "The next morning, the Bishop went out alone and found the Baron's soldiers. They led the soldiers to the cave where the Knight was staying. Before noon, they were all brought to the Fort. The Pilgrim and the Soldier visited them soon after.",
-      "warmup": 10
+      "warmup": 1,
+      "purge": {
+        "ch7.giftpromise": 1,
+        "memory.brooch3": 1,
+        "memory.spookedhorse": 1,
+        "knife": 1
+      }
     },
     {
       "id": "recipe.giftpromise.ch7.lvl5",
-      "actionid": "temp.giftpromise",
+      "actionid": "church.bishops",
       "label": "More knowledge: The Scribe's dangerous theory",
       "startdescription": "Both horses were found by the Baron's soldiers later, one alive and the other dead. The Knight was delighted, for they loved their own horse. The dead horse was also found quick enough, not torn by the wolves yet.",
       "description": "",
-      "warmup": 10,
+      "warmup": 1,
       "requirements": {
         "memory.deadhorse": 1
       },
@@ -212,16 +226,17 @@
     },
     {
       "id": "recipe.giftpromise.ch7.lvl5.pt2",
-      "actionid": "temp.giftpromise",
+      "actionid": "church.bishops",
       "label": "More knowledge: The Scribe's dangerous theory",
       "startdescription": "One day, the Scribe overheard the soldiers chatting about a curious cut found on the dead horse's body. The cut was on the butt, fresh, small, yet deep. It did not look like an injury from sword or arrow. Upon hearing this, the Scribe instinctively felt alerted.",
       "description": "",
-      "warmup": 10,
+      "warmup": 1,
       "slots": [
         {
           "id": "memoryslot3",
           "label": "The final evidence",
-          "required": { "knife": 1 }
+          "required": { "knife": 1 },
+          "greedy": true
         }
       ],
       "linked": [
@@ -235,19 +250,25 @@
     },
     {
       "id": "recipe.giftpromise.ch7.lvl5.end",
-      "actionid": "temp.giftpromise",
+      "actionid": "church.bishops",
       "label": "End of past event: No more knowledge available",
       "startdescription": "A dangerous theory started to form in the Scribe's mind. The Scribe has noticed that the Knight was clearly in love with the Bishop. The feeling did not seem to be reciprocal.",
       "description": "The way the Bishop looked at the Knight was not innocent, but they lacked sincerity. The Scribe could not help but suspected the Bishop created that incident themselves. To what end, they were not sure at that time.",
-      "warmup": 10
+      "warmup": 1,
+      "effects": {
+        "ch7.giftpromise": -1,
+        "memory.brooch3": -1,
+        "memory.spookedhorse": -1,
+        "memory.deadhorse": -1
+      }
     },
     {
       "id": "recipe.giftpromise.ch7.lvl6",
-      "actionid": "temp.giftpromise",
+      "actionid": "church.bishops",
       "label": "Final knowledge: A knife in the haystack",
       "startdescription": "One day, the Scribe walked past the Fort's stable. They noticed something shiny in the haystack. It was a table knife. The color and the delicate patterns on the knife clearly showed that it belonged to a noble. Why would any of the Baron's table knives be in a haystack?",
       "description": "",
-      "warmup": 10,
+      "warmup": 1,
       "requirements": {
         "knife": 1
       },
@@ -259,13 +280,18 @@
     },
     {
       "id": "recipe.giftpromise.ch7.lvl6.end",
-      "actionid": "temp.giftpromise",
+      "actionid": "church.bishops",
       "label": "End of past event: All truth revealed",
       "startdescription": "Feeling strange, the Scribe did not pay much attention to it. But the strange feeling persisted. It was not until a few weeks ago, the Scribe realized that they have never seen such a knife on the Baron's table. It must have belonged to the Bishop.",
       "description": "Everything clicked into place. The Bishop startled their own horse by stabbing it, then calling the Knight alone for help. They picked a good time and place to be trapped, but not for too long. How could two people who were already close not fall in love after experiencing such moments together?",
-      "warmup": 10,
+      "warmup": 1,
       "effects": {
-        "memory.gp": 1
+        "memory.gp": 1,
+        "ch7.giftpromise": -1,
+        "memory.brooch3": -1,
+        "memory.spookedhorse": -1,
+        "memory.deadhorse": -1,
+        "knife": -1
       }
     }
   ]

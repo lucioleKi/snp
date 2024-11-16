@@ -40,6 +40,7 @@
       "id": "memory.brooch2",
       "label": "Memory: The brooch's acquirement",
       "description": "The Knight looted the brooch after a battle. They intend to keep the brooch for themselves.",
+      "unique": true,
       "aspects": {
         "mainmemory": 1
       }
@@ -48,6 +49,7 @@
       "id": "memory.brooch3",
       "label": "Memory: The brooch's new owner",
       "description": "The brooch did not stay with the Knight for too long. The Knight gave it away for someone more fitting.",
+      "unique": true,
       "aspects": {
         "mainmemory": 1
       }

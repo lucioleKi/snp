@@ -25,12 +25,12 @@
       }
     },
     {
-      "id": "recipe.fort.training.lancer.7m",
+      "id": "recipe.fort.training.lancer.5m",
       "actionid": "explorefort.trainingyard",
       "label": "Training Yard: Lancer",
       "craftable": true,
       "startdescription": "|slightly different start desc|",
-      "description": "|special desc for recipe.fort.training.lancer.7m: memory: how to save someone from a spooked horse|",
+      "description": "|special desc for recipe.fort.training.lancer.5m: memory: how to save someone from a spooked horse|",
       "warmup": 1,
       "maxexecutions": 1,
       "aspects": {
@@ -38,7 +38,7 @@
       },
       "requirements": {
         "knight.choleric": 1,
-        "skill.lancer": 7
+        "skill.lancer": 5
       },
       "effects": { "memory.spookedhorse": 1 }
     },

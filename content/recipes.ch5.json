@@ -145,7 +145,8 @@
       "warmup": 1,
       "effects": {
         "ch5.recruit.pt1": -1,
-        "ch5.recruit.pt2": 1
+        "ch5.recruit.pt2": 1,
+        "flour": -1
       },
       "requirements": {
         "ch5.recruit.pt1": 1,
@@ -350,7 +351,7 @@
         "chapter5": 1,
         "knight.sanguine.exhausted": 1,
         "knight.choleric.exhausted": 1,
-        "taverner.sanguine.exhausted": 1,
+        "taverner.sanguine.exhausted": 2,
         "taverner.melancholic.exhausted": 1,
         "scribe.sanguine.exhausted": 1,
         "scribe.phlegmatic.exhausted": 1,

@@ -15,10 +15,11 @@
       "requirements": { "knight.sanguine": 1 },
       "tablereqs": {
         "chapter": 1,
-        "ch1to3": 1
+        "ch1to3": 1,
+        "memory.brooch2": -1
       },
       "effects": {
-        "memory.ch1.dining1a": 1
+        "memory.brooch2": 1
       }
     },
     {
@@ -36,10 +37,11 @@
       "requirements": { "knight.choleric": 1 },
       "tablereqs": {
         "chapter": 1,
-        "ch1to3": 1
+        "ch1to3": 1,
+        "memory.brooch2": -1
       },
       "effects": {
-        "memory.ch1.dining1b": 1
+        "memory.brooch2": 1
       }
     },
     {
@@ -57,10 +59,11 @@
       "requirements": { "knight.sanguine": 1 },
       "tablereqs": {
         "chapter": 2,
-        "ch1to3": 1
+        "ch1to3": 1,
+        "memory.brooch2": -1
       },
       "effects": {
-        "memory.ch2.dining1a": 1
+        "memory.brooch2": 1
       }
     },
     {
@@ -78,10 +81,11 @@
       "requirements": { "knight.choleric": 1 },
       "tablereqs": {
         "chapter": 2,
-        "ch1to3": 1
+        "ch1to3": 1,
+        "memory.brooch2": -1
       },
       "effects": {
-        "memory.ch2.dining1b": 1
+        "memory.brooch2": 1
       }
     },
     {
@@ -266,6 +270,34 @@
         },
         {
           "id": "recipe.ch5.ne"
+        }
+      ]
+    },
+    {
+      "id": "recipe.ch6.memory.pt1.withbrooch2",
+      "actionid": "church.bishops",
+      "label": "Bishop's Dream (or Memory)",
+      "craftable": true,
+      "startdescription": "It is the Lord's familiar voice: <i>\"I'd rather not leave them here.\"</i>\nAnd then, the Bishop somehow hears an echo of their own voice: <i>\"Don't worry. I won't leave you here.\"</i>",
+      "description": "",
+      "warmup": 1,
+      "effects": {
+        "ch6.memory": -1,
+        "memory.brooch3": 1
+      },
+      "tablereqs": {
+        "memory.brooch2": 1
+      },
+      "requirements": {
+        "ch6.memory": 1,
+        "bishop.sick": 1
+      },
+      "purge": {
+        "memory.brooch2": 1
+      },
+      "linked": [
+        {
+          "id": "recipe.ch6.memory.pt2"
         }
       ]
     },

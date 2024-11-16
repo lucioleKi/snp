@@ -43,29 +43,6 @@
       }
     },
     {
-      "id": "recipe.church.workstation.ch3a",
-      "actionid": "church.tower.workstation",
-      "label": "Workstation: Alchemy",
-      "craftable": true,
-      "startdescription": "The Workstation is a magical and yet dangerous place. Here, the Doctor can create elixir or poison, or perhaps even gold, at least so they claim.",
-      "description": "The Doctor carefully puts their results into bowls and vials, and then stretched contently.\nAlchemist +1",
-      "warmup": 1,
-      "aspects": {
-        "exhausted": 1
-      },
-      "mutations": [
-        {
-          "filter": "maincharacter",
-          "level": 1,
-          "additive": true,
-          "mutate": "skill.alchemist"
-        }
-      ],
-      "requirements": {
-        "doctor.phlegmatic": 1
-      }
-    },
-    {
       "id": "recipe.church.ch3.treatment",
       "actionid": "church.bishops",
       "label": "Treat the Bishop",
@@ -99,7 +76,7 @@
       "actionid": "church.bishops",
       "label": "Apply some medicine",
       "startdescription": "The Doctor decides to change the bandages first. If they have herbs available, they can apply some to the wound to help with healing.",
-      "description": "The noise startles the Lord. They sits upright but relaxes as they see the Doctor. \"How is it?\" asks the Lord, their eyes glued to the Bishop. \"Still alive, which is already a miracle. I can promise nothing more.\" says the Doctor.",
+      "description": "The noise startles the Lord. They sits upright but relaxes as they see the Doctor. <i>\"How is it?\"</i> asks the Lord, their eyes glued to the Bishop. <i>\"Still alive, which is already a miracle. I can promise nothing more.\"</i> says the Doctor.",
       "warmup": 1,
       "slots": [
         {
@@ -124,7 +101,7 @@
       "actionid": "church.bishops",
       "label": "The Prior enters",
       "startdescription": "Someone knocks, and the Prior enters with some bread and beer in hand. They hesitates at the door before stepping in and giving the food to the Lord. Then they quickly steps back to the door again and looks at the Doctor with an anxious, questioning look.",
-      "description": "The Doctor gives the Prior an affirmative nod. \"I’ve applied some medicine to their injury.\" The Prior sighs in relief and asks the Lord to get some sleep. The Lord politely refuses. \"Come. We can talk more in my room.\" The Prior turns to the Doctor.",
+      "description": "The Doctor gives the Prior an affirmative nod. <i>\"I’ve applied some medicine to their injury.\"</i> The Prior sighs in relief and asks the Lord to get some sleep. The Lord politely refuses. <i>\"Come. We can talk more in my room.\"</i> The Prior turns to the Doctor.",
       "warmup": 1,
       "slots": [
         {
@@ -180,6 +157,119 @@
       ]
     },
     {
+      "id": "recipe.church.treatment.recur",
+      "actionid": "church.bishops",
+      "label": "Treat the Bishop",
+      "craftable": true,
+      "startdescription": "|recipe.church.ch3.treatment.recur startdescription|",
+      "description": "|recipe.church.ch3.treatment,recur description|",
+      "warmup": 1,
+      "requirements": {
+        "doctor": 1
+      },
+      "tablereqs": {
+        "sick": 1
+      },
+      "slots": [
+        {
+          "id": "slot.main.bishop",
+          "label": "Character",
+          "required": {
+            "bishop.sick": 1
+          },
+          "greedy": "True"
+        }
+      ],
+      "linked": [
+        {
+          "id": "recipe.church.treatment.recur.pt2"
+        }
+      ]
+    },
+    {
+      "id": "recipe.church.treatment.recur.pt2",
+      "actionid": "church.bishops",
+      "label": "Use medicine or effort",
+      "startdescription": "|recipe.church.ch3.treatment,recur.pt2 startdescription|",
+      "description": "|recipe.church.ch3.treatment,recur.pt2 description|",
+      "warmup": 1,
+      "slots": [
+        {
+          "id": "slot.main.ch3.coriander",
+          "label": "Medicine or effort",
+          "required": {
+            "medicine": 1,
+            "doctor.melancholic": 1,
+            "doctor.phlegmatic": 1
+          }
+        }
+      ],
+      "linked": [
+        {
+          "id": "recipe.church.treatment.pt3.medicine"
+        },
+        {
+          "id": "recipe.church.treatment.pt3.temperament"
+        },
+        {
+          "id": "recipe.church.treatment.pt3.noeffect"
+        }
+      ]
+    },
+    {
+      "id": "recipe.church.treatment.pt3.medicine",
+      "actionid": "church.bishops",
+      "label": "End of treatment",
+      "startdescription": "|recipe.church.treatment,recur.pt3.medicine startdescription|",
+      "description": "|recipe.church.treatment,recur.pt3.medicine description|",
+      "warmup": 1,
+      "mutations": [
+        {
+          "filter": "bishop.sick",
+          "level": -1,
+          "additive": true,
+          "mutate": "sick"
+        }
+      ],
+      "requirements": {
+        "medicine": 1
+      },
+      "effects": {
+        "medicine.coriander": -1
+      }
+    },
+    {
+      "id": "recipe.church.treatment.pt3.temperament",
+      "actionid": "church.bishops",
+      "label": "End of treatment",
+      "startdescription": "|recipe.church.treatment,recur.pt3.temperament startdescription|",
+      "description": "|recipe.church.treatment,recur.pt3.temperament description|",
+      "warmup": 1,
+      "mutations": [
+        {
+          "filter": "bishop.sick",
+          "level": -1,
+          "additive": true,
+          "mutate": "sick"
+        }
+      ],
+      "requirements": {
+        "temperament": 1,
+        "doctors": 1
+      },
+      "aspects": {
+        "exhausted": 1
+      }
+    },
+    {
+      "id": "recipe.church.treatment.pt3.noeffect",
+      "actionid": "church.bishops",
+      "label": "End of treatment",
+      "startdescription": "|recipe.church.treatment,recur.pt3.noeffect startdescription|",
+      "description": "|recipe.church.treatment,recur.pt3.noeffect description|",
+      "warmup": 1
+    },
+    {
       "id": "recipe.village.ch3a",
       "actionid": "service.village",
       "label": "Vicar's Work: Anointing of the Sick",
@@ -226,19 +316,6 @@
       },
       "effects": {
         "ch3.memory": 1
-      }
-    },
-    {
-      "id": "recipe.church.priors.ch3",
-      "actionid": "church.priors",
-      "label": "Doctor's debriefing about the bishop's situation",
-      "craftable": true,
-      "startdescription": "<i>\"Do you think the Bishop will wake up soon?\"</i> asks the Prior.\n<i>\"I don’t know. They seem to be stabbed by a sword. Who did it?\"</i>",
-      "description": "<i>\"I don’t know. The servants who sent the Bishop here said they didn’t catch the perpectrator.\"</i> the Prior shifts their feet uneasily. The Doctor raises their eyebrows in surprise. <i>\"Looks like the Bishop got themselves a true enemy…\"</i>",
-      "maxexecutions": 1,
-      "warmup": 1,
-      "requirements": {
-        "doctor": 1
       }
     },
     {
@@ -341,7 +418,7 @@
           "greedy": "True"
         }
       ],
-      
+
       "linked": [
         {
           "id": "recipe.ch3.memory.lord.be"
@@ -410,7 +487,7 @@
         "shoppinglist.tavern.ch3": 1
       }
     },
-    
+
     {
       "id": "recipe.pet.cat",
       "actionid": "tavern.public.cat",

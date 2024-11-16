@@ -223,7 +223,8 @@
     {
       "id": "num.perform",
       "label": "num.perform",
-      "isAspect": true
+      "isAspect": true,
+      "isHidden": true
     },
     {
       "id": "potentialcook",

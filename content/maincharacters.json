@@ -7,8 +7,7 @@
       "aspects": {
         "maincharacter": 1,
         "sick": 5
-      },
-      "decayTo": "bishop"
+      }
     },
     {
       "id": "bishop",
@@ -196,6 +195,17 @@
           },
           "forbidden": { "tired": 1 },
           "description": "The character acts with a certain mood."
+        },
+        {
+          "id": "slot.main.pier2",
+          "label": "Temperament",
+          "actionid": "pier2",
+          "essential": {
+            "temperament": 1,
+            "scribes": 1
+          },
+          "forbidden": { "tired": 1 },
+          "description": "The character acts with a certain mood."
         }
       ]
     },
@@ -292,6 +302,17 @@
           "id": "slot.main.market",
           "label": "Temperament",
           "actionid": "market.buy",
+          "essential": {
+            "temperament": 1,
+            "taverners": 1
+          },
+          "forbidden": { "tired": 1 },
+          "description": "The character acts with a certain mood."
+        },
+        {
+          "id": "slot.main.pier2",
+          "label": "Temperament",
+          "actionid": "pier2",
           "essential": {
             "temperament": 1,
             "taverners": 1

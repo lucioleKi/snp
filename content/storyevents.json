@@ -556,7 +556,28 @@
       "aspects": {
         "storyevent": 1,
         "pastevent": 1
-      }
+      },
+      "unique": true,
+      "slots": [
+        {
+          "id": "slot.main.ch7.bishop",
+          "label": "Character",
+          "actionid": "church.bishops",
+          "required": {
+            "bishop": 1
+          },
+          "description": "When the bishop reaches for a cloak, something stings their hand."
+        },
+        {
+          "id": "slot.main.ch7.gp",
+          "label": "Brooch",
+          "actionid": "church.bishops",
+          "required": {
+            "bishop.brooch": 1
+          },
+          "description": "The needle on the brooch reminds the Bishop of a gift and a promise."
+        }
+      ]
     }
   ]
 }

@@ -531,9 +531,9 @@
       "maxexecutions": 1,
       "requirements": {
         "ch6.churchmeeting": 1,
-        "doctor": 1,
+        "doctor": -1,
         "vicar": 1,
-        "prior": -1
+        "prior": 1
       },
       "slots": [
         {
@@ -628,14 +628,15 @@
       "tablereqs": {
         "chapter6": 1,
         "shoppinglist.tavern.ch6": 1,
-        "funds": 3
+        "funds": 3,
+        "ch6.churchmeeting": -1
       },
       "purge": {
         "funds": 3,
         "chapter6": 1,
         "knight.sanguine.exhausted": 1,
         "knight.choleric.exhausted": 1,
-        "taverner.sanguine.exhausted": 1,
+        "taverner.sanguine.exhausted": 2,
         "taverner.melancholic.exhausted": 1,
         "scribe.sanguine.exhausted": 1,
         "scribe.phlegmatic.exhausted": 1,
@@ -649,10 +650,18 @@
       },
       "effects": {
         "shoppinglist.tavern.ch7": 1,
+        "bishop.sick": -1,
+        "bishop": 1,
         "bishop.phlegmatic": 1,
         "bishop.choleric": 1,
-        "bishop.brooch": 1
-      }
+        "bishop.brooch": 1,
+        "ch7.giftpromise": 1
+      },
+      "inductions": [
+        {
+          "id": "recipe.giftpromise.ch7.start"
+        }
+      ]
     },
     {
       "id": "recipe.ch6.ne",
@@ -661,13 +670,14 @@
       "description": "",
       "tablereqs": {
         "chapter6": 1,
-        "shoppinglist.tavern.ch6": -1
+        "shoppinglist.tavern.ch6": -1,
+        "ch6.churchmeeting": -1
       },
       "purge": {
         "chapter6": 1,
         "knight.sanguine.exhausted": 1,
         "knight.choleric.exhausted": 1,
-        "taverner.sanguine.exhausted": 1,
+        "taverner.sanguine.exhausted": 2,
         "taverner.melancholic.exhausted": 1,
         "scribe.sanguine.exhausted": 1,
         "scribe.phlegmatic.exhausted": 1,
@@ -675,14 +685,16 @@
         "vicar.choleric.exhausted": 1,
         "doctor.phlegmatic.exhausted": 1,
         "doctor.melancholic.exhausted": 1,
-        "minstrel.exhausted": 1,
-        "bishop.sick": 1
+        "minstrel.exhausted": 1
       },
       "effects": {
         "shoppinglist.tavern.ch7": 1,
+        "bishop.sick": -1,
+        "bishop": 1,
         "bishop.phlegmatic": 1,
         "bishop.choleric": 1,
-        "bishop.brooch": 1
+        "bishop.brooch": 1,
+        "ch7.giftpromise": 1
       }
     }
   ]

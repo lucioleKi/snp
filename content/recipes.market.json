@@ -327,8 +327,8 @@
       "actionid": "market.buy",
       "label": "Market: Browsing and Shopping",
       "craftable": true,
-      "startdescription": "|recipe.market.buy.ch7 startdesc|",
-      "description": "|recipe.market.buy.ch7 desc|",
+      "startdescription": "They are looking through cloth sold by different merchants. The beige colored ones are by far the cheapest, but they are considering giving themselves a treat. While browsing, they heard some merchants selling high-quality leathers at an shockingly high price.",
+      "description": "They eventually bought some teal-colored cloth, which looks nice and is of affordable price. Very few people even stopped by the merchant selling leathers. The merchant is not local. Shimmershore does not keep horses. Very few would be interested in high-quality leathers.",
       "warmup": 1,
       "purge": {
         "shoppinglist.tavern.ch7": 1,
